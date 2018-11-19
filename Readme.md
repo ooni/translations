@@ -2,29 +2,34 @@
 
 This repository contains all the translations for OONI software.
 
-## Developer setup
+You are expected to have installed the [transifex
+CLI](https://docs.transifex.com/client/installing-the-client) (please don't run
+`pip` or `easy_install` as root to install it!)
 
-If you are a developer you should have a working python environment (3.x is
-recommended, but should not be required).
+You should also have setup transifex with you credentials via a
+`~/.transifexrc` file (see: [client-configuration
+docs](https://docs.transifex.com/client/client-configuration#~/-transifexrc)).
 
-You should then setup a venv in this directory like so:
+## Updating translations
 
-```
-virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+This is the process by which you pull the latest translations and generate the
+OS specific localization strings.
 
-You can then convert the json source files to the Android and iOS format by
-running:
-
-```
-tx pull -a
-./convert-json.sh
-```
-
-To upload to transifex the source strings run:
+Usually you will run this as part of the app workflow, but you can also do it
+in here via:
 
 ```
-tx push -s
+./update-translations.sh
 ```
+
+## Uploading new strings
+
+Strings are generated from a csv master file. To upload new strings you should
+copy the strings csv file to `probe-mobile/en/strings.csv` and then run:
+
+```
+./sync-csv-source.sh
+```
+
+This will generate `probe-mobile/en/strings.json` and push it to transifex for
+you.
