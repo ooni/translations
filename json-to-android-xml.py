@@ -27,7 +27,8 @@ def dict_to_android_xml(d, out_path):
             )
             text = cgi.escape(text)
             # Escape `'` with `\'`
-            text.replace("'", "\\'")
+            text = text.replace("'", "\\'")
+            text = text.replace("\n", "\\n")
             out_file.write('  <string name="{}">{}</string>'.format(key, text))
             out_file.write('\n')
         out_file.write('</resources>\n')
