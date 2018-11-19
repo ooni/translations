@@ -3,7 +3,7 @@
   <string name="General_AppName">OONI Probe</string>
   <string name="Onboarding_WhatIsOONIProbe_Title">Cos\'è OONI Probe?</string>
   <string name="Onboarding_WhatIsOONIProbe_Paragraph">Your app for measuring internet censorship. \n\nAre websites and social media apps blocked? Is your internet connection unusually slow?\n\nRun OONI Probe to find out!</string>
-  <string name="Onboarding_WhatIsOONIProbe_GotIt">Got It</string>
+  <string name="Onboarding_WhatIsOONIProbe_GotIt">Ho capito</string>
   <string name="Onboarding_ThingsToKnow_Title">Heads-up!</string>
   <string name="Onboarding_ThingsToKnow_Bullet_1">OONI data is openly published and will include your network information. </string>
   <string name="Onboarding_ThingsToKnow_Bullet_2">Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.</string>
