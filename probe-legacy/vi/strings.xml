@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Thiết đặt</string>
+    <string name="about">Giới thiệu</string>
+    <string name="cancel">Hủy</string>
+    <string name="ok">OK</string>
+    <string name="delete">Xóa</string>
+    <string name="learn_more">Biết thêm</string>
+    <string name="_true">Đúng</string>
+    <string name="view">Xem</string>
+    <string name="local_notifications_time">Thời gian</string>
+    <string name="notifications">Thông báo</string>
+    <string name="privacy">Riêng tư</string>
+    <string name="close">Đóng</string>
+    <string name="websites">Trang web</string>
+    </resources>

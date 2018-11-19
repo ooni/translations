@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">အပြင်အဆင်များ</string>
+    <string name="about">အကြောင်း </string>
+    <string name="cancel">ဖျက်သိမ်းရန်​</string>
+    <string name="ok">ကောင်းပြီ</string>
+    <string name="delete">Delete ခလုတ်</string>
+    <string name="view">ကြည့်ရှုန်</string>
+    <string name="local_notifications_time">အချိန်</string>
+    <string name="notifications">အသိပေးချက်များ</string>
+    <string name="privacy">ကိုယ်ရေးကိုယ်တာအချက်အလက် လုံခြုံရေး</string>
+    <string name="close">ပိတ်ရန်</string>
+    <string name="websites">ကွန်ရက် စာမျက်နှာများ</string>
+    </resources>

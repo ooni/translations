@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Nastavení</string>
+    <string name="about">O programu</string>
+    <string name="cancel">Zrušit</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="learn_more">Zjistěte více</string>
+    <string name="view">Zobrazit</string>
+    <string name="local_notifications_time">Cas</string>
+    <string name="notifications">Oznámení</string>
+    <string name="privacy">Soukromí</string>
+    <string name="close">Zavřít</string>
+    <string name="websites">Webové stránky</string>
+    </resources>

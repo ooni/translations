@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Arventennoù</string>
+    <string name="about">Diwar-benn</string>
+    <string name="cancel">Nullañ</string>
+    <string name="ok">MAT EO</string>
+    <string name="delete">Dilemel</string>
+    <string name="local_notifications_time">EurDarvou</string>
+    <string name="advanced_settings">Arventennoù araokaet</string>
+    <string name="drawer_open">Tiretenn verdeiñ digoret</string>
+    <string name="drawer_close">Serriñ an diretenn verdeiñ</string>
+    <string name="close">Serriñ</string>
+    </resources>

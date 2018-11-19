@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Asetukset</string>
+    <string name="about">Tietoja</string>
+    <string name="cancel">Peru</string>
+    <string name="ok">OK</string>
+    <string name="delete">Poista</string>
+    <string name="learn_more">Opi lisää</string>
+    <string name="about_ooni">OONI:sta</string>
+    <string name="view">Näkymä</string>
+    <string name="local_notifications_time">Aika</string>
+    <string name="notifications">Ilmoitukset</string>
+    <string name="privacy">Yksityisyys</string>
+    <string name="close">Sulje</string>
+    <string name="websites">Verkkosivustot</string>
+    </resources>

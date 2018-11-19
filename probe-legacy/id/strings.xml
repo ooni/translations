@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Pengaturan</string>
+    <string name="about">Tentang</string>
+    <string name="cancel">Batal</string>
+    <string name="ok">Setuju</string>
+    <string name="delete">Hapus</string>
+    <string name="learn_more">Pelajari lebih lanjut</string>
+    <string name="_true">Benar</string>
+    <string name="_false">Salah</string>
+    <string name="include_cc">Muat nama negara Anda?</string>
+    <string name="upload_results">Bagikan hasil secara publik?</string>
+    <string name="about_ooni">Tentang OONI</string>
+    <string name="view">Lihat</string>
+    <string name="local_notifications_time">Waktu</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="privacy">Privasi</string>
+    <string name="loading">Memuat...</string>
+    <string name="close">Tutup</string>
+    <string name="websites">Situs Web</string>
+    </resources>

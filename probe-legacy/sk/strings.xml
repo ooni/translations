@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Nastavenia</string>
+    <string name="about">O projekte</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="view">Zobraziť</string>
+    <string name="local_notifications_time">Čas</string>
+    <string name="notifications">Oznámenia</string>
+    <string name="privacy">Súkromie</string>
+    <string name="close">Zatvoriť</string>
+    <string name="websites">Webstránky</string>
+    </resources>

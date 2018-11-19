@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="run_tests">Kryej Testet</string>
+    <string name="past_tests">Test e kaluara</string>
+    <string name="settings">Rregullimet</string>
+    <string name="about">Mbi</string>
+    <string name="dns_injection">Injeksion DNS</string>
+    <string name="tcp_connect">Lidhje TCP</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="telegram">Telegram</string>
+    <string name="facebook_messenger">Facebook Messenger</string>
+    <string name="web_connectivity_desc">Kontrollo nëse faqet janë të bllokuara</string>
+    <string name="cancel">Anuloje</string>
+    <string name="ok">OK</string>
+    <string name="delete">Fshije</string>
+    <string name="change">Ndryshoje</string>
+    <string name="get_started">Nisjani!</string>
+    <string name="learn_more">Meso me teper</string>
+    <string name="_true">E vërtetë</string>
+    <string name="_false">E rremë</string>
+    <string name="how_did_i_do">Si e bëra?</string>
+    <string name="include_ip">Perfshini adresen e juaj IP?</string>
+    <string name="include_cc">Perfshi emrin e shtetit tuaj?</string>
+    <string name="upload_results">Shperndaji rezultatet e juaja online?</string>
+    <string name="about_ooni">Rreth OONI</string>
+    <string name="view">Pamje</string>
+    <string name="no_result">S’ka përfundime</string>
+    <string name="local_notifications_time">Koha</string>
+    <string name="notifications">Njoftime</string>
+    <string name="privacy">Privatësi</string>
+    <string name="close">Mbylle</string>
+    <string name="websites">Uebsaite</string>
+    </resources>
