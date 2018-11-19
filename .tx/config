@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[ooniprobe.strings-json]
+file_filter = probe-mobile/<lang>/strings.json
+source_file = probe-mobile/en/strings.json
+source_lang = en
+type = KEYVALUEJSON
