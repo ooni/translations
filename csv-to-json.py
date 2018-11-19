@@ -24,7 +24,7 @@ def csv_to_dict(in_path):
 
 def write_json(d, out_path):
     with open(out_path, 'w') as out_file:
-        json.dump(d, out_file)
+        json.dump(d, out_file, indent=2)
 
 def parse_args():
     p = argparse.ArgumentParser(description='translations: CSV to KEYVALUEJSON')
