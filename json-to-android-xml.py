@@ -26,9 +26,11 @@ def dict_to_android_xml(d, out_path):
                 text,
             )
             text = cgi.escape(text)
-            # Escape `'` with `\'`
-            text = text.replace("'", "\\'")
             text = text.replace("\n", "\\n")
+            # This regexp will match any unescaped ' and " also when it appears at
+            # the beginning of the string.
+            text = re.sub(r'([^\\])\'|^\'', '\g<1>\\\'', text)
+            text = re.sub(r'([^\\])\"|^\"', '\g<1>\\\"', text)
             out_file.write('  <string name="{}">{}</string>'.format(key, text))
             out_file.write('\n')
         out_file.write('</resources>\n')
