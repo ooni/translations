@@ -13,6 +13,12 @@ type = KEYVALUEJSON
 #source_lang = en
 #type = KEYVALUEJSON
 #
+#[ooniprobe.localizablestrings]
+#file_filter = probe-legacy/<lang>/Localizable.strings
+#source_file = probe-legacy/en/Localizable.strings
+#source_lang = en
+#type = STRINGS
+#
 #[ooniprobe.stringsxml]
 #file_filter = probe-legacy/<lang>/strings.xml
 #source_file = probe-legacy/en/strings.xml
