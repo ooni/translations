@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 for dir in probe-mobile/*/;do
     echo "Converting $dir"
@@ -7,5 +8,5 @@ for dir in probe-mobile/*/;do
         --strings ${dir}Localizable.strings
     python json-to-android-xml.py \
         --json ${dir}strings.json \
-        --xml ${dir}Localizable.strings
+        --xml ${dir}strings.xml
 done
