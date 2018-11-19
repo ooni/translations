@@ -2,11 +2,7 @@
 <resources>
   <string name="General_AppName">OONI Probe</string>
   <string name="Onboarding_WhatIsOONIProbe_Title">What is OONI Probe?</string>
-  <string name="Onboarding_WhatIsOONIProbe_Paragraph">Your app for measuring internet censorship. 
-
-Are websites and social media apps blocked? Is your internet connection unusually slow?
-
-Run OONI Probe to find out!</string>
+  <string name="Onboarding_WhatIsOONIProbe_Paragraph">Your app for measuring internet censorship. \n\nAre websites and social media apps blocked? Is your internet connection unusually slow?\n\nRun OONI Probe to find out!</string>
   <string name="Onboarding_WhatIsOONIProbe_GotIt">Got It</string>
   <string name="Onboarding_ThingsToKnow_Title">Heads-up!</string>
   <string name="Onboarding_ThingsToKnow_Bullet_1">OONI data is openly published and will include your network information. </string>
@@ -32,10 +28,8 @@ Run OONI Probe to find out!</string>
   <string name="Onboarding_DefaultSettings_Bullet_1">Country code (e.g. IT for Italy)</string>
   <string name="Onboarding_DefaultSettings_Bullet_2">Network information (including Autonomous System Number)</string>
   <string name="Onboarding_DefaultSettings_Bullet_3">Time &amp; date of testing</string>
-  <string name="Onboarding_DefaultSettings_Paragraph">We do our best not to publish your IP address or any other potentially personally-identifiable information.
-
-Learn more through [OONI's Data Policy](https://ooni.io/about/data-policy/).</string>
-  <string name="Onboarding_DefaultSettings_Button_Go">Let's go</string>
+  <string name="Onboarding_DefaultSettings_Paragraph">We do our best not to publish your IP address or any other potentially personally-identifiable information.\n\nLearn more through [OONI\'s Data Policy](https://ooni.io/about/data-policy/).</string>
+  <string name="Onboarding_DefaultSettings_Button_Go">Let\'s go</string>
   <string name="Onboarding_DefaultSettings_Button_Change">Change defaults</string>
   <string name="Dashboard_Tab_Label">Run Tests</string>
   <string name="Dashboard_Card_Run">Run</string>
@@ -51,35 +45,13 @@ Learn more through [OONI's Data Policy](https://ooni.io/about/data-policy/).</st
   <string name="Dashboard_Card_Subtitle">Tap card for more</string>
   <string name="Dashboard_Card_Seconds">~%1$ss</string>
   <string name="Dashboard_Websites_Card_Description">Test the blocking of websites</string>
-  <string name="Dashboard_Websites_Overview_Paragraph">Check whether websites are blocked using OONI's [Web Connectivity test](https://ooni.io/nettest/web-connectivity/).
-
-Every time you tap Run, you test different websites from the Citizen Lab's [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists.
-
-To test the sites of your choice, tap the Choose websites button or select categories of sites via the settings of this card. 
-
-This test measures whether websites are blocked by means of DNS tampering, TCP/IP blocking or by a transparent HTTP proxy.
-
-Your results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
+  <string name="Dashboard_Websites_Overview_Paragraph">Check whether websites are blocked using OONI\'s [Web Connectivity test](https://ooni.io/nettest/web-connectivity/).\n\nEvery time you tap Run, you test different websites from the Citizen Lab\'s [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists.\n\nTo test the sites of your choice, tap the Choose websites button or select categories of sites via the settings of this card. \n\nThis test measures whether websites are blocked by means of DNS tampering, TCP/IP blocking or by a transparent HTTP proxy.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Performance_Card_Description">Test your network speed and performance</string>
-  <string name="Dashboard_Performance_Overview_Paragraph">Measure the speed and performance of your network using the [NDT](https://ooni.io/nettest/ndt/) test.
-
-Measure video streaming performance using the [DASH](https://ooni.io/nettest/dash/) test.
-
-These tests consume data depending on your network speed.
-
-Your results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).
-
-Disclaimer: These tests rely on third party servers. We therefore cannot guarantee that your IP address will not be collected.</string>
+  <string name="Dashboard_Performance_Overview_Paragraph">Measure the speed and performance of your network using the [NDT](https://ooni.io/nettest/ndt/) test.\n\nMeasure video streaming performance using the [DASH](https://ooni.io/nettest/dash/) test.\n\nThese tests consume data depending on your network speed.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).\n\nDisclaimer: These tests rely on third party servers. We therefore cannot guarantee that your IP address will not be collected.</string>
   <string name="Dashboard_Middleboxes_Card_Description">Detect middleboxes in your network</string>
-  <string name="Dashboard_Middleboxes_Overview_Paragraph">Internet Service Providers often use network appliances (middleboxes) for various networking purposes (such as caching). Sometimes these middleboxes are used to implement internet censorship and/or surveillance.
-
-Find middleboxes in your network using OONI's [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) tests.
-
-Your results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
+  <string name="Dashboard_Middleboxes_Overview_Paragraph">Internet Service Providers often use network appliances (middleboxes) for various networking purposes (such as caching). Sometimes these middleboxes are used to implement internet censorship and/or surveillance.\n\nFind middleboxes in your network using OONI\'s [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) tests.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_InstantMessaging_Card_Description">Test the blocking of instant messaging apps</string>
-  <string name="Dashboard_InstantMessaging_Overview_Paragraph">Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.ionettest/telegram/) are blocked.
-
-Your results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
+  <string name="Dashboard_InstantMessaging_Overview_Paragraph">Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.ionettest/telegram/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
   <string name="TestResults_Gbps">Gbps</string>
   <string name="TestResults_Mbps">Mbps</string>
   <string name="TestResults_Kbps">Kbps</string>
@@ -148,9 +120,7 @@ Your results will be published on [OONI Explorer](https://explorer.ooni.io/world
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">Accessible</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s is accessible.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">Likely blocked</string>
-  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.
-
-Note: False positives can occur. Learn more [here](https://ooni.io/nettest/web-connectivity/).</string>
+  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: False positives can occur. Learn more [here](https://ooni.io/nettest/web-connectivity/).</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_LearnToCircumvent">Censorship Circumvention</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_DNS">**DNS tampering**</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_TCPIP">**TCP/IP based blocking**</string>
@@ -166,7 +136,7 @@ Note: False positives can occur. Learn more [here](https://ooni.io/nettest/web-c
   <string name="TestResults_Details_InstantMessaging_WhatsApp_Registrations_Label_Okay">Đồng ý</string>
   <string name="TestResults_Details_InstantMessaging_WhatsApp_Registrations_Label_Failed">Thất bại</string>
   <string name="TestResults_Details_InstantMessaging_WhatsApp_Reachable_Hero_Title">Working</string>
-  <string name="TestResults_Details_InstantMessaging_WhatsApp_Reachable_Content_Paragraph">This test successfully connected to WhatsApp's endpoints, registration service and web interface (web.whatsapp.com).</string>
+  <string name="TestResults_Details_InstantMessaging_WhatsApp_Reachable_Content_Paragraph">This test successfully connected to WhatsApp\'s endpoints, registration service and web interface (web.whatsapp.com).</string>
   <string name="TestResults_Details_InstantMessaging_WhatsApp_LikelyBlocked_Hero_Title">Likely blocked</string>
   <string name="TestResults_Details_InstantMessaging_WhatsApp_LikelyBlocked_Content_Paragraph">WhatsApp appears to be blocked.</string>
   <string name="TestResults_Details_InstantMessaging_Telegram_Application_Label_Title">Mobile App</string>
@@ -176,7 +146,7 @@ Note: False positives can occur. Learn more [here](https://ooni.io/nettest/web-c
   <string name="TestResults_Details_InstantMessaging_Telegram_WebApp_Label_Okay">Đồng ý</string>
   <string name="TestResults_Details_InstantMessaging_Telegram_WebApp_Label_Failed">Thất bại</string>
   <string name="TestResults_Details_InstantMessaging_Telegram_Reachable_Hero_Title">Working</string>
-  <string name="TestResults_Details_InstantMessaging_Telegram_Reachable_Content_Paragraph">This test successfully connected to Telegram's endpoints and web interface (web.telegram.org).</string>
+  <string name="TestResults_Details_InstantMessaging_Telegram_Reachable_Content_Paragraph">This test successfully connected to Telegram\'s endpoints and web interface (web.telegram.org).</string>
   <string name="TestResults_Details_InstantMessaging_Telegram_LikelyBlocked_Hero_Title">Likely blocked</string>
   <string name="TestResults_Details_InstantMessaging_Telegram_LikelyBlocked_Content_Paragraph">Telegram appears to be blocked.</string>
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_TCP_Label_Title">TCP connections</string>
@@ -186,21 +156,17 @@ Note: False positives can occur. Learn more [here](https://ooni.io/nettest/web-c
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_DNS_Label_Okay">Đồng ý</string>
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_DNS_Label_Failed">Thất bại</string>
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_Reachable_Hero_Title">Working</string>
-  <string name="TestResults_Details_InstantMessaging_FacebookMessenger_Reachable_Content_Paragraph">This test successfully connected to Facebook's endpoints and resolved to Facebook IP addresses.</string>
+  <string name="TestResults_Details_InstantMessaging_FacebookMessenger_Reachable_Content_Paragraph">This test successfully connected to Facebook\'s endpoints and resolved to Facebook IP addresses.</string>
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_LikelyBlocked_Hero_Title">Likely blocked</string>
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_LikelyBlocked_Content_Paragraph">Facebook Messenger appears to be blocked.</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_NotFound_Hero_Title">No middleboxes detected</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_NotFound_Content_Paragraph">No network anomaly was detected when communicating with our servers. </string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_Found_Hero_Title">Network tampering</string>
-  <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_Found_Content_Paragraph">Network traffic was manipulated when contacting our control servers.
-
-This means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.</string>
+  <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_Found_Content_Paragraph">Network traffic was manipulated when contacting our control servers.\n\nThis means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.</string>
   <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_NotFound_Hero_Title">No middleboxes detected</string>
   <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_NotFound_Content_Paragraph">No network anomaly was detected when communicating with our servers. </string>
   <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_Found_Hero_Title">Network tampering</string>
-  <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_Found_Content_Paragraph">Network traffic was manipulated when contacting our control servers.
-
-This means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.</string>
+  <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_Found_Content_Paragraph">Network traffic was manipulated when contacting our control servers.\n\nThis means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_YouSent">You Sent</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_YouReceived">You Received</string>
   <string name="TestResults_Details_Performance_NDT_Upload">Tải lên</string>
@@ -228,17 +194,17 @@ This means that there may be a middlebox in your network, which could be respons
   <string name="Modal_Error_NotificationNotEnabled_GoToSettings">Go to the Settings</string>
   <string name="Modal_Error_CantCloseScreen">This screen is locked while a test is running.</string>
   <string name="Modal_ResultsNotUploaded_Title">Results not uploaded</string>
-  <string name="Modal_ResultsNotUploaded_Paragraph">Some of your test results have not been uploaded to OONI servers. If you'd like to contribute to OONI's dataset, please upload them.</string>
+  <string name="Modal_ResultsNotUploaded_Paragraph">Some of your test results have not been uploaded to OONI servers. If you\'d like to contribute to OONI\'s dataset, please upload them.</string>
   <string name="Modal_ResultsNotUploaded_Button_Cancel">Hủy</string>
   <string name="Modal_ResultsNotUploaded_Button_Upload">Tải lên</string>
   <string name="Modal_EnableNotifications_AutomatedTesting">Enable notification permissions to run tests automatically.</string>
   <string name="Modal_EnableNotifications_News">Enable notification permissions to receive news updates.</string>
   <string name="Modal_EnableNotifications_Any">Enable notification permissions to receive push notifications.</string>
   <string name="Modal_EnableGPS">To improve the accuracy of tests, we need GPS permissions. OONI will only collect an approximation of your GPS position.</string>
-  <string name="Modal_OldTestsDetected">The old results will be deleted. Don't worry, you can always find them in OONI Explorer and in the OONI API.</string>
+  <string name="Modal_OldTestsDetected">The old results will be deleted. Don\'t worry, you can always find them in OONI Explorer and in the OONI API.</string>
   <string name="Modal_DoYouWantToDeleteAllTests">Do you want to delete all test results?</string>
   <string name="Modal_DoYouWantToDeleteThisTest">Do you want to delete this test?</string>
-  <string name="Modal_CantDeactivate">Can't deactivate</string>
+  <string name="Modal_CantDeactivate">Can\'t deactivate</string>
   <string name="Modal_OnlyDigits">Please insert only digits in this field.</string>
   <string name="Modal_ReRun_Title">Re-run test</string>
   <string name="Modal_ReRun_Paragraph">This test has failed. Re-run the test?</string>
@@ -263,9 +229,7 @@ This means that there may be a middlebox in your network, which could be respons
   <string name="Settings_Title">Thiết đặt</string>
   <string name="Settings_Error_TestDurationTooLow">The amount of time you have set for the test duration is too low.</string>
   <string name="Settings_About_Label">About OONI</string>
-  <string name="Settings_About_Content_Paragraph">The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.
-
-Since 2012, OONI's global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.</string>
+  <string name="Settings_About_Content_Paragraph">The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.\n\nSince 2012, OONI\'s global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.</string>
   <string name="Settings_About_Content_LearnMore">Biết thêm</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>
   <string name="Settings_Notifications_Label">Thông báo</string>
@@ -287,9 +251,7 @@ Since 2012, OONI's global community has been measuring networks in more than 200
   <string name="Settings_Sharing_IncludeIP">Include my IP address</string>
   <string name="Settings_Sharing_IncludeCountryCode">Include Country Code</string>
   <string name="Settings_Sharing_IncludeCountryCode_PopUp">This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option? </string>
-  <string name="Settings_Sharing_Footer">By publishing results, you are increasing transparency of network interference and supporting the OONI community. 
-
-Network information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.</string>
+  <string name="Settings_Sharing_Footer">By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.</string>
   <string name="Settings_Advanced_Label">Nâng cao</string>
   <string name="Settings_Advanced_SendCrashReports">Send crash reports</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
@@ -374,7 +336,7 @@ Network information (i.e. Autonomous System Number) is required for identifying 
   <string name="CategoryCode_MILX_Description">Terrorism, violent militant or separatist movements</string>
   <string name="CategoryCode_HATE_Description">Disparaging of particular groups based on race, sex, sexuality or other characteristics</string>
   <string name="CategoryCode_NEWS_Description">Major news websites, regional news outlets and independent media</string>
-  <string name="CategoryCode_XED_Description">Sexual health issues including contraception, STD's, rape prevention and abortion</string>
+  <string name="CategoryCode_XED_Description">Sexual health issues including contraception, STD\'s, rape prevention and abortion</string>
   <string name="CategoryCode_PUBH_Description">Public health issues including HIV, SARS, bird flu, World Health Organization</string>
   <string name="CategoryCode_GMB_Description">Online gambling and betting</string>
   <string name="CategoryCode_ANON_Description">Anonymization, censorship circumvention and encryption</string>
@@ -394,5 +356,5 @@ Network information (i.e. Autonomous System Number) is required for identifying 
   <string name="CategoryCode_COMM_Description">Commercial services and products</string>
   <string name="CategoryCode_CTRL_Description">Benign or innocuous content used for control</string>
   <string name="CategoryCode_IGO_Description">Intergovernmental organizations including The United Nations</string>
-  <string name="CategoryCode_MISC_Description">Sites that haven't been categorized yet.</string>
+  <string name="CategoryCode_MISC_Description">Sites that haven\'t been categorized yet.</string>
 </resources>
