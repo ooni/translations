@@ -7,6 +7,12 @@ source_file = probe-mobile/en/strings.json
 source_lang = en
 type = KEYVALUEJSON
 
+[ooniprobe.description]
+file_filter = probe-mobile/<lang>/description.xlf
+source_file = probe-mobile/en/description.xlf
+source_lang = en
+type = XLIFF
+
 #[ooniprobe.enjson]
 #file_filter = probe-legacy/<lang>/strings.json
 #source_file = probe-legacy/en/strings.json
@@ -25,8 +31,4 @@ type = KEYVALUEJSON
 #source_lang = en
 #type = ANDROID
 #
-#[ooniprobe.description]
-#file_filter = probe-legacy/<lang>/description.xlf
-#source_file = probe-legacy/en/description.xlf
-#source_lang = en
-#type = XLIFF
+

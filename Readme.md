@@ -22,3 +22,9 @@ running:
 tx pull -a
 ./convert-json.sh
 ```
+
+To upload to transifex the source strings run:
+
+```
+tx push -s
+```
