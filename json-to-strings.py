@@ -12,6 +12,7 @@ def dict_to_strings(d, out_path):
                 r'%@',
                 text,
             )
+            text = text.replace("\n", "\\n")
             out_file.write('"{}" = "{}";'.format(key, text))
             out_file.write('\n')
 
