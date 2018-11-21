@@ -69,6 +69,10 @@ def tx_set_context(in_path, project_slug, resource_slug, auth):
             source_string_hash = gen_source_string_hash(key)
             if character_limit is not None or comment is not None:
                 print("Updating {}".format(key))
+                if character_limit and character_limit < len(text):
+                    print("WARNING: character limit too short for {}".format(key))
+                    print("Setting it to len() + 1")
+                    character_limit = len(text) + 1
                 resp = put_resource(
                         source_string_hash=source_string_hash,
                         project_slug=project_slug,
@@ -78,7 +82,6 @@ def tx_set_context(in_path, project_slug, resource_slug, auth):
                         comment=comment)
                 if resp.status_code != 200:
                     raise RuntimeError("Failed to update string")
-                print(resp.text)
 
             d[key] = None
     return d
