@@ -25,29 +25,35 @@ def load_transifexrc():
     password = config.get('https://www.transifex.com', 'password')
     return (username, password)
 
-def put_resource(source_string_hash,
+def format_payload(
+        source_string_hash,
+        character_limit=None,
+        comment=None,
+        tags=None):
+    payload = {
+        'source_string_hash': source_string_hash,
+        'character_limit': character_limit,
+    }
+    if comment is not None:
+        payload['comment'] = comment
+
+    if tags is not None:
+        payload['tags'] = tags
+
+    return payload
+
+def put_resource(payloads,
                  project_slug,
                  resource_slug,
-                 auth=None,
-                 character_limit=None,
-                 comment=None,
-                 tags=None):
+                 auth=None):
     url = "https://www.transifex.com/api/2/project/{}/resource/{}/source/".format(project_slug, resource_slug)
-    payload = {
-        'source_string_hash': source_string_hash
-    }
-    if character_limit:
-        payload['character_limit'] = character_limit
-    if comment:
-        payload['comment'] = comment
-    if tags:
-        payload['tags'] = tags
-    return requests.put(url, json=[payload], auth=auth)
+    return requests.put(url, json=payloads, auth=auth)
 
 def tx_set_context(in_path, project_slug, resource_slug, auth):
     d = {}
     with open(in_path) as csvfile:
         csv_reader = csv.reader(csvfile)
+        payloads = []
         # Skip header
         next(csv_reader)
         for row in csv_reader:
@@ -67,23 +73,27 @@ def tx_set_context(in_path, project_slug, resource_slug, auth):
                 character_limit = int(max_len)
 
             source_string_hash = gen_source_string_hash(key)
-            if character_limit is not None or comment is not None:
-                print("Updating {}".format(key))
-                if character_limit and character_limit < len(text):
-                    print("WARNING: character limit too short for {}".format(key))
-                    print("Setting it to len() + 1")
-                    character_limit = len(text) + 1
-                resp = put_resource(
-                        source_string_hash=source_string_hash,
-                        project_slug=project_slug,
-                        resource_slug=resource_slug,
-                        auth=auth,
-                        character_limit=character_limit,
-                        comment=comment)
-                if resp.status_code != 200:
-                    raise RuntimeError("Failed to update string")
-
+            if character_limit and character_limit < len(text):
+                print("WARNING: character limit too short for {}".format(key))
+                print("Setting it to len() + 1")
+                character_limit = len(text) + 1
+            payload = format_payload(
+                    source_string_hash=source_string_hash,
+                    character_limit=character_limit,
+                    comment=comment)
+            payloads.append(payload)
             d[key] = None
+
+        resp = put_resource(payloads,
+                    project_slug=project_slug,
+                    resource_slug=resource_slug,
+                    auth=auth)
+        if resp.status_code != 200:
+            print(resp.text)
+            raise RuntimeError("Failed to update string")
+        print("Updating {} resources".format(len(payloads)))
+        print(resp.text)
+
     return d
 
 def parse_args():
