@@ -171,8 +171,8 @@
 "TestResults.Details.Performance.NDT.Download" = "下載";
 "TestResults.Details.Performance.NDT.Ping" = "Ping";
 "TestResults.Details.Performance.NDT.Server" = "伺服器";
-"TestResults.Details.Performance.NDT.PacketLoss" = "Packet Loss ";
-"TestResults.Details.Performance.NDT.OutOfOrder" = "Out of Order";
+"TestResults.Details.Performance.NDT.PacketLoss" = "封包丟失";
+"TestResults.Details.Performance.NDT.OutOfOrder" = "出問題";
 "TestResults.Details.Performance.NDT.AveragePing" = "平均 Ping";
 "TestResults.Details.Performance.NDT.MaxPing" = "最大 Ping";
 "TestResults.Details.Performance.NDT.MSS" = "MSS";
@@ -221,8 +221,8 @@
 "Test.WebConnectivity.Fullname" = "Web Connectivity Test";
 "Test.NDT.Fullname" = "NDT速度測試";
 "Test.Dash.Fullname" = "DASH 串流測試";
-"Test.WhatsApp.Fullname" = "WhatsApp Test";
-"Test.Telegram.Fullname" = "Telegram Test";
+"Test.WhatsApp.Fullname" = "WhatsApp 測試";
+"Test.Telegram.Fullname" = "Telegram 測試";
 "Test.FacebookMessenger.Fullname" = "Facebook Messenger Test";
 "Settings.Title" = "設定";
 "Settings.Error.TestDurationTooLow" = "The amount of time you have set for the test duration is too low.";

@@ -173,8 +173,8 @@
   <string name="TestResults_Details_Performance_NDT_Download">下載</string>
   <string name="TestResults_Details_Performance_NDT_Ping">Ping</string>
   <string name="TestResults_Details_Performance_NDT_Server">伺服器</string>
-  <string name="TestResults_Details_Performance_NDT_PacketLoss">Packet Loss </string>
-  <string name="TestResults_Details_Performance_NDT_OutOfOrder">Out of Order</string>
+  <string name="TestResults_Details_Performance_NDT_PacketLoss">封包丟失</string>
+  <string name="TestResults_Details_Performance_NDT_OutOfOrder">出問題</string>
   <string name="TestResults_Details_Performance_NDT_AveragePing">平均 Ping</string>
   <string name="TestResults_Details_Performance_NDT_MaxPing">最大 Ping</string>
   <string name="TestResults_Details_Performance_NDT_MSS">MSS</string>
@@ -223,8 +223,8 @@
   <string name="Test_WebConnectivity_Fullname">Web Connectivity Test</string>
   <string name="Test_NDT_Fullname">NDT速度測試</string>
   <string name="Test_Dash_Fullname">DASH 串流測試</string>
-  <string name="Test_WhatsApp_Fullname">WhatsApp Test</string>
-  <string name="Test_Telegram_Fullname">Telegram Test</string>
+  <string name="Test_WhatsApp_Fullname">WhatsApp 測試</string>
+  <string name="Test_Telegram_Fullname">Telegram 測試</string>
   <string name="Test_FacebookMessenger_Fullname">Facebook Messenger Test</string>
   <string name="Settings_Title">設定</string>
   <string name="Settings_Error_TestDurationTooLow">The amount of time you have set for the test duration is too low.</string>
