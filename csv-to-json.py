@@ -19,7 +19,7 @@ def csv_to_dict(in_path):
             )
             if key in d:
                 raise RuntimeError("Duplicate key {}".format(key))
-            d[key] = text
+            d[key] = text.strip()
     return d
 
 def write_json(d, out_path):
