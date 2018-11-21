@@ -1,4 +1,4 @@
-variables,English,Max length
+Key,Text,Max length
 General.AppName,OONI Probe,
 Onboarding.WhatIsOONIProbe.Title,What is OONI Probe?,
 Onboarding.WhatIsOONIProbe.Paragraph,"Your app for measuring internet censorship. 
@@ -97,17 +97,17 @@ TestResults.Overview.FilterTests.MiddleBoxes,Middleboxes,
 TestResults.Overview.FilterTests.Performance,Performance,
 TestResults.Overview.FilterTests.InstantMessaging,Instant Messaging,
 TestResults.Overview.NoTestsHaveBeenRun,No tests have been run yet. Try running one!,
-TestResults.Overview.Websites.Blocked.Singular,{{Count}} blocked,12
-TestResults.Overview.Websites.Blocked.Plural,{{Count}} blocked,12
-TestResults.Overview.Websites.Tested.Singular,{{Count}} tested,12
-TestResults.Overview.Websites.Tested.Plural,{{Count}} tested,12
+TestResults.Overview.Websites.Blocked.Singular,{{Count}} blocked,20
+TestResults.Overview.Websites.Blocked.Plural,{{Count}} blocked,20
+TestResults.Overview.Websites.Tested.Singular,{{Count}} tested,18
+TestResults.Overview.Websites.Tested.Plural,{{Count}} tested,18
 TestResults.Overview.MiddleBoxes.Found,Detected,16
-TestResults.Overview.MiddleBoxes.NotFound,Not detected,16
+TestResults.Overview.MiddleBoxes.NotFound,Not detected,22
 TestResults.Overview.MiddleBoxes.Failed,Failed,
-TestResults.Overview.InstantMessaging.Blocked.Singular,{{Count}} blocked,18
-TestResults.Overview.InstantMessaging.Blocked.Plural,{{Count}} blocked,18
-TestResults.Overview.InstantMessaging.Available.Singular,{{Count}} accessible,18
-TestResults.Overview.InstantMessaging.Available.Plural,{{Count}} accessible,18
+TestResults.Overview.InstantMessaging.Blocked.Singular,{{Count}} blocked,20
+TestResults.Overview.InstantMessaging.Blocked.Plural,{{Count}} blocked,20
+TestResults.Overview.InstantMessaging.Available.Singular,{{Count}} accessible,23
+TestResults.Overview.InstantMessaging.Available.Plural,{{Count}} accessible,23
 TestResults.Summary.Hero.DateAndTime,Date & Time,18
 TestResults.Summary.Hero.Network,Network,18
 TestResults.Summary.Hero.Country,Country,
