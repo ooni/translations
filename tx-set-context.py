@@ -76,7 +76,7 @@ def tx_set_context(in_path, project_slug, resource_slug, auth):
                         auth=auth,
                         character_limit=character_limit,
                         comment=comment)
-                if resp.status != 200:
+                if resp.status_code != 200:
                     raise RuntimeError("Failed to update string")
                 print(resp.text)
 
