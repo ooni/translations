@@ -35,8 +35,8 @@ Onboarding.DefaultSettings.Paragraph,"We do our best not to publish your IP addr
 
 Learn more through [OONI's Data Policy](https://ooni.io/about/data-policy/).",
 Onboarding.DefaultSettings.Button.Go,Let's go,12
-Onboarding.DefaultSettings.Button.Change,Change defaults,12
-Dashboard.Tab.Label,Run Tests,12
+Onboarding.DefaultSettings.Button.Change,Change defaults,16
+Dashboard.Tab.Label,Dashboard,12
 Dashboard.Card.Run,Run,8
 Dashboard.Overview.LastRun.Never,N/A,
 Dashboard.Overview.Run,Run,8
@@ -252,9 +252,9 @@ Test.InstantMessaging.Fullname,Instant Messaging,
 Test.Middleboxes.Fullname,Middleboxes,
 Test.Performance.Fullname,Performance,
 Test.HTTPInvalidRequestLine.Fullname,HTTP Invalid Request Line Test,
-Test.HTTPHeaderFieldManipulation.Fullname,HTTP Header Field Manipulation Test,20
-Test.WebConnectivity.Fullname,Web Connectivity Test,20
-Test.NDT.Fullname,NDT Speed Test,20
+Test.HTTPHeaderFieldManipulation.Fullname,HTTP Header Field Manipulation Test,38
+Test.WebConnectivity.Fullname,Web Connectivity Test,38
+Test.NDT.Fullname,NDT Speed Test,38
 Test.Dash.Fullname,DASH Streaming Test,
 Test.WhatsApp.Fullname,WhatsApp Test,
 Test.Telegram.Fullname,Telegram Test,
@@ -264,9 +264,9 @@ Settings.Error.TestDurationTooLow,The amount of time you have set for the test d
 Settings.About.Label,About OONI,
 Settings.About.Content.Paragraph,"The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.
 
-Since 2012, OONI's global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.",24
-Settings.About.Content.LearnMore,Learn more,8
-Settings.About.Content.DataPolicy,OONI Data Policy,8
+Since 2012, OONI's global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.",
+Settings.About.Content.LearnMore,Learn more,16
+Settings.About.Content.DataPolicy,OONI Data Policy,16
 Settings.Notifications.Label,Notifications,
 Settings.Notifications.Enabled,Enabled,12
 Settings.Notifications.OnTestCompletion,Notify upon test completion,
