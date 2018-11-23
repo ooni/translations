@@ -97,49 +97,49 @@ TestResults.Overview.FilterTests.MiddleBoxes,Middleboxes,
 TestResults.Overview.FilterTests.Performance,Performance,
 TestResults.Overview.FilterTests.InstantMessaging,Instant Messaging,
 TestResults.Overview.NoTestsHaveBeenRun,No tests have been run yet. Try running one!,
-TestResults.Overview.Websites.Blocked.Singular,{{Count}} blocked,20
-TestResults.Overview.Websites.Blocked.Plural,{{Count}} blocked,20
-TestResults.Overview.Websites.Tested.Singular,{{Count}} tested,18
-TestResults.Overview.Websites.Tested.Plural,{{Count}} tested,18
-TestResults.Overview.MiddleBoxes.Found,Detected,16
-TestResults.Overview.MiddleBoxes.NotFound,Not detected,22
+TestResults.Overview.Websites.Blocked.Singular,{{Count}} blocked,23
+TestResults.Overview.Websites.Blocked.Plural,{{Count}} blocked,23
+TestResults.Overview.Websites.Tested.Singular,{{Count}} tested,23
+TestResults.Overview.Websites.Tested.Plural,{{Count}} tested,23
+TestResults.Overview.MiddleBoxes.Found,Detected,23
+TestResults.Overview.MiddleBoxes.NotFound,Not detected,25
 TestResults.Overview.MiddleBoxes.Failed,Failed,
-TestResults.Overview.InstantMessaging.Blocked.Singular,{{Count}} blocked,20
-TestResults.Overview.InstantMessaging.Blocked.Plural,{{Count}} blocked,20
+TestResults.Overview.InstantMessaging.Blocked.Singular,{{Count}} blocked,23
+TestResults.Overview.InstantMessaging.Blocked.Plural,{{Count}} blocked,23
 TestResults.Overview.InstantMessaging.Available.Singular,{{Count}} accessible,23
 TestResults.Overview.InstantMessaging.Available.Plural,{{Count}} accessible,23
-TestResults.Summary.Hero.DateAndTime,Date & Time,18
-TestResults.Summary.Hero.Network,Network,18
+TestResults.Summary.Hero.DateAndTime,Date & Time,23
+TestResults.Summary.Hero.Network,Network,23
 TestResults.Summary.Hero.Country,Country,
-TestResults.Summary.Hero.DataUsage,Data Usage,18
-TestResults.Summary.Hero.Runtime,Total Runtime,18
+TestResults.Summary.Hero.DataUsage,Data Usage,23
+TestResults.Summary.Hero.Runtime,Total Runtime,23
 TestResults.Summary.Hero.WiFi,WiFi,
 TestResults.Summary.Hero.Mobile,Mobile Data,
 TestResults.Summary.Hero.NoInternet,No internet,
-TestResults.Summary.Websites.Hero.Tested.Singular,Tested,12
-TestResults.Summary.Websites.Hero.Tested.Plural,Tested,12
-TestResults.Summary.Websites.Hero.Blocked.Singular,Blocked,12
-TestResults.Summary.Websites.Hero.Blocked.Plural,Blocked,12
-TestResults.Summary.Websites.Hero.Sites.Singular,Website,12
-TestResults.Summary.Websites.Hero.Sites.Plural,Websites,12
-TestResults.Summary.Websites.Hero.Reachable.Singular,Accessible,
-TestResults.Summary.Websites.Hero.Reachable.Plural,Accessible,
+TestResults.Summary.Websites.Hero.Tested.Singular,Tested,20
+TestResults.Summary.Websites.Hero.Tested.Plural,Tested,20
+TestResults.Summary.Websites.Hero.Blocked.Singular,Blocked,20
+TestResults.Summary.Websites.Hero.Blocked.Plural,Blocked,20
+TestResults.Summary.Websites.Hero.Sites.Singular,Website,20
+TestResults.Summary.Websites.Hero.Sites.Plural,Websites,20
+TestResults.Summary.Websites.Hero.Reachable.Singular,Accessible,20
+TestResults.Summary.Websites.Hero.Reachable.Plural,Accessible,20
 TestResults.Summary.Performance.Hero.Video,Video,12
 TestResults.Summary.Performance.Hero.Video.Quality,Quality,12
 TestResults.Summary.Performance.Hero.Upload,Upload,12
 TestResults.Summary.Performance.Hero.Download,Download,12
 TestResults.Summary.Performance.Hero.Ping,Ping,12
-TestResults.Summary.Middleboxes.Hero.Found,Detected,12
-TestResults.Summary.Middleboxes.Hero.NotFound,Not detected,12
+TestResults.Summary.Middleboxes.Hero.Found,Detected,23
+TestResults.Summary.Middleboxes.Hero.NotFound,Not detected,25
 TestResults.Summary.Middleboxes.Hero.Failed,Failed,
-TestResults.Summary.InstantMessaging.Hero.Tested.Singular,Tested,12
-TestResults.Summary.InstantMessaging.Hero.Tested.Plural,Tested,12
-TestResults.Summary.InstantMessaging.Hero.Blocked.Singular,Blocked,12
-TestResults.Summary.InstantMessaging.Hero.Blocked.Plural,Blocked,12
-TestResults.Summary.InstantMessaging.Hero.Reachable.Singular,Accessible,12
-TestResults.Summary.InstantMessaging.Hero.Reachable.Plural,Accessible,12
-TestResults.Summary.InstantMessaging.Hero.Apps.Singular,App,12
-TestResults.Summary.InstantMessaging.Hero.Apps.Plural,Apps,12
+TestResults.Summary.InstantMessaging.Hero.Tested.Singular,Tested,20
+TestResults.Summary.InstantMessaging.Hero.Tested.Plural,Tested,20
+TestResults.Summary.InstantMessaging.Hero.Blocked.Singular,Blocked,20
+TestResults.Summary.InstantMessaging.Hero.Blocked.Plural,Blocked,20
+TestResults.Summary.InstantMessaging.Hero.Reachable.Singular,Accessible,20
+TestResults.Summary.InstantMessaging.Hero.Reachable.Plural,Accessible,20
+TestResults.Summary.InstantMessaging.Hero.Apps.Singular,App,20
+TestResults.Summary.InstantMessaging.Hero.Apps.Plural,Apps,23
 TestResults.Details.Hero.Runtime,Runtime,
 TestResults.Details.ViewLog,View log,
 TestResults.Details.RawData,Data,
@@ -259,16 +259,16 @@ Test.Dash.Fullname,DASH Streaming Test,
 Test.WhatsApp.Fullname,WhatsApp Test,
 Test.Telegram.Fullname,Telegram Test,
 Test.FacebookMessenger.Fullname,Facebook Messenger Test,
-Settings.Title,Settings,16
+Settings.Title,Settings,22
 Settings.Error.TestDurationTooLow,The amount of time you have set for the test duration is too low.,
 Settings.About.Label,About OONI,
 Settings.About.Content.Paragraph,"The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.
 
 Since 2012, OONI's global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.",
-Settings.About.Content.LearnMore,Learn more,16
-Settings.About.Content.DataPolicy,OONI Data Policy,16
+Settings.About.Content.LearnMore,Learn more,20
+Settings.About.Content.DataPolicy,OONI Data Policy,30
 Settings.Notifications.Label,Notifications,
-Settings.Notifications.Enabled,Enabled,12
+Settings.Notifications.Enabled,Enabled,18
 Settings.Notifications.OnTestCompletion,Notify upon test completion,
 Settings.Notifications.OnNews,News Feed,
 Settings.AutomatedTesting.Label,Regular test reminder,
@@ -318,7 +318,7 @@ Settings.Performance.DashServerPort,DASH server port,
 Notification.FinishedRunning,Finished running,
 OONIBrowser.TryMirror,Try mirror,
 OONIBrowser.Loading,Loading...,
-OONIBrowser.Error,Unexpected error occurred. Reload page again,
+OONIBrowser.Error,An unexpected error occurred. Please re-load this page.,
 OONIRun.YouAreAboutToRun,You are about to run an OONI Probe test.,
 OONIRun.URLs,{{Count}} URLs,
 OONIRun.TestName,Test Name,
@@ -393,4 +393,4 @@ CategoryCode.GOVT.Description,"Government-run websites, including military",
 CategoryCode.COMM.Description,Commercial services and products,
 CategoryCode.CTRL.Description,Benign or innocuous content used for control,
 CategoryCode.IGO.Description,Intergovernmental organizations including The United Nations,
-CategoryCode.MISC.Description,Sites that haven't been categorized yet.,
+CategoryCode.MISC.Description,Sites that haven't been categorized yet,
