@@ -3,14 +3,14 @@
 "Onboarding.WhatIsOONIProbe.Paragraph" = "Your app for measuring internet censorship. \n\nAre websites and social media apps blocked? Is your internet connection unusually slow?\n\nRun OONI Probe to find out!";
 "Onboarding.WhatIsOONIProbe.GotIt" = "Ho capito";
 "Onboarding.ThingsToKnow.Title" = "Heads-up!";
-"Onboarding.ThingsToKnow.Bullet.1" = "OONI data is openly published and will include your network information. ";
+"Onboarding.ThingsToKnow.Bullet.1" = "OONI data is openly published and will include your network information.";
 "Onboarding.ThingsToKnow.Bullet.2" = "Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.";
 "Onboarding.ThingsToKnow.Bullet.3" = "You might test banned websites (but you can choose which sites to test).";
 "Onboarding.ThingsToKnow.Button" = "Capisco";
 "Onboarding.ThingsToKnow.LearnMore" = "Per saperne di più";
 "Onboarding.PopQuiz.Title" = "Pop Quiz";
-"Onboarding.PopQuiz.True" = "True ";
-"Onboarding.PopQuiz.False" = "False ";
+"Onboarding.PopQuiz.True" = "Vero";
+"Onboarding.PopQuiz.False" = "Falso";
 "Onboarding.PopQuiz.Wrong.Button.Back" = "Torna indietro";
 "Onboarding.PopQuiz.Wrong.Button.Continue" = "Continua";
 "Onboarding.PopQuiz.1.Title" = "Question 1/2";
@@ -29,7 +29,7 @@
 "Onboarding.DefaultSettings.Paragraph" = "We do our best not to publish your IP address or any other potentially personally-identifiable information.\n\nLearn more through [OONI's Data Policy](https://ooni.io/about/data-policy/).";
 "Onboarding.DefaultSettings.Button.Go" = "Let's go";
 "Onboarding.DefaultSettings.Button.Change" = "Change defaults";
-"Dashboard.Tab.Label" = "Esegui Test";
+"Dashboard.Tab.Label" = "Dashboard";
 "Dashboard.Card.Run" = "Esegui";
 "Dashboard.Overview.LastRun.Never" = "Non valido";
 "Dashboard.Overview.Run" = "Esegui";
@@ -158,11 +158,11 @@
 "TestResults.Details.InstantMessaging.FacebookMessenger.LikelyBlocked.Hero.Title" = "Likely blocked";
 "TestResults.Details.InstantMessaging.FacebookMessenger.LikelyBlocked.Content.Paragraph" = "Facebook Messenger appears to be blocked.";
 "TestResults.Details.Middleboxes.HTTPInvalidRequestLine.NotFound.Hero.Title" = "No middleboxes detected";
-"TestResults.Details.Middleboxes.HTTPInvalidRequestLine.NotFound.Content.Paragraph" = "No network anomaly was detected when communicating with our servers. ";
+"TestResults.Details.Middleboxes.HTTPInvalidRequestLine.NotFound.Content.Paragraph" = "No network anomaly was detected when communicating with our servers.";
 "TestResults.Details.Middleboxes.HTTPInvalidRequestLine.Found.Hero.Title" = "Network tampering";
 "TestResults.Details.Middleboxes.HTTPInvalidRequestLine.Found.Content.Paragraph" = "Network traffic was manipulated when contacting our control servers.\n\nThis means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.";
 "TestResults.Details.Middleboxes.HTTPHeaderFieldManipulation.NotFound.Hero.Title" = "No middleboxes detected";
-"TestResults.Details.Middleboxes.HTTPHeaderFieldManipulation.NotFound.Content.Paragraph" = "No network anomaly was detected when communicating with our servers. ";
+"TestResults.Details.Middleboxes.HTTPHeaderFieldManipulation.NotFound.Content.Paragraph" = "No network anomaly was detected when communicating with our servers.";
 "TestResults.Details.Middleboxes.HTTPHeaderFieldManipulation.Found.Hero.Title" = "Network tampering";
 "TestResults.Details.Middleboxes.HTTPHeaderFieldManipulation.Found.Content.Paragraph" = "Network traffic was manipulated when contacting our control servers.\n\nThis means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.";
 "TestResults.Details.Middleboxes.HTTPInvalidRequestLine.YouSent" = "You Sent";
@@ -171,7 +171,7 @@
 "TestResults.Details.Performance.NDT.Download" = "Download";
 "TestResults.Details.Performance.NDT.Ping" = "Ping";
 "TestResults.Details.Performance.NDT.Server" = "Server";
-"TestResults.Details.Performance.NDT.PacketLoss" = "Packet Loss ";
+"TestResults.Details.Performance.NDT.PacketLoss" = "Perdita di pacchetti";
 "TestResults.Details.Performance.NDT.OutOfOrder" = "Out of Order";
 "TestResults.Details.Performance.NDT.AveragePing" = "Ping medio";
 "TestResults.Details.Performance.NDT.MaxPing" = "Ping massimo";
@@ -248,7 +248,7 @@
 "Settings.Sharing.GPS" = "Include approximate geo-location";
 "Settings.Sharing.IncludeIP" = "Include my IP address";
 "Settings.Sharing.IncludeCountryCode" = "Include Country Code";
-"Settings.Sharing.IncludeCountryCode.PopUp" = "This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option? ";
+"Settings.Sharing.IncludeCountryCode.PopUp" = "This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?";
 "Settings.Sharing.Footer" = "By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.";
 "Settings.Advanced.Label" = "Avanzato";
 "Settings.Advanced.SendCrashReports" = "Manda rapporto sui crash";
@@ -279,7 +279,7 @@
 "Notification.FinishedRunning" = "Esecuzione conclusa";
 "OONIBrowser.TryMirror" = "Prova un mirror";
 "OONIBrowser.Loading" = "Caricamento...";
-"OONIBrowser.Error" = "Unexpected error occurred. Reload page again";
+"OONIBrowser.Error" = "An unexpected error occurred. Please re-load this page.";
 "OONIRun.YouAreAboutToRun" = "You are about to run an OONI Probe test.";
 "OONIRun.URLs" = "%@ URLs";
 "OONIRun.TestName" = "Test Name";
@@ -291,7 +291,7 @@
 "OONIRun.Close" = "Chiudi";
 "OONIRun.InvalidParameter" = "Parametro non valido";
 "OONIRun.InvalidParameter.Msg" = "The OONI Run link is either malformed or your app is out of date.";
-"OONIRun.RandomSamplingOfURLs" = "You will test a random sample of websites. ";
+"OONIRun.RandomSamplingOfURLs" = "You will test a random sample of websites.";
 "OONIRun.TestRunningError" = "Please wait for the test to finish running before opening OONI Run.";
 "CategoryCode.ALDR.Name" = "Drugs & Alcohol";
 "CategoryCode.REL.Name" = "Religion";
@@ -354,4 +354,4 @@
 "CategoryCode.COMM.Description" = "Commercial services and products";
 "CategoryCode.CTRL.Description" = "Benign or innocuous content used for control";
 "CategoryCode.IGO.Description" = "Intergovernmental organizations including The United Nations";
-"CategoryCode.MISC.Description" = "Sites that haven't been categorized yet.";
+"CategoryCode.MISC.Description" = "Sites that haven't been categorized yet";

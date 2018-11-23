@@ -279,7 +279,7 @@
 "Notification.FinishedRunning" = "Finished running";
 "OONIBrowser.TryMirror" = "Try mirror";
 "OONIBrowser.Loading" = "Natahuji...";
-"OONIBrowser.Error" = "Unexpected error occurred. Reload page again";
+"OONIBrowser.Error" = "An unexpected error occurred. Please re-load this page.";
 "OONIRun.YouAreAboutToRun" = "You are about to run an OONI Probe test.";
 "OONIRun.URLs" = "%@ URLs";
 "OONIRun.TestName" = "Test Name";
@@ -354,4 +354,4 @@
 "CategoryCode.COMM.Description" = "Commercial services and products";
 "CategoryCode.CTRL.Description" = "Benign or innocuous content used for control";
 "CategoryCode.IGO.Description" = "Intergovernmental organizations including The United Nations";
-"CategoryCode.MISC.Description" = "Sites that haven't been categorized yet.";
+"CategoryCode.MISC.Description" = "Sites that haven't been categorized yet";

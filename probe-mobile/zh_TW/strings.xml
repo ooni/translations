@@ -5,14 +5,14 @@
   <string name="Onboarding_WhatIsOONIProbe_Paragraph">Your app for measuring internet censorship. \n\nAre websites and social media apps blocked? Is your internet connection unusually slow?\n\nRun OONI Probe to find out!</string>
   <string name="Onboarding_WhatIsOONIProbe_GotIt">Got It</string>
   <string name="Onboarding_ThingsToKnow_Title">Heads-up!</string>
-  <string name="Onboarding_ThingsToKnow_Bullet_1">OONI data is openly published and will include your network information. </string>
+  <string name="Onboarding_ThingsToKnow_Bullet_1">OONI data is openly published and will include your network information.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_2">Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_3">You might test banned websites (but you can choose which sites to test).</string>
   <string name="Onboarding_ThingsToKnow_Button">我了解</string>
   <string name="Onboarding_ThingsToKnow_LearnMore">了解更多</string>
   <string name="Onboarding_PopQuiz_Title">Pop Quiz</string>
-  <string name="Onboarding_PopQuiz_True">True </string>
-  <string name="Onboarding_PopQuiz_False">False </string>
+  <string name="Onboarding_PopQuiz_True">是</string>
+  <string name="Onboarding_PopQuiz_False">否</string>
   <string name="Onboarding_PopQuiz_Wrong_Button_Back">返回上一頁</string>
   <string name="Onboarding_PopQuiz_Wrong_Button_Continue">繼續</string>
   <string name="Onboarding_PopQuiz_1_Title">Question 1/2</string>
@@ -31,7 +31,7 @@
   <string name="Onboarding_DefaultSettings_Paragraph">We do our best not to publish your IP address or any other potentially personally-identifiable information.\n\nLearn more through [OONI\'s Data Policy](https://ooni.io/about/data-policy/).</string>
   <string name="Onboarding_DefaultSettings_Button_Go">Let\'s go</string>
   <string name="Onboarding_DefaultSettings_Button_Change">Change defaults</string>
-  <string name="Dashboard_Tab_Label">執行測試</string>
+  <string name="Dashboard_Tab_Label">儀表板</string>
   <string name="Dashboard_Card_Run">執行</string>
   <string name="Dashboard_Overview_LastRun_Never">無</string>
   <string name="Dashboard_Overview_Run">執行</string>
@@ -160,11 +160,11 @@
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_LikelyBlocked_Hero_Title">Likely blocked</string>
   <string name="TestResults_Details_InstantMessaging_FacebookMessenger_LikelyBlocked_Content_Paragraph">Facebook Messenger appears to be blocked.</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_NotFound_Hero_Title">No middleboxes detected</string>
-  <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_NotFound_Content_Paragraph">No network anomaly was detected when communicating with our servers. </string>
+  <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_NotFound_Content_Paragraph">No network anomaly was detected when communicating with our servers.</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_Found_Hero_Title">Network tampering</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_Found_Content_Paragraph">Network traffic was manipulated when contacting our control servers.\n\nThis means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.</string>
   <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_NotFound_Hero_Title">No middleboxes detected</string>
-  <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_NotFound_Content_Paragraph">No network anomaly was detected when communicating with our servers. </string>
+  <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_NotFound_Content_Paragraph">No network anomaly was detected when communicating with our servers.</string>
   <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_Found_Hero_Title">Network tampering</string>
   <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_Found_Content_Paragraph">Network traffic was manipulated when contacting our control servers.\n\nThis means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_YouSent">You Sent</string>
@@ -250,7 +250,7 @@
   <string name="Settings_Sharing_GPS">Include approximate geo-location</string>
   <string name="Settings_Sharing_IncludeIP">Include my IP address</string>
   <string name="Settings_Sharing_IncludeCountryCode">Include Country Code</string>
-  <string name="Settings_Sharing_IncludeCountryCode_PopUp">This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option? </string>
+  <string name="Settings_Sharing_IncludeCountryCode_PopUp">This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?</string>
   <string name="Settings_Sharing_Footer">By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.</string>
   <string name="Settings_Advanced_Label">進階的</string>
   <string name="Settings_Advanced_SendCrashReports">送出出錯報告</string>
@@ -281,7 +281,7 @@
   <string name="Notification_FinishedRunning">Finished running</string>
   <string name="OONIBrowser_TryMirror">試試鏡像站</string>
   <string name="OONIBrowser_Loading">載入中…</string>
-  <string name="OONIBrowser_Error">Unexpected error occurred. Reload page again</string>
+  <string name="OONIBrowser_Error">An unexpected error occurred. Please re-load this page.</string>
   <string name="OONIRun_YouAreAboutToRun">You are about to run an OONI Probe test.</string>
   <string name="OONIRun_URLs">%1$s URLs</string>
   <string name="OONIRun_TestName">Test Name</string>
@@ -293,7 +293,7 @@
   <string name="OONIRun_Close">關閉</string>
   <string name="OONIRun_InvalidParameter">無效的參數</string>
   <string name="OONIRun_InvalidParameter_Msg">The OONI Run link is either malformed or your app is out of date.</string>
-  <string name="OONIRun_RandomSamplingOfURLs">You will test a random sample of websites. </string>
+  <string name="OONIRun_RandomSamplingOfURLs">You will test a random sample of websites.</string>
   <string name="OONIRun_TestRunningError">Please wait for the test to finish running before opening OONI Run.</string>
   <string name="CategoryCode_ALDR_Name">Drugs &amp; Alcohol</string>
   <string name="CategoryCode_REL_Name">Religion</string>
@@ -356,5 +356,5 @@
   <string name="CategoryCode_COMM_Description">Commercial services and products</string>
   <string name="CategoryCode_CTRL_Description">Benign or innocuous content used for control</string>
   <string name="CategoryCode_IGO_Description">Intergovernmental organizations including The United Nations</string>
-  <string name="CategoryCode_MISC_Description">Sites that haven\'t been categorized yet.</string>
+  <string name="CategoryCode_MISC_Description">Sites that haven\'t been categorized yet</string>
 </resources>

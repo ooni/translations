@@ -281,7 +281,7 @@
   <string name="Notification_FinishedRunning">समाप्त हो रहा है</string>
   <string name="OONIBrowser_TryMirror">दर्पण की कोशिश करो</string>
   <string name="OONIBrowser_Loading">लोड हो रहा है ...</string>
-  <string name="OONIBrowser_Error">Unexpected error occurred. Reload page again</string>
+  <string name="OONIBrowser_Error">An unexpected error occurred. Please re-load this page.</string>
   <string name="OONIRun_YouAreAboutToRun">You are about to run an OONI Probe test.</string>
   <string name="OONIRun_URLs">%1$s URLs</string>
   <string name="OONIRun_TestName">Test Name</string>
@@ -356,5 +356,5 @@
   <string name="CategoryCode_COMM_Description">Commercial services and products</string>
   <string name="CategoryCode_CTRL_Description">Benign or innocuous content used for control</string>
   <string name="CategoryCode_IGO_Description">Intergovernmental organizations including The United Nations</string>
-  <string name="CategoryCode_MISC_Description">Sites that haven\'t been categorized yet.</string>
+  <string name="CategoryCode_MISC_Description">Sites that haven\'t been categorized yet</string>
 </resources>

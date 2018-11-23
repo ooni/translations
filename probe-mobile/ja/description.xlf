@@ -35,30 +35,39 @@
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
+        <target>このアプリで、ウェブサイトやインスタントメッセージアプリケーションのブロックを調べ、ネットワークの速度やパフォーマンスを測定し、検閲と監視に関与するシステムがネットワークにあるかどうかをチェックします。</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
+        <target>OONI Probe は、世界中のインターネット検閲を明らかにするためのフリーソフトウェアプロジェクト (The Tor Project の下で) the Open Observatory of Network Interference (OONI) によって開発されました。</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
+        <target>2012 年以来、OONI のグローバルコミュニティは、200 を超える国々から数百万のネットワーク測定値を収集し、複数のネットワーク干渉のケースを明らかにしています。</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
+        <target>OONI Probe を実行することで、インターネット検閲の透明性を高めることができます。</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
+        <target>インターネット検閲の証拠を収集します</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
+        <target>ウェブサイトやインスタントメッセージングのアプリがブロックされているかどうか、どのようにブロックされているかを確認できます。 収集するネットワーク測定データは、インターネット検閲の証拠となります。</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
+        <target>検閲と監視を担当するシステムを検出します</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
+        <target>OONI Probe 検査は、検閲と監視に関与するシステム (ミドルボックス) の存在を明らかにするためにも設計されています。</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
+        <target>ネットワークの速度とパフォーマンスを測定します</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
