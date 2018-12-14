@@ -57,7 +57,7 @@ def tx_set_context(in_path, project_slug, resource_slug, auth):
         # Skip header
         next(csv_reader)
         for row in csv_reader:
-            comment = None
+            comment = ""
             character_limit = None
             key, text, max_len = row
 
@@ -65,9 +65,14 @@ def tx_set_context(in_path, project_slug, resource_slug, auth):
                 raise RuntimeError("Duplicate key {}".format(key))
 
             if key.endswith('Plural'):
-                comment = 'This is the plural form'
+                comment += 'This is the plural form.'
             if key.endswith('Singular'):
-                comment = 'This is the singular form'
+                comment += 'This is the singular form.'
+
+            if 'ooni' in text.lower():
+                comment += 'Do not translate OONI.'
+            if 'middlebox' in text.lower() or 'middleboxes' in text.lower():
+                comment += 'Do not translate middlebox or middleboxes.'
 
             if max_len != "":
                 character_limit = int(max_len)
