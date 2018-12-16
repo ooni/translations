@@ -4,6 +4,8 @@ import csv
 import sys
 import re
 
+assert sys.version_info >= (3, 6), "Python >= 3.6 is required"
+
 def csv_to_dict(in_path):
     d = {}
     with open(in_path) as csvfile:

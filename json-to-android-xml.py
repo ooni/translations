@@ -5,6 +5,8 @@ import csv
 import sys
 import re
 
+assert sys.version_info >= (3, 6), "Python >= 3.6 is required"
+
 # Special replacement class that counts the matches
 class ReplaceCounter(object):
     def __init__(self):

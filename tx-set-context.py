@@ -8,10 +8,9 @@ import re
 
 from hashlib import md5
 
-try:
-    from configparser import ConfigParser
-except ImportError:
-    from ConfigParser import ConfigParser
+from configparser import ConfigParser
+
+assert sys.version_info >= (3, 6), "Python >= 3.6 is required"
 
 def gen_source_string_hash(string_key):
     string_key = string_key.replace('.', '\\.')

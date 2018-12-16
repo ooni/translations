@@ -4,6 +4,8 @@ import csv
 import sys
 import re
 
+assert sys.version_info >= (3, 6), "Python >= 3.6 is required"
+
 def dict_to_strings(d, out_path):
     with open(out_path, 'w') as out_file:
         for key, text in d.items():
