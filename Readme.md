@@ -2,9 +2,11 @@
 
 This repository contains all the translations for OONI software.
 
+It requires python 3 and has been tested on `Python 3.6.1`.
+
 You are expected to have installed the [transifex
 CLI](https://docs.transifex.com/client/installing-the-client) (please don't run
-`pip` or `easy_install` as root to install it!)
+`pip` or `easy_install` as root to install it!).
 
 You should also have setup transifex with you credentials via a
 `~/.transifexrc` file (see: [client-configuration
