@@ -59,7 +59,7 @@
 "TestResults.Overview.Title" = "Test Results";
 "TestResults.Overview.Tab.Label" = "Test Results";
 "TestResults.Overview.Hero.Tests" = "Tests";
-"TestResults.Overview.Hero.Networks" = "Networks";
+"TestResults.Overview.Hero.Networks" = "Мережі";
 "TestResults.Overview.Hero.DataUsage" = "Data Usage";
 "TestResults.Overview.FilterTests" = "Filter Tests";
 "TestResults.Overview.FilterTests.AllTests" = "All Tests";

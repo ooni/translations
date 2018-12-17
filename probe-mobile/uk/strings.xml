@@ -61,7 +61,7 @@
   <string name="TestResults_Overview_Title">Test Results</string>
   <string name="TestResults_Overview_Tab_Label">Test Results</string>
   <string name="TestResults_Overview_Hero_Tests">Tests</string>
-  <string name="TestResults_Overview_Hero_Networks">Networks</string>
+  <string name="TestResults_Overview_Hero_Networks">Мережі</string>
   <string name="TestResults_Overview_Hero_DataUsage">Data Usage</string>
   <string name="TestResults_Overview_FilterTests">Filter Tests</string>
   <string name="TestResults_Overview_FilterTests_AllTests">All Tests</string>
