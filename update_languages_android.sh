@@ -14,7 +14,7 @@ fi
 cd ../translations
 ./update-translations.sh
 for language in "${SUPPORTED_LANGUAGES[@]}";do
-    lang=$(basename ${language} | tr '_' '-')
+    lang=$(basename ${language} | sed 's/zh_CN/zh_rCN/' | sed 's/zh_TW/zh_rTW/' | tr '_' '-' )
     dst_path="${TOPDIR}/app/src/main/res/values-${lang}/"
     mkdir -p $dst_path
     cp probe-mobile/${language}/strings.xml $dst_path
