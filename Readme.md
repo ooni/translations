@@ -35,3 +35,32 @@ copy the strings csv file to `probe-mobile/en/strings.csv` and then run:
 
 This will generate `probe-mobile/en/strings.json` and push it to transifex for
 you.
+
+## Updating translations for OONI Probe iOS or Android
+
+1) Clone the relative repository https://github.com/ooni/probe-ios or https://github.com/ooni/probe-android
+2) Set the var PROJDIR inside the relative update_languages_ios.sh or update_languages_android.sh
+3) Run the script
+
+
+## Adding new language to OONI Probe iOS or Android
+
+1) Add the new language code to the file supported_languages
+2) iOS only: Add the new language in the XCode project tab
+3) Run the update_languages_ios.sh or update_languages_android.sh script
+
+## Generating descriptions for market
+
+To generate translated descriptions for the markets run:
+
+```
+python scripts/gen-descriptions.py [lang_code]
+```
+
+Where `lang_code` is the language code for the description you want to
+generate.
+
+This will print to standard output the translated text that you can then copy
+and paste into the market descriptions.
+
+If a string is not translated it will print the source for the text.
