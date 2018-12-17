@@ -48,3 +48,19 @@ you.
 1) Add the new language code to the file supported_languages
 2) iOS only: Add the new language in the XCode project tab
 3) Run the update_languages_ios.sh or update_languages_android.sh script
+
+## Generating descriptions for market
+
+To generate translated descriptions for the markets run:
+
+```
+python scripts/gen-descriptions.py [lang_code]
+```
+
+Where `lang_code` is the language code for the description you want to
+generate.
+
+This will print to standard output the translated text that you can then copy
+and paste into the market descriptions.
+
+If a string is not translated it will print the source for the text.
