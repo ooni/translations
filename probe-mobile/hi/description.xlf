@@ -16,6 +16,7 @@
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
+          <target>OONI Probe - इंटरनेट सेंसरशिप और स्पीड को मापें</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
@@ -25,6 +26,7 @@
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <target>इंटरनेट सेंसरशिप के सबूत एकत्रित करें अपने नेटवर्क की गति और प्रदर्शन को मापें।</target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
@@ -44,6 +46,7 @@
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
+        <target>इंटरनेट सेंसरशिप के सबूत इकट्ठा करें</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
@@ -56,6 +59,7 @@
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
+        <target>आपके नेटवर्क की गति और प्रदर्शन को मापना</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
@@ -82,9 +86,11 @@
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
+        <target>इंटरनेट सेंसरशिप का पता लगाएं और अपने नेटवर्क की गति और प्रदर्शन का परीक्षण करें</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
+        <target>इंटरनेट सेंसरशिप के साक्ष्य को उजागर करें </target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
@@ -103,7 +109,7 @@
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
-        <target>नेटवर्क, स्पीड टेस्ट, मापन, नेट, वाईफाई, नेटवर्किंग, स्कैन, बैंडविड्थ, बेंच, डीएनएस, मोबाइल, ऊनी, रिसर्च, टूल</target>
+        <target>नेटवर्क, स्पीड टेस्ट, मापन, नेट, वाईफाई, नेटवर्किंग, स्कैन, बैंडविड्थ, बेंच, डीएनएस, मोबाइल, ooni, रिसर्च, टूल</target>
       </trans-unit>
     </body>
   </file>

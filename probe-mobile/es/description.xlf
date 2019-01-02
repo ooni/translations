@@ -16,6 +16,7 @@
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
+          <target>OONI Probe - Mide censura y velocidad de Internet</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
@@ -25,40 +26,52 @@
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <target>Recopila evidencia de censura en Internet. Mide la velocidad y rendimiento de tu red.</target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
         <source>Are websites and social media apps blocked? Is your network unusually slow? Run OONI Probe to find out!</source>
+        <target>¿Los sitios web y aplicaciones de redes sociales están siendo bloqueados? ¿Tu red es inusualmente lenta? ¡Corre OONI Probe para saberlo!</target>
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
+        <target>Con esta aplicación, examinarás si existe bloqueo de sitios web o aplicaciones de mensajería instantánea, medirás la velocidad y rendimiento de tu red, y comprobarás si hay sistemas que puedan realizar censura o vigilancia presentes en tu red.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
+        <target>OONI Probe es desarrollada por el Observatorio Abierto de Interferencia de Red (OONI), un proyecto de software libre (bajo el Proyecto Tor) que apunta a descubrir la censura de Internet por todo el mundo.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
+        <target>Desde 2012, la comunidad global de OONI ha recopilado millones de mediciones de red de más de 200 países, exponiendo múltiples casos de interferencia de red.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
+        <target>Al correr OONI Probe, puedes ayudar a aumentar la transparencia relativa a la censura en Internet.</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
+        <target>Recopila evidencia de censura en Internet</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
+        <target>Puedes comprobar si están siendo bloqueados ciertos sitios web y aplicaciones de mensajería instantánea y conocer como lo hacen. Los datos de mediciones de red que recopiles pueden servir como evidencia de censura de Internet.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
+        <target>Detecta sistemas responsables de censura y vigilancia</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
+        <target>Las pruebas de OONI Probe también están diseñadas para descubrir la presencia de sistemas (middleboxes) que pueden ser utilizados para llevar a cabo censura y vigilancia.</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
+        <target>Mide la velocidad y rendimiento de tu red</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
+        <target>Puedes medir la velocidad y rendimiento de tu red corriendo la implementación de OONI de la prueba de diagnóstico de red (NDT). También puedes medir el rendimiento del streaming de vídeo con la prueba streaming por adaptación dinámica sobre HTTP (DASH).</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
@@ -66,6 +79,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
+        <target>OONI publica datos de mediciones de red porque al colocar los datos en el dominio público permite que terceros verifiquen los hallazgos de OONI, conduzcan estudios independientes, y contesten otras preguntas de investigación. La publicación abierta de datos de OONI también ayuda a aumentar la transparencia acerca de la censura de Internet alrededor del mundo. Puedes explorar y descargar datos de OONI desde aquí: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
@@ -73,22 +87,26 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
+        <target>Todas las pruebas de OONI Probe (incluyendo nuestras implementaciones de NDT  y DASH), están basadas en software libre y de código abierto. Puedes encontrar proyectos de software de OONI en GitHub: https://github.com/ooni. ¿Sientes curiosidad acerca de cómo funcionan las pruebas de OONI Probe? Conoce más en: https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
+        <target>Para recibir actualizaciones del OONI-verso, síguenos en Twitter: https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
+        <target>Detecta la censura de Internet y prueba la velocidad y rendimiento de tu red</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
+        <target>Descubre evidencia de censura en Internet</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
-        <target>Ejecutar un sofisticado test de velocidad y diagnóstico de red</target>
+        <target>Realiza un sofisticado test de velocidad y diagnóstico de red</target>
       </trans-unit>
       <trans-unit id="screenshot4">
         <source>Easily discover which websites are blocked on your network</source>
@@ -96,14 +114,15 @@
       </trans-unit>
       <trans-unit id="screenshot5">
         <source>Testing your network is fun with a friendly octopus!</source>
-        <target>¡Probar su red es divertido con un pulpo amigable!</target>
+        <target>¡Probar su red es divertido con este pulpo amigable!</target>
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
+        <target>El Observatorio Abierto de Interferencia de Red (OONI) es una red de observación global para detectar censura en Internet y otras formas de interferencia de red alrededor del mundo.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
-        <target>red, test, velocidad, medición, red, wifi, conexión, escaneado, ancho, banda, prueba, dns, móvil, ooni, investigación, herramienta</target>
+        <target>red, test, velocidad, medición, red, wifi, conexión, escaneado, ancho, banda, prueba, dns, móvil, ooni, investigación, herramienta, medir, celular, teléfono celular, ancho de banda, prueba, escaneo</target>
       </trans-unit>
     </body>
   </file>

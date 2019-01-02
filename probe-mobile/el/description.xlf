@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
-          <target>OONI Probe - Μέτρησε το Διαδίκτυο</target>
+          <target>OONI Probe - Ανίχνευσε την Διαδικτυακή λογοκρισία</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
@@ -35,11 +35,11 @@
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
-        <target>Με αυτήν την εφαρμογή, θα εξετάσεις το μπλοκάρισμα ιστοσελιδών και chat εφαρμογών, θα μετρήσεις την ταχύτητα και την απόδοση του δικτύου σου, και θα ελέγξεις αν υπάρχουν συστήματα που θα μπορούσαν να είναι υπεύθυνα για λογοκρισία και επιτήρηση στο δίκτυό σου.</target>
+        <target>Με αυτήν την εφαρμογή, θα ελέγξεις το μπλοκάρισμα ιστοσελιδών και chat εφαρμογών, θα μετρήσεις την ταχύτητα και την απόδοση του δικτύου σου, και θα ελέγξεις αν υπάρχουν συστήματα που ίσως ευθύνονται για λογοκρισία και επιτήρηση στο δίκτυό σου.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
-        <target>Το OONI Probe αναπτύχθηκε από το OONI (Open Observatory of Network Interference), ένα project ελεύθερου λογισμικού (του οργανισμού The Tor Project) που αποσκοπεί στην αποκάλυψη της λογοκρισίας στο Διαδίκτυο σε όλο τον κόσμο.</target>
+        <target>Το OONI Probe αναπτύχθηκε από το OONI (Open Observatory of Network Interference), ένα έργο ελεύθερου λογισμικού (του οργανισμού The Tor Project) που αποσκοπεί στην αποκάλυψη της λογοκρισίας στο Διαδίκτυο, σε όλο τον κόσμο.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
@@ -47,7 +47,7 @@
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
-        <target>Τρέχοντας το OONI Probe, μπορείς να συνεισφέρεις στην αύξηση της διαφάνειας της λογοκρισίας στο Διαδίκτυο. </target>
+        <target>Τρέχοντας το OONI Probe, μπορείς να συνεισφέρεις στην αύξηση της διαφάνειας για τη λογοκρισία στο Διαδίκτυο. </target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
@@ -55,15 +55,15 @@
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
-        <target>Μπορείς να ελέγξεις εάν και πώς έχουν μπλοκαριστεί ιστοσελίδες και chat εφαρμογές. Τα δεδομένα μέτρησης του δικτύου που θα συλλέξεις μπορούν να χρησιμεύσουν ως απόδειξη της λογοκρισίας στο Διαδίκτυο.</target>
+        <target>Μπορείς να ελέγξεις εάν και πώς έχουν μπλοκαριστεί ιστοσελίδες και εφαρμογές συνομιλιών. Τα δεδομένα μέτρησης του δικτύου που θα συλλέξεις μπορούν να χρησιμεύσουν ως αποδεικτικά λογοκρισίας στο Διαδίκτυο.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
-        <target>Εντόπισε συστήματα υπεύθυνα για τη λογοκρισία και επιτήρηση στο Διαδίκτυο</target>
+        <target>Εντόπισε συστήματα υπεύθυνα για λογοκρισία και επιτήρηση στο Διαδίκτυο</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
-        <target>Οι δοκιμές του OONI Probe είναι σχεδιασμένες για να αποκαλύψουν την παρουσία συστημάτων (middleboxes) που θα μπορούσαν να είναι υπεύθυνα για τη λογοκρισία και την επιτήρηση στο Διαδίκτυο.</target>
+        <target>Οι δοκιμές του OONI Probe έχουν επίσης σχεδιαστεί για να αποκαλύπτουν την παρουσία συστημάτων (middleboxes) που θα μπορούσαν να ευθύνονται για τη λογοκρισία και την επιτήρηση στο Διαδίκτυο.</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
@@ -71,7 +71,7 @@
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
-        <target>Μπορείς να μετρήσεις την ταχύτητα και την απόδοση του δικτύου σου τρέχοντας τη δοκιμή NDT, που συμπεριλαμβάνεται στο OONI Probe. Μπορείς επίσης να μετρήσεις την απόδοση ροής βίντεο με τη δοκιμή DASH.</target>
+        <target>Μπορείς να μετρήσεις την ταχύτητα και την απόδοση του δικτύου σου τρέχοντας τη δοκιμή NDT, που συμπεριλαμβάνεται στο OONI Probe. Μπορείς επίσης να μετρήσεις την απόδοση ροής βίντεο με τη δοκιμή DASH (Dynamic Adaptive Streaming over HTTP).</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
@@ -79,7 +79,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
-        <target>To OONI δημοσιεύει δεδομένα μέτρησης δικτύων, επειδή τα ανοιχτά δεδομένα επιτρέπουν την ανεξάρτητη επαλήθευση ευρυμάτων και τη διεξαγωγή ανεξάρτητων ερευνών. Επίσης, η ανοικτή δημοσίευση των δεδομένων συμβάλλει στην αύξηση της διαφάνειας της λογοκρισίας στο Διαδίκτυο σε όλο τον κόσμο. Μπορείς να βεις τα δεδομένα του OONI εδώ: https://ooni.io/data/</target>
+        <target>To OONI δημοσιεύει δεδομένα μέτρησης δικτύων, επειδή τα ανοιχτά δεδομένα επιτρέπουν την ανεξάρτητη επαλήθευση ευρυμάτων και τη διεξαγωγή ανεξάρτητων ερευνών. Επίσης, η ανοικτή δημοσίευση των δεδομένων συμβάλλει στην αύξηση της διαφάνειας για τη λογοκρισίας στο Διαδίκτυο σε όλο τον κόσμο. Μπορείς να βεις τα δεδομένα του OONI εδώ: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>

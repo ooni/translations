@@ -16,6 +16,7 @@
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
+          <target>OONI Probe - تست سرعت و سانسور اینترنت</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
@@ -25,40 +26,52 @@
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <target>شواهد سانسور اینترنت را جمع‌اوری کنید. سرعت و کارایی شبکه خود را اندازه‌گیری کنید.</target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
         <source>Are websites and social media apps blocked? Is your network unusually slow? Run OONI Probe to find out!</source>
+        <target>ایا وبسایت‌ها و اپ شبکه‌های اجتماعی مسدود شده‌اند؟ آیا شبکه شما به صورت غیرمعمولی آهسته است؟ OONI Probe را اجرا کنید تا متوجه شوید!</target>
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
+        <target>با این اپ، شما مسدودیت وبسایت‌ها و پیام‌‌رسان‌ها را بررسی، سرعت و کارایی شبکه خود را اندازه‌گیری و سیستم‌های مسئول سانسور و نظارت شبکه خود را چک خواهید کرد.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
+        <target>OONI Probe توسط رصد خانه آزاد دخالت در شبکه (OONI) که یک پروژه‌ی نرم افزار آزاد (تحت پروژه‌ی Tor) است، توسعه یافته و هدف آن برملا ساختن سانسور اینترنت در سراسر دنیاست.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
+        <target>از سال 2012، جامعه‌ی جهانی OONI میلیون‌ها سنجش شبکه از بیش از 200 کشور را جمع‌آوری و موارد متعددی از دخالت در شبکه را برملا کرده.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
+        <target>با استفاده از کاوشگر OONI، می‌توانید به افزایش شفافیت در سانسور اینترنت کمک کنید.</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
+        <target>شواهد سانسور اینترنت را جمع‌آوری کنید</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
+        <target>شما می‌توانید وضعیت و چگونگی مسدود بودن وبسایت‌ها و پیام‌رسان‌ها را چک کنید. داده‌های سنجش شبکه‌ای که شما جمع‌آوری می‌کنید می‌تواند سندی بر سانسور اینترنت باشد.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
+        <target>سیستم‌های مسئول سانسور و نظارت را تشخیص دهید.</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
+        <target>تست‌های کاوشگر OONI همچنین برای آشکار ساختن حضور سیستم‌هایی که ممکن است مسئول سانسور و نظارت باشند (middleboxes) طراحی شده‌اند.</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
+        <target>سرعت و کارایی شبکه خود را اندازه‌گیری کنید.</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
+        <target>شما می‌توانید سرعت و کارایی شبکه خود را با استفاده از تست تشخیص شبکه (NDT) در OONI اندازه بگیرید. همچنین می‌توانید کارایی استریم تصویری را با تست استریم پویا و سازگار تحت HTTP (DASH) اندازه بگیرید.</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
@@ -66,6 +79,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
+        <target>OONI داده‌های سنجش شبکه را منتشر می‌کند زیرا داده‌های آزاد به طرفین ثالث اجازه می‌دهد تا یافته‌های OONI را تائید کنند، مطالعات مستقل انجام دهند و سایر سوالات تحقیق را پاسخ دهند. انتشار آزاد داده‌های OONI همچنین به شفافیت سانسور اینترنت در دنیا کمک می‌‌کند. شما می‌توانید داده‌های OONI را اینجا بارگیری کنید: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
@@ -73,18 +87,22 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
+        <target>تمامی تست‌های کاوشگر OONI (شامل NDT و DASH) بر اساس نرم افزار رایگان و متن باز بنا شده‌اند. شما می‌توانید پروژه‌ی نرم افزار OONI را در GitHub پیدا کنید: https://github.com/ooni. آیا کنجکاوید که در خصوص نحوه‌ی کار تست‌های کاوشگر OONI یاد بگیرید؟ بیشتر بخوانید: https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
+        <target>برای دریافت بروز رسانی‌ از OONI، ما  را در توییتر دنبال  کنید: https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
+        <target>سانسور اینترنت را تشخیص دهید و سرعت و کارایی شبکه‌ی خود را تست کنید</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
+        <target>شواهد سانسور در اینترنت را آشکار سازید</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
@@ -100,6 +118,7 @@
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
+        <target>رصد خانه آزاد دخالت در شبکه (OONI) یک شبکه نظارت جهانی برای تشخیص سانسور اینترنت و سایر اشکال دخالت در شبکه در دنیاست.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
