@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-tx pull -a
+tx pull -af
 ./convert-json.sh
