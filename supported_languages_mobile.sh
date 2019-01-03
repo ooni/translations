@@ -1,1 +1,1 @@
-SUPPORTED_LANGUAGES=(ar de el es fa fr hi it ja ru zh_CN zh_TW)
+SUPPORTED_LANGUAGES=(ar ca de el es fa fr it pr_BR tr sq zh_CN)
