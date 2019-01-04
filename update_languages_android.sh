@@ -13,7 +13,7 @@ source supported_languages_mobile.sh
 
 ./update-translations.sh
 for language in "${SUPPORTED_LANGUAGES[@]}";do
-    lang=$(basename ${language} | sed 's/zh_CN/zh_rCN/' | sed 's/zh_TW/zh_rTW/' | tr '_' '-' )
+    lang=$(basename ${language} | sed 's/zh_CN/zh_rCN/' | sed 's/zh_TW/zh_rTW/' | sed 's/pt_BR/pt_rBR/' | tr '_' '-' )
     dst_path="${PROJDIR}/app/src/main/res/values-${lang}/"
     mkdir -p $dst_path
     cp probe-mobile/${language}/strings.xml $dst_path
