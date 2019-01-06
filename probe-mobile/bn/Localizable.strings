@@ -63,7 +63,7 @@
 "TestResults.Overview.Hero.DataUsage" = "Data Usage";
 "TestResults.Overview.FilterTests" = "Filter Tests";
 "TestResults.Overview.FilterTests.AllTests" = "All Tests";
-"TestResults.Overview.FilterTests.Websites" = "Websites";
+"TestResults.Overview.FilterTests.Websites" = "ওয়েবসাইট গুলো";
 "TestResults.Overview.FilterTests.MiddleBoxes" = "Middleboxes";
 "TestResults.Overview.FilterTests.Performance" = "Performance";
 "TestResults.Overview.FilterTests.InstantMessaging" = "Instant Messaging";
@@ -79,9 +79,9 @@
 "TestResults.Overview.InstantMessaging.Blocked.Plural" = "%@ blocked";
 "TestResults.Overview.InstantMessaging.Available.Singular" = "%@ accessible";
 "TestResults.Overview.InstantMessaging.Available.Plural" = "%@ accessible";
-"TestResults.Summary.Hero.DateAndTime" = "Date & Time";
+"TestResults.Summary.Hero.DateAndTime" = "তারিখ ও সময়";
 "TestResults.Summary.Hero.Network" = "Network";
-"TestResults.Summary.Hero.Country" = "Country";
+"TestResults.Summary.Hero.Country" = "দেশ";
 "TestResults.Summary.Hero.DataUsage" = "Data Usage";
 "TestResults.Summary.Hero.Runtime" = "Total Runtime";
 "TestResults.Summary.Hero.WiFi" = "WiFi";
@@ -92,7 +92,7 @@
 "TestResults.Summary.Websites.Hero.Blocked.Singular" = "Blocked";
 "TestResults.Summary.Websites.Hero.Blocked.Plural" = "Blocked";
 "TestResults.Summary.Websites.Hero.Sites.Singular" = "Website";
-"TestResults.Summary.Websites.Hero.Sites.Plural" = "Websites";
+"TestResults.Summary.Websites.Hero.Sites.Plural" = "ওয়েবসাইট গুলো";
 "TestResults.Summary.Websites.Hero.Reachable.Singular" = "Accessible";
 "TestResults.Summary.Websites.Hero.Reachable.Plural" = "Accessible";
 "TestResults.Summary.Performance.Hero.Video" = "Video";
@@ -212,7 +212,7 @@
 "Snackbar.ResultsNotUploaded.Upload" = "Upload";
 "Snackbar.ResultsSomeNotUploaded.Text" = "Some not uploaded";
 "Snackbar.ResultsSomeNotUploaded.UploadAll" = "Upload All";
-"Test.Websites.Fullname" = "Websites";
+"Test.Websites.Fullname" = "ওয়েবসাইট গুলো";
 "Test.InstantMessaging.Fullname" = "Instant Messaging";
 "Test.Middleboxes.Fullname" = "Middleboxes";
 "Test.Performance.Fullname" = "Performance";

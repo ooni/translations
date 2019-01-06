@@ -71,7 +71,7 @@
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
-        <target>Você pode medir a velocidade e o desempenho da sua rede executando a implementação do Teste de Diagnóstico de Rede (NDT) da OONI. Você também pode medir o desempenho do streaming de vídeo com o Streaming Adaptativo Dinâmico no teste HTTP (DASH).</target>
+        <target>Você pode medir a velocidade e o desempenho da sua rede executando a implementação do Teste de Diagnóstico de Rede (NDT) da OONI. Você também pode medir o desempenho da transmissão de vídeo com o teste Network Dynamic Adaptive Streaming em HTTP (DASH).</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>

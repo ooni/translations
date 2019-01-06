@@ -118,7 +118,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Zugänglich";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ ist zugänglich.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Wahrscheinlich blockiert";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ ist wahrscheinlich blockiert wegen %@.\n\nHinweis: Falsch positive können auftreten. Erfahre [hier](https://ooni.io/nettest/web-connectivity/) mehr dazu.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ ist wahrscheinlich blockiert wegen %@.\n\nHinweis: Falsch positive Ergebnisse können auftreten. Erfahre [hier](https://ooni.io/nettest/web-connectivity/) mehr dazu.";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Zensurumgehung";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**DNS-Manipulation**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**TCP/IP basiertes Blocken**";
@@ -238,7 +238,7 @@
 "Settings.AutomatedTesting.Enabled" = "&Aktiv";
 "Settings.AutomatedTesting.EnabledTests" = "Aktivierte Tests";
 "Settings.AutomatedTesting.Categories.Label" = "Kategorien";
-"Settings.AutomatedTesting.Categories.Title" = "Zu testende Website Kategorien";
+"Settings.AutomatedTesting.Categories.Title" = "Zu testende Webseiten-Kategorien";
 "Settings.AutomatedTesting.Categories.Subtitle" = "%@ aktivierte Kategorien";
 "Settings.AutomatedTesting.MonthlyMobileAllowance" = "Monatliches mobiles Datenvolumen";
 "Settings.AutomatedTesting.MonthlyWiFiAllowance" = "Monatliches WLAN Datenvolumen";
@@ -255,7 +255,7 @@
 "Settings.Advanced.DebugLogs" = "Fehlerprotokolle";
 "Settings.Advanced.UseDomainFronting" = "Immer Domain Fronting benutzen";
 "Settings.Websites.MaxRuntime" = "Testdauer";
-"Settings.Websites.Categories.Label" = "Zu testende Website Kategorien";
+"Settings.Websites.Categories.Label" = "Zu testende Webseiten-Kategorien";
 "Settings.Websites.Categories.Description" = "%@ aktivierte Kategorien";
 "Settings.Websites.CustomURL.Title" = "Wähle Webseiten zum testen aus";
 "Settings.Websites.CustomURL.URL" = "URL";
