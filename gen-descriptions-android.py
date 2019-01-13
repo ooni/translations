@@ -8,19 +8,28 @@ short_description_tmpl = u"{shortdescription-android}"
 
 full_description_tmpl = u"""
 {intro}
+
 {intro2}
+
 {intro3}
+
 {intro4}
+
 <b>{evidence-title}</b>
 {evidence-description}
+
 <b>{systems-title}</b>
 {systems-description}
+
 <b>{speed-title}</b>
 {speed-description}
+
 <b>{opendata-title}</b>
 {opendata-description}
+
 <b>{freesoftware-title}</b>
 {freesoftware-description}
+
 {social-links}
 """
 screenshots_tmpl = u"""

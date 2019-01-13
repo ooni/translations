@@ -10,19 +10,28 @@ promotionaltext_tmpl = u"{promotionaltext-ios}"
 
 full_description_tmpl = u"""
 {intro}
+
 {intro2}
+
 {intro3}
+
 {intro4}
+
 ▶ {evidence-title}
 {evidence-description}
+
 ▶ {systems-title}
 {systems-description}
+
 ▶ {speed-title}
 {speed-description}
+
 ▶ {opendata-title}
 {opendata-description}
+
 ▶ {freesoftware-title}
 {freesoftware-description}
+
 {social-links}
 """
 screenshots_tmpl = u"""
