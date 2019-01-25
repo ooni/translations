@@ -9,7 +9,7 @@
   <string name="Onboarding_ThingsToKnow_Bullet_2">Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_3">You might test banned websites (but you can choose which sites to test).</string>
   <string name="Onboarding_ThingsToKnow_Button">Porozumel som</string>
-  <string name="Onboarding_ThingsToKnow_LearnMore">Learn more</string>
+  <string name="Onboarding_ThingsToKnow_LearnMore">Zistite viac</string>
   <string name="Onboarding_PopQuiz_Title">Pop Quiz</string>
   <string name="Onboarding_PopQuiz_True">Pravda</string>
   <string name="Onboarding_PopQuiz_False">Nepravda</string>
@@ -23,7 +23,7 @@
   <string name="Onboarding_PopQuiz_2_Question">Every time I run OONI Probe, the network data I collect will automatically get published.</string>
   <string name="Onboarding_PopQuiz_2_Wrong_Title">Varovanie</string>
   <string name="Onboarding_PopQuiz_2_Wrong_Paragraph">To increase transparency of internet censorship, the network data of all OONI Probe users is automatically published (unless they opt-out in the settings).</string>
-  <string name="Onboarding_DefaultSettings_Title">Default Settings</string>
+  <string name="Onboarding_DefaultSettings_Title">Predvolené nastavenia</string>
   <string name="Onboarding_DefaultSettings_Header">We collect and publish:</string>
   <string name="Onboarding_DefaultSettings_Bullet_1">Country code (e.g. IT for Italy)</string>
   <string name="Onboarding_DefaultSettings_Bullet_2">Network information (including Autonomous System Number)</string>
@@ -230,7 +230,7 @@
   <string name="Settings_Error_TestDurationTooLow">The amount of time you have set for the test duration is too low.</string>
   <string name="Settings_About_Label">About OONI</string>
   <string name="Settings_About_Content_Paragraph">The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.\n\nSince 2012, OONI\'s global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.</string>
-  <string name="Settings_About_Content_LearnMore">Learn more</string>
+  <string name="Settings_About_Content_LearnMore">Zistite viac</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>
   <string name="Settings_Notifications_Label">Oznámenia</string>
   <string name="Settings_Notifications_Enabled">Povolené</string>

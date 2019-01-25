@@ -29,7 +29,7 @@
 "Onboarding.DefaultSettings.Paragraph" = "We do our best not to publish your IP address or any other potentially personally-identifiable information.\n\nLearn more through [OONI's Data Policy](https://ooni.io/about/data-policy/).";
 "Onboarding.DefaultSettings.Button.Go" = "Let's go";
 "Onboarding.DefaultSettings.Button.Change" = "Change defaults";
-"Dashboard.Tab.Label" = "Dashboard";
+"Dashboard.Tab.Label" = "Панель управління";
 "Dashboard.Card.Run" = "Run";
 "Dashboard.Overview.LastRun.Never" = "N/A";
 "Dashboard.Overview.Run" = "Run";
@@ -184,7 +184,7 @@
 "Feed.Title" = "Feed";
 "Modal.OK" = "Гаразд";
 "Modal.Cancel" = "Cancel";
-"Modal.Delete" = "Delete";
+"Modal.Delete" = "Видалити";
 "Modal.Error" = "Error";
 "Modal.Error.NoInternet" = "Unable to run the test. Please check your internet connectivity.";
 "Modal.Error.CantDownloadURLs" = "Unable to download URL list. Please try again.";

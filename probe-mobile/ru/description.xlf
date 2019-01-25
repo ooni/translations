@@ -16,6 +16,7 @@
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
+          <target>OONI Probe - измеряйте интернет-цензуру и скорость</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
@@ -25,6 +26,7 @@
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <target>Собирайте доказательства интернет-цензуры. Измеряйте скорость и производительность вашей сети.</target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
@@ -32,12 +34,15 @@
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
+        <target>С помощью этого приложения вы сможете исследовать блокировки веб-сайтов и мессенджеров, измерять скорость и производительность вашей сети и проверять наличие в вашей сети систем, отвечающих за цензуру и слежку.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
+        <target>OONI Probe разрабатывается Открытой Обсерваторией Сетевых Помех (Open Observatory of Network Interference, OONI). OONI Probe является свободным программным обеспечением (в рамках The Tor Project), направленное на раскрытие фактов интернет-цензуры во всем мире.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
+        <target>С 2012 года мировое сообщество OONI собрало миллионы сетевых измерений из более чем 200 стран, проливая свет на многочисленные случаи сетевых помех.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>

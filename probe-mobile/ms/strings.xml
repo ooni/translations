@@ -99,7 +99,7 @@
   <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Accessible</string>
   <string name="TestResults_Summary_Performance_Hero_Video">Video</string>
   <string name="TestResults_Summary_Performance_Hero_Video_Quality">Quality</string>
-  <string name="TestResults_Summary_Performance_Hero_Upload">Upload</string>
+  <string name="TestResults_Summary_Performance_Hero_Upload">Muat naik</string>
   <string name="TestResults_Summary_Performance_Hero_Download">Muat Turun</string>
   <string name="TestResults_Summary_Performance_Hero_Ping">Ping</string>
   <string name="TestResults_Summary_Middleboxes_Hero_Found">Detected</string>
@@ -169,7 +169,7 @@
   <string name="TestResults_Details_Middleboxes_HTTPHeaderFieldManipulation_Found_Content_Paragraph">Network traffic was manipulated when contacting our control servers.\n\nThis means that there may be a middlebox in your network, which could be responsible for censorship and/or surveillance.</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_YouSent">You Sent</string>
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_YouReceived">You Received</string>
-  <string name="TestResults_Details_Performance_NDT_Upload">Upload</string>
+  <string name="TestResults_Details_Performance_NDT_Upload">Muat naik</string>
   <string name="TestResults_Details_Performance_NDT_Download">Muat Turun</string>
   <string name="TestResults_Details_Performance_NDT_Ping">Ping</string>
   <string name="TestResults_Details_Performance_NDT_Server">Server</string>
@@ -196,7 +196,7 @@
   <string name="Modal_ResultsNotUploaded_Title">Results not uploaded</string>
   <string name="Modal_ResultsNotUploaded_Paragraph">Some of your test results have not been uploaded to OONI servers. If you\'d like to contribute to OONI\'s dataset, please upload them.</string>
   <string name="Modal_ResultsNotUploaded_Button_Cancel">Cancel</string>
-  <string name="Modal_ResultsNotUploaded_Button_Upload">Upload</string>
+  <string name="Modal_ResultsNotUploaded_Button_Upload">Muat naik</string>
   <string name="Modal_EnableNotifications_AutomatedTesting">Enable notification permissions to run tests automatically.</string>
   <string name="Modal_EnableNotifications_News">Enable notification permissions to receive news updates.</string>
   <string name="Modal_EnableNotifications_Any">Enable notification permissions to receive push notifications.</string>
@@ -211,7 +211,7 @@
   <string name="Modal_CustomURL_NotSaved">Your URLs will not be saved when you leave this screen. Are you sure you want to leave this screen?</string>
   <string name="Toast_CopiedToClipboard">Copied into clipboard</string>
   <string name="Snackbar_ResultsNotUploaded_Text">Not uploaded</string>
-  <string name="Snackbar_ResultsNotUploaded_Upload">Upload</string>
+  <string name="Snackbar_ResultsNotUploaded_Upload">Muat naik</string>
   <string name="Snackbar_ResultsSomeNotUploaded_Text">Some not uploaded</string>
   <string name="Snackbar_ResultsSomeNotUploaded_UploadAll">Upload All</string>
   <string name="Test_Websites_Fullname">Websites</string>
