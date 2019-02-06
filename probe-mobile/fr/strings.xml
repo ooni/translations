@@ -28,7 +28,7 @@
   <string name="Onboarding_DefaultSettings_Bullet_1">Le code de pays (p. ex. IT pour Italie)</string>
   <string name="Onboarding_DefaultSettings_Bullet_2">Des renseignements sur le réseau (dont le numéro de système autonome)</string>
   <string name="Onboarding_DefaultSettings_Bullet_3">L’estampille temporelle du test</string>
-  <string name="Onboarding_DefaultSettings_Paragraph">Nous faisons de notre mieux pour ne pas publier votre adresse IP ou toute autre information nominative.\n\nApprenez-en davantage dans la [Politique sur les données de l’OONI] (https://ooni.io/about/data-policy/).</string>
+  <string name="Onboarding_DefaultSettings_Paragraph">Nous faisons de notre mieux pour ne pas publier votre adresse IP ou toute autre information nominative.\n\nApprenez-en davantage dans la [Politique sur les données de l’OONI](https://ooni.io/about/data-policy/).</string>
   <string name="Onboarding_DefaultSettings_Button_Go">Allons-y</string>
   <string name="Onboarding_DefaultSettings_Button_Change">Modifier les paramètres</string>
   <string name="Dashboard_Tab_Label">Tableau de bord</string>
@@ -255,7 +255,7 @@
   <string name="Settings_Advanced_Label">Avancés</string>
   <string name="Settings_Advanced_SendCrashReports">Envoyer des rapports de plantage</string>
   <string name="Settings_Advanced_DebugLogs">Journaux de débogage</string>
-  <string name="Settings_Advanced_UseDomainFronting">Toujours utiliser la dissimulation du domaine</string>
+  <string name="Settings_Advanced_UseDomainFronting">Toujours utiliser un domaine-écran</string>
   <string name="Settings_Websites_MaxRuntime">Durée du test</string>
   <string name="Settings_Websites_Categories_Label">Catégories de sites Web à tester</string>
   <string name="Settings_Websites_Categories_Description">%1$s catégories sont activées</string>
