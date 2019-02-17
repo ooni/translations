@@ -9,7 +9,7 @@
   <string name="Onboarding_ThingsToKnow_Bullet_2">Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_3">You might test banned websites (but you can choose which sites to test).</string>
   <string name="Onboarding_ThingsToKnow_Button">I understand</string>
-  <string name="Onboarding_ThingsToKnow_LearnMore">Learn more</string>
+  <string name="Onboarding_ThingsToKnow_LearnMore">Gouzout hiroc\'h</string>
   <string name="Onboarding_PopQuiz_Title">Pop Quiz</string>
   <string name="Onboarding_PopQuiz_True">True</string>
   <string name="Onboarding_PopQuiz_False">False</string>
@@ -230,7 +230,7 @@
   <string name="Settings_Error_TestDurationTooLow">The amount of time you have set for the test duration is too low.</string>
   <string name="Settings_About_Label">About OONI</string>
   <string name="Settings_About_Content_Paragraph">The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.\n\nSince 2012, OONI\'s global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.</string>
-  <string name="Settings_About_Content_LearnMore">Learn more</string>
+  <string name="Settings_About_Content_LearnMore">Gouzout hiroc\'h</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>
   <string name="Settings_Notifications_Label">Notifications</string>
   <string name="Settings_Notifications_Enabled">Bevaet</string>
