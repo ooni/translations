@@ -204,7 +204,7 @@
   <string name="Modal_OldTestsDetected">पुराने परिणाम हटा दिए जाएंगे। चिंता न करें, आप उन्हें हमेशा OONI एक्सप्लोरर और OONI API में पा सकते हैं।</string>
   <string name="Modal_DoYouWantToDeleteAllTests">क्या आप सभी परीक्षण परिणामों को हटाना चाहते हैं?</string>
   <string name="Modal_DoYouWantToDeleteThisTest">क्या आप इस परीक्षा को मिटाना चाहते हैं?</string>
-  <string name="Modal_CantDeactivate">निष्क्रिय नहीं कर सकता</string>
+  <string name="Modal_CantDeactivate">Can\'t disable</string>
   <string name="Modal_OnlyDigits">कृपया इस क्षेत्र में केवल अंक डालें।</string>
   <string name="Modal_ReRun_Title">परीक्षण फिर से चलाएं</string>
   <string name="Modal_ReRun_Paragraph">यह परीक्षण विफल रहा है। परीक्षण फिर से चलाएं?</string>
@@ -278,6 +278,8 @@
   <string name="Settings_Performance_DashAutomaticServerSelection">स्वचालित DASH सर्वर चयन</string>
   <string name="Settings_Performance_DashServerAddress">DASH सर्वर</string>
   <string name="Settings_Performance_DashServerPort">DASH server port</string>
+  <string name="Settings_SendEmail_Label">Send email to support</string>
+  <string name="Settings_SendEmail_Error">No email clients configured on your device</string>
   <string name="Notification_FinishedRunning">समाप्त हो रहा है</string>
   <string name="OONIBrowser_TryMirror">दर्पण की कोशिश करो</string>
   <string name="OONIBrowser_Loading">लोड हो रहा है ...</string>
@@ -294,7 +296,7 @@
   <string name="OONIRun_InvalidParameter">अमान्य मापदंड</string>
   <string name="OONIRun_InvalidParameter_Msg">OONI रन लिंक या तो विकृत है या आपका ऐप पुराना है।</string>
   <string name="OONIRun_RandomSamplingOfURLs">आप वेबसाइटों के यादृच्छिक नमूने का परीक्षण करेंगे।</string>
-  <string name="OONIRun_TestRunningError">कृपया OONI रन खोलने से पहले परीक्षण समाप्त होने की प्रतीक्षा करें।</string>
+  <string name="OONIRun_TestRunningError">Please wait for the test to finish running before tapping on an OONI Run link.</string>
   <string name="CategoryCode_ALDR_Name">ड्रग्स और शराब</string>
   <string name="CategoryCode_REL_Name">धर्म</string>
   <string name="CategoryCode_PORN_Name">कामोद्दीपक चित्र</string>
@@ -311,7 +313,7 @@
   <string name="CategoryCode_ANON_Name">परिचलन उपकरण</string>
   <string name="CategoryCode_DATE_Name">इंटरनेट पर प्यार की बातें</string>
   <string name="CategoryCode_GRP_Name">सामाजिक नेटवर्किंग</string>
-  <string name="CategoryCode_LGBT_Name">एलजीबीटी</string>
+  <string name="CategoryCode_LGBT_Name">LGBTQ+</string>
   <string name="CategoryCode_FILE_Name">फ़ाइल साझा करना</string>
   <string name="CategoryCode_HACK_Name">हैकिंग उपकरण</string>
   <string name="CategoryCode_COMT_Name">संचार के साधन</string>
@@ -342,7 +344,7 @@
   <string name="CategoryCode_ANON_Description">गुमनामी, सेंसरशिप परिधि और एन्क्रिप्शन</string>
   <string name="CategoryCode_DATE_Description">ऑनलाइन डेटिंग साइटें</string>
   <string name="CategoryCode_GRP_Description">ऑनलाइन सोशल नेटवर्किंग टूल और प्लेटफॉर्म</string>
-  <string name="CategoryCode_LGBT_Description">LGBTQI संबंधित समुदाय संबंधित मुद्दों (अश्लील साहित्य को छोड़कर) पर चर्चा कर रहा है</string>
+  <string name="CategoryCode_LGBT_Description">LGBTQ+ communities discussing related issues (excluding pornography)</string>
   <string name="CategoryCode_FILE_Description">क्लाउड-आधारित फ़ाइल संग्रहण, टोरेंट और पी 2 पी सहित फ़ाइल साझाकरण</string>
   <string name="CategoryCode_HACK_Description">कंप्यूटर सुरक्षा उपकरण और समाचार</string>
   <string name="CategoryCode_COMT_Description">वीओआईपी, संदेश और वेबमेल सहित व्यक्तिगत और समूह संचार उपकरण</string>

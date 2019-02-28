@@ -202,7 +202,7 @@
 "Modal.OldTestsDetected" = "Alte Ergebnisse werden gelöscht. Keine Sorge, du kannst diese jederzeit im OONI Explorer und der OONI API finden.";
 "Modal.DoYouWantToDeleteAllTests" = "Möchtest du alle Testergebnisse löschen?";
 "Modal.DoYouWantToDeleteThisTest" = "Möchtest du diesen Test löschen?";
-"Modal.CantDeactivate" = "Kann nicht deaktiviert werden";
+"Modal.CantDeactivate" = "Can't disable";
 "Modal.OnlyDigits" = "Bitte gib nur Ziffern in dieses Feld ein.";
 "Modal.ReRun.Title" = "Wiederhole Test";
 "Modal.ReRun.Paragraph" = "Dieser Test ist fehlgeschlagen. Erneut ausführen?";
@@ -276,6 +276,8 @@
 "Settings.Performance.DashAutomaticServerSelection" = "Automatische DASH Serverauswahl";
 "Settings.Performance.DashServerAddress" = "DASH-Server";
 "Settings.Performance.DashServerPort" = "DASH-Serverport";
+"Settings.SendEmail.Label" = "Send email to support";
+"Settings.SendEmail.Error" = "No email clients configured on your device";
 "Notification.FinishedRunning" = "Vollständig ausgeführt";
 "OONIBrowser.TryMirror" = "Versuche Mirror";
 "OONIBrowser.Loading" = "Lade...";
@@ -292,7 +294,7 @@
 "OONIRun.InvalidParameter" = "Ungültiger Parameter";
 "OONIRun.InvalidParameter.Msg" = "Der OONI Run-Link ist entweder fehlerhaft oder deine App ist veraltet.";
 "OONIRun.RandomSamplingOfURLs" = "Du wirst eine zufällige Auswahl von Webseiten testen.";
-"OONIRun.TestRunningError" = "Bitte warte, bis der Test abgeschlossen ist, bevor du OONI Run öffnest.\n";
+"OONIRun.TestRunningError" = "Please wait for the test to finish running before tapping on an OONI Run link.";
 "CategoryCode.ALDR.Name" = "Drogen & Alkohol";
 "CategoryCode.REL.Name" = "Religion";
 "CategoryCode.PORN.Name" = "Pornografie";
@@ -309,7 +311,7 @@
 "CategoryCode.ANON.Name" = "Umgehungswerkzeuge";
 "CategoryCode.DATE.Name" = "Online-Dating";
 "CategoryCode.GRP.Name" = "Soziale Netzwerke";
-"CategoryCode.LGBT.Name" = "LGBT";
+"CategoryCode.LGBT.Name" = "LGBTQ+";
 "CategoryCode.FILE.Name" = "Datenaustausch";
 "CategoryCode.HACK.Name" = "Hacking-Werkzeuge";
 "CategoryCode.COMT.Name" = "Kommunikations-Werkzeuge";
@@ -340,7 +342,7 @@
 "CategoryCode.ANON.Description" = "Anonymisierung, Zensurumgehung und Verschlüsselung";
 "CategoryCode.DATE.Description" = "Online-Dating-Seiten";
 "CategoryCode.GRP.Description" = "Online-Tools für soziale Netzwerke und Plattformen";
-"CategoryCode.LGBT.Description" = "Gemeinschaften um LGBTQI, welche thematisch verwandte Themen (außer Pornografie) diskutieren";
+"CategoryCode.LGBT.Description" = "LGBTQ+ communities discussing related issues (excluding pornography)";
 "CategoryCode.FILE.Description" = "Datentausch inklusive Cloud-basierter Dateispeicherung, Torrents und P2P";
 "CategoryCode.HACK.Description" = "Tools und Neuigkeiten im Bezug auf Computersicherheit ";
 "CategoryCode.COMT.Description" = "Kommunikationswerkzeuge für Einzelpersonen und Gruppen, inklusive VoIP, Messaging und Webmail";

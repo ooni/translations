@@ -204,7 +204,7 @@
   <string name="Modal_OldTestsDetected">The old results will be deleted. Don\'t worry, you can always find them in OONI Explorer and in the OONI API.</string>
   <string name="Modal_DoYouWantToDeleteAllTests">Do you want to delete all test results?</string>
   <string name="Modal_DoYouWantToDeleteThisTest">Do you want to delete this test?</string>
-  <string name="Modal_CantDeactivate">Can\'t deactivate</string>
+  <string name="Modal_CantDeactivate">Can\'t disable</string>
   <string name="Modal_OnlyDigits">Please insert only digits in this field.</string>
   <string name="Modal_ReRun_Title">Re-run test</string>
   <string name="Modal_ReRun_Paragraph">This test has failed. Re-run the test?</string>
@@ -278,6 +278,8 @@
   <string name="Settings_Performance_DashAutomaticServerSelection">Automatic DASH server selection</string>
   <string name="Settings_Performance_DashServerAddress">DASH server</string>
   <string name="Settings_Performance_DashServerPort">DASH server port</string>
+  <string name="Settings_SendEmail_Label">Send email to support</string>
+  <string name="Settings_SendEmail_Error">No email clients configured on your device</string>
   <string name="Notification_FinishedRunning">Finished running</string>
   <string name="OONIBrowser_TryMirror">Try mirror</string>
   <string name="OONIBrowser_Loading">Načítava sa...</string>
@@ -294,7 +296,7 @@
   <string name="OONIRun_InvalidParameter">Invalid parameter</string>
   <string name="OONIRun_InvalidParameter_Msg">The OONI Run link is either malformed or your app is out of date.</string>
   <string name="OONIRun_RandomSamplingOfURLs">You will test a random sample of websites.</string>
-  <string name="OONIRun_TestRunningError">Please wait for the test to finish running before opening OONI Run.</string>
+  <string name="OONIRun_TestRunningError">Please wait for the test to finish running before tapping on an OONI Run link.</string>
   <string name="CategoryCode_ALDR_Name">Drugs &amp; Alcohol</string>
   <string name="CategoryCode_REL_Name">Religion</string>
   <string name="CategoryCode_PORN_Name">Pornography</string>
@@ -311,7 +313,7 @@
   <string name="CategoryCode_ANON_Name">Circumvention tools</string>
   <string name="CategoryCode_DATE_Name">Online Dating</string>
   <string name="CategoryCode_GRP_Name">Social Networking</string>
-  <string name="CategoryCode_LGBT_Name">LGBT</string>
+  <string name="CategoryCode_LGBT_Name">LGBTQ+</string>
   <string name="CategoryCode_FILE_Name">File-sharing</string>
   <string name="CategoryCode_HACK_Name">Hacking Tools</string>
   <string name="CategoryCode_COMT_Name">Communication Tools</string>
@@ -342,7 +344,7 @@
   <string name="CategoryCode_ANON_Description">Anonymization, censorship circumvention and encryption</string>
   <string name="CategoryCode_DATE_Description">Online dating sites</string>
   <string name="CategoryCode_GRP_Description">Online social networking tools and platforms</string>
-  <string name="CategoryCode_LGBT_Description">LGBTQI related communities discussing related issues (excluding pornography)</string>
+  <string name="CategoryCode_LGBT_Description">LGBTQ+ communities discussing related issues (excluding pornography)</string>
   <string name="CategoryCode_FILE_Description">File sharing including cloud-based file storage, torrents and P2P</string>
   <string name="CategoryCode_HACK_Description">Computer security tools and news</string>
   <string name="CategoryCode_COMT_Description">Individual and group communication tools including VoIP, messaging and webmail</string>

@@ -202,7 +202,7 @@
 "Modal.OldTestsDetected" = "The old results will be deleted. Don't worry, you can always find them in OONI Explorer and in the OONI API.";
 "Modal.DoYouWantToDeleteAllTests" = "Desexa eliminar tódolos resultados do test?";
 "Modal.DoYouWantToDeleteThisTest" = "Desexa borrar este test?";
-"Modal.CantDeactivate" = "Can't deactivate";
+"Modal.CantDeactivate" = "Can't disable";
 "Modal.OnlyDigits" = "Please insert only digits in this field.";
 "Modal.ReRun.Title" = "Re-executar o test";
 "Modal.ReRun.Paragraph" = "Fallou o test. Re-executar o test?";
@@ -276,6 +276,8 @@
 "Settings.Performance.DashAutomaticServerSelection" = "Automatic DASH server selection";
 "Settings.Performance.DashServerAddress" = "DASH server";
 "Settings.Performance.DashServerPort" = "DASH server port";
+"Settings.SendEmail.Label" = "Send email to support";
+"Settings.SendEmail.Error" = "No email clients configured on your device";
 "Notification.FinishedRunning" = "Finished running";
 "OONIBrowser.TryMirror" = "Try mirror";
 "OONIBrowser.Loading" = "Cargando...";
@@ -292,7 +294,7 @@
 "OONIRun.InvalidParameter" = "Parámetros non válidos";
 "OONIRun.InvalidParameter.Msg" = "The OONI Run link is either malformed or your app is out of date.";
 "OONIRun.RandomSamplingOfURLs" = "You will test a random sample of websites.";
-"OONIRun.TestRunningError" = "Please wait for the test to finish running before opening OONI Run.";
+"OONIRun.TestRunningError" = "Please wait for the test to finish running before tapping on an OONI Run link.";
 "CategoryCode.ALDR.Name" = "Drogas e Alcohol";
 "CategoryCode.REL.Name" = "Relixión";
 "CategoryCode.PORN.Name" = "Pornografía";
@@ -309,7 +311,7 @@
 "CategoryCode.ANON.Name" = "Circumvention tools";
 "CategoryCode.DATE.Name" = "Citas en Liña";
 "CategoryCode.GRP.Name" = "Redes Sociais";
-"CategoryCode.LGBT.Name" = "LGTB";
+"CategoryCode.LGBT.Name" = "LGBTQ+";
 "CategoryCode.FILE.Name" = "File-sharing";
 "CategoryCode.HACK.Name" = "Ferramentas de Hacking";
 "CategoryCode.COMT.Name" = "Ferramentas de Comunicación";
@@ -340,7 +342,7 @@
 "CategoryCode.ANON.Description" = "Anonymization, censorship circumvention and encryption";
 "CategoryCode.DATE.Description" = "Sitios de citas en liña";
 "CategoryCode.GRP.Description" = "Online social networking tools and platforms";
-"CategoryCode.LGBT.Description" = "LGBTQI related communities discussing related issues (excluding pornography)";
+"CategoryCode.LGBT.Description" = "LGBTQ+ communities discussing related issues (excluding pornography)";
 "CategoryCode.FILE.Description" = "File sharing including cloud-based file storage, torrents and P2P";
 "CategoryCode.HACK.Description" = "Computer security tools and news";
 "CategoryCode.COMT.Description" = "Individual and group communication tools including VoIP, messaging and webmail";
