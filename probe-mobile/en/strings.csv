@@ -38,7 +38,7 @@ Onboarding.DefaultSettings.Button.Go,Let's go,12
 Onboarding.DefaultSettings.Button.Change,Change defaults,25
 Dashboard.Tab.Label,Dashboard,12
 Dashboard.Card.Run,Run,8
-Dashboard.Overview.LastRun.Never,N/A,
+Dashboard.Overview.LastRun.Never,N/A,3
 Dashboard.Overview.Run,Run,8
 Dashboard.Overview.LatestTest,Last test:,
 Dashboard.Overview.Estimated,Estimated:,
@@ -83,7 +83,7 @@ TestResults.Gbps,Gbps,
 TestResults.Mbps,Mbps,
 TestResults.Kbps,Kbps,
 TestResults.ms,ms,
-TestResults.NotAvailable,N/A,
+TestResults.NotAvailable,N/A,3
 TestResults.UnknownASN,Unknown,
 TestResults.Overview.Title,Test Results,
 TestResults.Overview.Tab.Label,Test Results,24
