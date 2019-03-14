@@ -12,6 +12,7 @@ fi
 source supported_languages_mobile.sh
 
 ./update-translations.sh
+cp probe-mobile/en/strings.xml ${PROJDIR}/app/src/main/res/values/
 for language in "${SUPPORTED_LANGUAGES[@]}";do
     lang=$(basename ${language} | sed 's/zh_CN/zh_rCN/' | sed 's/zh_TW/zh_rTW/' | sed 's/pt_BR/pt_rBR/' | tr '_' '-' )
     dst_path="${PROJDIR}/app/src/main/res/values-${lang}/"
