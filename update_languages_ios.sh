@@ -12,7 +12,7 @@ fi
 source supported_languages_mobile.sh
 
 ./update-translations.sh
-cp probe-mobile/en//Localizable.strings ${PROJDIR}/ooniprobe/Base.lproj/
+cp probe-mobile/en/Localizable.strings ${PROJDIR}/ooniprobe/Base.lproj/
 for language in "${SUPPORTED_LANGUAGES[@]}";do
     lang=$(basename ${language} | sed 's/zh_CN/zh-Hans/' | sed 's/zh_TW/zh-Hant/' | sed 's/pt_BR/pt-BR/')
     dst_path="${PROJDIR}/ooniprobe/${lang}.lproj/"
