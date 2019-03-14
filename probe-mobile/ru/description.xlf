@@ -49,18 +49,22 @@
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
+        <target>Собирайте доказательства интернет-цензуры</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
+        <target>Вы можете проверить, заблокированы ли веб-сайты и мессенджеры и каким образом. Данные измерения сети, которые вы собираете, могут служить доказательством цензуры в интернете.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
+        <target>Обнаруживайте системы, отвечающие за цензуру и слежку</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
+        <target>Измеряйте скорость и работоспособность вашей сети</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
@@ -90,6 +94,7 @@
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
+        <target>Обнаруживайте доказательства наличия интернет-цензуры</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
