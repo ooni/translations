@@ -299,7 +299,7 @@
   <string name="OONIRun_Run">Run</string>
   <string name="OONIRun_OONIProbeOutOfDate">Out of date</string>
   <string name="OONIRun_OONIProbeNewerVersion">You need a newer version of OONI Probe to run this test.</string>
-  <string name="OONIRun_Update">Update</string>
+  <string name="OONIRun_Update">Aktualizovať</string>
   <string name="OONIRun_Close">Zatvoriť</string>
   <string name="OONIRun_InvalidParameter">Invalid parameter</string>
   <string name="OONIRun_InvalidParameter_Msg">The OONI Run link is either malformed or your app is out of date.</string>

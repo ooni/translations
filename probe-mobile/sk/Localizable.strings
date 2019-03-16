@@ -297,7 +297,7 @@
 "OONIRun.Run" = "Run";
 "OONIRun.OONIProbeOutOfDate" = "Out of date";
 "OONIRun.OONIProbeNewerVersion" = "You need a newer version of OONI Probe to run this test.";
-"OONIRun.Update" = "Update";
+"OONIRun.Update" = "Aktualizovať";
 "OONIRun.Close" = "Zatvoriť";
 "OONIRun.InvalidParameter" = "Invalid parameter";
 "OONIRun.InvalidParameter.Msg" = "The OONI Run link is either malformed or your app is out of date.";
