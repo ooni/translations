@@ -14,6 +14,8 @@ def csv_to_dict(in_path):
         next(csv_reader)
         for line_num, row in enumerate(csv_reader):
             key, text, max_len = row
+            if not key:
+                raise RuntimeError("Empty key detected at line: {}".format(line_num))
             text = re.sub(
                 r'\{\{(\w+)\}\}',
                 r'{\1}',
