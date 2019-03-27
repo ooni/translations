@@ -214,7 +214,7 @@
   <string name="Modal_ManualUpload_Title">Enable Manual Upload?</string>
   <string name="Modal_ManualUpload_Paragraph">This setting allows you to manually re-upload unpublished measurements.</string>
   <string name="Modal_ManualUpload_Enable">Увімкнути</string>
-  <string name="Modal_ManualUpload_Disable">No, thanks</string>
+  <string name="Modal_ManualUpload_Disable">Ні, дякую</string>
   <string name="Toast_CopiedToClipboard">Copied into clipboard</string>
   <string name="Snackbar_ResultsNotUploaded_Text">Not uploaded</string>
   <string name="Snackbar_ResultsNotUploaded_Upload">Upload</string>
@@ -285,6 +285,9 @@
   <string name="Settings_Performance_DashAutomaticServerSelection">Automatic DASH server selection</string>
   <string name="Settings_Performance_DashServerAddress">DASH server</string>
   <string name="Settings_Performance_DashServerPort">DASH server port</string>
+  <string name="Settings_MoreInformation">Детальніше</string>
+  <string name="Settings_Methodology_Title">Methodology</string>
+  <string name="Settings_Methodology_Label">Methodology used for this test</string>
   <string name="Settings_SendEmail_Label">Send email to support</string>
   <string name="Settings_SendEmail_Error">No email clients configured on your device</string>
   <string name="Notification_FinishedRunning">Finished running</string>

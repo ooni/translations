@@ -212,7 +212,7 @@
 "Modal.ManualUpload.Title" = "Enable Manual Upload?";
 "Modal.ManualUpload.Paragraph" = "This setting allows you to manually re-upload unpublished measurements.";
 "Modal.ManualUpload.Enable" = "Увімкнути";
-"Modal.ManualUpload.Disable" = "No, thanks";
+"Modal.ManualUpload.Disable" = "Ні, дякую";
 "Toast.CopiedToClipboard" = "Copied into clipboard";
 "Snackbar.ResultsNotUploaded.Text" = "Not uploaded";
 "Snackbar.ResultsNotUploaded.Upload" = "Upload";
@@ -283,6 +283,9 @@
 "Settings.Performance.DashAutomaticServerSelection" = "Automatic DASH server selection";
 "Settings.Performance.DashServerAddress" = "DASH server";
 "Settings.Performance.DashServerPort" = "DASH server port";
+"Settings.MoreInformation" = "Детальніше";
+"Settings.Methodology.Title" = "Methodology";
+"Settings.Methodology.Label" = "Methodology used for this test";
 "Settings.SendEmail.Label" = "Send email to support";
 "Settings.SendEmail.Error" = "No email clients configured on your device";
 "Notification.FinishedRunning" = "Finished running";
