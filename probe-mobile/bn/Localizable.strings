@@ -113,6 +113,7 @@
 "TestResults.Summary.InstantMessaging.Hero.Apps.Singular" = "অ্যাপ";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Plural" = "অ্যাপ সমূহ";
 "TestResults.Details.Hero.Runtime" = "সক্রিয় সময়";
+"TestResults.Details.Methodology" = "Methodology";
 "TestResults.Details.ViewLog" = "লগ দেখুন";
 "TestResults.Details.RawData" = "ডাটা";
 "TestResults.Details.CopyToClipboard" = "ক্লিপবোর্ডে অনুলিপি করুন";
@@ -283,9 +284,6 @@
 "Settings.Performance.DashAutomaticServerSelection" = "Automatic DASH server selection";
 "Settings.Performance.DashServerAddress" = "DASH server";
 "Settings.Performance.DashServerPort" = "DASH server port";
-"Settings.MoreInformation" = "আরও তথ্য";
-"Settings.Methodology.Title" = "Methodology";
-"Settings.Methodology.Label" = "Methodology used for this test";
 "Settings.SendEmail.Label" = "Send email to support";
 "Settings.SendEmail.Error" = "No email clients configured on your device";
 "Notification.FinishedRunning" = "Finished running";

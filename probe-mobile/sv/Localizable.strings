@@ -113,6 +113,7 @@
 "TestResults.Summary.InstantMessaging.Hero.Apps.Singular" = "App";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Plural" = "Appar";
 "TestResults.Details.Hero.Runtime" = "Tidsåtgång";
+"TestResults.Details.Methodology" = "Methodology";
 "TestResults.Details.ViewLog" = "Visa logg";
 "TestResults.Details.RawData" = "Data";
 "TestResults.Details.CopyToClipboard" = "Kopiera till urklipp";
@@ -283,9 +284,6 @@
 "Settings.Performance.DashAutomaticServerSelection" = "Automatic DASH server selection";
 "Settings.Performance.DashServerAddress" = "DASH server";
 "Settings.Performance.DashServerPort" = "DASH server port";
-"Settings.MoreInformation" = "Mer information";
-"Settings.Methodology.Title" = "Methodology";
-"Settings.Methodology.Label" = "Methodology used for this test";
 "Settings.SendEmail.Label" = "Send email to support";
 "Settings.SendEmail.Error" = "No email clients configured on your device";
 "Notification.FinishedRunning" = "Finished running";

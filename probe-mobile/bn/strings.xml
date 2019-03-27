@@ -115,6 +115,7 @@
   <string name="TestResults_Summary_InstantMessaging_Hero_Apps_Singular">অ্যাপ</string>
   <string name="TestResults_Summary_InstantMessaging_Hero_Apps_Plural">অ্যাপ সমূহ</string>
   <string name="TestResults_Details_Hero_Runtime">সক্রিয় সময়</string>
+  <string name="TestResults_Details_Methodology">Methodology</string>
   <string name="TestResults_Details_ViewLog">লগ দেখুন</string>
   <string name="TestResults_Details_RawData">ডাটা</string>
   <string name="TestResults_Details_CopyToClipboard">ক্লিপবোর্ডে অনুলিপি করুন</string>
@@ -285,9 +286,6 @@
   <string name="Settings_Performance_DashAutomaticServerSelection">Automatic DASH server selection</string>
   <string name="Settings_Performance_DashServerAddress">DASH server</string>
   <string name="Settings_Performance_DashServerPort">DASH server port</string>
-  <string name="Settings_MoreInformation">আরও তথ্য</string>
-  <string name="Settings_Methodology_Title">Methodology</string>
-  <string name="Settings_Methodology_Label">Methodology used for this test</string>
   <string name="Settings_SendEmail_Label">Send email to support</string>
   <string name="Settings_SendEmail_Error">No email clients configured on your device</string>
   <string name="Notification_FinishedRunning">Finished running</string>
