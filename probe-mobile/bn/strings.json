@@ -200,6 +200,7 @@
   "Modal.ResultsNotUploaded.Title": "Results not uploaded",
   "Modal.ResultsNotUploaded.Paragraph": "Some of your test results have not been uploaded to OONI servers. If you'd like to contribute to OONI's dataset, please upload them.",
   "Modal.ResultsNotUploaded.Button.Upload": "আপলোড",
+  "Modal.ResultsNotUploaded.Uploading": "Uploading {testNumber} ...",
   "Modal.EnableNotifications.AutomatedTesting": "Enable notification permissions to run tests automatically.",
   "Modal.EnableNotifications.News": "Enable notification permissions to receive news updates.",
   "Modal.EnableNotifications.Any": "Enable notification permissions to receive push notifications.",

@@ -191,8 +191,8 @@
   <string name="Feed_Title">Feed</string>
   <string name="Modal_OK">OK</string>
   <string name="Modal_Cancel">Cancel</string>
-  <string name="Modal_Delete">Delete</string>
-  <string name="Modal_Error">Error</string>
+  <string name="Modal_Delete">Futa</string>
+  <string name="Modal_Error">kosa</string>
   <string name="Modal_Error_NoInternet">Unable to run the test. Please check your internet connectivity.</string>
   <string name="Modal_Error_CantDownloadURLs">Unable to download URL list. Please try again.</string>
   <string name="Modal_Error_NotificationNotEnabled">Notification permissions are required. Please enable them in the Settings of your phone and then enable them in your OONI Probe app.</string>
@@ -201,6 +201,7 @@
   <string name="Modal_ResultsNotUploaded_Title">Results not uploaded</string>
   <string name="Modal_ResultsNotUploaded_Paragraph">Some of your test results have not been uploaded to OONI servers. If you\'d like to contribute to OONI\'s dataset, please upload them.</string>
   <string name="Modal_ResultsNotUploaded_Button_Upload">Upload</string>
+  <string name="Modal_ResultsNotUploaded_Uploading">Uploading %1$s ...</string>
   <string name="Modal_EnableNotifications_AutomatedTesting">Enable notification permissions to run tests automatically.</string>
   <string name="Modal_EnableNotifications_News">Enable notification permissions to receive news updates.</string>
   <string name="Modal_EnableNotifications_Any">Enable notification permissions to receive push notifications.</string>
@@ -299,7 +300,7 @@
   <string name="OONIRun_Run">Run</string>
   <string name="OONIRun_OONIProbeOutOfDate">Out of date</string>
   <string name="OONIRun_OONIProbeNewerVersion">You need a newer version of OONI Probe to run this test.</string>
-  <string name="OONIRun_Update">Update</string>
+  <string name="OONIRun_Update">sasisha</string>
   <string name="OONIRun_Close">Close</string>
   <string name="OONIRun_InvalidParameter">Invalid parameter</string>
   <string name="OONIRun_InvalidParameter_Msg">The OONI Run link is either malformed or your app is out of date.</string>
