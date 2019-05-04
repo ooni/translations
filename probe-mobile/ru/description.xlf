@@ -46,6 +46,7 @@
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
+        <target>Запустив OONI Probe, вы помогаете увеличить уровень прозрачности интернет-цензуры.</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
@@ -86,11 +87,13 @@
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
+        <target>Чтобы получать свежие новости из OONI-вселенной, читайте нас в Твиттере: https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
+        <target>Обнаруживайте наличие интернет-цензуры и тестируйте скорость и производительность вашей сети</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
@@ -110,6 +113,7 @@
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
+        <target>Open Observatory of Network Interference (OONI) – это глобальная сеть наблюдателей, занимающихся выявлением цензуры и других форм сетевых помех во всем мире.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>

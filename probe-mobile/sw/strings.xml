@@ -8,7 +8,7 @@
   <string name="Onboarding_ThingsToKnow_Bullet_1">OONI data is openly published and will include your network information.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_2">Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_3">You might test banned websites (but you can choose which sites to test).</string>
-  <string name="Onboarding_ThingsToKnow_Button">I understand</string>
+  <string name="Onboarding_ThingsToKnow_Button">Ninaelewa</string>
   <string name="Onboarding_ThingsToKnow_LearnMore">Learn more</string>
   <string name="Onboarding_PopQuiz_Title">Pop Quiz</string>
   <string name="Onboarding_PopQuiz_True">True</string>
@@ -57,7 +57,7 @@
   <string name="TestResults_Kbps">Kbps</string>
   <string name="TestResults_ms">ms</string>
   <string name="TestResults_NotAvailable">N/A</string>
-  <string name="TestResults_UnknownASN">Unknown</string>
+  <string name="TestResults_UnknownASN">Haijulikani</string>
   <string name="TestResults_Overview_Title">Test Results</string>
   <string name="TestResults_Overview_Tab_Label">Test Results</string>
   <string name="TestResults_Overview_Hero_Tests">Tests</string>
@@ -94,7 +94,7 @@
   <string name="TestResults_Summary_Websites_Hero_Tested_Plural">Tested</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Singular">Blocked</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Plural">Blocked</string>
-  <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Website</string>
+  <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Tovuti</string>
   <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Websites</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Singular">Accessible</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Accessible</string>

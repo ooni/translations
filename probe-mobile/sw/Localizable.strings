@@ -6,7 +6,7 @@
 "Onboarding.ThingsToKnow.Bullet.1" = "OONI data is openly published and will include your network information.";
 "Onboarding.ThingsToKnow.Bullet.2" = "Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.";
 "Onboarding.ThingsToKnow.Bullet.3" = "You might test banned websites (but you can choose which sites to test).";
-"Onboarding.ThingsToKnow.Button" = "I understand";
+"Onboarding.ThingsToKnow.Button" = "Ninaelewa";
 "Onboarding.ThingsToKnow.LearnMore" = "Learn more";
 "Onboarding.PopQuiz.Title" = "Pop Quiz";
 "Onboarding.PopQuiz.True" = "True";
@@ -55,7 +55,7 @@
 "TestResults.Kbps" = "Kbps";
 "TestResults.ms" = "ms";
 "TestResults.NotAvailable" = "N/A";
-"TestResults.UnknownASN" = "Unknown";
+"TestResults.UnknownASN" = "Haijulikani";
 "TestResults.Overview.Title" = "Test Results";
 "TestResults.Overview.Tab.Label" = "Test Results";
 "TestResults.Overview.Hero.Tests" = "Tests";
@@ -92,7 +92,7 @@
 "TestResults.Summary.Websites.Hero.Tested.Plural" = "Tested";
 "TestResults.Summary.Websites.Hero.Blocked.Singular" = "Blocked";
 "TestResults.Summary.Websites.Hero.Blocked.Plural" = "Blocked";
-"TestResults.Summary.Websites.Hero.Sites.Singular" = "Website";
+"TestResults.Summary.Websites.Hero.Sites.Singular" = "Tovuti";
 "TestResults.Summary.Websites.Hero.Sites.Plural" = "Websites";
 "TestResults.Summary.Websites.Hero.Reachable.Singular" = "Accessible";
 "TestResults.Summary.Websites.Hero.Reachable.Plural" = "Accessible";
