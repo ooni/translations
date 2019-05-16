@@ -193,6 +193,7 @@
   <string name="Modal_Cancel">Άκυρο</string>
   <string name="Modal_Delete">Διαγραφή</string>
   <string name="Modal_Error">Σφάλμα</string>
+  <string name="Modal_Retry">Ξαναδοκίμασε</string>
   <string name="Modal_Error_NoInternet">Δεν είναι δυνατή η εκτέλεση της δοκιμής. Έλεγξε τη σύνδεσή σου στο Διαδίκτυο.</string>
   <string name="Modal_Error_CantDownloadURLs">Δεν είναι δυνατή η λήψη της λίστας ιστοσελιδών. Παρακαλώ προσπάθησε ξανά.</string>
   <string name="Modal_Error_NotificationNotEnabled">Χρειάζονται δικαιώματα ειδοποιήσεων. Ενεργοποίησέ τα στις Ρυθμίσεις του τηλεφώνου σου και στην εφαρμογή του OONI Probe.</string>
@@ -217,6 +218,8 @@
   <string name="Modal_ManualUpload_Paragraph">Με αυτή τη ρύθμιση μπορείς να ανεβάσεις χειροκίνητα τις μη δημοσιευμένες μετρήσεις σου.</string>
   <string name="Modal_ManualUpload_Enable">Ενεργοποίηση</string>
   <string name="Modal_ManualUpload_Disable">Όχι, ευχαριστώ</string>
+  <string name="Modal_UploadFailed_Title">Upload failed</string>
+  <string name="Modal_UploadFailed_Paragraph">Would you like to retry or cancel?</string>
   <string name="Toast_CopiedToClipboard">Αντιγράφηκε στο πρόχειρο</string>
   <string name="Snackbar_ResultsNotUploaded_Text">Δεν ανέβηκαν</string>
   <string name="Snackbar_ResultsNotUploaded_Upload">Ανέβασμα</string>
@@ -288,7 +291,7 @@
   <string name="Settings_Performance_DashServerAddress">Διακομιστής DASH</string>
   <string name="Settings_Performance_DashServerPort">Θύρα διακομιστή DASH</string>
   <string name="Settings_SendEmail_Label">Αποστολή email στην υποστήριξη</string>
-  <string name="Settings_SendEmail_Error">Δεν έχει ρυθμιστεί email στη συσκευή σου</string>
+  <string name="Settings_SendEmail_Error">Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap copy to clipboard below to copy our email address.</string>
   <string name="Notification_FinishedRunning">Οι δοκιμές εκτελέστηκαν</string>
   <string name="OONIBrowser_TryMirror">Δοκίμασε mirror</string>
   <string name="OONIBrowser_Loading">Φορτώνεται...</string>

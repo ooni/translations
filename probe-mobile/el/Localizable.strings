@@ -191,6 +191,7 @@
 "Modal.Cancel" = "Άκυρο";
 "Modal.Delete" = "Διαγραφή";
 "Modal.Error" = "Σφάλμα";
+"Modal.Retry" = "Ξαναδοκίμασε";
 "Modal.Error.NoInternet" = "Δεν είναι δυνατή η εκτέλεση της δοκιμής. Έλεγξε τη σύνδεσή σου στο Διαδίκτυο.";
 "Modal.Error.CantDownloadURLs" = "Δεν είναι δυνατή η λήψη της λίστας ιστοσελιδών. Παρακαλώ προσπάθησε ξανά.";
 "Modal.Error.NotificationNotEnabled" = "Χρειάζονται δικαιώματα ειδοποιήσεων. Ενεργοποίησέ τα στις Ρυθμίσεις του τηλεφώνου σου και στην εφαρμογή του OONI Probe.";
@@ -215,6 +216,8 @@
 "Modal.ManualUpload.Paragraph" = "Με αυτή τη ρύθμιση μπορείς να ανεβάσεις χειροκίνητα τις μη δημοσιευμένες μετρήσεις σου.";
 "Modal.ManualUpload.Enable" = "Ενεργοποίηση";
 "Modal.ManualUpload.Disable" = "Όχι, ευχαριστώ";
+"Modal.UploadFailed.Title" = "Upload failed";
+"Modal.UploadFailed.Paragraph" = "Would you like to retry or cancel?";
 "Toast.CopiedToClipboard" = "Αντιγράφηκε στο πρόχειρο";
 "Snackbar.ResultsNotUploaded.Text" = "Δεν ανέβηκαν";
 "Snackbar.ResultsNotUploaded.Upload" = "Ανέβασμα";
@@ -286,7 +289,7 @@
 "Settings.Performance.DashServerAddress" = "Διακομιστής DASH";
 "Settings.Performance.DashServerPort" = "Θύρα διακομιστή DASH";
 "Settings.SendEmail.Label" = "Αποστολή email στην υποστήριξη";
-"Settings.SendEmail.Error" = "Δεν έχει ρυθμιστεί email στη συσκευή σου";
+"Settings.SendEmail.Error" = "Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap copy to clipboard below to copy our email address.";
 "Notification.FinishedRunning" = "Οι δοκιμές εκτελέστηκαν";
 "OONIBrowser.TryMirror" = "Δοκίμασε mirror";
 "OONIBrowser.Loading" = "Φορτώνεται...";
