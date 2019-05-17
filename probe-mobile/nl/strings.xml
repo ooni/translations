@@ -291,7 +291,7 @@
   <string name="Settings_Performance_DashServerAddress">DASH server</string>
   <string name="Settings_Performance_DashServerPort">DASH server port</string>
   <string name="Settings_SendEmail_Label">Send email to support</string>
-  <string name="Settings_SendEmail_Error">Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap copy to clipboard below to copy our email address.</string>
+  <string name="Settings_SendEmail_Error">Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.</string>
   <string name="Notification_FinishedRunning">Finished running</string>
   <string name="OONIBrowser_TryMirror">Probeer een mirror</string>
   <string name="OONIBrowser_Loading">Laden…</string>

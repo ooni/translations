@@ -290,7 +290,7 @@
   "Settings.Performance.DashServerAddress": "DASH server",
   "Settings.Performance.DashServerPort": "DASH server port",
   "Settings.SendEmail.Label": "Send email to support",
-  "Settings.SendEmail.Error": "Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap copy to clipboard below to copy our email address.",
+  "Settings.SendEmail.Error": "Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.",
   "Notification.FinishedRunning": "Finished running",
   "OONIBrowser.TryMirror": "Prøv speil",
   "OONIBrowser.Loading": "Laster…",
