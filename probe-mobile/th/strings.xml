@@ -121,7 +121,7 @@
   <string name="TestResults_Details_CopyToClipboard">คัดลอกไปคลิปบอร์ด</string>
   <string name="TestResults_Details_Failed_Title">ล้มเหลว</string>
   <string name="TestResults_Details_Failed_Paragraph">You can try to run this test again</string>
-  <string name="TestResults_Details_Failed_TryAgain">Try Again</string>
+  <string name="TestResults_Details_Failed_TryAgain">ลองอีกครั้ง</string>
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">Accessible</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s is accessible.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">Likely blocked</string>
@@ -303,7 +303,7 @@
   <string name="OONIRun_Run">เริ่ม</string>
   <string name="OONIRun_OONIProbeOutOfDate">Out of date</string>
   <string name="OONIRun_OONIProbeNewerVersion">You need a newer version of OONI Probe to run this test.</string>
-  <string name="OONIRun_Update">Update</string>
+  <string name="OONIRun_Update">อัปเดท\n</string>
   <string name="OONIRun_Close">ปิด</string>
   <string name="OONIRun_InvalidParameter">Invalid parameter</string>
   <string name="OONIRun_InvalidParameter_Msg">The OONI Run link is either malformed or your app is out of date.</string>
