@@ -188,7 +188,7 @@
 "Feed.Tab.Label" = "Feed";
 "Feed.Title" = "Feed";
 "Modal.OK" = "OK";
-"Modal.Cancel" = "Cancel";
+"Modal.Cancel" = "Anulare";
 "Modal.Delete" = "Delete";
 "Modal.Error" = "Error";
 "Modal.Retry" = "Încearcă din nou";
@@ -219,6 +219,9 @@
 "Modal.ManualUpload.Disable" = "No, thanks";
 "Modal.UploadFailed.Title" = "Upload failed";
 "Modal.UploadFailed.Paragraph" = "Would you like to retry or cancel?";
+"Modal.Error.LogNotFound" = "Log file not found";
+"Modal.Error.NoValidUrls" = "No valid URLs found";
+"Modal.Error.JsonEmpty" = "JSON empty";
 "Toast.CopiedToClipboard" = "Copied to clipboard";
 "Snackbar.ResultsNotUploaded.Text" = "Not uploaded";
 "Snackbar.ResultsNotUploaded.Upload" = "Upload";

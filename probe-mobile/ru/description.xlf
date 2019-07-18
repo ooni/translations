@@ -62,6 +62,7 @@
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
+        <target>Тесты OONI Probe также предназначены для выявления присутствия систем (middleboxes), которые могут быть ответственны за цензуру и слежку.</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
@@ -76,6 +77,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
+        <target>OONI публикует данные по измерению сети, поскольку открытые данные позволяют проверять полученные OONI измерения, проводить независимые исследования и отвечать на многие исследовательские вопросы. Такие данные также позволяют повысить прозрачность сведений об интернет-цензуре в мире. Вы можете изучить и скачать данные OONI здесь: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>

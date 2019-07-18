@@ -203,7 +203,7 @@
   <string name="Modal_ResultsNotUploaded_Paragraph">Alguns dos seus resultados de teste não foram enviados para servidores da OONI. Se você quiser contribuir com o banco de dados da OONI, carregue-os.</string>
   <string name="Modal_ResultsNotUploaded_Button_Upload">Carregar</string>
   <string name="Modal_ResultsNotUploaded_Uploading">Fazendo upload de %1$s ...</string>
-  <string name="Toast_ResultsUploaded">Upload successful</string>
+  <string name="Toast_ResultsUploaded">Carregar com sucesso</string>
   <string name="Modal_EnableNotifications_AutomatedTesting">Habilite as permissões de notificação para executar testes automaticamente.</string>
   <string name="Modal_EnableNotifications_News">Habilite as permissões de notificação para receber atualizações de notícias.</string>
   <string name="Modal_EnableNotifications_Any">Habilite as permissões de notificação para receber notificações não solicitadas.</string>
@@ -221,6 +221,9 @@
   <string name="Modal_ManualUpload_Disable">Não, agradeço</string>
   <string name="Modal_UploadFailed_Title">Envio falhou</string>
   <string name="Modal_UploadFailed_Paragraph">Você gostaria de repetir ou cancelar?</string>
+  <string name="Modal_Error_LogNotFound">Log file not found</string>
+  <string name="Modal_Error_NoValidUrls">No valid URLs found</string>
+  <string name="Modal_Error_JsonEmpty">JSON empty</string>
   <string name="Toast_CopiedToClipboard">Copiado para a área de transferência</string>
   <string name="Snackbar_ResultsNotUploaded_Text">Não Carregado</string>
   <string name="Snackbar_ResultsNotUploaded_Upload">Carregar</string>

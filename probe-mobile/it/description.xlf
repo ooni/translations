@@ -16,12 +16,12 @@
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
-          <target>OONI Probe - Misura la tua rete Internet</target>
+          <target>OONI Probe - Misura censura e velocità della rete</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
         <source>Measure Internet Censorship</source>
-        <target>Misura la tua rete Internet</target>
+        <target>Misura la censura internet</target>
         <note from="developer">This is limited by Apple to 30 characters</note>
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
