@@ -116,6 +116,7 @@
 "TestResults.Details.Methodology" = "Methodology";
 "TestResults.Details.ViewLog" = "লগ দেখুন";
 "TestResults.Details.RawData" = "ডাটা";
+"TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
 "TestResults.Details.CopyToClipboard" = "ক্লিপবোর্ডে অনুলিপি করুন";
 "TestResults.Details.Failed.Title" = "ব্যর্থ হয়েছে";
 "TestResults.Details.Failed.Paragraph" = "You can try to run this test again";
@@ -223,6 +224,7 @@
 "Modal.Error.NoValidUrls" = "No valid URLs found";
 "Modal.Error.JsonEmpty" = "JSON empty";
 "Toast.CopiedToClipboard" = "Copied to clipboard";
+"Toast.WillBeAvailable" = "Will be available within 24h";
 "Snackbar.ResultsNotUploaded.Text" = "Not uploaded";
 "Snackbar.ResultsNotUploaded.Upload" = "আপলোড";
 "Snackbar.ResultsSomeNotUploaded.Text" = "Some not uploaded";
