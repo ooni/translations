@@ -254,12 +254,12 @@
   <string name="Settings_Notifications_Enabled">Aktiverad</string>
   <string name="Settings_Notifications_OnTestCompletion">Notifiera när testet är klart</string>
   <string name="Settings_Notifications_OnNews">Nyhetsflöde</string>
-  <string name="Settings_AutomatedTesting_Label">Automated Testing</string>
-  <string name="Settings_AutomatedTesting_RunAutomatically">Run Tests Automatically</string>
-  <string name="Settings_AutomatedTesting_Reminder">Receive Test Reminder</string>
-  <string name="Settings_AutomatedTesting_EnabledTests">Enabled Tests</string>
+  <string name="Settings_AutomatedTesting_Label">Automated testing</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically">Run tests automatically</string>
+  <string name="Settings_AutomatedTesting_Reminder">Remind me to run tests</string>
+  <string name="Settings_AutomatedTesting_EnabledTests">Aktiverade test</string>
   <string name="Settings_AutomatedTesting_Reminder_Time">Tid</string>
-  <string name="Settings_AutomatedTesting_RunAutomatically_TimesPerDay">Repetition per day</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically_TimesPerDay">Test runs per day</string>
   <string name="Settings_AutomatedTesting_Categories_Label">Kategorier</string>
   <string name="Settings_AutomatedTesting_Categories_Title">Webside-kategorier att testa</string>
   <string name="Settings_AutomatedTesting_Categories_Subtitle">%1$s kategorier aktiverade</string>
@@ -303,7 +303,7 @@
   <string name="Settings_SendEmail_Label">Skicka mail till support</string>
   <string name="Settings_SendEmail_Error">Vänligen skicka ett mail till bugs@openobservatory.org med information om app-version och IOS-version. Tryck på \"Kopiera till urklipp\" nedan, för att kopiera vår mailadress.</string>
   <string name="Notification_FinishedRunning">Slutfört</string>
-  <string name="Notification_RunTestReminder">Friendly Reminder: Run OONI Probe tests</string>
+  <string name="Notification_RunTestReminder">Hey, it\'s time to run OONI Probe!</string>
   <string name="Notification_RunAutomatically">Running OONI Probe tests (automated testing enabled)</string>
   <string name="OONIBrowser_TryMirror">Try mirror</string>
   <string name="OONIBrowser_Loading">Loading...</string>
