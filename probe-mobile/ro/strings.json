@@ -225,7 +225,7 @@
   "Modal.Error.LogNotFound": "Log file not found",
   "Modal.Error.NoValidUrls": "No valid URLs found",
   "Modal.Error.JsonEmpty": "JSON empty",
-  "Toast.CopiedToClipboard": "Copied to clipboard",
+  "Toast.CopiedToClipboard": "Copiat în clipboard",
   "Toast.WillBeAvailable": "Will be available within 24h",
   "Snackbar.ResultsNotUploaded.Text": "Not uploaded",
   "Snackbar.ResultsNotUploaded.Upload": "Upload",
