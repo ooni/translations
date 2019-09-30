@@ -12,15 +12,17 @@ def csv_to_dict(in_path):
         csv_reader = csv.reader(csvfile)
         # Skip header
         next(csv_reader)
-        for row in csv_reader:
+        for line_num, row in enumerate(csv_reader):
             key, text, max_len = row
+            if not key:
+                raise RuntimeError("Empty key detected at line: {}".format(line_num))
             text = re.sub(
                 r'\{\{(\w+)\}\}',
                 r'{\1}',
                 text,
             )
             if key in d:
-                raise RuntimeError("Duplicate key {}".format(key))
+                raise RuntimeError("Duplicate key {} at line: {}".format(key, line_num))
             d[key] = text.strip()
     return d
 
