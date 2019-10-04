@@ -7,14 +7,26 @@ import re
 def consistency_check(json_a, json_b):
     a_set = set(json_a.keys())
     b_set = set([v['Key'] for v in json_b])
-    diff = b_set - a_set
-    if len(diff) > 0:
-        print("ERROR: inconsistent keys detected")
-        print("Missing keys: ")
-        print("\n".join(list(diff)))
-        raise Exception("Invalid keys")
 
-    print("No error detected")
+    obsolete_keys = a_set - b_set
+    if len(obsolete_keys) > 0:
+        print("=================================")
+        print("ERROR: obsolete keys detected in copy:")
+        print("\n".join(list(sorted(obsolete_keys))))
+
+    missing_keys = b_set - a_set
+    if len(missing_keys) > 0:
+        print("=================================")
+        print("ERROR: Following keys missing from copy: ")
+        print("\n".join(list(sorted(missing_keys))))
+
+    if (len(missing_keys) or len(obsolete_keys)):
+        print("=================================")
+        print("Summary")
+        print("* Obsolete Keys: {}".format(len(obsolete_keys)))
+        print("* Missing Keys: {}".format(len(missing_keys)))
+    else:
+        print("No error detected")
     return
 
 def load_json(in_path):
@@ -31,7 +43,6 @@ def parse_args():
 def main():
     opt = parse_args()
     consistency_check(load_json(opt.json_strings), load_json(opt.json_code))
-    print("{} written".format(opt.strings))
 
 if __name__ == "__main__":
     main()
