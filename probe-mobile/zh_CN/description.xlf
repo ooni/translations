@@ -39,11 +39,11 @@
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
-        <target>OONI Probe 由 Open Observatory of Network Interference (OONI) 开发，是一个致力于揭露世界范围内互联网审查现象的免费软件项目（依附于 Tor 项目）。</target>
+        <target>OONI Probe 由 Open Observatory of Network Interference (OONI) 开发，是一个致力于揭露世界范围内互联网审查现象的免费软件项目（Tor Project 旗下）。</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
-        <target>自 2012 年以来，OONI 全球社区已经从超过 200 个国家和地区收集了数百万的网络测量数据，揭示了多起网络干预事件。</target>
+        <target>自 2012 年以来，OONI 全球社区已经从超过 200 个国家和地区收集了数百万的网络测量数据，揭示了多起网络干扰事件。</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
@@ -118,11 +118,11 @@
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
-        <target>OONI（Open Observatory of Network Interference）是一个全球化观测网络，侦测全世界的互联网审查和其它形式的网络干预。</target>
+        <target>Open Observatory of Network Interference (OONI) 是一个全球化观测网络，侦测全世界的互联网审查和其它形式的网络干扰。</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
-        <target>网络,速度测试,测量,无线网络,连接,扫描,带宽,基准,域名系统,移动,ooni,研究,工具</target>
+        <target>网络,速度测试,测量,互联网,无线网络,连接,扫描,带宽,基准,域名解析服务,移动的,ooni,研究,工具</target>
       </trans-unit>
     </body>
   </file>

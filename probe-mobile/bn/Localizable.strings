@@ -49,7 +49,7 @@
 "Dashboard.Middleboxes.Card.Description" = "আপনার নেটওয়ার্কে মধ্যবাক্স সনাক্ত করুন";
 "Dashboard.Middleboxes.Overview.Paragraph" = "Internet Service Providers often use network appliances (middleboxes) for various networking purposes (such as caching). Sometimes these middleboxes are used to implement internet censorship and/or surveillance.\n\nFind middleboxes in your network using OONI's [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) tests.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).";
 "Dashboard.InstantMessaging.Card.Description" = "ইনস্ট্যান্ট মেসেজিং অ্যাপ্লিকেশনের ব্লকিং পরীক্ষা করুন";
-"Dashboard.InstantMessaging.Overview.Paragraph" = "Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.ionettest/telegram/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).";
+"Dashboard.InstantMessaging.Overview.Paragraph" = "Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.io/nettest/telegram/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).";
 "TestResults.Gbps" = "জিবিপিএস";
 "TestResults.Mbps" = "এমবিপিএস";
 "TestResults.Kbps" = "কেবিপিএস";
@@ -176,13 +176,13 @@
 "TestResults.Details.Performance.NDT.Upload" = "আপলোড";
 "TestResults.Details.Performance.NDT.Download" = "ডাউনলোড";
 "TestResults.Details.Performance.NDT.Ping" = "পিং";
-"TestResults.Details.Performance.NDT.Server" = "Server";
+"TestResults.Details.Performance.NDT.Server" = "সার্ভার";
 "TestResults.Details.Performance.NDT.PacketLoss" = "Packet Loss";
 "TestResults.Details.Performance.NDT.OutOfOrder" = "Out of Order";
 "TestResults.Details.Performance.NDT.AveragePing" = "Average Ping";
 "TestResults.Details.Performance.NDT.MaxPing" = "Max Ping";
 "TestResults.Details.Performance.NDT.MSS" = "MSS";
-"TestResults.Details.Performance.NDT.Timeouts" = "Timeouts";
+"TestResults.Details.Performance.NDT.Timeouts" = "সময় সমাপ্ত";
 "TestResults.Details.Performance.Dash.VideoWithoutBuffering" = "You can stream up to %@ without buffering.";
 "TestResults.Details.Performance.Dash.MedianBitrate" = "Median Bitrate";
 "TestResults.Details.Performance.Dash.PlayoutDelay" = "Playout Delay";
@@ -191,7 +191,7 @@
 "Modal.OK" = "ঠিক আছে";
 "Modal.Cancel" = "বাতিল";
 "Modal.Delete" = "মুছুন";
-"Modal.Error" = "Error";
+"Modal.Error" = "ভুল";
 "Modal.Retry" = "আবার চেষ্টা করুন";
 "Modal.Error.NoInternet" = "Unable to run the test. Please check your internet connectivity.";
 "Modal.Error.CantDownloadURLs" = "Unable to download URL list. Please try again.";
@@ -249,7 +249,7 @@
 "Settings.About.Content.LearnMore" = "আরও জানুন";
 "Settings.About.Content.DataPolicy" = "OONI Data Policy";
 "Settings.Notifications.Label" = "নোটিফিকেশন্স";
-"Settings.Notifications.Enabled" = "Enabled";
+"Settings.Notifications.Enabled" = "সক্রিয় করা";
 "Settings.Notifications.OnTestCompletion" = "Notify upon test completion";
 "Settings.Notifications.OnNews" = "News Feed";
 "Settings.Sharing.Label" = "Sharing";
@@ -261,7 +261,7 @@
 "Settings.Sharing.IncludeCountryCode" = "Include Country Code";
 "Settings.Sharing.IncludeCountryCode.PopUp" = "This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?";
 "Settings.Sharing.Footer" = "By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.";
-"Settings.Advanced.Label" = "Advanced";
+"Settings.Advanced.Label" = "অগ্রবর্তী";
 "Settings.Advanced.SendCrashReports" = "Send crash reports";
 "Settings.Advanced.DebugLogs" = "Debug logs";
 "Settings.Advanced.UseDomainFronting" = "Always use domain fronting";
@@ -291,7 +291,7 @@
 "Settings.SendEmail.Error" = "Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.";
 "Notification.FinishedRunning" = "Finished running";
 "OONIBrowser.TryMirror" = "Try mirror";
-"OONIBrowser.Loading" = "Loading...";
+"OONIBrowser.Loading" = "লোড হচ্ছে ...";
 "OONIBrowser.Error" = "An unexpected error occurred. Please reload this page.";
 "OONIRun.YouAreAboutToRun" = "You are about to run an OONI Probe test.";
 "OONIRun.URLs" = "%@ URLs";
@@ -300,7 +300,7 @@
 "OONIRun.Run" = "চালনা";
 "OONIRun.OONIProbeOutOfDate" = "Out of date";
 "OONIRun.OONIProbeNewerVersion" = "You need a newer version of OONI Probe to run this test.";
-"OONIRun.Update" = "Update";
+"OONIRun.Update" = "হালনাগাদ";
 "OONIRun.Close" = "বন্ধ";
 "OONIRun.InvalidParameter" = "Invalid parameter";
 "OONIRun.InvalidParameter.Msg" = "The OONI Run link is either malformed or your app is out of date.";

@@ -76,7 +76,7 @@ Find middleboxes in your network using OONI's [HTTP Invalid Request Line](https:
 
 Your results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).",
 Dashboard.InstantMessaging.Card.Description,Test the blocking of instant messaging apps,
-Dashboard.InstantMessaging.Overview.Paragraph,"Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.ionettest/telegram/) are blocked.
+Dashboard.InstantMessaging.Overview.Paragraph,"Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.io/nettest/telegram/) are blocked.
 
 Your results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).",
 TestResults.Gbps,Gbps,

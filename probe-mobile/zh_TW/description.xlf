@@ -26,20 +26,20 @@
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
-        <target>收集網路審查的證據。評量網路流量與網速表現。</target>
+        <target>收集網路審查證據。評量網路流量與網速表現。</target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
         <source>Are websites and social media apps blocked? Is your network unusually slow? Run OONI Probe to find out!</source>
-        <target>網站和社交媒體應用軟體遭到封鎖？網路速度過慢？交給 OONI Probe 來找出原因吧！ </target>
+        <target>網站和社交媒體應用軟體遭封鎖？網路速度過慢？交給 OONI Probe 來找出原因吧！ </target>
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
-        <target>透過本應用，可以檢查網站和即時通訊軟體被封鎖的狀況，評量網路速度與效能，以及檢查所使用的網路系統是否正進行在審查與監控。</target>
+        <target>透過本應用，可檢查網站和即時通訊軟體被封鎖的狀況，評量網路速度與效能，以及檢查使用的網路系統是否被審查與監控。</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
-        <target>OONI Probe 是由 Open Observatory of Network Interference (OONI) 所開發，它是Tor 計畫底下的一個自由軟體專案，旨在向世界揭示網際網路的審查狀況</target>
+        <target>OONI Probe 是由 Open Observatory of Network Interference (OONI) 開發，它是Tor 計畫下的一項自由軟體專案，旨在揭示全球網際網路的審查狀況</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
@@ -71,7 +71,7 @@
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
-        <target> OONI 的網路診斷測試 (NDT)，可用於評量網路流速與表現。而 HTTP的動態自適應流 (DASH) 測試則可用來評估影片串流表現。</target>
+        <target> OONI 的網路診斷測試 (NDT)，可用於評量網路流速與表現。而 HTTP 的動態自適應流 (DASH) 測試則可用來評估影片串流表現。</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
@@ -79,7 +79,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
-        <target>OONI 發布所收集到的網路測量資料，讓開放資料由第三方來驗證 OONI 的發現、進行獨立研究或是回答其它研究問題。開放 ONNI 資料也能協助提高全球網際網路審查制度的透明度。所有的資料都公布在：https://ooni.io/data/</target>
+        <target>OONI 發布所收集到的網路測量資料，讓開放資料由第三方來驗證 OONI 之發現、進行獨立研究或是回答其它研究問題。開放 ONNI 資料也能協助提高全球網際網路審查制度的透明度。所有的資料公布在：https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
@@ -87,12 +87,12 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
-        <target>所有 OONI Probe 測試 (包含執行 NDT 和 DASH )，都是使用開源自由的軟體。OONI 專案軟體代碼庫在 GitHub: https://github.com/ooni. 有興趣多了解 OONI Probe 測試的操作？請參考 ： https://ooni.io/nettest/</target>
+        <target>所有 OONI Probe 測試 (包含執行 NDT 和 DASH )，都使用開源自由軟體。OONI 專案軟體代碼庫在 GitHub: https://github.com/ooni. 有興趣多了解 OONI Probe 測試的操作？請參考 ： https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
-        <target>欲取得 OONI-verse 近況，請關注我們的推特: https://twitter.com/OpenObservatory</target>
+        <target>欲知 OONI-verse 近況，請關注官方推特: https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 

@@ -6,7 +6,7 @@
     <body>
       <trans-unit id="title-android" maxwidth="30" size-unit="char">
         <source>OONI Probe</source>
-        <target>OONI Probe</target>
+        <target>کاوشگر OONI</target>
         <note from="developer">This is limited by Google to 30 characters</note>
       </trans-unit>
       <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
-          <target>OONI Probe - تست سرعت و سانسور اینترنت</target>
+          <target>کاوشگر OONI - اندازه گیری سرعت و سانسور اینترنت</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
@@ -31,15 +31,15 @@
       </trans-unit>
       <trans-unit id="intro">
         <source>Are websites and social media apps blocked? Is your network unusually slow? Run OONI Probe to find out!</source>
-        <target>ایا وبسایت‌ها و اپ شبکه‌های اجتماعی مسدود شده‌اند؟ آیا شبکه شما به صورت غیرمعمولی آهسته است؟ OONI Probe را اجرا کنید تا متوجه شوید!</target>
+        <target>ایا وبسایت‌ها و اپ شبکه‌های اجتماعی مسدود شده‌اند؟ آیا شبکه شما به صورت غیرمعمولی آهسته است؟ کاوشگر OONI را اجرا کنید تا متوجه شوید!</target>
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
-        <target>با این اپ، شما مسدودیت وبسایت‌ها و پیام‌‌رسان‌ها را بررسی، سرعت و کارایی شبکه خود را اندازه‌گیری و سیستم‌های مسئول سانسور و نظارت شبکه خود را چک خواهید کرد.</target>
+        <target>با این برنامه، شما مسدود بودن وبسایت‌ها و پیام‌‌رسان‌ها را مورد آزمون، سرعت و کارایی شبکه خود را اندازه‌گیری و سیستم‌های مسئول سانسور و نظارت شبکه خود را بررسی خواهید کرد.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
-        <target>OONI Probe توسط رصد خانه آزاد دخالت در شبکه (OONI) که یک پروژه‌ی نرم افزار آزاد (تحت پروژه‌ی Tor) است، توسعه یافته و هدف آن برملا ساختن سانسور اینترنت در سراسر دنیاست.</target>
+        <target>کاوشگر OONI توسط رصد خانه آزاد دخالت در شبکه (OONI) که یک پروژه‌ی نرم افزار آزاد (تحت پروژه‌ی Tor) است، توسعه یافته و هدف آن برملا ساختن سانسور اینترنت در سراسر دنیاست.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
@@ -55,7 +55,7 @@
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
-        <target>شما می‌توانید وضعیت و چگونگی مسدود بودن وبسایت‌ها و پیام‌رسان‌ها را چک کنید. داده‌های سنجش شبکه‌ای که شما جمع‌آوری می‌کنید می‌تواند سندی بر سانسور اینترنت باشد.</target>
+        <target>شما می‌توانید وضعیت و چگونگی مسدود بودن وبسایت‌ها و پیام‌رسان‌ها را بررسی کنید. داده‌های سنجش شبکه‌ای که شما جمع‌آوری می‌کنید می‌تواند سندی بر سانسور اینترنت باشد.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>

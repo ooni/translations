@@ -51,7 +51,7 @@
   <string name="Dashboard_Middleboxes_Card_Description">আপনার নেটওয়ার্কে মধ্যবাক্স সনাক্ত করুন</string>
   <string name="Dashboard_Middleboxes_Overview_Paragraph">Internet Service Providers often use network appliances (middleboxes) for various networking purposes (such as caching). Sometimes these middleboxes are used to implement internet censorship and/or surveillance.\n\nFind middleboxes in your network using OONI\'s [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) tests.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_InstantMessaging_Card_Description">ইনস্ট্যান্ট মেসেজিং অ্যাপ্লিকেশনের ব্লকিং পরীক্ষা করুন</string>
-  <string name="Dashboard_InstantMessaging_Overview_Paragraph">Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.ionettest/telegram/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
+  <string name="Dashboard_InstantMessaging_Overview_Paragraph">Check whether [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) and [Telegram](https://ooni.io/nettest/telegram/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
   <string name="TestResults_Gbps">জিবিপিএস</string>
   <string name="TestResults_Mbps">এমবিপিএস</string>
   <string name="TestResults_Kbps">কেবিপিএস</string>
@@ -178,13 +178,13 @@
   <string name="TestResults_Details_Performance_NDT_Upload">আপলোড</string>
   <string name="TestResults_Details_Performance_NDT_Download">ডাউনলোড</string>
   <string name="TestResults_Details_Performance_NDT_Ping">পিং</string>
-  <string name="TestResults_Details_Performance_NDT_Server">Server</string>
+  <string name="TestResults_Details_Performance_NDT_Server">সার্ভার</string>
   <string name="TestResults_Details_Performance_NDT_PacketLoss">Packet Loss</string>
   <string name="TestResults_Details_Performance_NDT_OutOfOrder">Out of Order</string>
   <string name="TestResults_Details_Performance_NDT_AveragePing">Average Ping</string>
   <string name="TestResults_Details_Performance_NDT_MaxPing">Max Ping</string>
   <string name="TestResults_Details_Performance_NDT_MSS">MSS</string>
-  <string name="TestResults_Details_Performance_NDT_Timeouts">Timeouts</string>
+  <string name="TestResults_Details_Performance_NDT_Timeouts">সময় সমাপ্ত</string>
   <string name="TestResults_Details_Performance_Dash_VideoWithoutBuffering">You can stream up to %1$s without buffering.</string>
   <string name="TestResults_Details_Performance_Dash_MedianBitrate">Median Bitrate</string>
   <string name="TestResults_Details_Performance_Dash_PlayoutDelay">Playout Delay</string>
@@ -193,7 +193,7 @@
   <string name="Modal_OK">ঠিক আছে</string>
   <string name="Modal_Cancel">বাতিল</string>
   <string name="Modal_Delete">মুছুন</string>
-  <string name="Modal_Error">Error</string>
+  <string name="Modal_Error">ভুল</string>
   <string name="Modal_Retry">আবার চেষ্টা করুন</string>
   <string name="Modal_Error_NoInternet">Unable to run the test. Please check your internet connectivity.</string>
   <string name="Modal_Error_CantDownloadURLs">Unable to download URL list. Please try again.</string>
@@ -251,7 +251,7 @@
   <string name="Settings_About_Content_LearnMore">আরও জানুন</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>
   <string name="Settings_Notifications_Label">নোটিফিকেশন্স</string>
-  <string name="Settings_Notifications_Enabled">Enabled</string>
+  <string name="Settings_Notifications_Enabled">সক্রিয় করা</string>
   <string name="Settings_Notifications_OnTestCompletion">Notify upon test completion</string>
   <string name="Settings_Notifications_OnNews">News Feed</string>
   <string name="Settings_Sharing_Label">Sharing</string>
@@ -263,7 +263,7 @@
   <string name="Settings_Sharing_IncludeCountryCode">Include Country Code</string>
   <string name="Settings_Sharing_IncludeCountryCode_PopUp">This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?</string>
   <string name="Settings_Sharing_Footer">By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.</string>
-  <string name="Settings_Advanced_Label">Advanced</string>
+  <string name="Settings_Advanced_Label">অগ্রবর্তী</string>
   <string name="Settings_Advanced_SendCrashReports">Send crash reports</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
   <string name="Settings_Advanced_UseDomainFronting">Always use domain fronting</string>
@@ -293,7 +293,7 @@
   <string name="Settings_SendEmail_Error">Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.</string>
   <string name="Notification_FinishedRunning">Finished running</string>
   <string name="OONIBrowser_TryMirror">Try mirror</string>
-  <string name="OONIBrowser_Loading">Loading...</string>
+  <string name="OONIBrowser_Loading">লোড হচ্ছে ...</string>
   <string name="OONIBrowser_Error">An unexpected error occurred. Please reload this page.</string>
   <string name="OONIRun_YouAreAboutToRun">You are about to run an OONI Probe test.</string>
   <string name="OONIRun_URLs">%1$s URLs</string>
@@ -302,7 +302,7 @@
   <string name="OONIRun_Run">চালনা</string>
   <string name="OONIRun_OONIProbeOutOfDate">Out of date</string>
   <string name="OONIRun_OONIProbeNewerVersion">You need a newer version of OONI Probe to run this test.</string>
-  <string name="OONIRun_Update">Update</string>
+  <string name="OONIRun_Update">হালনাগাদ</string>
   <string name="OONIRun_Close">বন্ধ</string>
   <string name="OONIRun_InvalidParameter">Invalid parameter</string>
   <string name="OONIRun_InvalidParameter_Msg">The OONI Run link is either malformed or your app is out of date.</string>
