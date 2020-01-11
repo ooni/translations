@@ -255,7 +255,7 @@ Modal.ManualUpload.Paragraph,This setting allows you to manually re-upload unpub
 Modal.ManualUpload.Enable,Enable,
 Modal.ManualUpload.Disable,"No, thanks",
 Modal.UploadFailed.Title,Upload failed,
-Modal.UploadFailed.Paragraph,Would you like to retry or cancel?,
+Modal.UploadFailed.Paragraph,We have failed to upload {{numberFailed}}/{{totalUploads}} measurements. The failure log has been shared with OONI developers.,
 Modal.Error.LogNotFound,Log file not found,
 Modal.Error.NoValidUrls,No valid URLs found,
 Modal.Error.JsonEmpty,JSON empty,
