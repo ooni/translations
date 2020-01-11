@@ -222,7 +222,7 @@
   <string name="Modal_ManualUpload_Enable">Aktivera</string>
   <string name="Modal_ManualUpload_Disable">Nej tack</string>
   <string name="Modal_UploadFailed_Title">Överföringen misslyckades</string>
-  <string name="Modal_UploadFailed_Paragraph">Vill du försöka igen eller avbryta?</string>
+  <string name="Modal_UploadFailed_Paragraph">We have failed to upload %1$s/%2$s measurements. The failure log has been shared with OONI developers.</string>
   <string name="Modal_Error_LogNotFound">Loggfil kunde inte hittas</string>
   <string name="Modal_Error_NoValidUrls">Inga giltiga URL:er hittades</string>
   <string name="Modal_Error_JsonEmpty">JSON är tom</string>
@@ -267,6 +267,7 @@
   <string name="Settings_Advanced_SendCrashReports">Skicka kraschrapporter</string>
   <string name="Settings_Advanced_DebugLogs">Felsöningsloggar</string>
   <string name="Settings_Advanced_UseDomainFronting">Använd alltid domänfront</string>
+  <string name="Settings_Websites_MaxRuntimeEnabled">Limit test duration</string>
   <string name="Settings_Websites_MaxRuntime">Testtid</string>
   <string name="Settings_Websites_Categories_Label">Webside-kategorier att testa</string>
   <string name="Settings_Websites_Categories_Description">%1$s kategorier aktiverade</string>
