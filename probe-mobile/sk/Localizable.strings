@@ -40,6 +40,8 @@
 "Dashboard.Running.EstimatedTimeLeft" = "Odhadovaný zostávajúci čas:";
 "Dashboard.Running.Seconds" = "%@ sekúnd";
 "Dashboard.Running.PreparingTest" = "Test sa pripravuje";
+"Dashboard.Running.ShowLog" = "Zobraziť Log";
+"Dashboard.Running.CloseLog" = "Close Log";
 "Dashboard.Card.Subtitle" = "Pre viac info ťukni na kartu";
 "Dashboard.Card.Seconds" = "~%@";
 "Dashboard.Websites.Card.Description" = "Otestuj blokovanie webových stránok";
@@ -79,6 +81,8 @@
 "TestResults.Overview.InstantMessaging.Blocked.Plural" = "%@ blokovaných";
 "TestResults.Overview.InstantMessaging.Available.Singular" = "%@ dostupná";
 "TestResults.Overview.InstantMessaging.Available.Plural" = "%@ dostupných";
+"TestResults.Overview.Circumvention.Blocked.Plural" = "%@ blokovaných";
+"TestResults.Overview.Circumvention.Available.Plural" = "%@ available";
 "TestResults.Summary.Hero.DateAndTime" = "Dátum a čas";
 "TestResults.Summary.Hero.Network" = "Sieť";
 "TestResults.Summary.Hero.Country" = "Krajina";
@@ -112,12 +116,21 @@
 "TestResults.Summary.InstantMessaging.Hero.Reachable.Plural" = "Dostupné";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Singular" = "Aplikácia";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Plural" = "Aplikácie";
+"TestResults.Summary.Circumvention.Hero.Tested.Singular" = "Testovaná";
+"TestResults.Summary.Circumvention.Hero.Tested.Plural" = "Testovaná";
+"TestResults.Summary.Circumvention.Hero.Blocked.Singular" = "Blokovaná";
+"TestResults.Summary.Circumvention.Hero.Blocked.Plural" = "Blokovaná";
+"TestResults.Summary.Circumvention.Hero.Reachable.Singular" = "Funguje";
+"TestResults.Summary.Circumvention.Hero.Reachable.Plural" = "Funguje";
+"TestResults.Summary.Circumvention.Hero.Tools.Singular" = "Tool";
+"TestResults.Summary.Circumvention.Hero.Tools.Plural" = "Nástroje";
 "TestResults.Details.Hero.Runtime" = "Doba spustenia";
 "TestResults.Details.Methodology" = "Metodológia";
 "TestResults.Details.ViewLog" = "Zobraziť denník";
 "TestResults.Details.RawData" = "Dáta";
 "TestResults.Details.CopyExplorerURL" = "Kopírovať URL adresu prieskumníka";
 "TestResults.Details.CopyToClipboard" = "Kopírovať do schránky";
+"TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "Zlyhalo";
 "TestResults.Details.Failed.Paragraph" = "Môžeš vyskúšať znovu spustiť tento test";
 "TestResults.Details.Failed.TryAgain" = "Skúsiť znova";
@@ -186,6 +199,10 @@
 "TestResults.Details.Performance.Dash.VideoWithoutBuffering" = "Bez bufferingu môžeš streamovať do úrovne %@.";
 "TestResults.Details.Performance.Dash.MedianBitrate" = "Medián bitovej rýchlosti";
 "TestResults.Details.Performance.Dash.PlayoutDelay" = "Oneskorenie prehrávania";
+"TestResults.Details.Circumvention.Psiphon.Blocked.Hero.Title" = "Blokovaná";
+"TestResults.Details.Circumvention.Psiphon.Reachable.Hero.Title" = "Funguje";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "Bootstrap Time";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "s";
 "Feed.Tab.Label" = "Informačný kanál";
 "Feed.Title" = "Informačný kanál";
 "Modal.OK" = "OK";
@@ -204,6 +221,7 @@
 "Modal.ResultsNotUploaded.Button.Upload" = "Nahrať";
 "Modal.ResultsNotUploaded.Uploading" = "Nahráva sa %@ ...";
 "Toast.ResultsUploaded" = "Nahrávanie prebehlo úspešne";
+"Modal.DisplayFailureLog" = "Display failure log";
 "Modal.EnableNotifications.AutomatedTesting" = "Pre automatické spúšťanie testov povoľ oznámenia.";
 "Modal.EnableNotifications.News" = "Pre prijímanie aktualizácií správ povoľ oznámenia.";
 "Modal.EnableNotifications.Any" = "Pre prijímanie push oznámení povoľ oznámenia.";
@@ -220,7 +238,7 @@
 "Modal.ManualUpload.Enable" = "Povoliť";
 "Modal.ManualUpload.Disable" = "Nie, ďakujem";
 "Modal.UploadFailed.Title" = "Nahrávanie zlyhalo";
-"Modal.UploadFailed.Paragraph" = "We have failed to upload %@/%@ measurements. The failure log has been shared with OONI developers.";
+"Modal.UploadFailed.Paragraph" = "Nepodarilo sa nám nahrať %@/%@ meraní. Denník zlyhaní sa zdieľa s vývojarmi OONI.";
 "Modal.Error.LogNotFound" = "Súbor denníka sa nenašiel";
 "Modal.Error.NoValidUrls" = "Nenašli sa platné URL adresy";
 "Modal.Error.JsonEmpty" = "Súbor JSON je prázdny";
@@ -234,6 +252,7 @@
 "Test.InstantMessaging.Fullname" = "Výmena okamžitých správ";
 "Test.Middleboxes.Fullname" = "Middleboxy";
 "Test.Performance.Fullname" = "Výkon";
+"Test.Circumvention.Fullname" = "Obchádzanie";
 "Test.HTTPInvalidRequestLine.Fullname" = "HTTP Invalid Request Line Test";
 "Test.HTTPHeaderFieldManipulation.Fullname" = "HTTP Header Field Manipulation Test";
 "Test.WebConnectivity.Fullname" = "Web Connectivity Test";
@@ -242,6 +261,7 @@
 "Test.WhatsApp.Fullname" = "Test WhatsAppu";
 "Test.Telegram.Fullname" = "Test Telegramu";
 "Test.FacebookMessenger.Fullname" = "Test Facebook Messengera";
+"Test.Psiphon.Fullname" = "Psiphon Test";
 "Settings.Title" = "Nastavenia";
 "Settings.Error.TestDurationTooLow" = "Doba trvania testu, ktorú si nastavil/a, je príliš krátka.";
 "Settings.About.Label" = "O projekte OONI";

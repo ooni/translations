@@ -40,6 +40,8 @@
 "Dashboard.Running.EstimatedTimeLeft" = "Estimated time left:";
 "Dashboard.Running.Seconds" = "%@ seconds";
 "Dashboard.Running.PreparingTest" = "Preparing test";
+"Dashboard.Running.ShowLog" = "Show Log";
+"Dashboard.Running.CloseLog" = "Close Log";
 "Dashboard.Card.Subtitle" = "Tap card for more";
 "Dashboard.Card.Seconds" = "~%@s";
 "Dashboard.Websites.Card.Description" = "Test the blocking of websites";
@@ -79,6 +81,8 @@
 "TestResults.Overview.InstantMessaging.Blocked.Plural" = "%@ blocked";
 "TestResults.Overview.InstantMessaging.Available.Singular" = "%@ accessible";
 "TestResults.Overview.InstantMessaging.Available.Plural" = "%@ accessible";
+"TestResults.Overview.Circumvention.Blocked.Plural" = "%@ blocked";
+"TestResults.Overview.Circumvention.Available.Plural" = "%@ available";
 "TestResults.Summary.Hero.DateAndTime" = "Date & Time";
 "TestResults.Summary.Hero.Network" = "Мережа";
 "TestResults.Summary.Hero.Country" = "Країна";
@@ -112,12 +116,21 @@
 "TestResults.Summary.InstantMessaging.Hero.Reachable.Plural" = "Accessible";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Singular" = "App";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Plural" = "Застосунки";
+"TestResults.Summary.Circumvention.Hero.Tested.Singular" = "Tested";
+"TestResults.Summary.Circumvention.Hero.Tested.Plural" = "Tested";
+"TestResults.Summary.Circumvention.Hero.Blocked.Singular" = "Заблоковано";
+"TestResults.Summary.Circumvention.Hero.Blocked.Plural" = "Заблоковано";
+"TestResults.Summary.Circumvention.Hero.Reachable.Singular" = "Працюємо";
+"TestResults.Summary.Circumvention.Hero.Reachable.Plural" = "Працюємо";
+"TestResults.Summary.Circumvention.Hero.Tools.Singular" = "Tool";
+"TestResults.Summary.Circumvention.Hero.Tools.Plural" = "Засоби";
 "TestResults.Details.Hero.Runtime" = "Runtime";
 "TestResults.Details.Methodology" = "Methodology";
 "TestResults.Details.ViewLog" = "Переглянути журнал";
 "TestResults.Details.RawData" = "Data";
 "TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
 "TestResults.Details.CopyToClipboard" = "Копіювати у буфер обміну";
+"TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "Невдало";
 "TestResults.Details.Failed.Paragraph" = "You can try to run this test again";
 "TestResults.Details.Failed.TryAgain" = "Спробувати ще раз";
@@ -186,6 +199,10 @@
 "TestResults.Details.Performance.Dash.VideoWithoutBuffering" = "You can stream up to %@ without buffering.";
 "TestResults.Details.Performance.Dash.MedianBitrate" = "Median Bitrate";
 "TestResults.Details.Performance.Dash.PlayoutDelay" = "Playout Delay";
+"TestResults.Details.Circumvention.Psiphon.Blocked.Hero.Title" = "Заблоковано";
+"TestResults.Details.Circumvention.Psiphon.Reachable.Hero.Title" = "Працюємо";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "Bootstrap Time";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "s";
 "Feed.Tab.Label" = "Feed";
 "Feed.Title" = "Feed";
 "Modal.OK" = "Гаразд";
@@ -204,6 +221,7 @@
 "Modal.ResultsNotUploaded.Button.Upload" = "Вивантажити";
 "Modal.ResultsNotUploaded.Uploading" = "Uploading %@ ...";
 "Toast.ResultsUploaded" = "Upload successful";
+"Modal.DisplayFailureLog" = "Display failure log";
 "Modal.EnableNotifications.AutomatedTesting" = "Enable notification permissions to run tests automatically.";
 "Modal.EnableNotifications.News" = "Enable notification permissions to receive news updates.";
 "Modal.EnableNotifications.Any" = "Enable notification permissions to receive push notifications.";
@@ -234,6 +252,7 @@
 "Test.InstantMessaging.Fullname" = "Instant Messaging";
 "Test.Middleboxes.Fullname" = "Middleboxes";
 "Test.Performance.Fullname" = "Performance";
+"Test.Circumvention.Fullname" = "Обман";
 "Test.HTTPInvalidRequestLine.Fullname" = "HTTP Invalid Request Line Test";
 "Test.HTTPHeaderFieldManipulation.Fullname" = "HTTP Header Field Manipulation Test";
 "Test.WebConnectivity.Fullname" = "Web Connectivity Test";
@@ -242,6 +261,7 @@
 "Test.WhatsApp.Fullname" = "WhatsApp Test";
 "Test.Telegram.Fullname" = "Telegram Test";
 "Test.FacebookMessenger.Fullname" = "Facebook Messenger Test";
+"Test.Psiphon.Fullname" = "Psiphon Test";
 "Settings.Title" = "Налаштування";
 "Settings.Error.TestDurationTooLow" = "The amount of time you have set for the test duration is too low.";
 "Settings.About.Label" = "About OONI";

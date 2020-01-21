@@ -40,6 +40,8 @@
 "Dashboard.Running.EstimatedTimeLeft" = "Beräknad tid kvar:";
 "Dashboard.Running.Seconds" = "%@ sekunder";
 "Dashboard.Running.PreparingTest" = "Förbereder test";
+"Dashboard.Running.ShowLog" = "Visa loggen";
+"Dashboard.Running.CloseLog" = "Close Log";
 "Dashboard.Card.Subtitle" = "Tryck för mer alternativ";
 "Dashboard.Card.Seconds" = "~%@er";
 "Dashboard.Websites.Card.Description" = "Testa blockerade webbsidor";
@@ -79,6 +81,8 @@
 "TestResults.Overview.InstantMessaging.Blocked.Plural" = "%@ blockerade";
 "TestResults.Overview.InstantMessaging.Available.Singular" = "%@ nåbar";
 "TestResults.Overview.InstantMessaging.Available.Plural" = "%@ nåbara";
+"TestResults.Overview.Circumvention.Blocked.Plural" = "%@ blockerade";
+"TestResults.Overview.Circumvention.Available.Plural" = "%@ available";
 "TestResults.Summary.Hero.DateAndTime" = "Datum & tid";
 "TestResults.Summary.Hero.Network" = "Nätverk";
 "TestResults.Summary.Hero.Country" = "Land";
@@ -112,12 +116,21 @@
 "TestResults.Summary.InstantMessaging.Hero.Reachable.Plural" = "Nåbara";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Singular" = "App";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Plural" = "Appar";
+"TestResults.Summary.Circumvention.Hero.Tested.Singular" = "Testade";
+"TestResults.Summary.Circumvention.Hero.Tested.Plural" = "Testade";
+"TestResults.Summary.Circumvention.Hero.Blocked.Singular" = "Blockerade";
+"TestResults.Summary.Circumvention.Hero.Blocked.Plural" = "Blockerade";
+"TestResults.Summary.Circumvention.Hero.Reachable.Singular" = "Arbetar";
+"TestResults.Summary.Circumvention.Hero.Reachable.Plural" = "Arbetar";
+"TestResults.Summary.Circumvention.Hero.Tools.Singular" = "Tool";
+"TestResults.Summary.Circumvention.Hero.Tools.Plural" = "Tools";
 "TestResults.Details.Hero.Runtime" = "Tidsåtgång";
 "TestResults.Details.Methodology" = "Metodik";
 "TestResults.Details.ViewLog" = "Visa logg";
 "TestResults.Details.RawData" = "Data";
 "TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
 "TestResults.Details.CopyToClipboard" = "Kopiera till urklipp";
+"TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "Misslyckade";
 "TestResults.Details.Failed.Paragraph" = "Du kan prova att köra det här testet igen";
 "TestResults.Details.Failed.TryAgain" = "Försök igen";
@@ -186,6 +199,10 @@
 "TestResults.Details.Performance.Dash.VideoWithoutBuffering" = "Du kan streama upp till %@  utan att buffra.";
 "TestResults.Details.Performance.Dash.MedianBitrate" = "Median bitrate";
 "TestResults.Details.Performance.Dash.PlayoutDelay" = "Uppspelingsfördröjning";
+"TestResults.Details.Circumvention.Psiphon.Blocked.Hero.Title" = "Blockerade";
+"TestResults.Details.Circumvention.Psiphon.Reachable.Hero.Title" = "Arbetar";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "Bootstrap Time";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "s";
 "Feed.Tab.Label" = "Flöde";
 "Feed.Title" = "Flöde";
 "Modal.OK" = "Ok";
@@ -204,6 +221,7 @@
 "Modal.ResultsNotUploaded.Button.Upload" = "Ladda upp";
 "Modal.ResultsNotUploaded.Uploading" = "Laddar upp %@…";
 "Toast.ResultsUploaded" = "Uppladdning lyckades";
+"Modal.DisplayFailureLog" = "Display failure log";
 "Modal.EnableNotifications.AutomatedTesting" = "Aktivera notifieringsbehörigheter för att köra tester automatiskt";
 "Modal.EnableNotifications.News" = "Aktivera notifieringsbehörigheter för att få nyhetsuppdateringar.";
 "Modal.EnableNotifications.Any" = "Aktivera notifieringsbehörigheter för att få push-meddelanden.";
@@ -234,6 +252,7 @@
 "Test.InstantMessaging.Fullname" = "Direkt meddelanden";
 "Test.Middleboxes.Fullname" = "Middleboxes";
 "Test.Performance.Fullname" = "Prestanda";
+"Test.Circumvention.Fullname" = "Kringgående";
 "Test.HTTPInvalidRequestLine.Fullname" = "HTTP test av Request-sträng";
 "Test.HTTPHeaderFieldManipulation.Fullname" = "HTTP test av Header-manupilation ";
 "Test.WebConnectivity.Fullname" = "Web test av anslutning";
@@ -242,6 +261,7 @@
 "Test.WhatsApp.Fullname" = "Test av WhatsApp";
 "Test.Telegram.Fullname" = "Test av Telegram";
 "Test.FacebookMessenger.Fullname" = "Test av Facebook Messenger";
+"Test.Psiphon.Fullname" = "Psiphon Test";
 "Settings.Title" = "Inställningar";
 "Settings.Error.TestDurationTooLow" = "Tiden du har ställt in för testet är för kort.";
 "Settings.About.Label" = "Om OONI";
