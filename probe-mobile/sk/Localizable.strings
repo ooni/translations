@@ -41,7 +41,7 @@
 "Dashboard.Running.Seconds" = "%@ sekúnd";
 "Dashboard.Running.PreparingTest" = "Test sa pripravuje";
 "Dashboard.Running.ShowLog" = "Zobraziť Log";
-"Dashboard.Running.CloseLog" = "Close Log";
+"Dashboard.Running.CloseLog" = "Zatvoriť denník";
 "Dashboard.Card.Subtitle" = "Pre viac info ťukni na kartu";
 "Dashboard.Card.Seconds" = "~%@";
 "Dashboard.Websites.Card.Description" = "Otestuj blokovanie webových stránok";
@@ -82,7 +82,7 @@
 "TestResults.Overview.InstantMessaging.Available.Singular" = "%@ dostupná";
 "TestResults.Overview.InstantMessaging.Available.Plural" = "%@ dostupných";
 "TestResults.Overview.Circumvention.Blocked.Plural" = "%@ blokovaných";
-"TestResults.Overview.Circumvention.Available.Plural" = "%@ available";
+"TestResults.Overview.Circumvention.Available.Plural" = "%@ k dispozícii";
 "TestResults.Summary.Hero.DateAndTime" = "Dátum a čas";
 "TestResults.Summary.Hero.Network" = "Sieť";
 "TestResults.Summary.Hero.Country" = "Krajina";
@@ -122,7 +122,7 @@
 "TestResults.Summary.Circumvention.Hero.Blocked.Plural" = "Blokovaná";
 "TestResults.Summary.Circumvention.Hero.Reachable.Singular" = "Funguje";
 "TestResults.Summary.Circumvention.Hero.Reachable.Plural" = "Funguje";
-"TestResults.Summary.Circumvention.Hero.Tools.Singular" = "Tool";
+"TestResults.Summary.Circumvention.Hero.Tools.Singular" = "Nástroj";
 "TestResults.Summary.Circumvention.Hero.Tools.Plural" = "Nástroje";
 "TestResults.Details.Hero.Runtime" = "Doba spustenia";
 "TestResults.Details.Methodology" = "Metodológia";
@@ -130,7 +130,7 @@
 "TestResults.Details.RawData" = "Dáta";
 "TestResults.Details.CopyExplorerURL" = "Kopírovať URL adresu prieskumníka";
 "TestResults.Details.CopyToClipboard" = "Kopírovať do schránky";
-"TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
+"TestResults.Details.ShowInExplorer" = "Zobraziť v Prieskumníku OONI";
 "TestResults.Details.Failed.Title" = "Zlyhalo";
 "TestResults.Details.Failed.Paragraph" = "Môžeš vyskúšať znovu spustiť tento test";
 "TestResults.Details.Failed.TryAgain" = "Skúsiť znova";
@@ -201,7 +201,7 @@
 "TestResults.Details.Performance.Dash.PlayoutDelay" = "Oneskorenie prehrávania";
 "TestResults.Details.Circumvention.Psiphon.Blocked.Hero.Title" = "Blokovaná";
 "TestResults.Details.Circumvention.Psiphon.Reachable.Hero.Title" = "Funguje";
-"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "Bootstrap Time";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "Čas Bootstrapu";
 "TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "s";
 "Feed.Tab.Label" = "Informačný kanál";
 "Feed.Title" = "Informačný kanál";
@@ -221,7 +221,7 @@
 "Modal.ResultsNotUploaded.Button.Upload" = "Nahrať";
 "Modal.ResultsNotUploaded.Uploading" = "Nahráva sa %@ ...";
 "Toast.ResultsUploaded" = "Nahrávanie prebehlo úspešne";
-"Modal.DisplayFailureLog" = "Display failure log";
+"Modal.DisplayFailureLog" = "Zobraziť denník zlyhaní";
 "Modal.EnableNotifications.AutomatedTesting" = "Pre automatické spúšťanie testov povoľ oznámenia.";
 "Modal.EnableNotifications.News" = "Pre prijímanie aktualizácií správ povoľ oznámenia.";
 "Modal.EnableNotifications.Any" = "Pre prijímanie push oznámení povoľ oznámenia.";
@@ -232,6 +232,8 @@
 "Modal.OnlyDigits" = "Do tohto poľa zadaj iba číslice.";
 "Modal.ReRun.Title" = "Znova spustiť test";
 "Modal.ReRun.Paragraph" = "Tento test zlyhal. Znova spustiť test?";
+"Modal.ReRun.Websites.Title" = "You are about to re-test %@ websites.";
+"Modal.ReRun.Websites.Run" = "Spustiť";
 "Modal.CustomURL.NotSaved" = "Ak opustíš túto obrazovku, tvoje URL adresy sa neuložia. Si si istý/istá, že chceš opustiť túto obrazovku?";
 "Modal.ManualUpload.Title" = "Povoliť manuálne nahrávanie?";
 "Modal.ManualUpload.Paragraph" = "Toto nastavenie ti umožňuje manuálne znova nahrať neuverejnené merania.";

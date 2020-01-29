@@ -43,7 +43,7 @@
   <string name="Dashboard_Running_Seconds">%1$s sekúnd</string>
   <string name="Dashboard_Running_PreparingTest">Test sa pripravuje</string>
   <string name="Dashboard_Running_ShowLog">Zobraziť Log</string>
-  <string name="Dashboard_Running_CloseLog">Close Log</string>
+  <string name="Dashboard_Running_CloseLog">Zatvoriť denník</string>
   <string name="Dashboard_Card_Subtitle">Pre viac info ťukni na kartu</string>
   <string name="Dashboard_Card_Seconds">~%1$s</string>
   <string name="Dashboard_Websites_Card_Description">Otestuj blokovanie webových stránok</string>
@@ -84,7 +84,7 @@
   <string name="TestResults_Overview_InstantMessaging_Available_Singular">%1$s dostupná</string>
   <string name="TestResults_Overview_InstantMessaging_Available_Plural">%1$s dostupných</string>
   <string name="TestResults_Overview_Circumvention_Blocked_Plural">%1$s blokovaných</string>
-  <string name="TestResults_Overview_Circumvention_Available_Plural">%1$s available</string>
+  <string name="TestResults_Overview_Circumvention_Available_Plural">%1$s k dispozícii</string>
   <string name="TestResults_Summary_Hero_DateAndTime">Dátum a čas</string>
   <string name="TestResults_Summary_Hero_Network">Sieť</string>
   <string name="TestResults_Summary_Hero_Country">Krajina</string>
@@ -124,7 +124,7 @@
   <string name="TestResults_Summary_Circumvention_Hero_Blocked_Plural">Blokovaná</string>
   <string name="TestResults_Summary_Circumvention_Hero_Reachable_Singular">Funguje</string>
   <string name="TestResults_Summary_Circumvention_Hero_Reachable_Plural">Funguje</string>
-  <string name="TestResults_Summary_Circumvention_Hero_Tools_Singular">Tool</string>
+  <string name="TestResults_Summary_Circumvention_Hero_Tools_Singular">Nástroj</string>
   <string name="TestResults_Summary_Circumvention_Hero_Tools_Plural">Nástroje</string>
   <string name="TestResults_Details_Hero_Runtime">Doba spustenia</string>
   <string name="TestResults_Details_Methodology">Metodológia</string>
@@ -132,7 +132,7 @@
   <string name="TestResults_Details_RawData">Dáta</string>
   <string name="TestResults_Details_CopyExplorerURL">Kopírovať URL adresu prieskumníka</string>
   <string name="TestResults_Details_CopyToClipboard">Kopírovať do schránky</string>
-  <string name="TestResults_Details_ShowInExplorer">Show in OONI Explorer</string>
+  <string name="TestResults_Details_ShowInExplorer">Zobraziť v Prieskumníku OONI</string>
   <string name="TestResults_Details_Failed_Title">Zlyhalo</string>
   <string name="TestResults_Details_Failed_Paragraph">Môžeš vyskúšať znovu spustiť tento test</string>
   <string name="TestResults_Details_Failed_TryAgain">Skúsiť znova</string>
@@ -203,7 +203,7 @@
   <string name="TestResults_Details_Performance_Dash_PlayoutDelay">Oneskorenie prehrávania</string>
   <string name="TestResults_Details_Circumvention_Psiphon_Blocked_Hero_Title">Blokovaná</string>
   <string name="TestResults_Details_Circumvention_Psiphon_Reachable_Hero_Title">Funguje</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Label_Title">Bootstrap Time</string>
+  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Label_Title">Čas Bootstrapu</string>
   <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Unit">s</string>
   <string name="Feed_Tab_Label">Informačný kanál</string>
   <string name="Feed_Title">Informačný kanál</string>
@@ -223,7 +223,7 @@
   <string name="Modal_ResultsNotUploaded_Button_Upload">Nahrať</string>
   <string name="Modal_ResultsNotUploaded_Uploading">Nahráva sa %1$s ...</string>
   <string name="Toast_ResultsUploaded">Nahrávanie prebehlo úspešne</string>
-  <string name="Modal_DisplayFailureLog">Display failure log</string>
+  <string name="Modal_DisplayFailureLog">Zobraziť denník zlyhaní</string>
   <string name="Modal_EnableNotifications_AutomatedTesting">Pre automatické spúšťanie testov povoľ oznámenia.</string>
   <string name="Modal_EnableNotifications_News">Pre prijímanie aktualizácií správ povoľ oznámenia.</string>
   <string name="Modal_EnableNotifications_Any">Pre prijímanie push oznámení povoľ oznámenia.</string>
@@ -234,6 +234,8 @@
   <string name="Modal_OnlyDigits">Do tohto poľa zadaj iba číslice.</string>
   <string name="Modal_ReRun_Title">Znova spustiť test</string>
   <string name="Modal_ReRun_Paragraph">Tento test zlyhal. Znova spustiť test?</string>
+  <string name="Modal_ReRun_Websites_Title">You are about to re-test %1$s websites.</string>
+  <string name="Modal_ReRun_Websites_Run">Spustiť</string>
   <string name="Modal_CustomURL_NotSaved">Ak opustíš túto obrazovku, tvoje URL adresy sa neuložia. Si si istý/istá, že chceš opustiť túto obrazovku?</string>
   <string name="Modal_ManualUpload_Title">Povoliť manuálne nahrávanie?</string>
   <string name="Modal_ManualUpload_Paragraph">Toto nastavenie ti umožňuje manuálne znova nahrať neuverejnené merania.</string>

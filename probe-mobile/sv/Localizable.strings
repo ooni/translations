@@ -232,6 +232,8 @@
 "Modal.OnlyDigits" = "Skriv enbart in siffror i det här fältet";
 "Modal.ReRun.Title" = "Kör test igen";
 "Modal.ReRun.Paragraph" = "Det här testet misslyckades. Vill du köra testet igen?";
+"Modal.ReRun.Websites.Title" = "You are about to re-test %@ websites.";
+"Modal.ReRun.Websites.Run" = "Kör";
 "Modal.CustomURL.NotSaved" = "Your URLs will not be saved when you leave this screen. Are you sure you want to leave this screen?";
 "Modal.ManualUpload.Title" = "Aktivera manuell uppladdning?";
 "Modal.ManualUpload.Paragraph" = "Den här inställningen gör att du manuellt kan ladda upp opublicerade mätningar.";
