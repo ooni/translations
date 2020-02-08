@@ -278,6 +278,7 @@
   "Settings.Sharing.IncludeCountryCode": "Include Country Code",
   "Settings.Sharing.IncludeCountryCode.PopUp": "This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?",
   "Settings.Sharing.Footer": "By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.",
+  "Settings.TestOptions.Label": "Test options",
   "Settings.Advanced.Label": "Lisätietoja",
   "Settings.Advanced.SendCrashReports": "Send crash reports",
   "Settings.Advanced.DebugLogs": "Debug logs",

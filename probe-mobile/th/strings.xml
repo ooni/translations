@@ -279,6 +279,7 @@
   <string name="Settings_Sharing_IncludeCountryCode">Include Country Code</string>
   <string name="Settings_Sharing_IncludeCountryCode_PopUp">This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?</string>
   <string name="Settings_Sharing_Footer">By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.</string>
+  <string name="Settings_TestOptions_Label">Test options</string>
   <string name="Settings_Advanced_Label">ขั้นสูง</string>
   <string name="Settings_Advanced_SendCrashReports">Send crash reports</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
