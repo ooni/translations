@@ -201,10 +201,6 @@
   <string name="TestResults_Details_Performance_Dash_VideoWithoutBuffering">Bez bufferingu môžeš streamovať do úrovne %1$s.</string>
   <string name="TestResults_Details_Performance_Dash_MedianBitrate">Medián bitovej rýchlosti</string>
   <string name="TestResults_Details_Performance_Dash_PlayoutDelay">Oneskorenie prehrávania</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_Blocked_Hero_Title">Blokovaná</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_Reachable_Hero_Title">Funguje</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Label_Title">Čas Bootstrapu</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Unit">s</string>
   <string name="Feed_Tab_Label">Informačný kanál</string>
   <string name="Feed_Title">Informačný kanál</string>
   <string name="Modal_OK">OK</string>
@@ -234,7 +230,7 @@
   <string name="Modal_OnlyDigits">Do tohto poľa zadaj iba číslice.</string>
   <string name="Modal_ReRun_Title">Znova spustiť test</string>
   <string name="Modal_ReRun_Paragraph">Tento test zlyhal. Znova spustiť test?</string>
-  <string name="Modal_ReRun_Websites_Title">You are about to re-test %1$s websites.</string>
+  <string name="Modal_ReRun_Websites_Title">Chystáš sa znova otestovať %1$s webových stránok.</string>
   <string name="Modal_ReRun_Websites_Run">Spustiť</string>
   <string name="Modal_CustomURL_NotSaved">Ak opustíš túto obrazovku, tvoje URL adresy sa neuložia. Si si istý/istá, že chceš opustiť túto obrazovku?</string>
   <string name="Modal_ManualUpload_Title">Povoliť manuálne nahrávanie?</string>
@@ -247,7 +243,6 @@
   <string name="Modal_Error_NoValidUrls">Nenašli sa platné URL adresy</string>
   <string name="Modal_Error_JsonEmpty">Súbor JSON je prázdny</string>
   <string name="Toast_CopiedToClipboard">Skopírované do schránky</string>
-  <string name="Toast_WillBeAvailable">Bude k dispozícii do 24 h</string>
   <string name="Snackbar_ResultsNotUploaded_Text">Nenahrané</string>
   <string name="Snackbar_ResultsNotUploaded_Upload">Nahrať</string>
   <string name="Snackbar_ResultsSomeNotUploaded_Text">Niektoré nenahrané</string>
@@ -265,7 +260,6 @@
   <string name="Test_WhatsApp_Fullname">Test WhatsAppu</string>
   <string name="Test_Telegram_Fullname">Test Telegramu</string>
   <string name="Test_FacebookMessenger_Fullname">Test Facebook Messengera</string>
-  <string name="Test_Psiphon_Fullname">Psiphon Test</string>
   <string name="Settings_Title">Nastavenia</string>
   <string name="Settings_Error_TestDurationTooLow">Doba trvania testu, ktorú si nastavil/a, je príliš krátka.</string>
   <string name="Settings_About_Label">O projekte OONI</string>

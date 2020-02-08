@@ -199,10 +199,6 @@
 "TestResults.Details.Performance.Dash.VideoWithoutBuffering" = "Du kan streama upp till %@  utan att buffra.";
 "TestResults.Details.Performance.Dash.MedianBitrate" = "Median bitrate";
 "TestResults.Details.Performance.Dash.PlayoutDelay" = "Uppspelingsfördröjning";
-"TestResults.Details.Circumvention.Psiphon.Blocked.Hero.Title" = "Blockerade";
-"TestResults.Details.Circumvention.Psiphon.Reachable.Hero.Title" = "Arbetar";
-"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "Bootstrap Time";
-"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "s";
 "Feed.Tab.Label" = "Flöde";
 "Feed.Title" = "Flöde";
 "Modal.OK" = "Ok";
@@ -245,7 +241,6 @@
 "Modal.Error.NoValidUrls" = "Inga giltiga URL:er hittades";
 "Modal.Error.JsonEmpty" = "JSON är tom";
 "Toast.CopiedToClipboard" = "Kopierades till urklipp";
-"Toast.WillBeAvailable" = "Will be available within 24h";
 "Snackbar.ResultsNotUploaded.Text" = "Ej uppladdad";
 "Snackbar.ResultsNotUploaded.Upload" = "Ladda upp";
 "Snackbar.ResultsSomeNotUploaded.Text" = "Vissa ej uppladdade";
@@ -263,7 +258,6 @@
 "Test.WhatsApp.Fullname" = "Test av WhatsApp";
 "Test.Telegram.Fullname" = "Test av Telegram";
 "Test.FacebookMessenger.Fullname" = "Test av Facebook Messenger";
-"Test.Psiphon.Fullname" = "Psiphon Test";
 "Settings.Title" = "Inställningar";
 "Settings.Error.TestDurationTooLow" = "Tiden du har ställt in för testet är för kort.";
 "Settings.About.Label" = "Om OONI";

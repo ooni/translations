@@ -201,10 +201,6 @@
   <string name="TestResults_Details_Performance_Dash_VideoWithoutBuffering">Du kan streama upp till %1$s  utan att buffra.</string>
   <string name="TestResults_Details_Performance_Dash_MedianBitrate">Median bitrate</string>
   <string name="TestResults_Details_Performance_Dash_PlayoutDelay">Uppspelingsfördröjning</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_Blocked_Hero_Title">Blockerade</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_Reachable_Hero_Title">Arbetar</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Label_Title">Bootstrap Time</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Unit">s</string>
   <string name="Feed_Tab_Label">Flöde</string>
   <string name="Feed_Title">Flöde</string>
   <string name="Modal_OK">Ok</string>
@@ -247,7 +243,6 @@
   <string name="Modal_Error_NoValidUrls">Inga giltiga URL:er hittades</string>
   <string name="Modal_Error_JsonEmpty">JSON är tom</string>
   <string name="Toast_CopiedToClipboard">Kopierades till urklipp</string>
-  <string name="Toast_WillBeAvailable">Will be available within 24h</string>
   <string name="Snackbar_ResultsNotUploaded_Text">Ej uppladdad</string>
   <string name="Snackbar_ResultsNotUploaded_Upload">Ladda upp</string>
   <string name="Snackbar_ResultsSomeNotUploaded_Text">Vissa ej uppladdade</string>
@@ -265,7 +260,6 @@
   <string name="Test_WhatsApp_Fullname">Test av WhatsApp</string>
   <string name="Test_Telegram_Fullname">Test av Telegram</string>
   <string name="Test_FacebookMessenger_Fullname">Test av Facebook Messenger</string>
-  <string name="Test_Psiphon_Fullname">Psiphon Test</string>
   <string name="Settings_Title">Inställningar</string>
   <string name="Settings_Error_TestDurationTooLow">Tiden du har ställt in för testet är för kort.</string>
   <string name="Settings_About_Label">Om OONI</string>
