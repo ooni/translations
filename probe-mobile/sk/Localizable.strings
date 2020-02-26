@@ -52,9 +52,9 @@
 "Dashboard.Middleboxes.Overview.Paragraph" = "Poskytovatelia internetových služieb často používajú sieťové zariadenia (middleboxy) na rôzne sieťové účely (ako napr. ukladanie údajov do vyrovnávacej pamäte). Niekedy sa tieto middleboxy používajú pri implementácii cenzúry internetu a/alebo sledovaní.\n\nNájdi middleboxy vo svojej sieti pomocou [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) testu OONI a [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) testu OONI.\n\nVýsledky sa uverejnia na stránkach [Prieskumníka OONI](https://explorer.ooni.io/world/) a [OONI API](https://api.ooni.io/).";
 "Dashboard.InstantMessaging.Card.Description" = "Otestuj blokovanie aplikácií na výmenu okamžitých správ";
 "Dashboard.InstantMessaging.Overview.Paragraph" = "Skontroluj, či aplikácie [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/) a [Telegram](https://ooni.io/nettest/telegram/) nie sú blokované.\n\nVýsledky sa uverejnia na stránkach [Prieskumníka OONI](https://explorer.ooni.io/world/) a [OONI API](https://api.ooni.io/).";
-"TestResults.Gbps" = "Gb/s";
-"TestResults.Mbps" = "Mb/s";
-"TestResults.Kbps" = "kb/s";
+"TestResults.Gbps" = "Gbit/s";
+"TestResults.Mbps" = "Mbit/s";
+"TestResults.Kbps" = "kbit/s";
 "TestResults.ms" = "ms";
 "TestResults.NotAvailable" = "Nie je k dispozícii";
 "TestResults.UnknownASN" = "Neznámy";
