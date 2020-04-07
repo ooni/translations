@@ -1,5 +1,28 @@
 # OONI Translations
 
+## Language priorities
+
+The priority languages (sorted alphabetically) are:
+
+* Arabic
+* Chinese
+* French
+* Persian/Farsi
+* Russian
+* Spanish
+* Turkish
+
+Moreover, the following languages are also important to us:
+
+* Ahmaric
+* Bengali
+* Hindi
+* Indonesian
+* Thai
+* Vietnamese
+
+## Translations
+
 If you would like to improve translations for OONI software check out our [Guidelines](./Guidelines.md) and sign up for a transifex account here: https://transifex.com/otf/ooniprobe/dashboard/ (translations are automatically synched from transifex).
 
 This repository contains all the translations for OONI software.
