@@ -45,6 +45,8 @@
   <string name="Dashboard_Running_CalculatingETA">Vypočítava sa odhadovaný čas</string>
   <string name="Dashboard_Running_ShowLog">Zobraziť Log</string>
   <string name="Dashboard_Running_CloseLog">Zatvoriť denník</string>
+  <string name="Dashboard_Running_Stopping_Title">Stopping test...</string>
+  <string name="Dashboard_Running_Stopping_Notice">Finishing the currently pending tests, please wait...</string>
   <string name="Dashboard_Card_Subtitle">Pre viac info ťukni na kartu</string>
   <string name="Dashboard_Card_Seconds">~%1$s</string>
   <string name="Dashboard_Websites_Card_Description">Otestuj blokovanie webových stránok</string>
@@ -52,6 +54,7 @@
   <string name="Dashboard_Websites_Overview_Paragraph_Desktop">Skontrolujte, či sú webové stránky blokované pomocou [testu webovej konektivity](https://ooni.io/nettest/web-connectivity/) OONI.\n\nBudete testovať webové stránky uvedené v [globálnych](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) testovacích zoznamoch Citizen Labu a testovacích zoznamoch Citizen Labu [pre jednotlivé krajiny](https://github.com/citizenlab/test-lists/tree/master/lists).\n\nTento test overuje, či sú webové stránky blokované prostredníctvom zásahu do DNS, TCP/IP blokovania alebo transparentného servera HTTP proxy.\n\nVaše výsledky budú uverejnené v [Prieskumníku OONI](https://explorer.ooni.org/) a [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Performance_Card_Description">Otestuj rýchlosť a výkon svojej siete</string>
   <string name="Dashboard_Performance_Overview_Paragraph">Zmeraj rýchlosť a výkon siete pomocou testu [NDT](https://ooni.io/nettest/ndt/).\n\nZmeraj výkon streamovania videa pomocou testu [DASH](https://ooni.io/nettest/dash/).\n\nTieto testy spotrebúvajú dáta v závislosti od rýchlosti tvojej siete.\n\nVýsledky sa uverejnia na stránkach [Prieskumníka OONI](https://explorer.ooni.io/world/) a [OONI API](https://api.ooni.io/).\n\nVyhlásenie: Tieto testy používajú servery tretích strán. Preto nemôžeme zaručiť, že tvoja IP adresa nebude predmetom zhromažďovania údajov.</string>
+  <string name="Dashboard_Performance_Overview_Paragraph_Updated">By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/)</string>
   <string name="Dashboard_Middleboxes_Card_Description">Odhaľ prítomnosť middleboxu v tvojej sieti</string>
   <string name="Dashboard_Middleboxes_Overview_Paragraph">Poskytovatelia internetových služieb často používajú sieťové zariadenia (middleboxy) na rôzne sieťové účely (ako napr. ukladanie údajov do vyrovnávacej pamäte). Niekedy sa tieto middleboxy používajú pri implementácii cenzúry internetu a/alebo sledovaní.\n\nNájdi middleboxy vo svojej sieti pomocou [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) testu OONI a [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) testu OONI.\n\nVýsledky sa uverejnia na stránkach [Prieskumníka OONI](https://explorer.ooni.io/world/) a [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_InstantMessaging_Card_Description">Otestuj blokovanie aplikácií na výmenu okamžitých správ</string>
@@ -200,10 +203,10 @@
   <string name="TestResults_Details_Performance_NDT_Download">Stiahnuť</string>
   <string name="TestResults_Details_Performance_NDT_Ping">Odozva</string>
   <string name="TestResults_Details_Performance_NDT_Server">Server</string>
-  <string name="TestResults_Details_Performance_NDT_PacketLoss">Strata paketov</string>
+  <string name="TestResults_Details_Performance_NDT_PacketLoss">Retransmit Rate</string>
   <string name="TestResults_Details_Performance_NDT_OutOfOrder">Nefunguje</string>
   <string name="TestResults_Details_Performance_NDT_AveragePing">Priemerná odozva</string>
-  <string name="TestResults_Details_Performance_NDT_MaxPing">Max. odozva</string>
+  <string name="TestResults_Details_Performance_NDT_MaxPing">Max Ping Estimate</string>
   <string name="TestResults_Details_Performance_NDT_MSS">MSS</string>
   <string name="TestResults_Details_Performance_NDT_Timeouts">Časové limity</string>
   <string name="TestResults_Details_Performance_Dash_VideoWithoutBuffering">Bez bufferingu môžeš streamovať do úrovne %1$s.</string>
@@ -313,6 +316,7 @@
   <string name="Settings_Advanced_SendCrashReports">Odosielať správy o zlyhaní</string>
   <string name="Settings_Advanced_DebugLogs">Denníky ladenia</string>
   <string name="Settings_Advanced_UseDomainFronting">Vždy používať domain fronting</string>
+  <string name="Settings_Advanced_CollectAnalytics">Collect app usage statistics</string>
   <string name="Settings_Websites_MaxRuntimeEnabled">Obmedziť trvanie testu</string>
   <string name="Settings_Websites_MaxRuntime">Trvanie testu</string>
   <string name="Settings_Websites_Categories_Label">Kategórie webových stránok na testovanie</string>
@@ -322,6 +326,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">Neboli zadané URL adresy</string>
   <string name="Settings_Websites_CustomURL_Run">Spustiť</string>
   <string name="Settings_Websites_CustomURL_Add">Pridať webovú stránku</string>
+  <string name="Settings_Websites_TestCount">Number of tested websites (0 means all)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">Testovať WhatsApp</string>
   <string name="Settings_InstantMessaging_WhatsAppExtensiveTesting">Testovať všetky koncové body WhatsAppu</string>
   <string name="Settings_InstantMessaging_TestTelegram">Testovať Telegram</string>
@@ -338,6 +343,7 @@
   <string name="Settings_Performance_DashServerPort">Port servera DASH</string>
   <string name="Settings_SendEmail_Label">Poslať e-mail na podporu</string>
   <string name="Settings_SendEmail_Error">Pošli, prosím, e-mail s informáciami o aplikácii a verzii iOS na bugs@openobservatory.org. Pre skopírovanie našej e-mailovej adresy ťukni na „Kopírovať do schránky“ nižšie.</string>
+  <string name="Settings_Language_Current">Current app language is %1$s</string>
   <string name="Notification_FinishedRunning">Hotovo</string>
   <string name="OONIBrowser_TryMirror">Skúsiť zrkadlo</string>
   <string name="OONIBrowser_Loading">Načítava sa...</string>

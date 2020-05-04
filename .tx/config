@@ -13,22 +13,3 @@ source_file = probe-mobile/en/description.xlf
 source_lang = en
 type = XLIFF
 
-#[ooniprobe.enjson]
-#file_filter = probe-legacy/<lang>/strings.json
-#source_file = probe-legacy/en/strings.json
-#source_lang = en
-#type = KEYVALUEJSON
-#
-#[ooniprobe.localizablestrings]
-#file_filter = probe-legacy/<lang>/Localizable.strings
-#source_file = probe-legacy/en/Localizable.strings
-#source_lang = en
-#type = STRINGS
-#
-#[ooniprobe.stringsxml]
-#file_filter = probe-legacy/<lang>/strings.xml
-#source_file = probe-legacy/en/strings.xml
-#source_lang = en
-#type = ANDROID
-#
-

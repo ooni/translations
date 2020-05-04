@@ -45,6 +45,8 @@
   <string name="Dashboard_Running_CalculatingETA">Räknar ut förväntad ankomst | ETA |</string>
   <string name="Dashboard_Running_ShowLog">Visa loggen</string>
   <string name="Dashboard_Running_CloseLog">Close Log</string>
+  <string name="Dashboard_Running_Stopping_Title">Stopping test...</string>
+  <string name="Dashboard_Running_Stopping_Notice">Finishing the currently pending tests, please wait...</string>
   <string name="Dashboard_Card_Subtitle">Tryck för mer alternativ</string>
   <string name="Dashboard_Card_Seconds">~%1$ser</string>
   <string name="Dashboard_Websites_Card_Description">Testa blockerade webbsidor</string>
@@ -52,6 +54,7 @@
   <string name="Dashboard_Websites_Overview_Paragraph_Desktop">Check whether websites are blocked using OONI\'s [Web Connectivity test](https://ooni.io/nettest/web-connectivity/).\n\nYou will test the websites included in the Citizen Lab\'s [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists.\n\nThis test measures whether websites are blocked by means of DNS tampering, TCP/IP blocking or by a transparent HTTP proxy.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Performance_Card_Description">Testa din nätverkshastighet och prestanda</string>
   <string name="Dashboard_Performance_Overview_Paragraph">Measure the speed and performance of your network using the [NDT](https://ooni.io/nettest/ndt/) test.\n\nMeasure video streaming performance using the [DASH](https://ooni.io/nettest/dash/) test.\n\nThese tests consume data depending on your network speed.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).\n\nDisclaimer: These tests rely on third party servers. We therefore cannot guarantee that your IP address will not be collected.</string>
+  <string name="Dashboard_Performance_Overview_Paragraph_Updated">By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/)</string>
   <string name="Dashboard_Middleboxes_Card_Description">Upptäck \"middleboxes\" i ditt nätverk</string>
   <string name="Dashboard_Middleboxes_Overview_Paragraph">Internet Service Providers often use network appliances (middleboxes) for various networking purposes (such as caching). Sometimes these middleboxes are used to implement internet censorship and/or surveillance.\n\nFind middleboxes in your network using OONI\'s [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) tests.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.io/world/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_InstantMessaging_Card_Description">Testa om \"instant messaging\"-appar är blockerade</string>
@@ -200,10 +203,10 @@
   <string name="TestResults_Details_Performance_NDT_Download">Ladda ned</string>
   <string name="TestResults_Details_Performance_NDT_Ping">Pinga</string>
   <string name="TestResults_Details_Performance_NDT_Server">Server</string>
-  <string name="TestResults_Details_Performance_NDT_PacketLoss">Paketförlust</string>
+  <string name="TestResults_Details_Performance_NDT_PacketLoss">Retransmit Rate</string>
   <string name="TestResults_Details_Performance_NDT_OutOfOrder">Ur funktion</string>
   <string name="TestResults_Details_Performance_NDT_AveragePing">Genomsnittlig ping</string>
-  <string name="TestResults_Details_Performance_NDT_MaxPing">Max ping</string>
+  <string name="TestResults_Details_Performance_NDT_MaxPing">Max Ping Estimate</string>
   <string name="TestResults_Details_Performance_NDT_MSS">MSS</string>
   <string name="TestResults_Details_Performance_NDT_Timeouts">Timeouter</string>
   <string name="TestResults_Details_Performance_Dash_VideoWithoutBuffering">Du kan streama upp till %1$s  utan att buffra.</string>
@@ -313,6 +316,7 @@
   <string name="Settings_Advanced_SendCrashReports">Skicka kraschrapporter</string>
   <string name="Settings_Advanced_DebugLogs">Felsöningsloggar</string>
   <string name="Settings_Advanced_UseDomainFronting">Använd alltid domänfront</string>
+  <string name="Settings_Advanced_CollectAnalytics">Collect app usage statistics</string>
   <string name="Settings_Websites_MaxRuntimeEnabled">Limit test duration</string>
   <string name="Settings_Websites_MaxRuntime">Testtid</string>
   <string name="Settings_Websites_Categories_Label">Webside-kategorier att testa</string>
@@ -322,6 +326,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">Inga URL:er registrerade</string>
   <string name="Settings_Websites_CustomURL_Run">Kör</string>
   <string name="Settings_Websites_CustomURL_Add">Lägg till webbsida</string>
+  <string name="Settings_Websites_TestCount">Number of tested websites (0 means all)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">Test av WhatsApp</string>
   <string name="Settings_InstantMessaging_WhatsAppExtensiveTesting">Testa alla WhatsApp-destinationer</string>
   <string name="Settings_InstantMessaging_TestTelegram">Test av Telegram</string>
@@ -338,6 +343,7 @@
   <string name="Settings_Performance_DashServerPort">DASH-serverport</string>
   <string name="Settings_SendEmail_Label">Skicka mail till support</string>
   <string name="Settings_SendEmail_Error">Vänligen skicka ett mail till bugs@openobservatory.org med information om app-version och IOS-version. Tryck på \"Kopiera till urklipp\" nedan, för att kopiera vår mailadress.</string>
+  <string name="Settings_Language_Current">Current app language is %1$s</string>
   <string name="Notification_FinishedRunning">Slutfört</string>
   <string name="OONIBrowser_TryMirror">Try mirror</string>
   <string name="OONIBrowser_Loading">Laddar…</string>
