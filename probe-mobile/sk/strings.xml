@@ -54,7 +54,7 @@
   <string name="Dashboard_Websites_Overview_Paragraph_Desktop">Skontrolujte, či sú webové stránky blokované pomocou [testu webovej konektivity](https://ooni.io/nettest/web-connectivity/) OONI.\n\nBudete testovať webové stránky uvedené v [globálnych](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) testovacích zoznamoch Citizen Labu a testovacích zoznamoch Citizen Labu [pre jednotlivé krajiny](https://github.com/citizenlab/test-lists/tree/master/lists).\n\nTento test overuje, či sú webové stránky blokované prostredníctvom zásahu do DNS, TCP/IP blokovania alebo transparentného servera HTTP proxy.\n\nVaše výsledky budú uverejnené v [Prieskumníku OONI](https://explorer.ooni.org/) a [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Performance_Card_Description">Otestuj rýchlosť a výkon svojej siete</string>
   <string name="Dashboard_Performance_Overview_Paragraph">Zmeraj rýchlosť a výkon siete pomocou testu [NDT](https://ooni.io/nettest/ndt/).\n\nZmeraj výkon streamovania videa pomocou testu [DASH](https://ooni.io/nettest/dash/).\n\nTieto testy spotrebúvajú dáta v závislosti od rýchlosti tvojej siete.\n\nVýsledky sa uverejnia na stránkach [Prieskumníka OONI](https://explorer.ooni.io/world/) a [OONI API](https://api.ooni.io/).\n\nVyhlásenie: Tieto testy používajú servery tretích strán. Preto nemôžeme zaručiť, že tvoja IP adresa nebude predmetom zhromažďovania údajov.</string>
-  <string name="Dashboard_Performance_Overview_Paragraph_Updated">By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/)</string>
+  <string name="Dashboard_Performance_Overview_Paragraph_Updated">By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/).</string>
   <string name="Dashboard_Middleboxes_Card_Description">Odhaľ prítomnosť middleboxu v tvojej sieti</string>
   <string name="Dashboard_Middleboxes_Overview_Paragraph">Poskytovatelia internetových služieb často používajú sieťové zariadenia (middleboxy) na rôzne sieťové účely (ako napr. ukladanie údajov do vyrovnávacej pamäte). Niekedy sa tieto middleboxy používajú pri implementácii cenzúry internetu a/alebo sledovaní.\n\nNájdi middleboxy vo svojej sieti pomocou [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) testu OONI a [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) testu OONI.\n\nVýsledky sa uverejnia na stránkach [Prieskumníka OONI](https://explorer.ooni.io/world/) a [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_InstantMessaging_Card_Description">Otestuj blokovanie aplikácií na výmenu okamžitých správ</string>
@@ -78,6 +78,7 @@
   <string name="TestResults_Overview_FilterTests_MiddleBoxes">Middleboxy</string>
   <string name="TestResults_Overview_FilterTests_Performance">Výkon</string>
   <string name="TestResults_Overview_FilterTests_InstantMessaging">Výmena okamžitých správ</string>
+  <string name="TestResults_Overview_FilterTests_Circumvention">Obchádzanie</string>
   <string name="TestResults_Overview_NoTestsHaveBeenRun">Zatiaľ neboli spustené žiadne testy. Skús jeden spustiť!</string>
   <string name="TestResults_Overview_Websites_Blocked_Singular">%1$s blokovaná</string>
   <string name="TestResults_Overview_Websites_Blocked_Plural">%1$s blokovaných</string>
@@ -90,7 +91,9 @@
   <string name="TestResults_Overview_InstantMessaging_Blocked_Plural">%1$s blokovaných</string>
   <string name="TestResults_Overview_InstantMessaging_Available_Singular">%1$s dostupná</string>
   <string name="TestResults_Overview_InstantMessaging_Available_Plural">%1$s dostupných</string>
+  <string name="TestResults_Overview_Circumvention_Blocked_Singular">%1$s blokovaných</string>
   <string name="TestResults_Overview_Circumvention_Blocked_Plural">%1$s blokovaných</string>
+  <string name="TestResults_Overview_Circumvention_Available_Singular">%1$s k dispozícii</string>
   <string name="TestResults_Overview_Circumvention_Available_Plural">%1$s k dispozícii</string>
   <string name="TestResults_Overview_IncompleteResult">Neúplný výsledok</string>
   <string name="TestResults_Overview_Error">Chyba</string>
@@ -203,7 +206,7 @@
   <string name="TestResults_Details_Performance_NDT_Download">Stiahnuť</string>
   <string name="TestResults_Details_Performance_NDT_Ping">Odozva</string>
   <string name="TestResults_Details_Performance_NDT_Server">Server</string>
-  <string name="TestResults_Details_Performance_NDT_PacketLoss">Retransmit Rate</string>
+  <string name="TestResults_Details_Performance_NDT_PacketLoss">Retransmission Rate</string>
   <string name="TestResults_Details_Performance_NDT_OutOfOrder">Nefunguje</string>
   <string name="TestResults_Details_Performance_NDT_AveragePing">Priemerná odozva</string>
   <string name="TestResults_Details_Performance_NDT_MaxPing">Max Ping Estimate</string>
@@ -217,7 +220,7 @@
   <string name="TestResults_Details_Circumvention_Psiphon_Blocked_Content_Paragraph">Zdá sa, že [Psiphon](https://psiphon.ca/) je blokovaný.</string>
   <string name="TestResults_Details_Circumvention_Psiphon_Reachable_Content_Paragraph">Podarilo sa nám úspešne bootstrapovať pripojenie Psiphon. To znamená, že [Psiphon](https://psiphon.ca/) by mal fungovať.</string>
   <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Label_Title">Čas Bootstrapu</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Unit">s</string>
+  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Unit">%1$s s</string>
   <string name="TestResults_Details_Circumvention_Tor_Blocked_Hero_Title">Pravdepodobne blokovaná</string>
   <string name="TestResults_Details_Circumvention_Tor_Reachable_Hero_Title">Funguje</string>
   <string name="TestResults_Details_Circumvention_Tor_Blocked_Content_Paragraph">Zdá sa, že sieť [Tor](https://www.torproject.org/) je blokovaná.</string>
@@ -341,6 +344,8 @@
   <string name="Settings_Performance_DashAutomaticServerSelection">Automatický výber servera DASH</string>
   <string name="Settings_Performance_DashServerAddress">Server DASH</string>
   <string name="Settings_Performance_DashServerPort">Port servera DASH</string>
+  <string name="Settings_Circumvention_TestPsiphon">Test Psiphon</string>
+  <string name="Settings_Circumvention_TestTor">Test Tor</string>
   <string name="Settings_SendEmail_Label">Poslať e-mail na podporu</string>
   <string name="Settings_SendEmail_Error">Pošli, prosím, e-mail s informáciami o aplikácii a verzii iOS na bugs@openobservatory.org. Pre skopírovanie našej e-mailovej adresy ťukni na „Kopírovať do schránky“ nižšie.</string>
   <string name="Settings_Language_Current">Current app language is %1$s</string>

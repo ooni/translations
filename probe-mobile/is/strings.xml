@@ -45,8 +45,8 @@
   <string name="Dashboard_Running_CalculatingETA">Reikna tíma</string>
   <string name="Dashboard_Running_ShowLog">Birta atvikaskrá</string>
   <string name="Dashboard_Running_CloseLog">Loka atvikaskrá</string>
-  <string name="Dashboard_Running_Stopping_Title">Stopping test...</string>
-  <string name="Dashboard_Running_Stopping_Notice">Finishing the currently pending tests, please wait...</string>
+  <string name="Dashboard_Running_Stopping_Title">Stöðva prófun...</string>
+  <string name="Dashboard_Running_Stopping_Notice">Lýk þeim prófunum sem eru í gangi, bíddu aðeins...</string>
   <string name="Dashboard_Card_Subtitle">Ýttu á spjaldið til að sjá meira</string>
   <string name="Dashboard_Card_Seconds">~%1$ss</string>
   <string name="Dashboard_Websites_Card_Description">Prófa hindranir fyrir vefsíður</string>
@@ -54,7 +54,7 @@
   <string name="Dashboard_Websites_Overview_Paragraph_Desktop">Athugaðu hvort lokað sé á vefsvæði með því að nota [prófun veftenginga](https://ooni.io/nettest/web-connectivity/) hjá OONI.\n\nÞú munt prófa þau vefsvæði sem innifalin eru í [almennu](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) og [lands-sértæku](https://github.com/citizenlab/test-lists/tree/master/lists) prófunarlistunum hjá Citizen Lab.\n\nÞetta prófar hvort lokað sé á vefi með því að fikta við DNS, lokun með TCP/IP eða með gegnsæum HTTP-milliþjónum (proxy).\n\nNiðurstöðurnar þínar verða birtar í [OONI Explorer](https://explorer.ooni.org/) og [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Performance_Card_Description">Prófa hraða og afköst netsins þíns</string>
   <string name="Dashboard_Performance_Overview_Paragraph">Mældu hraða og afköst netkerfisins þíns með [NDT](https://ooni.io/nettest/ndt/) prófun.\n\nMældu afköst myndstreymis með [DASH](https://ooni.io/nettest/dash/) prófun.\n\nÞessar prófanir nota gagnamagn í samræmi við hraða netkerfisins.\n\nNiðurstöðurnar þínar verða birtar í [OONI Explorer](https://explorer.ooni.org/) og [OONI API](https://api.ooni.io/).\n\nFyrirvari: Þessar prófanir reiða sig á vefþjóna utanaðkomandi aðila. Við getum því ekki ábyrgst að IP-vistföngum sé ekki safnað.</string>
-  <string name="Dashboard_Performance_Overview_Paragraph_Updated">By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/)</string>
+  <string name="Dashboard_Performance_Overview_Paragraph_Updated">By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/).</string>
   <string name="Dashboard_Middleboxes_Card_Description">Leita að millitölvum á netinu þínu</string>
   <string name="Dashboard_Middleboxes_Overview_Paragraph">Internetþjónustur (ISP - Internet Service Providers) nota oft allskyns nettæki (millitölvur) fyrir ýmislegt sem tengist rekstri netkerfa (eins og t.d. biðminni - caching). Sometimes these middleboxes are used to implement internet censorship and/or surveillance.\n\nFinndu millitölvur í netkerfinu með [prófun fyrir línu með ógidri HTTP-beiðni](https://ooni.io/nettest/http-invalid-request-line/) og [prófun á hvort átt hafi verið við HTTP-haus](https://ooni.io/nettest/http-header-field-manipulation/) frá OONI.\n\nNiðurstöðurnar þínar verða birtar í [OONI Explorer](https://explorer.ooni.org/) og [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_InstantMessaging_Card_Description">Prófa hindranir fyrir skilaboðaforrit</string>
@@ -78,6 +78,7 @@
   <string name="TestResults_Overview_FilterTests_MiddleBoxes">Millitölvur</string>
   <string name="TestResults_Overview_FilterTests_Performance">Afköst</string>
   <string name="TestResults_Overview_FilterTests_InstantMessaging">Snarskilaboð</string>
+  <string name="TestResults_Overview_FilterTests_Circumvention">Hjáleiðir</string>
   <string name="TestResults_Overview_NoTestsHaveBeenRun">Engar prófanir hafa verið keyrðar ennþá. Prófaðu að keyra eina!</string>
   <string name="TestResults_Overview_Websites_Blocked_Singular">%1$s hindranir</string>
   <string name="TestResults_Overview_Websites_Blocked_Plural">%1$s hindranir</string>
@@ -90,7 +91,9 @@
   <string name="TestResults_Overview_InstantMessaging_Blocked_Plural">%1$s hindranir</string>
   <string name="TestResults_Overview_InstantMessaging_Available_Singular">%1$s aðgengilegt</string>
   <string name="TestResults_Overview_InstantMessaging_Available_Plural">%1$s aðgengilegt</string>
+  <string name="TestResults_Overview_Circumvention_Blocked_Singular">%1$s hindranir</string>
   <string name="TestResults_Overview_Circumvention_Blocked_Plural">%1$s hindranir</string>
+  <string name="TestResults_Overview_Circumvention_Available_Singular">%1$s tiltæk</string>
   <string name="TestResults_Overview_Circumvention_Available_Plural">%1$s tiltæk</string>
   <string name="TestResults_Overview_IncompleteResult">Ófullgerð niðurstaða</string>
   <string name="TestResults_Overview_Error">Villa</string>
@@ -203,10 +206,10 @@
   <string name="TestResults_Details_Performance_NDT_Download">Sækja</string>
   <string name="TestResults_Details_Performance_NDT_Ping">Ping-skipun</string>
   <string name="TestResults_Details_Performance_NDT_Server">Netþjónn</string>
-  <string name="TestResults_Details_Performance_NDT_PacketLoss">Retransmit Rate</string>
+  <string name="TestResults_Details_Performance_NDT_PacketLoss">Hlutfall endursendinga</string>
   <string name="TestResults_Details_Performance_NDT_OutOfOrder">Ekki í lagi</string>
   <string name="TestResults_Details_Performance_NDT_AveragePing">Meðaltal ping-skipunar</string>
-  <string name="TestResults_Details_Performance_NDT_MaxPing">Max Ping Estimate</string>
+  <string name="TestResults_Details_Performance_NDT_MaxPing">Áætlað hámark ping-skipunar</string>
   <string name="TestResults_Details_Performance_NDT_MSS">MSS</string>
   <string name="TestResults_Details_Performance_NDT_Timeouts">Tímamörk</string>
   <string name="TestResults_Details_Performance_Dash_VideoWithoutBuffering">Þú getur streymt allt að %1$s án hleðslu í biðminni.</string>
@@ -217,7 +220,7 @@
   <string name="TestResults_Details_Circumvention_Psiphon_Blocked_Content_Paragraph">Það lítur út fyrir að [Psiphon](https://psiphon.ca/) sé hindrað.</string>
   <string name="TestResults_Details_Circumvention_Psiphon_Reachable_Content_Paragraph">Okkur tókst að sjálfræsa (bootstrap) Psiphon-tengingu. Það þýðir að [Psiphon](https://psiphon.ca/) ætti að virka.</string>
   <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Label_Title">Sjálfræsitími (bootstrap)</string>
-  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Unit">s</string>
+  <string name="TestResults_Details_Circumvention_Psiphon_BootstrapTime_Unit">%1$s s</string>
   <string name="TestResults_Details_Circumvention_Tor_Blocked_Hero_Title">Líklega hindrað</string>
   <string name="TestResults_Details_Circumvention_Tor_Reachable_Hero_Title">Í vinnslu</string>
   <string name="TestResults_Details_Circumvention_Tor_Blocked_Content_Paragraph">Það lítur út fyrir að [Tor](https://www.torproject.org/) sé hindrað.</string>
@@ -316,7 +319,7 @@
   <string name="Settings_Advanced_SendCrashReports">Senda hrunskýrslur</string>
   <string name="Settings_Advanced_DebugLogs">Villuskrár</string>
   <string name="Settings_Advanced_UseDomainFronting">Alltaf nota lénaframhlið (domain fronting)</string>
-  <string name="Settings_Advanced_CollectAnalytics">Collect app usage statistics</string>
+  <string name="Settings_Advanced_CollectAnalytics">Safna tölfræði um notkun forrits</string>
   <string name="Settings_Websites_MaxRuntimeEnabled">Takmarka tímalengd prófunar</string>
   <string name="Settings_Websites_MaxRuntime">Tímalengd prófunar</string>
   <string name="Settings_Websites_Categories_Label">Flokkar vefsvæða sem á að prófa</string>
@@ -326,7 +329,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">Engar slóðir settar inn</string>
   <string name="Settings_Websites_CustomURL_Run">Keyra</string>
   <string name="Settings_Websites_CustomURL_Add">Bæta við vefsvæði</string>
-  <string name="Settings_Websites_TestCount">Number of tested websites (0 means all)</string>
+  <string name="Settings_Websites_TestCount">Fjöldi prófaðra vefsvæða (0 þýðir allt)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">Prófa WhatsApp</string>
   <string name="Settings_InstantMessaging_WhatsAppExtensiveTesting">Prófa alla WhatsApp-endapunkta</string>
   <string name="Settings_InstantMessaging_TestTelegram">Prófa Telegram</string>
@@ -341,9 +344,11 @@
   <string name="Settings_Performance_DashAutomaticServerSelection">Sjálfvirkt val á DASH-netþjóni</string>
   <string name="Settings_Performance_DashServerAddress">DASH-netþjónn</string>
   <string name="Settings_Performance_DashServerPort">Gátt DASH-netþjóns</string>
+  <string name="Settings_Circumvention_TestPsiphon">Test Psiphon</string>
+  <string name="Settings_Circumvention_TestTor">Test Tor</string>
   <string name="Settings_SendEmail_Label">Senda tölvupóst til að fá aðstoð</string>
   <string name="Settings_SendEmail_Error">Sentu tölvupóst til bugs@openobservatory.org með upplýsingum um forritið og útgáfu þína af iOS. Ýttu á \"Afrita á klippispjald\" hér fyrir neðan til að afrita tölvupóstfangið okkar.</string>
-  <string name="Settings_Language_Current">Current app language is %1$s</string>
+  <string name="Settings_Language_Current">Núverandi tungumál forritsins er %1$s</string>
   <string name="Notification_FinishedRunning">Keyrslu er lokið</string>
   <string name="OONIBrowser_TryMirror">Prófa spegil</string>
   <string name="OONIBrowser_Loading">Hleð inn...</string>

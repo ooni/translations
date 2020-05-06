@@ -35,12 +35,15 @@
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
+        <target>Með þessu forriti geturðu athugað hvernig vefsvæði og smáskilaboðaforrit eru hindruð, prófað hraða netkerfisins þíns og afköst þess, og fundið kerfi sem standa fyrir ritskoðun og eftirliti á netinu þínu.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
+        <target>OONI Probe er þróað af Open Observatory of Network Interference (OONI), sem er frjálst hugbúnaðarverkefni (undir The Tor Project verkefninu) sem leitast við að fletta ofan af ritskoðun internetsins um víða veröld.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
+        <target>Síðan 2012 hefur alþjóðasamfélag OONI safnað milljónum mælinga á netkerfum frá meira en 200 löndum og þannig varpað ljósi á fjölmörg dæmi um íhlutanir í virkni netkerfa.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
@@ -52,6 +55,7 @@
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
+        <target>Þú getur athugað hvort og hvernig vefsvæði og smáskilaboðaforrit eru hindruð. Mælingagögnin sem þú safnar gætu nýst sem vísbendingar um ritskoðun internetsins.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
@@ -67,6 +71,7 @@
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
+        <target>Þú getur mælt hraða og afköst netkerfisins þíns með því að keyra útfærslu OONI á Network Diagnostic Test (NDT) prófuninni. Þú getur einnig mælt streymi myndmerkis með Dynamic Adaptive Streaming over HTTP (DASH) prófun.</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
@@ -74,6 +79,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
+        <target>OONI birtir netmælingagögn opinberlega vegna þess að opinn aðgangur að gögnum gerir utanaðkomandi aðilum kleift að sannprófa niðurstöður OONI, gera sínar eigin útreikninga og svara öðrum rannsóknarspurningum. Opinber birting gagna frá OONI eykur líka gagnsæi á ritskoðun internetsins í heiminum. Þú getur skoðað og sótt OONI-gögnin hér: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
@@ -81,6 +87,7 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
+        <target>Allar prófanir OONI Probe (þar með taldar NDT og DASH-útfærslurnar) byggjast á frjálsum og opnum hugbúnaði. Þú finnur hugbúnaðarverkefni OONI á GitHub: https://github.com/ooni. Ertu forvitin/n að vita hvernig prófanir OONI Probe virka? Kannaðu nánar: https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
@@ -91,7 +98,7 @@
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
-        <target>Mældu hvort internetsið sé ritskoðað og prófaðu hraða netkerfisins og afköst þess</target>
+        <target>Mældu hvort internetið sé ritskoðað og prófaðu hraða netkerfisins og afköst þess</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
@@ -99,18 +106,23 @@
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
+        <target>Keyrðu ítarlegt greiningar og hraðapróf á netkerfið</target>
       </trans-unit>
       <trans-unit id="screenshot4">
         <source>Easily discover which websites are blocked on your network</source>
+        <target>Finndu á einfaldan máta hvaða vefsvæði eru hindruð á netkerfinu þínu</target>
       </trans-unit>
       <trans-unit id="screenshot5">
         <source>Testing your network is fun with a friendly octopus!</source>
+        <target>Að prófa netkerfið þitt getur verið bara gaman!</target>
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
+        <target>Open Observatory of Network Interference (OONI) er alþjóðlegt vöktunarnet sem fylgist með ritskoðun og hömlum á internetinu auk þess að greina ýmis önnur afskipti af netkerfum um víða veröld.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
+        <target>netkerfi,hraðapróf,mæling,net,wifi,netvinnsla,skanna,bandbreidd,próf,dns,farsími,ooni,rannsóknir,verkfæri</target>
       </trans-unit>
     </body>
   </file>

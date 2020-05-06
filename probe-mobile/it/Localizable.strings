@@ -52,7 +52,7 @@
 "Dashboard.Websites.Overview.Paragraph.Desktop" = "Verifica se i siti Web sono bloccati utilizzando [Test connettività Web] di OONI (https://ooni.io/nettest/web-connectivity/).\n\nTesterai i siti web inclusi in Citizen Lab [global] (https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) e [specifici per paese] (https://github.com/citizenlab/test-lists/tree/master/lists) liste di test.\n\nQuesto test misura se i siti Web sono bloccati mediante manomissione DNS, blocco TCP / IP o un proxy HTTP trasparente.\n\nI risultati verranno pubblicati su [OONI Explorer] (https://explorer.ooni.org/) e [OONI API] (https://api.ooni.io/).";
 "Dashboard.Performance.Card.Description" = "Misura la velocità e le prestazioni della tua rete";
 "Dashboard.Performance.Overview.Paragraph" = "Misura la velocità e le prestazioni della tua rete con il test [NDT](https://ooni.io/nettest/ndt/).\n\nMisura le prestazioni dello streaming video con il test [DASH](https://ooni.io/nettest/dash/).\n\nQuesti test consumano traffico dati in base alla velocità della tua rete.\n\nI risultati dei tuoi test saranno pubblicati su [OONI Explorer](https://explorer.ooni.io/world/) e [OONI API](https://api.ooni.io/).\n\nAttenzione: questi test usano server di terze parti. Non possiamo quindi garantire che il vostro indirizzo IP non sarà raccolto.";
-"Dashboard.Performance.Overview.Paragraph.Updated" = "By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/)";
+"Dashboard.Performance.Overview.Paragraph.Updated" = "By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/).";
 "Dashboard.Middleboxes.Card.Description" = "Rileva middlebox nella tua rete";
 "Dashboard.Middleboxes.Overview.Paragraph" = "I provider di servizi internet (ISP) spesso usano apparecchiature di rete (middlebox) per motivi di networking (come ad esempio per il caching). Alle volte queste middlebox sono usate per implementare censura e/o sorveglianza internet.\n\nPuoi trovare middlebox sulla tua rete usando i test di OONI [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) e [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/).\n\nI risultati dei tuoi test saranno pubblicati su [OONI Explorer](https://explorer.ooni.io/world/) e [OONI API](https://api.ooni.io/).";
 "Dashboard.InstantMessaging.Card.Description" = "Verifica il blocco di app di messaggistica";
@@ -76,6 +76,7 @@
 "TestResults.Overview.FilterTests.MiddleBoxes" = "Middleboxes";
 "TestResults.Overview.FilterTests.Performance" = "Prestazioni";
 "TestResults.Overview.FilterTests.InstantMessaging" = "Messaggistica istantanea";
+"TestResults.Overview.FilterTests.Circumvention" = "Elusione";
 "TestResults.Overview.NoTestsHaveBeenRun" = "Nessun test è stato eseguito. Prova ad eseguirne uno!";
 "TestResults.Overview.Websites.Blocked.Singular" = "%@ bloccato";
 "TestResults.Overview.Websites.Blocked.Plural" = "%@ bloccati";
@@ -88,7 +89,9 @@
 "TestResults.Overview.InstantMessaging.Blocked.Plural" = "%@ bloccati";
 "TestResults.Overview.InstantMessaging.Available.Singular" = "%@ accessibile";
 "TestResults.Overview.InstantMessaging.Available.Plural" = "%@ accessibili";
+"TestResults.Overview.Circumvention.Blocked.Singular" = "%@ bloccati";
 "TestResults.Overview.Circumvention.Blocked.Plural" = "%@ bloccati";
+"TestResults.Overview.Circumvention.Available.Singular" = "%@ disponibile";
 "TestResults.Overview.Circumvention.Available.Plural" = "%@ disponibile";
 "TestResults.Overview.IncompleteResult" = "Risultato incompleto";
 "TestResults.Overview.Error" = "Errore";
@@ -201,7 +204,7 @@
 "TestResults.Details.Performance.NDT.Download" = "Download";
 "TestResults.Details.Performance.NDT.Ping" = "Ping";
 "TestResults.Details.Performance.NDT.Server" = "Server";
-"TestResults.Details.Performance.NDT.PacketLoss" = "Retransmit Rate";
+"TestResults.Details.Performance.NDT.PacketLoss" = "Retransmission Rate";
 "TestResults.Details.Performance.NDT.OutOfOrder" = "Fuori sequenza";
 "TestResults.Details.Performance.NDT.AveragePing" = "Ping medio";
 "TestResults.Details.Performance.NDT.MaxPing" = "Max Ping Estimate";
@@ -215,7 +218,7 @@
 "TestResults.Details.Circumvention.Psiphon.Blocked.Content.Paragraph" = "[Psiphon](https://psiphon.ca/) sembra sia bloccato.";
 "TestResults.Details.Circumvention.Psiphon.Reachable.Content.Paragraph" = "Siamo stati in grado di avviare correttamente una connessione Psiphon. Questo vuol dire che [Psiphon](https://psiphon.ca/) dovrebbe funzionare.";
 "TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "Tempo di avvio";
-"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "s";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "%@ s";
 "TestResults.Details.Circumvention.Tor.Blocked.Hero.Title" = "Probabilmente bloccato";
 "TestResults.Details.Circumvention.Tor.Reachable.Hero.Title" = "Attivo";
 "TestResults.Details.Circumvention.Tor.Blocked.Content.Paragraph" = "[Tor](https://www.torproject.org/) sembra essere bloccato.";
@@ -339,6 +342,8 @@
 "Settings.Performance.DashAutomaticServerSelection" = "Seleziona automaticamente il server DASH";
 "Settings.Performance.DashServerAddress" = "Server DASH";
 "Settings.Performance.DashServerPort" = "Porta server DASH";
+"Settings.Circumvention.TestPsiphon" = "Test Psiphon";
+"Settings.Circumvention.TestTor" = "Test Tor";
 "Settings.SendEmail.Label" = "Invia email a supporto";
 "Settings.SendEmail.Error" = "Per favore manda un email a bugs@openobservatory.org con i la versione dell'app e iOS. Tappa su \"Copia nella clipboard\" per copiare il nostro indirizzo email.";
 "Settings.Language.Current" = "Current app language is %@";

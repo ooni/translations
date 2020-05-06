@@ -52,7 +52,7 @@
 "Dashboard.Websites.Overview.Paragraph.Desktop" = "ตรวจสอบว่าเว็บไซต์ถูกปิดกั้นหรือไม่ ด้วย[การทดสอบ [Web Connectivity](https://ooni.io/nettest/web-connectivity/) ของ OONI\n\nคุณจะทดสอบเว็บไซต์จากรายการทดสอบ[ทั่วโลก](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)และ[เจาะจงประเทศ](https://github.com/citizenlab/test-lists/tree/master/lists) ที่จัดทำโดย Citizen Lab\n\nการทดสอบนี้จะตรวจวัดว่าเว็บไซต์ถูกปิดกั้นหรือไม่ ทั้งจากการปลอมแปลง DNS การปิดกั้น TCP/IP และการใช้พร็อกซี HTTP แบบล่องหน\n\nผลลัพธ์ของคุณจะถูกเผยแพร่บน [OONI Explorer](https://explorer.ooni.org/) และ [OONI API](https://api.ooni.io/)";
 "Dashboard.Performance.Card.Description" = "ทดสอบความเร็วและประสิทธิภาพของเครือข่ายของคุณ";
 "Dashboard.Performance.Overview.Paragraph" = "ตรวจวัดความเร็วและประสิทธิภาพของเครือข่ายของคุณ ด้วยการทดสอบ [NDT](https://ooni.io/nettest/ndt/)\n\nตรวจวัดประสิทธิภาพในการสตรีมวิดีโอ ด้วยการทดสอบ [DASH](https://ooni.io/nettest/dash/)\n\nการทดสอบเหล่านี้กินจำนวนการใช้ข้อมูล โดยขึ้นกับความเร็วเครือข่ายของคุณ\n\nผลการทดสอบของคุณจะถูกเผยแพร่บน [OONI Explorer](https://explorer.ooni.org/) และ [OONI API](https://api.ooni.io/)\n\nคำปฏิเสธความรับผิด: การทดสอบเหล่านี้พึ่งพาเซิร์ฟเวอร์ของบุคคลที่สาม ดังนั้นเราจึงไม่สามารถประกันได้ว่าที่อยู่ไอพีของคุณจะไม่ถูกจัดเก็บ";
-"Dashboard.Performance.Overview.Paragraph.Updated" = "By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/)";
+"Dashboard.Performance.Overview.Paragraph.Updated" = "By running the tests in this card, you will:\n\n- Measure the speed and performance of your network ([NDT](https://ooni.org/nettest/ndt/) test)\n- Measure video streaming performance ([DASH](https://ooni.org/nettest/dash/) test)\n- Check for the presence of [middlebox technologies](https://ooni.org/support/glossary/#middlebox) on your network ([HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) tests)\n\nThese tests consume data depending on your network speed.\n\nYour test results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).\n\n**Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address (for research purposes), irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/).";
 "Dashboard.Middleboxes.Card.Description" = "ตรวจหา middlebox ในเครือข่ายของคุณ";
 "Dashboard.Middleboxes.Overview.Paragraph" = "ผู้ให้บริการอินเทอร์เน็ตมักใช้อุปกรณ์เครือข่าย (middlebox หรือ \"กล่องที่อยู่ระหว่างทาง\") เพื่อประโยชน์ทางเครือข่ายต่างๆ (เช่น ให้บริการแคช) middlebox บางกล่องถูกใช้เพื่อการปิดกั้นอินเทอร์เน็ตและ/หรือการสอดส่อง\n\nค้นหา middlebox ในเครือข่ายของคุณด้วยการทดสอบ [HTTP Invalid Request Line](https://ooni.io/nettest/http-invalid-request-line/) และ [HTTP Header Field Manipulation](https://ooni.io/nettest/http-header-field-manipulation/) ของ OONI\n\nผลลัพธ์ของคุณจะถูกเผยแพร่บน [OONI Explorer](https://explorer.ooni.org/) และ [OONI API](https://api.ooni.io/)";
 "Dashboard.InstantMessaging.Card.Description" = "ทดสอบการปิดกั้นแอปข้อความด่วน";
@@ -76,6 +76,7 @@
 "TestResults.Overview.FilterTests.MiddleBoxes" = "middlebox";
 "TestResults.Overview.FilterTests.Performance" = "ประสิทธิภาพ";
 "TestResults.Overview.FilterTests.InstantMessaging" = "ข้อความด่วน";
+"TestResults.Overview.FilterTests.Circumvention" = "การหลีกเลี่ยง";
 "TestResults.Overview.NoTestsHaveBeenRun" = "ไม่มีการทดสอบที่ทำงานอยู่ ลองเริ่มสักอันไหม!";
 "TestResults.Overview.Websites.Blocked.Singular" = "%@ ถูกปิดกั้น";
 "TestResults.Overview.Websites.Blocked.Plural" = "%@ ถูกปิดกั้น";
@@ -88,7 +89,9 @@
 "TestResults.Overview.InstantMessaging.Blocked.Plural" = "%@ ถูกปิดกั้น";
 "TestResults.Overview.InstantMessaging.Available.Singular" = "%@ เข้าถึงได้";
 "TestResults.Overview.InstantMessaging.Available.Plural" = "%@ เข้าถึงได้";
+"TestResults.Overview.Circumvention.Blocked.Singular" = "%@ ถูกปิดกั้น";
 "TestResults.Overview.Circumvention.Blocked.Plural" = "%@ ถูกปิดกั้น";
+"TestResults.Overview.Circumvention.Available.Singular" = "%@ ใช้ได้";
 "TestResults.Overview.Circumvention.Available.Plural" = "%@ ใช้ได้";
 "TestResults.Overview.IncompleteResult" = "ผลลัพธ์ที่ไม่สมบูรณ์";
 "TestResults.Overview.Error" = "ข้อผิดพลาด";
@@ -201,7 +204,7 @@
 "TestResults.Details.Performance.NDT.Download" = "ดาวน์โหลด";
 "TestResults.Details.Performance.NDT.Ping" = "ping";
 "TestResults.Details.Performance.NDT.Server" = "เซิร์ฟเวอร์";
-"TestResults.Details.Performance.NDT.PacketLoss" = "อัตราการส่งซ้ำ";
+"TestResults.Details.Performance.NDT.PacketLoss" = "Retransmission Rate";
 "TestResults.Details.Performance.NDT.OutOfOrder" = "ลำดับผิด";
 "TestResults.Details.Performance.NDT.AveragePing" = "ping เฉลี่ย";
 "TestResults.Details.Performance.NDT.MaxPing" = "ping สูงสุดโดยประมาณ";
@@ -215,7 +218,7 @@
 "TestResults.Details.Circumvention.Psiphon.Blocked.Content.Paragraph" = "ดูเหมือน [Psiphon](https://psiphon.ca/) จะถูกปิดกั้น";
 "TestResults.Details.Circumvention.Psiphon.Reachable.Content.Paragraph" = "เราสามารถบูตสแตรปการเชื่อมต่อ Psiphon ได้สำเร็จ นี่หมายความว่า [Psiphon](https://psiphon.ca/) ควรจะใช้งานได้";
 "TestResults.Details.Circumvention.Psiphon.BootstrapTime.Label.Title" = "เวลาบูตสแตรป";
-"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "วิ";
+"TestResults.Details.Circumvention.Psiphon.BootstrapTime.Unit" = "%@ s";
 "TestResults.Details.Circumvention.Tor.Blocked.Hero.Title" = "น่าจะถูกปิดกั้น";
 "TestResults.Details.Circumvention.Tor.Reachable.Hero.Title" = "กำลังทำงาน";
 "TestResults.Details.Circumvention.Tor.Blocked.Content.Paragraph" = "ดูเหมือน [Tor](https://www.torproject.org/) จะถูกปิดกั้น";
@@ -339,6 +342,8 @@
 "Settings.Performance.DashAutomaticServerSelection" = "เลือกเซิร์ฟเวอร์ DASH อัตโนมัติ";
 "Settings.Performance.DashServerAddress" = "เซิร์ฟเวอร์ DASH";
 "Settings.Performance.DashServerPort" = "พอร์ตเซิร์ฟเวอร์ DASH";
+"Settings.Circumvention.TestPsiphon" = "Test Psiphon";
+"Settings.Circumvention.TestTor" = "Test Tor";
 "Settings.SendEmail.Label" = "ส่งอีเมลขอความช่วยเหลือ";
 "Settings.SendEmail.Error" = "กรุณาส่งอีเมลไปที่ bugs@openobservatory.org พร้อมกับข้อมูลจากแอปและรุ่นของ iOS แตะ \"คัดลอกไปคลิปบอร์ด\" ด้านล่างเพื่อคัดลอกที่อยู่อีเมลของเรา";
 "Settings.Language.Current" = "ภาษาปัจจุบันของแอปคือ %@";
