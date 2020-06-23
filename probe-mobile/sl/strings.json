@@ -29,7 +29,7 @@
   "Onboarding.DefaultSettings.Bullet.3": "Ura in datum testiranja",
   "Onboarding.DefaultSettings.Paragraph": "We do our best not to publish your IP address or any other potentially personally-identifiable information.\n\nLearn more through [OONI's Data Policy](https://ooni.io/about/data-policy/).",
   "Onboarding.DefaultSettings.Button.Go": "Gremo",
-  "Onboarding.DefaultSettings.Button.Change": "Change defaults",
+  "Onboarding.DefaultSettings.Button.Change": "Prilagodi nastavitve",
   "Dashboard.Tab.Label": "Dashboard",
   "Dashboard.Card.Run": "Poženi",
   "Dashboard.Overview.LastRun.Never": "N/A",

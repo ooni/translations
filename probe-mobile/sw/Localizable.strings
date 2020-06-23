@@ -117,7 +117,7 @@
 "TestResults.Summary.Performance.Hero.Video" = "Video";
 "TestResults.Summary.Performance.Hero.Video.Quality" = "Quality";
 "TestResults.Summary.Performance.Hero.Upload" = "Upload";
-"TestResults.Summary.Performance.Hero.Download" = "Download";
+"TestResults.Summary.Performance.Hero.Download" = "Pakua";
 "TestResults.Summary.Performance.Hero.Ping" = "Ping";
 "TestResults.Summary.Middleboxes.Hero.Found" = "Detected";
 "TestResults.Summary.Middleboxes.Hero.NotFound" = "Not detected";
@@ -201,9 +201,9 @@
 "TestResults.Details.Middleboxes.HTTPInvalidRequestLine.YouSent" = "You Sent";
 "TestResults.Details.Middleboxes.HTTPInvalidRequestLine.YouReceived" = "You Received";
 "TestResults.Details.Performance.NDT.Upload" = "Upload";
-"TestResults.Details.Performance.NDT.Download" = "Download";
+"TestResults.Details.Performance.NDT.Download" = "Pakua";
 "TestResults.Details.Performance.NDT.Ping" = "Ping";
-"TestResults.Details.Performance.NDT.Server" = "Server";
+"TestResults.Details.Performance.NDT.Server" = "Seva";
 "TestResults.Details.Performance.NDT.PacketLoss" = "Retransmission Rate";
 "TestResults.Details.Performance.NDT.OutOfOrder" = "Out of Order";
 "TestResults.Details.Performance.NDT.AveragePing" = "Average Ping";
@@ -230,7 +230,7 @@
 "TestResults.Details.Circumvention.Tor.Table.Header.Name" = "Jina";
 "TestResults.Details.Circumvention.Tor.Table.Header.Address" = "Address";
 "TestResults.Details.Circumvention.Tor.Table.Header.Type" = "Type";
-"TestResults.Details.Circumvention.Tor.Table.Header.Connect" = "Connect";
+"TestResults.Details.Circumvention.Tor.Table.Header.Connect" = "Unganisha";
 "TestResults.Details.Circumvention.Tor.Table.Header.Handshake" = "Handshake";
 "Feed.Tab.Label" = "Feed";
 "Feed.Title" = "Feed";
@@ -313,7 +313,7 @@
 "Settings.Sharing.IncludeCountryCode.PopUp" = "This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?";
 "Settings.Sharing.Footer" = "By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.";
 "Settings.TestOptions.Label" = "Test options";
-"Settings.Advanced.Label" = "Advanced";
+"Settings.Advanced.Label" = "Iliyoboreshwa";
 "Settings.Advanced.SendCrashReports" = "Send crash reports";
 "Settings.Advanced.DebugLogs" = "Debug logs";
 "Settings.Advanced.UseDomainFronting" = "Always use domain fronting";
