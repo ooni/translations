@@ -4,6 +4,7 @@ import cgi
 import csv
 import sys
 import re
+import html
 
 assert sys.version_info >= (3, 6), "Python >= 3.6 is required"
 
@@ -27,7 +28,7 @@ def dict_to_android_xml(d, out_path):
                 ReplaceCounter(),
                 text,
             )
-            text = cgi.escape(text)
+            text = html.escape(text)
             text = text.replace("\n", "\\n")
             # This regexp will match any unescaped ' and " also when it appears at
             # the beginning of the string.
