@@ -144,6 +144,7 @@
   "TestResults.Details.ViewLog": "Katso loki",
   "TestResults.Details.RawData": "Data",
   "TestResults.Details.CopyExplorerURL": "Copy Explorer URL",
+  "TestResults.Details.ShareExplorerURL": "Share Explorer URL",
   "TestResults.Details.CopyToClipboard": "Kopioi leikepöydälle",
   "TestResults.Details.ShowInExplorer": "Show in OONI Explorer",
   "TestResults.Details.Failed.Title": "Epäonnistunut",

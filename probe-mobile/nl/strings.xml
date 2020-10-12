@@ -145,6 +145,7 @@
   <string name="TestResults_Details_ViewLog">Logboek bekijken</string>
   <string name="TestResults_Details_RawData">Gegevens</string>
   <string name="TestResults_Details_CopyExplorerURL">Copy Explorer URL</string>
+  <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
   <string name="TestResults_Details_CopyToClipboard">Kopiëren naar klembord</string>
   <string name="TestResults_Details_ShowInExplorer">Show in OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">Mislukt</string>

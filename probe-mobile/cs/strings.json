@@ -144,6 +144,7 @@
   "TestResults.Details.ViewLog": "Zobrazit log",
   "TestResults.Details.RawData": "Data",
   "TestResults.Details.CopyExplorerURL": "Copy Explorer URL",
+  "TestResults.Details.ShareExplorerURL": "Share Explorer URL",
   "TestResults.Details.CopyToClipboard": "Kopírovat do schránky",
   "TestResults.Details.ShowInExplorer": "Show in OONI Explorer",
   "TestResults.Details.Failed.Title": "Selhani",

@@ -144,6 +144,7 @@
   "TestResults.Details.ViewLog": "Переглянути журнал",
   "TestResults.Details.RawData": "Data",
   "TestResults.Details.CopyExplorerURL": "Copy Explorer URL",
+  "TestResults.Details.ShareExplorerURL": "Share Explorer URL",
   "TestResults.Details.CopyToClipboard": "Копіювати у буфер обміну",
   "TestResults.Details.ShowInExplorer": "Show in OONI Explorer",
   "TestResults.Details.Failed.Title": "Невдало",

@@ -78,7 +78,7 @@
   <string name="TestResults_Overview_FilterTests_MiddleBoxes">Middleboxes</string>
   <string name="TestResults_Overview_FilterTests_Performance">Performance</string>
   <string name="TestResults_Overview_FilterTests_InstantMessaging">Instant Messaging</string>
-  <string name="TestResults_Overview_FilterTests_Circumvention">Circumvention</string>
+  <string name="TestResults_Overview_FilterTests_Circumvention">Mazungumzo</string>
   <string name="TestResults_Overview_NoTestsHaveBeenRun">No tests have been run yet. Try running one!</string>
   <string name="TestResults_Overview_Websites_Blocked_Singular">%1$s blocked</string>
   <string name="TestResults_Overview_Websites_Blocked_Plural">%1$s blocked</string>
@@ -100,7 +100,7 @@
   <string name="TestResults_Summary_ErrorInMeasurement">Error in Measurement</string>
   <string name="TestResults_Summary_NoUploaded">Results not uploaded</string>
   <string name="TestResults_Summary_Hero_DateAndTime">Date &amp; Time</string>
-  <string name="TestResults_Summary_Hero_Network">Network</string>
+  <string name="TestResults_Summary_Hero_Network">Mtandao</string>
   <string name="TestResults_Summary_Hero_Country">Nchi</string>
   <string name="TestResults_Summary_Hero_DataUsage">Data Usage</string>
   <string name="TestResults_Summary_Hero_Runtime">Total Runtime</string>
@@ -145,6 +145,7 @@
   <string name="TestResults_Details_ViewLog">View log</string>
   <string name="TestResults_Details_RawData">Data</string>
   <string name="TestResults_Details_CopyExplorerURL">Copy Explorer URL</string>
+  <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
   <string name="TestResults_Details_CopyToClipboard">Copy to clipboard</string>
   <string name="TestResults_Details_ShowInExplorer">Show in OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">Failed</string>
@@ -290,7 +291,7 @@
   <string name="Test_InstantMessaging_Fullname">Instant Messaging</string>
   <string name="Test_Middleboxes_Fullname">Middleboxes</string>
   <string name="Test_Performance_Fullname">Performance</string>
-  <string name="Test_Circumvention_Fullname">Circumvention</string>
+  <string name="Test_Circumvention_Fullname">Mazungumzo</string>
   <string name="Test_HTTPInvalidRequestLine_Fullname">HTTP Invalid Request Line Test</string>
   <string name="Test_HTTPHeaderFieldManipulation_Fullname">HTTP Header Field Manipulation Test</string>
   <string name="Test_WebConnectivity_Fullname">Web Connectivity Test</string>
@@ -308,7 +309,7 @@
   <string name="Settings_About_Content_LearnMore">Kujifunza zaidi</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>
   <string name="Settings_Notifications_Label">Arifu</string>
-  <string name="Settings_Notifications_Enabled">Enabled</string>
+  <string name="Settings_Notifications_Enabled">Kuwezesha</string>
   <string name="Settings_Notifications_OnTestCompletion">Notify upon test completion</string>
   <string name="Settings_Notifications_OnNews">News Feed</string>
   <string name="Settings_Sharing_Label">Sharing</string>

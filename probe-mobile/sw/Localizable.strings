@@ -76,7 +76,7 @@
 "TestResults.Overview.FilterTests.MiddleBoxes" = "Middleboxes";
 "TestResults.Overview.FilterTests.Performance" = "Performance";
 "TestResults.Overview.FilterTests.InstantMessaging" = "Instant Messaging";
-"TestResults.Overview.FilterTests.Circumvention" = "Circumvention";
+"TestResults.Overview.FilterTests.Circumvention" = "Mazungumzo";
 "TestResults.Overview.NoTestsHaveBeenRun" = "No tests have been run yet. Try running one!";
 "TestResults.Overview.Websites.Blocked.Singular" = "%@ blocked";
 "TestResults.Overview.Websites.Blocked.Plural" = "%@ blocked";
@@ -98,7 +98,7 @@
 "TestResults.Summary.ErrorInMeasurement" = "Error in Measurement";
 "TestResults.Summary.NoUploaded" = "Results not uploaded";
 "TestResults.Summary.Hero.DateAndTime" = "Date & Time";
-"TestResults.Summary.Hero.Network" = "Network";
+"TestResults.Summary.Hero.Network" = "Mtandao";
 "TestResults.Summary.Hero.Country" = "Nchi";
 "TestResults.Summary.Hero.DataUsage" = "Data Usage";
 "TestResults.Summary.Hero.Runtime" = "Total Runtime";
@@ -143,6 +143,7 @@
 "TestResults.Details.ViewLog" = "View log";
 "TestResults.Details.RawData" = "Data";
 "TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
+"TestResults.Details.ShareExplorerURL" = "Share Explorer URL";
 "TestResults.Details.CopyToClipboard" = "Copy to clipboard";
 "TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "Failed";
@@ -288,7 +289,7 @@
 "Test.InstantMessaging.Fullname" = "Instant Messaging";
 "Test.Middleboxes.Fullname" = "Middleboxes";
 "Test.Performance.Fullname" = "Performance";
-"Test.Circumvention.Fullname" = "Circumvention";
+"Test.Circumvention.Fullname" = "Mazungumzo";
 "Test.HTTPInvalidRequestLine.Fullname" = "HTTP Invalid Request Line Test";
 "Test.HTTPHeaderFieldManipulation.Fullname" = "HTTP Header Field Manipulation Test";
 "Test.WebConnectivity.Fullname" = "Web Connectivity Test";
@@ -306,7 +307,7 @@
 "Settings.About.Content.LearnMore" = "Kujifunza zaidi";
 "Settings.About.Content.DataPolicy" = "OONI Data Policy";
 "Settings.Notifications.Label" = "Arifu";
-"Settings.Notifications.Enabled" = "Enabled";
+"Settings.Notifications.Enabled" = "Kuwezesha";
 "Settings.Notifications.OnTestCompletion" = "Notify upon test completion";
 "Settings.Notifications.OnNews" = "News Feed";
 "Settings.Sharing.Label" = "Sharing";
