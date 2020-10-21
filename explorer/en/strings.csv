@@ -43,7 +43,7 @@ Measurement.Status.Hint.Websites.Unavailable,Website down,
 Measurement.SummaryText.Websites.Accessible,"On {date}, {{WebsiteURL}} was accessible when tested on {network} in {country}.",
 Measurement.SummaryText.Websites.Anomaly,"On {date}, {{WebsiteURL}} presented signs of {{BlockingReason}} on {network} in {country}.
 
-This might mean that {{WebsiteURL}} was blocked, but false positives can occur. 
+This might mean that {{WebsiteURL}} was blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. 
 
 Please explore the network measurement data below.",
 Measurement.SummaryText.Websites.Anomaly.BlockingReason.DNS,DNS tampering,
@@ -89,6 +89,7 @@ Measurement.Details.Performance.Heading,Performance Details,
 Measurement.Details.Performance.Label.AvgPing,Average Ping,
 Measurement.Details.Performance.Label.MaxPing,Max Ping,
 Measurement.Details.Performance.Label.MSS,MSS,
+Measurement.Details.Performance.Label.RetransmitRate,Retransmission Rate,
 Measurement.Details.Performance.Label.PktLoss,Packet Loss,
 Measurement.Details.Performance.Label.OutOfOrder,Out of Order,
 Measurement.Details.Performance.Label.Timeouts,Timeouts,
@@ -104,23 +105,24 @@ Measurement.Details.SummaryText.Telegram.Reachable,"On {date}, Telegram was reac
 OONI's Telegram test successfully connected to Telegram's endpoints and web interface (web.telegram.org).",
 Measurement.Details.SummaryText.Telegram.AppFailure,"On {date}, the testing of Telegram's mobile app presented signs of blocking on {network} in {country}.
 
-This might mean that Telegram's mobile app was blocked, but false positives can occur. 
+This might mean that Telegram's mobile app was blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. 
 
 Please explore the network measurement data below. Check other Telegram measurements from the same network during the same time period (if they're available).",
 Measurement.Details.SummaryText.Telegram.DesktopFailure,"On {date}, the testing of Telegram's web interface (web.telegram.org) presented signs of blocking on {network} in {country}.
 
-This might mean that web.telegram.org was blocked, but false positives can occur.
+This might mean that web.telegram.org was blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur.
 
 Please explore the network measurement data below. Check other Telegram measurements from the same network during the same time period (if they're available).",
 Measurement.Details.SummaryText.Telegram.DesktopAndAppFailure,"On {date}, the testing of Telegram's mobile app and web interface (web.telegram.org) presented signs of blocking on {network} in {country}.
 
-This might mean that both Telegram's mobile app and web interface were blocked, but false positives can occur.
+This might mean that both Telegram's mobile app and web interface were blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur.
 
 Please explore the network measurement data below. Check other Telegram measurements from the same network during the same time period (if they're available). ",
 Measurement.Details.Telegram.Endpoint.Label.Mobile,Mobile App,
 Measurement.Details.Telegram.Endpoint.Label.Web,Telegram Web,
 Measurement.Details.Endpoint.Status.Okay,Okay,
 Measurement.Details.Endpoint.Status.Failed,Failed,
+Measurement.Details.Endpoint.Status.Unknown,Unknown,
 Measurement.Details.Telegram.Endpoint.Status.Heading,Endpoint Status,
 Measurement.Details.Telegram.Endpoint.ConnectionTo.Failed,Connection to {destination} failed.,
 Measurement.Details.Telegram.Endpoint.ConnectionTo.Successful,Connection to {destination} was successful.,
@@ -132,17 +134,17 @@ Measurement.Details.SummaryText.WhatsApp.Reachable,"On {date}, WhatsApp was reac
 OONI's WhatsApp test successfully connected to WhatsApp's endpoints, registration service and web interface (web.whatsapp.com).",
 Measurement.Details.SummaryText.WhatsApp.AppFailure,"On {date}, the testing of WhatsApp's mobile app presented signs of blocking on {network} in {country}.
 
-This might mean that WhatsApp's mobile app was blocked, but false positives can occur. 
+This might mean that WhatsApp's mobile app was blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. 
 
 Please explore the network measurement data below. Check other WhatsApp measurements from the same network during the same time period (if they're available).",
 Measurement.Details.SummaryText.WhatsApp.DesktopFailure,"On {date}, the testing of WhatsApp's web interface (web.whatsapp.com) presented signs of blocking on {network} in {country}.
 
-This might mean that web.whatsapp.com was blocked, but false positives can occur.
+This might mean that web.whatsapp.com was blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur.
 
 Please explore the network measurement data below. Check other WhatsApp measurements from the same network during the same time period (if they're available).",
 Measurement.Details.SummaryText.WhatsApp.DesktopAndAppFailure,"On {date}, the testing of WhatsApp's mobile app and web interface (web.whatsapp.com) presented signs of blocking on {network} in {country}.
 
-This might mean that both WhatsApp's mobile app and web interface were blocked, but false positives can occur.
+This might mean that both WhatsApp's mobile app and web interface were blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur.
 
 Please explore the network measurement data below. Check other WhatsApp measurements from the same network during the same time period (if they're available).",
 Measurement.Details.WhatsApp.Endpoint.Label.Mobile,Mobile App,
@@ -186,25 +188,49 @@ Measurement.Hero.Status.TorVanilla.Blocked,Tor is likely blocked,
 Measurement.Hero.Status.TorVanilla.Reachable,Tor is accessible,
 Measurement.Details.SummaryText.TorVanilla.Blocked,"On {date}, OONI's Vanilla Tor test did not manage to bootstrap a connection to the [Tor network](https://www.torproject.org/).
 
-This might mean that access to the Tor network was blocked on {network} in {country}, but false positives can occur.
+This might mean that access to the Tor network was blocked on {network} in {country}, but [false positives can occur](https://ooni.org/support/faq/#why-do-false-positives-occur).
 
 Please explore the network measurement data below. Check other Tor measurements from the same network during the same time period (if they're available). ",
 Measurement.Details.SummaryText.TorVanilla.Reachable,"OONI's Vanilla Tor test successfully bootstrapped a connection to the [Tor network](https://www.torproject.org/).
 
 This means that the Tor network was reachable from {network} in {country} on {date}.",
 Measurement.Details.VanillaTor.Endpoint.Label.Reachability,Reachability,
-Measurement.Status.Hint.Psiphon.Reachable,Psiphon is accessible,
+Measurement.Status.Hint.Psiphon.Reachable,Psiphon works,
 Measurement.Status.Hint.Psiphon.Blocked,Psiphon is likely blocked,
-Measurement.Status.Hint.Psiphon.BootstrappingError,Error in bootstrapping Psiphon,
-Measurement.Details.SummaryText.Psiphon.OK,"On {date}, Psiphon was reachable on {network} in {country}.",
-Measurement.Details.SummaryText.Psiphon.Blocked,"On {date}, the testing of Psiphon presented signs of blocking on {network} in {country}.",
-Measurement.Details.SummaryText.Psiphon.BootstrappingError,"On {date}, there was an error in bootstrapping Psiphon on {network} in {country}.",
+Measurement.Status.Hint.Psiphon.BootstrappingError,Psiphon is likely blocked (bootstrap error),
+Measurement.Details.SummaryText.Psiphon.OK,"On {date}, [Psiphon](https://psiphon.ca/) worked on {network} in {country}.
+
+The [OONI Probe Psiphon test](https://ooni.org/nettest/psiphon/) was able to successfully bootstrap Psiphon and ensure that the app works.",
+Measurement.Details.SummaryText.Psiphon.Blocked,"On {date}, [Psiphon](https://psiphon.ca/) did not appear to work on {network} in {country}.
+
+While the [OONI Probe Psiphon test](https://ooni.org/nettest/psiphon/) was able to bootstrap Psiphon, it was unable to fetch a webpage from the internet. 
+
+This suggests that the Psiphon app may have been blocked on this network. 
+
+However, [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. Please explore the network measurement data below and compare it with other relevant measurements (if they're available).",
+Measurement.Details.SummaryText.Psiphon.BootstrappingError,"On {date}, [Psiphon](https://psiphon.ca/) did not work on {network} in {country}.
+
+The [OONI Probe Psiphon test](https://ooni.org/nettest/psiphon/) was unable to bootstrap Psiphon.
+
+This suggests that the Psiphon app may have been blocked on this network.
+
+However, [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. Please explore the network measurement data below and compare it with other relevant measurements (if they're available).",
 Measurement.Details.Psiphon.BootstrapTime.Label,Bootstrap Time,
-Measurement.Details.SummaryText.Tor.OK,,
-Measurement.Details.SummaryText.Tor.Blocked,,
+Measurement.Status.Hint.Tor.Reachable,Tor works,
+Measurement.Status.Hint.Tor.Blocked,Tor is likely blocked,
+Measurement.Details.SummaryText.Tor.OK,"On {date}, [Tor](https://www.torproject.org/) worked on {network} in {country}.
+
+As part of [OONI Probe Tor testing](https://ooni.org/nettest/tor/), all reachability measurements of selected Tor directory authorities and bridges were successful.",
+Measurement.Details.SummaryText.Tor.Blocked,"On {date}, [Tor](https://www.torproject.org/) did not appear to work on {network} in {country}.
+
+The [OONI Probe Tor test](https://ooni.org/nettest/tor/) failed in performing certain measurements. More details are available through the network measurement data provided below.
+
+This suggests that Tor may have been blocked on this network.
+
+However, [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. ",
 Measurement.Details.Tor.Bridges.Label.Title,Tor Browser Bridges,
 Measurement.Details.Tor.Bridges.Label.OK,{bridgesAccessible}/{bridgesTotal} OK,
-Measurement.Details.Tor.DirAuth.Label.Title,Directory Authorities,
+Measurement.Details.Tor.DirAuth.Label.Title,Tor Directory Authorities,
 Measurement.Details.Tor.DirAuth.Label.OK,{dirAuthAccessible}/{dirAuthTotal} OK,
 Measurement.Details.Tor.Table.Header.Name,Name,
 Measurement.Details.Tor.Table.Header.Address,Address,
@@ -326,7 +352,7 @@ Country.Overview.FeaturedResearch,Research Reports,
 Country.Overview.FeaturedResearch.None,"We haven't published a research report based on OONI data from this country yet. 
 
 We encourage you to use OONI data for your research!",
-Country.Overview.SummaryTextTemplate,"Since **{startDate}**, OONI Probe users in **{countryName}** have collected **{measurementCount}** measurements from **{networkCovered}** local networks.
+Country.Overview.SummaryTextTemplate,"OONI Probe users in **{countryName}** have collected **{measurementCount}** measurements from **{networkCovered}** local networks.
 
 Explore the data below to check the accessibility and/or blocking of sites and services.",
 Country.Overview.NoData.Title,Let's collect more data!,
@@ -334,6 +360,8 @@ Country.Overview.NoData.CallToAction,"We don’t have enough measurements for **
 ",
 Country.Overview.NoData.Button.InstallProbe,Install OONI Probe,
 Country.Overview.NoData.Button.OoniRunLink,Create OONI Run Link,
+Country.Meta.Title,Internet Censorship in {countryName} - OONI Explorer,
+Country.Meta.Description,OONI Probe users in {countryName} have collected {measurementCount} measurements from {networkCount} local networks. Explore the data on OONI Explorer.,
 Country.PeriodFilter.Label,Show results from,
 Country.PeriodFilter.Option.30Days,Last 30 Days,
 Country.PeriodFilter.Option.2Months,Last 2 Months,
@@ -347,7 +375,7 @@ Tested websites: [Citizen Lab test lists](https://github.com/citizenlab/test-lis
 
 If you'd like to see results on the testing of different websites, please [contribute to test lists](https://ooni.org/get-involved/contribute-test-lists/) or test the sites of your choice via the [OONI Probe mobile app](https://ooni.org/install/). 
 
-Please note that unless a block page is served, some anomalous measurements may contain false positives. We therefore encourage you to examine anomalous measurements in depth and over time.",
+Please note that unless a block page is served, some anomalous measurements may contain [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur). We therefore encourage you to examine anomalous measurements in depth and over time.",
 Country.Websites.Description.MoreLinkText,,
 Country.Websites.Heading.BlockedByCategory,Categories of Blocked Websites,
 Country.Websites.BlockedByCategory.Description,Websites that fall under the following categories were blocked on the {selectedASN} network. ,
