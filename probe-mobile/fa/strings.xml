@@ -312,6 +312,12 @@
   <string name="Settings_Notifications_Enabled">فعال است</string>
   <string name="Settings_Notifications_OnTestCompletion">پایان تست را اعلام کن</string>
   <string name="Settings_Notifications_OnNews">خوراک خبری</string>
+  <string name="Settings_AutomatedTesting_Label">Automated testing</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically">Run tests automatically</string>
+  <string name="Settings_AutomatedTesting_RunAutomaticallyTime">زمان</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically_WiFiOnly">Only test on WiFi</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntimeEnabled">کرانمند‌سازی مدت آزمون</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntime">مدت تست</string>
   <string name="Settings_Sharing_Label">به اشتراک گذاری</string>
   <string name="Settings_Sharing_UploadResults">انتشار خودکار نتایج</string>
   <string name="Settings_Sharing_UploadResultsManually">بارگذاری دستی نتایج</string>
@@ -332,6 +338,13 @@
   <string name="Settings_Websites_MaxRuntime">مدت تست</string>
   <string name="Settings_Websites_Categories_Label">دسته‌بندی‌های وبسایت برای تست</string>
   <string name="Settings_Websites_Categories_Description">%1$s دسته بندی فعال است</string>
+  <string name="Settings_Websites_Categories_Selection_None">Deselect All</string>
+  <string name="Settings_Websites_Categories_Selection_All">انتخاب همه</string>
+  <string name="Settings_Websites_Categories_Selection_Done">انجام شد</string>
+  <string name="Settings_Websites_Categories_Confirmation_Title">Unsaved Changes</string>
+  <string name="Settings_Websites_Categories_Confirmation_Body">You made some changes to the enabled categories. Would you like to save them?</string>
+  <string name="Settings_Websites_Categories_Confirmation_Label_Confirm">ذخیره</string>
+  <string name="Settings_Websites_Categories_Confirmation_Label_Cancel">رها كردن</string>
   <string name="Settings_Websites_CustomURL_Title">انتخاب وبسایت‌ها برای تست</string>
   <string name="Settings_Websites_CustomURL_URL">آدرس اینترنتی</string>
   <string name="Settings_Websites_CustomURL_NoURLEntered">هیچ آدرسی وارد نشده است</string>

@@ -231,7 +231,7 @@
   <string name="TestResults_Details_Circumvention_Tor_DirectoryAuthorities_Label_Title">Directory Authorities</string>
   <string name="TestResults_Details_Circumvention_Tor_DirectoryAuthorities_Label_OK">%1$s/%2$s OK</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Name">Jina</string>
-  <string name="TestResults_Details_Circumvention_Tor_Table_Header_Address">Address</string>
+  <string name="TestResults_Details_Circumvention_Tor_Table_Header_Address">Anwani</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Type">Type</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Connect">Unganisha</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Handshake">Handshake</string>
@@ -312,6 +312,12 @@
   <string name="Settings_Notifications_Enabled">Kuwezesha</string>
   <string name="Settings_Notifications_OnTestCompletion">Notify upon test completion</string>
   <string name="Settings_Notifications_OnNews">News Feed</string>
+  <string name="Settings_AutomatedTesting_Label">Automated testing</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically">Run tests automatically</string>
+  <string name="Settings_AutomatedTesting_RunAutomaticallyTime">Time</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically_WiFiOnly">Only test on WiFi</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntimeEnabled">Limit test duration</string>
+  <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntime">Test duration</string>
   <string name="Settings_Sharing_Label">Sharing</string>
   <string name="Settings_Sharing_UploadResults">Automatically Publish Results</string>
   <string name="Settings_Sharing_UploadResultsManually">Manual Result Upload</string>
@@ -332,6 +338,13 @@
   <string name="Settings_Websites_MaxRuntime">Test duration</string>
   <string name="Settings_Websites_Categories_Label">Website categories to test</string>
   <string name="Settings_Websites_Categories_Description">%1$s categories enabled</string>
+  <string name="Settings_Websites_Categories_Selection_None">Deselect All</string>
+  <string name="Settings_Websites_Categories_Selection_All">Chagua zote</string>
+  <string name="Settings_Websites_Categories_Selection_Done">Maliza</string>
+  <string name="Settings_Websites_Categories_Confirmation_Title">Unsaved Changes</string>
+  <string name="Settings_Websites_Categories_Confirmation_Body">You made some changes to the enabled categories. Would you like to save them?</string>
+  <string name="Settings_Websites_Categories_Confirmation_Label_Confirm">Hifadhi</string>
+  <string name="Settings_Websites_Categories_Confirmation_Label_Cancel">Kuacha</string>
   <string name="Settings_Websites_CustomURL_Title">Choose websites to test</string>
   <string name="Settings_Websites_CustomURL_URL">KISARA</string>
   <string name="Settings_Websites_CustomURL_NoURLEntered">No URLs entered</string>
