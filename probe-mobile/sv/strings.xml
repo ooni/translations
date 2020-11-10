@@ -319,7 +319,7 @@
   <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntimeEnabled">Limit test duration</string>
   <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntime">Testtid</string>
   <string name="Settings_Sharing_Label">Delning</string>
-  <string name="Settings_Sharing_UploadResults">Publisera resultat automatiskt</string>
+  <string name="Settings_Sharing_UploadResults">Publish Results</string>
   <string name="Settings_Sharing_UploadResultsManually">Ladda manuellt upp resultat</string>
   <string name="Settings_Sharing_IncludeNetwork">Inkludera nätverskinformation</string>
   <string name="Settings_Sharing_GPS">Inkludera ungefärlig position</string>
@@ -338,6 +338,7 @@
   <string name="Settings_Websites_MaxRuntime">Testtid</string>
   <string name="Settings_Websites_Categories_Label">Webside-kategorier att testa</string>
   <string name="Settings_Websites_Categories_Description">%1$s kategorier aktiverade</string>
+  <string name="Settings_Websites_Categories_Edit">Ändra</string>
   <string name="Settings_Websites_Categories_Selection_None">Deselect All</string>
   <string name="Settings_Websites_Categories_Selection_All">Markera allt</string>
   <string name="Settings_Websites_Categories_Selection_Done">Färdig</string>

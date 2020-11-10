@@ -317,7 +317,7 @@
 "Settings.AutomatedTesting.RunAutomatically.MaxRuntimeEnabled" = "Limit test duration";
 "Settings.AutomatedTesting.RunAutomatically.MaxRuntime" = "Testtid";
 "Settings.Sharing.Label" = "Delning";
-"Settings.Sharing.UploadResults" = "Publisera resultat automatiskt";
+"Settings.Sharing.UploadResults" = "Publish Results";
 "Settings.Sharing.UploadResultsManually" = "Ladda manuellt upp resultat";
 "Settings.Sharing.IncludeNetwork" = "Inkludera nätverskinformation";
 "Settings.Sharing.GPS" = "Inkludera ungefärlig position";
@@ -336,6 +336,7 @@
 "Settings.Websites.MaxRuntime" = "Testtid";
 "Settings.Websites.Categories.Label" = "Webside-kategorier att testa";
 "Settings.Websites.Categories.Description" = "%@ kategorier aktiverade";
+"Settings.Websites.Categories.Edit" = "Ändra";
 "Settings.Websites.Categories.Selection.None" = "Deselect All";
 "Settings.Websites.Categories.Selection.All" = "Markera allt";
 "Settings.Websites.Categories.Selection.Done" = "Färdig";
