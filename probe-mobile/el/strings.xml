@@ -145,7 +145,7 @@
   <string name="TestResults_Details_ViewLog">Προβολή αρχείου καταγραφής</string>
   <string name="TestResults_Details_RawData">Δεδομένα</string>
   <string name="TestResults_Details_CopyExplorerURL">Αντιγραφή URL του OONI Explorer</string>
-  <string name="TestResults_Details_ShareExplorerURL">Μοίρασε τη διεύθυνση URL του OONI Explorer</string>
+  <string name="TestResults_Details_ShareExplorerURL">Μοιράσου τη διεύθυνση URL του OONI Explorer</string>
   <string name="TestResults_Details_CopyToClipboard">Αντιγραφή στο πρόχειρο</string>
   <string name="TestResults_Details_ShowInExplorer">Προβολή στον OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">Απέτυχε</string>
@@ -319,7 +319,7 @@
   <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntimeEnabled">Περιορισμός διάρκειας δοκιμής</string>
   <string name="Settings_AutomatedTesting_RunAutomatically_MaxRuntime">Διάρκεια δοκιμής</string>
   <string name="Settings_Sharing_Label">Κοινή χρήση</string>
-  <string name="Settings_Sharing_UploadResults">Publish Results</string>
+  <string name="Settings_Sharing_UploadResults">Δημοσίευση αποτελεσμάτων</string>
   <string name="Settings_Sharing_UploadResultsManually">Χειροκίνητο ανέβασμα αποτελεσμάτων</string>
   <string name="Settings_Sharing_IncludeNetwork">Δημοσίευση πληροφοριών δικτύου</string>
   <string name="Settings_Sharing_GPS">Δημοσίευση της κατά προσέγγιση γεωγραφικής θέσης</string>
@@ -339,11 +339,11 @@
   <string name="Settings_Websites_Categories_Label">Κατηγορίες ιστοσελιδών για δοκιμή</string>
   <string name="Settings_Websites_Categories_Description">%1$s ενεργοποιημένες κατηγορίες</string>
   <string name="Settings_Websites_Categories_Edit">Επεξεργασία</string>
-  <string name="Settings_Websites_Categories_Selection_None">Deselect All</string>
+  <string name="Settings_Websites_Categories_Selection_None">Αποεπιλογή όλων</string>
   <string name="Settings_Websites_Categories_Selection_All">Επιλογή όλων</string>
   <string name="Settings_Websites_Categories_Selection_Done">Τέλος</string>
   <string name="Settings_Websites_Categories_Confirmation_Title">Μη αποθηκευμένες αλλαγές</string>
-  <string name="Settings_Websites_Categories_Confirmation_Body">You made some changes to the enabled categories. Would you like to save them?</string>
+  <string name="Settings_Websites_Categories_Confirmation_Body">Έκανες αλλαγές στις ενεργοποιημένες κατηγορίες. Θέλεις να τις αποθηκεύσεις;</string>
   <string name="Settings_Websites_Categories_Confirmation_Label_Confirm">Αποθήκευση</string>
   <string name="Settings_Websites_Categories_Confirmation_Label_Cancel">Απόρριψη</string>
   <string name="Settings_Websites_CustomURL_Title">Επέλεξε ιστοσελίδες να δοκιμάσεις</string>
