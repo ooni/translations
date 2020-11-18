@@ -58,7 +58,10 @@ def tx_set_context(in_path, project_slug, resource_slug, auth):
         for row in csv_reader:
             comment = ""
             character_limit = None
-            key, text, max_len = row
+            key = row[0]
+            text = row[1]
+            max_len = row[2]
+            # Ignore any columns after the third
 
             if key in d:
                 raise RuntimeError("Duplicate key {}".format(key))
