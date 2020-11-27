@@ -13,7 +13,11 @@ def csv_to_dict(in_path):
         # Skip header
         next(csv_reader)
         for line_num, row in enumerate(csv_reader):
-            key, text, max_len = row
+            key = row[0]
+            text = row[1]
+            max_len = row[2]
+            # Ignore any columns after the third
+
             if not key:
                 raise RuntimeError("Empty key detected at line: {}".format(line_num))
             text = re.sub(
