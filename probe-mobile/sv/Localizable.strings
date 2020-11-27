@@ -317,7 +317,7 @@
 "Settings.AutomatedTesting.RunAutomatically.MaxRuntimeEnabled" = "Limit test duration";
 "Settings.AutomatedTesting.RunAutomatically.MaxRuntime" = "Testtid";
 "Settings.Sharing.Label" = "Delning";
-"Settings.Sharing.UploadResults" = "Publish Results";
+"Settings.Sharing.UploadResults" = "Publisera resultat automatiskt";
 "Settings.Sharing.UploadResultsManually" = "Ladda manuellt upp resultat";
 "Settings.Sharing.IncludeNetwork" = "Inkludera nätverskinformation";
 "Settings.Sharing.GPS" = "Inkludera ungefärlig position";
@@ -339,7 +339,7 @@
 "Settings.Websites.Categories.Edit" = "Ändra";
 "Settings.Websites.Categories.Selection.None" = "Deselect All";
 "Settings.Websites.Categories.Selection.All" = "Markera allt";
-"Settings.Websites.Categories.Selection.Done" = "Färdig";
+"Settings.Websites.Categories.Selection.Done" = "Spara";
 "Settings.Websites.Categories.Confirmation.Title" = "Unsaved Changes";
 "Settings.Websites.Categories.Confirmation.Body" = "You made some changes to the enabled categories. Would you like to save them?";
 "Settings.Websites.Categories.Confirmation.Label.Confirm" = "Spara";
@@ -369,7 +369,13 @@
 "Settings.SendEmail.Error" = "Vänligen skicka ett mail till bugs@openobservatory.org med information om app-version och IOS-version. Tryck på \"Kopiera till urklipp\" nedan, för att kopiera vår mailadress.";
 "Settings.Language.Current" = "Current app language is %@";
 "Settings.Language.Label" = "Språk";
+"Settings.Storage.Label" = "Storage usage";
+"Settings.Storage.Usage.Label" = "Storage used";
+"Settings.Storage.Delete" = "Radera";
+"Settings.Storage.Clear" = "Rensa";
+"Settings.Storage.Confirmation.Paragraph" = "You are about to delete all OONI measurements from your device. If uploaded they will still be available on [OONI Explorer](https://explorer.ooni.org)";
 "Notification.FinishedRunning" = "Slutfört";
+"Notification.StopTest" = "Stop test";
 "OONIBrowser.TryMirror" = "Try mirror";
 "OONIBrowser.Loading" = "Laddar…";
 "OONIBrowser.Error" = "An unexpected error occurred. Please reload this page.";

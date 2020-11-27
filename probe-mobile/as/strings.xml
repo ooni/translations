@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="General_AppName">OONI Probe</string>
-  <string name="Onboarding_WhatIsOONIProbe_Title">What is OONI Probe?</string>
+  <string name="Onboarding_WhatIsOONIProbe_Title">OONI Probe কি বস্তু?</string>
   <string name="Onboarding_WhatIsOONIProbe_Paragraph">Your app for measuring internet censorship. \n\nAre websites and social media apps blocked? Is your internet connection unusually slow?\n\nRun OONI Probe to find out!</string>
-  <string name="Onboarding_WhatIsOONIProbe_GotIt">Got It</string>
+  <string name="Onboarding_WhatIsOONIProbe_GotIt">বুজিলোঁ</string>
   <string name="Onboarding_ThingsToKnow_Title">Heads-up!</string>
   <string name="Onboarding_ThingsToKnow_Bullet_1">OONI data is openly published and will include your network information.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_2">Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_3">You might test banned websites (but you can choose which sites to test).</string>
-  <string name="Onboarding_ThingsToKnow_Button">I understand</string>
+  <string name="Onboarding_ThingsToKnow_Button">বুজি পাইছোঁ</string>
   <string name="Onboarding_ThingsToKnow_LearnMore">Learn more</string>
   <string name="Onboarding_PopQuiz_Title">Pop Quiz</string>
   <string name="Onboarding_PopQuiz_True">True</string>
@@ -370,7 +370,7 @@
   <string name="Settings_SendEmail_Label">Send email to support</string>
   <string name="Settings_SendEmail_Error">Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.</string>
   <string name="Settings_Language_Current">Current app language is %1$s</string>
-  <string name="Settings_Language_Label">ಭಾಷೆ</string>
+  <string name="Settings_Language_Label">Language</string>
   <string name="Settings_Storage_Label">Storage usage</string>
   <string name="Settings_Storage_Usage_Label">Storage used</string>
   <string name="Settings_Storage_Delete">Delete</string>
@@ -388,8 +388,8 @@
   <string name="OONIRun_Run">Run</string>
   <string name="OONIRun_OONIProbeOutOfDate">Out of date</string>
   <string name="OONIRun_OONIProbeNewerVersion">You need a newer version of OONI Probe to run this test.</string>
-  <string name="OONIRun_Update">Update</string>
-  <string name="OONIRun_Close">Close</string>
+  <string name="OONIRun_Update">আপডেট কৰক</string>
+  <string name="OONIRun_Close">বন্ধ কৰক</string>
   <string name="OONIRun_InvalidParameter">Invalid parameter</string>
   <string name="OONIRun_InvalidParameter_Msg">The OONI Run link is either malformed or your app is out of date.</string>
   <string name="OONIRun_RandomSamplingOfURLs">You will test a random sample of websites.</string>
@@ -439,7 +439,7 @@
   <string name="CategoryCode_PUBH_Description">Public health issues, such as COVID-19, HIV/AIDS, Ebola</string>
   <string name="CategoryCode_GMB_Description">Online gambling and betting</string>
   <string name="CategoryCode_ANON_Description">Anonymization, censorship circumvention and encryption</string>
-  <string name="CategoryCode_DATE_Description">Online dating sites</string>
+  <string name="CategoryCode_DATE_Description">অনলাইন ডেটিং ছাইটসমূহ</string>
   <string name="CategoryCode_GRP_Description">Online social networking tools and platforms</string>
   <string name="CategoryCode_LGBT_Description">LGBTQ+ communities discussing related issues (excluding pornography)</string>
   <string name="CategoryCode_FILE_Description">File sharing including cloud-based file storage, torrents and P2P</string>
