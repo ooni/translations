@@ -220,6 +220,7 @@ However, [false positives](https://ooni.org/support/faq/#why-do-false-positives-
 Measurement.Details.Psiphon.BootstrapTime.Label,Bootstrap Time,
 Measurement.Status.Hint.Tor.Reachable,Tor works,
 Measurement.Status.Hint.Tor.Blocked,Tor is likely blocked,
+Measurement.Status.Hint.Tor.Error,Tor test failed,
 Measurement.Details.SummaryText.Tor.OK,"On {date}, [Tor](https://www.torproject.org/) worked on {network} in {country}.
 
 As part of [OONI Probe Tor testing](https://ooni.org/nettest/tor/), all reachability measurements of selected Tor directory authorities and bridges were successful.",
@@ -230,6 +231,7 @@ The [OONI Probe Tor test](https://ooni.org/nettest/tor/) failed in performing ce
 This suggests that Tor may have been blocked on this network.
 
 However, [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. ",
+Measurement.Details.SummaryText.Tor.Error,"On {date}, the Tor test failed on {network} in {country}.",
 Measurement.Details.Tor.Bridges.Label.Title,Tor Browser Bridges,
 Measurement.Details.Tor.Bridges.Label.OK,{bridgesAccessible}/{bridgesTotal} OK,
 Measurement.Details.Tor.DirAuth.Label.Title,Tor Directory Authorities,
@@ -354,7 +356,7 @@ Country.Overview.FeaturedResearch,Research Reports,
 Country.Overview.FeaturedResearch.None,"We haven't published a research report based on OONI data from this country yet. 
 
 We encourage you to use OONI data for your research!",
-Country.Overview.SummaryTextTemplate,"OONI Probe users in **{countryName}** have collected **{measurementCount}** measurements from **{networkCovered}** local networks.
+Country.Overview.SummaryTextTemplate,"OONI Probe users in **{countryName}** have collected [**{measurementCount}** measurements]({linkToMeasurements}) from **{networkCovered}** local networks.
 
 Explore the data below to check the accessibility and/or blocking of sites and services.",
 Country.Overview.NoData.Title,Let's collect more data!,
@@ -451,13 +453,13 @@ Search.HTTPRequests.Results.Blocked,,
 Search.HTTPRequests.Results.Error,,
 Search.HTTPRequests.Results.Reachable,,
 Search.WhatsApp.Results.Reachable,Accessible,
-Search.WhatsApp.Results.Anomaly,Likely blocked,
+Search.WhatsApp.Results.Anomaly,Anomaly,
 Search.WhatsApp.Results.Error,Error,
 Search.FacebookMessenger.Results.Reachable,Accessible,
-Search.FacebookMessenger.Results.Anomaly,Likely blocked,
+Search.FacebookMessenger.Results.Anomaly,Anomaly,
 Search.FacebookMessenger.Results.Error,Error,
 Search.Telegram.Results.Reachable,Accessible,
-Search.Telegram.Results.Anomaly,Likely blocked,
+Search.Telegram.Results.Anomaly,Anomaly,
 Search.Telegram.Results.Error,Error,
 Search.HTTPInvalidRequestLine.Results.Anomaly,Anomaly,
 Search.HTTPInvalidRequestLine.Results.Reachable,OK,
@@ -465,6 +467,12 @@ Search.HTTPInvalidRequestLine.Results.Error,Error,
 Search.HTTPHeaderFieldManipulation.Results.Anomaly,Anomaly,
 Search.HTTPHeaderFieldManipulation.Results.Reachable,OK,
 Search.HTTPHeaderFieldManipulation.Results.Error,Error,
+Search.Tor.Results.Reachable,OK,
+Search.Tor.Results.Anomaly,Anomaly,
+Search.Tor.Results.Error,Error,
+Search.Psiphon.Results.Reachable,Ok,
+Search.Psiphon.Results.Anomaly,Anomaly,
+Search.Psiphon.Results.Error,Error,
 Search.Test.Results.OK,OK,
 Search.Test.Results.Error,Error,
 Search.NDT.Results,,
