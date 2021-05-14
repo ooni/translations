@@ -21,7 +21,7 @@
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
         <source>Measure Internet Censorship</source>
-        <target>Измерить цензуру в Интернете</target>
+        <target>Измеряйте Интернет-цензуру</target>
         <note from="developer">This is limited by Apple to 30 characters</note>
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">

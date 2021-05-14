@@ -75,7 +75,7 @@
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
-        <target>بيانات مفتوحة</target>
+        <target> بيانات مفتوحة</target>
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
