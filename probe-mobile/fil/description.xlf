@@ -1,128 +1,100 @@
 <?xml version="1.0" ?><xliff version="1.2">
-  <file datatype="plaintext" original="source.xlf" source-language="en" target-language="sw">
+  <file datatype="plaintext" original="source.xlf" source-language="en" target-language="fil">
     <header>
       <note from="developer">Google places strick character limits on the various text fields in Google Play. The title is 30 characters, the short description is 80 characters, and the rest of the strings, which all go together in the description, are limited to 4000 characters.</note>
     </header>
     <body>
       <trans-unit id="title-android" maxwidth="30" size-unit="char">
         <source>OONI Probe</source>
-        <target>OONI Probe</target>
         <note from="developer">This is limited by Google to 30 characters</note>
       </trans-unit>
       <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
         <source>Measure Internet Censorship, Speed &amp; Performance</source>
-        <target>Pima Udhibiti wa Mtandao, Kasi na Utendaji</target>
         <note from="developer">This is limited by Google to 80 characters</note>
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
-          <target>Kuchunguza OONI - Pima Udhibiti wa Mtandao na Kasi</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
         <source>Measure Internet Censorship</source>
-        <target>Pima Udhibiti wa Mtandao</target>
         <note from="developer">This is limited by Apple to 30 characters</note>
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
-        <target>&lt;br&gt;Kusanya ushahidi wa udhibiti wa mtandao.Pima kasi na utendaji wa mtandao wako  </target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
         <source>Are websites and social media apps blocked? Is your network unusually slow? Run OONI Probe to find out!</source>
-        <target>Je! Tovuti na programu za media ya kijamii zimezuiwa? Je! Mtandao wako uko polepole sana? Endesha uchunguzi wa OONI kujua!</target>
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
-        <target>Pamoja na programu hii, utachunguza uzuiaji wa wavuti na programu za ujumbe wa papo hapo, pima kasi ya mtandao wako na utendaji, na uangalie ikiwa mifumo inayoweza kuwajibika kwa udhibiti na ufuatiliaji iko kwenye mtandao wako. </target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
-        <target>Probe ya OONI imeundwa na Fungua uchunguzi wa kuingiliwa kwa mtandao (OONI), mradi wa programu ya bure (chini ya Mradi wa Tor) ambao unakusudia kufunua udhibiti wa mtandao kote ulimwenguni.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
-        <target>Tangu 2012, jamii ya ulimwengu ya OONI imekusanya mamilioni ya vipimo vya mtandao kutoka nchi zaidi ya 200, ikitoa mwangaza juu ya visa vingi vya kuingiliwa kwa mtandao.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
-        <target>Kwa kuendesha OONI Probe, unaweza kusaidia kuongeza uwazi wa udhibiti wa mtandao.</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
-        <target>Kukusanya ushahidi wa udhibiti wa mtandao</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
-        <target>Unaweza kuangalia ikiwa tovuti na programu za ujumbe wa papo kwa hapo zimezuiwa na jinsi gani. Takwimu za kipimo cha mtandao utakazokusanya zinaweza kutumika kama uthibitisho wa udhibiti wa mtandao.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
-        <target>Gundua mifumo inayohusika na udhibiti na ufuatiliaji  </target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
-        <target>Vipimo vya uchunguzi wa OONI pia vimeundwa kugundua uwepo wa mifumo (sanduku za kati) ambazo zinaweza kuwajibika kwa udhibiti na ufuatiliaji. </target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
-        <target>Pima kasi na utendaji wa mtandao wako</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
-        <target>Unaweza kupima kasi na utendaji wa mtandao wako kwa kutekeleza utekelezaji wa OONI wa Mtihani wa Utambuzi wa Mtandao (NDT). Unaweza pia kupima utiririshaji wa video na jaribio la Dynamic Adaptive Streaming juu ya jaribio la HTTP (DASH).</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
-        <target>Fungua data</target>
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
-        <target>OONI inachapisha data ya kipimo cha mtandao kwa sababu data wazi inaruhusu mhusika wa tatu kuthibitisha matokeo ya OONI, kufanya masomo ya kujitegemea, na kujibu maswali mengine ya utafiti. Kuchapisha wazi data ya OONI pia husaidia kuongeza uwazi wa udhibiti wa mtandao kote ulimwenguni. Unaweza kukagua na kupakua data ya OONI hapa: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
-        <target>programu ya bure</target>
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
-        <target>Vipimo vyote vya OONI Probe (pamoja na utekelezaji wetu wa NDT na DASH), vinategemea programu ya chanzo huru na wazi. Unaweza kupata miradi ya programu ya OONI kwenye GitHub: https://github.com/ooni. Unataka kujua jinsi mitihani ya OONI Probe inavyofanya kazi Jifunze zaidi: https://ooni.io/nettest/ </target>
       </trans-unit>
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
-        <target>Ili kupokea maboresho kutoka kwa aya ya OONI, tufuate kwenye Twitter: https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
-        <target>Gundua udhibiti wa mtandao na ujaribu kasi na utendaji wa mtandao wako</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
-        <target>Gundua ushahidi wa udhibiti wa mtandao</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
-        <target>Endesha kasi ya mtandao wa kisasa na mtihani wa uchunguzi</target>
       </trans-unit>
       <trans-unit id="screenshot4">
         <source>Easily discover which websites are blocked on your network</source>
-        <target>Gundua kwa urahisi ni tovuti gani zimezuiwa kwenye mtandao wako</target>
       </trans-unit>
       <trans-unit id="screenshot5">
         <source>Testing your network is fun with a friendly octopus!</source>
-        <target>Kupima mtandao wako ni furaha na octopus kirafiki! </target>
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
-        <target>Uchunguzi wa Wazi wa Uingiliano wa Mtandao (OONI) ni mtandao wa uchunguzi wa kimataifa wa kugundua udhibiti wa mtandao na aina zingine za kuingiliwa kwa mtandao kote ulimwenguni.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
-        <target>mtandao, kasi zaidi, kipimo, wavu, wifi, mitandao, skana, kipimo data, benchi, dns, simu, ooni, utafiti, zana</target>
       </trans-unit>
     </body>
   </file>

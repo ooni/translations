@@ -122,7 +122,7 @@
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
-        <target>شبکه، تست سرعت، اندازه گیری، خالص، وای فای، شبکه، اسکن شبکه، پهنای باند، bench، دی‌ان‌اس، تلفن همراه، ooni، تحقیق، ابزار</target>
+        <target>شبکه ارتباطی، تست سرعت، اندازه گیری، اینترنت، وای فای، کار با شبکه، اسکن، پهنای باند، محک زدن، دی ان اس،موبایل،ooni، پژوهش، ابزار</target>
       </trans-unit>
     </body>
   </file>
