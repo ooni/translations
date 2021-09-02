@@ -153,8 +153,8 @@
   <string name="TestResults_Details_Methodology">方法學</string>
   <string name="TestResults_Details_ViewLog">檢視記錄</string>
   <string name="TestResults_Details_RawData">數據</string>
-  <string name="TestResults_Details_CopyExplorerURL">Copy result</string>
-  <string name="TestResults_Details_ShareExplorerURL">Share result</string>
+  <string name="TestResults_Details_CopyExplorerURL">複製 Explorer URL</string>
+  <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
   <string name="TestResults_Details_CopyToClipboard">複製到剪貼簿</string>
   <string name="TestResults_Details_ShowInExplorer">Show in OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">失敗</string>
@@ -164,7 +164,7 @@
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">可訪問的</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s 可訪問</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">很可能被屏蔽</string>
-  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.</string>
+  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s 很可能遭 %2$s 方式封鎖。\n\n注意：可能有偽陽性狀況，詳情可參考[此處](https://ooni.org/support/faq/#what-are-false-positives).</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_LearnToCircumvent">規避審查 </string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_DNS">**DNS 篡改**</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_TCPIP">**TCP/IP 方式的封鎖**</string>

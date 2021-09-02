@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Metodologia";
 "TestResults.Details.ViewLog" = "Ver log";
 "TestResults.Details.RawData" = "Dados";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Copiar a URL do Explorer";
+"TestResults.Details.ShareExplorerURL" = "Compartilhar a URL do Explorer";
 "TestResults.Details.CopyToClipboard" = "Copiar para área de transferência";
 "TestResults.Details.ShowInExplorer" = "Mostrar no OONI Explorer";
 "TestResults.Details.Failed.Title" = "Falhou";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Acessível";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ está acessível.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Provavelmente bloqueados";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ provavelmente está bloqueado por meio de %@.\n\nNota: Resultados positivos falsos podem ocorrer. Saiba mais [aqui](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Driblagem de Censura";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**Adulteração de DNS**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**Bloqueio baseado em TCP/IP**";

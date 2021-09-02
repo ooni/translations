@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Metodologi";
 "TestResults.Details.ViewLog" = "Lihat log";
 "TestResults.Details.RawData" = "Data";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Kopi Penjelajah URL";
+"TestResults.Details.ShareExplorerURL" = "Share Explorer URL";
 "TestResults.Details.CopyToClipboard" = "Salin ke clipboard";
 "TestResults.Details.ShowInExplorer" = "Tampilkan di OONI Explorer";
 "TestResults.Details.Failed.Title" = "Gagal";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Terakses";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ sudah terakses.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Diblok juga";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ tampaknya sudah diblok dengan %@.\n\nCatatan: Bisa jadi kurang akurat. Selengkapnya di [here](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Penyensoran Pengelakan";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**Perusakan DNS yang disengaja**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**Bloking berbasis TCP/IP**";

@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Metodologi";
 "TestResults.Details.ViewLog" = "Vezi jurnalul";
 "TestResults.Details.RawData" = "Date";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Copiați URL-ul Explorer";
+"TestResults.Details.ShareExplorerURL" = "Share Explorer URL";
 "TestResults.Details.CopyToClipboard" = "Copiază în clipboard";
 "TestResults.Details.ShowInExplorer" = "Afișează în OONI Explorer";
 "TestResults.Details.Failed.Title" = "Acţiunea a eşuat";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Accesibil";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ este accesibil.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Probabil blocat";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ este probabil blocat prin intermediul %@.\n\nNotă: Pot apărea falsuri pozitive. Aflați mai multe [aici](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Circumvenția de cenzură";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**Modificări DNS**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**Blocarea bazată pe TCP / IP**";

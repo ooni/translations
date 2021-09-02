@@ -153,8 +153,8 @@
   <string name="TestResults_Details_Methodology">Metodológia</string>
   <string name="TestResults_Details_ViewLog">Zobraziť denník</string>
   <string name="TestResults_Details_RawData">Dáta</string>
-  <string name="TestResults_Details_CopyExplorerURL">Copy result</string>
-  <string name="TestResults_Details_ShareExplorerURL">Share result</string>
+  <string name="TestResults_Details_CopyExplorerURL">Kopírovať URL adresu prieskumníka</string>
+  <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
   <string name="TestResults_Details_CopyToClipboard">Kopírovať do schránky</string>
   <string name="TestResults_Details_ShowInExplorer">Zobraziť v Prieskumníku OONI</string>
   <string name="TestResults_Details_Failed_Title">Zlyhalo</string>
@@ -164,7 +164,7 @@
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">Dostupné</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">Adresa %1$s je dostupná.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">Pravdepodobne blokovaná</string>
-  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.</string>
+  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">Adresa %1$s je pravdepodobne blokovaná prostredníctvom %2$s.\n\nPoznámka: Môžu sa vyskytnúť nesprávne pozitívne výsledky. Zisti viac [tu](https://ooni.org/support/faq/#what-are-false-positives).</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_LearnToCircumvent">Obchádzanie cenzúry</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_DNS">**Zásah do DNS**</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_TCPIP">**Blokovanie na báze protokolu TCP/IP**</string>

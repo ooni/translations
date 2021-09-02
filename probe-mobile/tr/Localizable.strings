@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Yöntem";
 "TestResults.Details.ViewLog" = "Günlüğü görüntüle";
 "TestResults.Details.RawData" = "Veri";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Tarayıcı Adresini Kopyala";
+"TestResults.Details.ShareExplorerURL" = "Gezgin adresini paylaş";
 "TestResults.Details.CopyToClipboard" = "Panoya kopyala";
 "TestResults.Details.ShowInExplorer" = "OONI gezgininde görüntüle";
 "TestResults.Details.Failed.Title" = "Başarısız";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Erişilebilir";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ erişilebilir.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Engellenmiş olabilir";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@, %@ ile engellenmiş gibi görünüyor.\n\nNot: Hatalı sonuçlar alınabilir. [Buradan](https://ooni.org/support/faq/#what-are-false-positives) ayrıntılı bilgi alabilirsiniz.";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Sansür Atlatma";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**DNS müdahalesi**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**TCP/IP tabanlı engelleme**";

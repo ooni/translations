@@ -153,8 +153,8 @@
   <string name="TestResults_Details_Methodology">Metodologi</string>
   <string name="TestResults_Details_ViewLog">Lihat log</string>
   <string name="TestResults_Details_RawData">Data</string>
-  <string name="TestResults_Details_CopyExplorerURL">Copy result</string>
-  <string name="TestResults_Details_ShareExplorerURL">Share result</string>
+  <string name="TestResults_Details_CopyExplorerURL">Kopi Penjelajah URL</string>
+  <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
   <string name="TestResults_Details_CopyToClipboard">Salin ke clipboard</string>
   <string name="TestResults_Details_ShowInExplorer">Tampilkan di OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">Gagal</string>
@@ -164,7 +164,7 @@
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">Terakses</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s sudah terakses.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">Diblok juga</string>
-  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.</string>
+  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s tampaknya sudah diblok dengan %2$s.\n\nCatatan: Bisa jadi kurang akurat. Selengkapnya di [here](https://ooni.org/support/faq/#what-are-false-positives).</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_LearnToCircumvent">Penyensoran Pengelakan</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_DNS">**Perusakan DNS yang disengaja**</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_TCPIP">**Bloking berbasis TCP/IP**</string>

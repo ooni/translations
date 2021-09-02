@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Aðferðafræði";
 "TestResults.Details.ViewLog" = "Skoða atvikaskrá";
 "TestResults.Details.RawData" = "Gögn";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Afrita slóð úr Explorer-vafranum";
+"TestResults.Details.ShareExplorerURL" = "Deila slóð úr Explorer-vafranum";
 "TestResults.Details.CopyToClipboard" = "Afrita á klippispjald";
 "TestResults.Details.ShowInExplorer" = "Birta í OONI Explorer vafranum";
 "TestResults.Details.Failed.Title" = "Mistókst";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Aðgengilegt";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ er aðgengilegt.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Líklega hindrað";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ er líklega hindrað vegna %@.\n\nAthugið: Rangar ábendingar eru mögulegar. Kannaðu þetta nánar [hér](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Leiðir framhjá ritskoðun";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**Fiktað við DNS (tampering)**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**Hindrun byggð á TCP/IP**";

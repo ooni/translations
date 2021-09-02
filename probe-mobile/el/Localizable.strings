@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Μεθοδολογία";
 "TestResults.Details.ViewLog" = "Προβολή αρχείου καταγραφής";
 "TestResults.Details.RawData" = "Δεδομένα";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Αντιγραφή URL του OONI Explorer";
+"TestResults.Details.ShareExplorerURL" = "Μοιράσου τη διεύθυνση του OONI Explorer";
 "TestResults.Details.CopyToClipboard" = "Αντιγραφή στο πρόχειρο";
 "TestResults.Details.ShowInExplorer" = "Προβολή στον OONI Explorer";
 "TestResults.Details.Failed.Title" = "Απέτυχε";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Προσβάσιμη";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "Η ιστοσελίδα %@ είναι προσβάσιμη.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Πιθανή λογοκρισία";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "Η ιστοσελίδα %@ ίσως είναι μπλοκαρισμένη μέσω %@.\n\nΣημείωση: Υπάρχουν διάφοροι λόγοι για τους οποίους μπορεί να φαίνεται μια ιστοσελίδα ως μπλοκαρισμένη, χωρίς να είναι. Μάθε περισσότερα [εδώ](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Παράκαμψη λογοκρισίας";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**DNS tampering**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**Μπλοκάρισμα βασισμένο σε TCP/IP**";

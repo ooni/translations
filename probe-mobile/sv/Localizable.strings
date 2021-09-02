@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Metodik";
 "TestResults.Details.ViewLog" = "Visa logg";
 "TestResults.Details.RawData" = "Data";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
+"TestResults.Details.ShareExplorerURL" = "Share Explorer URL";
 "TestResults.Details.CopyToClipboard" = "Kopiera till urklipp";
 "TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "Misslyckade";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Nåbar";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ är nåbar";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Troligen blockerad";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: False positives can occur. Learn more [here](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Censorship Circumvention";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**DNS manipulation**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**TCP/IP-baserad blockering**";

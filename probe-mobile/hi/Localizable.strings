@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "क्रियाविधि";
 "TestResults.Details.ViewLog" = "लॉग देखें";
 "TestResults.Details.RawData" = "डेटा";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "एक्सप्लोरर यूआरएल कॉपी करें";
+"TestResults.Details.ShareExplorerURL" = "एक्सप्लोरर URL साझा करें";
 "TestResults.Details.CopyToClipboard" = "क्लिपबोर्ड पर कॉपी करें";
 "TestResults.Details.ShowInExplorer" = "OONI एक्सप्लोरर में दिखाएं";
 "TestResults.Details.Failed.Title" = "विफ़ल";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "सुलभ";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ सुलभ है";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "शायद अवरुद्ध";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ संभवत: %@ के माध्यम से अवरुद्ध है।\n\nनोट: झूठी सकारात्मकता हो सकती है। और जानें [यहाँ](https://ooni.org/support/faq/#what-are-false-positives)।";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "सेंसरशिप सर्कुलेशन";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "** DNS छेड़छाड़ **";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**टीसीपी / आईपी आधारित अवरोधन**";

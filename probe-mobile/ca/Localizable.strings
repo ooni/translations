@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Metodologia";
 "TestResults.Details.ViewLog" = "Mostra els registre";
 "TestResults.Details.RawData" = "Dades";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Copia l'URL de l'explorador";
+"TestResults.Details.ShareExplorerURL" = "Comparteix l'URL de l'explorador";
 "TestResults.Details.CopyToClipboard" = "Copia al porta-retalls";
 "TestResults.Details.ShowInExplorer" = "Mostra a l'OONI Explorer";
 "TestResults.Details.Failed.Title" = "Ha fallat";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Accessible";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ és accessible.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Probablement blocat";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ està probablement blocat degut a %@.\n\nNota: es poden produir falsos positius. Més informació [aquí](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Elusió de censura";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**Manipulació DNS**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**Blocatge basat en TCP/IP**";

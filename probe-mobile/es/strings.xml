@@ -153,8 +153,8 @@
   <string name="TestResults_Details_Methodology">Metodología</string>
   <string name="TestResults_Details_ViewLog">Ver registro</string>
   <string name="TestResults_Details_RawData">Datos</string>
-  <string name="TestResults_Details_CopyExplorerURL">Copy result</string>
-  <string name="TestResults_Details_ShareExplorerURL">Share result</string>
+  <string name="TestResults_Details_CopyExplorerURL">Copiar URL del explorador</string>
+  <string name="TestResults_Details_ShareExplorerURL">Compartir URL del explorador</string>
   <string name="TestResults_Details_CopyToClipboard">Copiar al portapapeles</string>
   <string name="TestResults_Details_ShowInExplorer">Mostrar en OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">Falló</string>
@@ -164,7 +164,7 @@
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">Accesible</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s es accesible.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">Probablemente bloqueado</string>
-  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.</string>
+  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s está probablemente bloqueado debido a %2$s.\n\nNota: Falsos positivos pueden ocurrir. Aprende más [aquí](https://ooni.org/support/faq/#what-are-false-positives).</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_LearnToCircumvent">Evasión de censura</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_DNS">**Manipulación DNS**</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_TCPIP">**Bloqueo basado en TCP/IP**</string>

@@ -153,8 +153,8 @@
   <string name="TestResults_Details_Methodology">Metodologi</string>
   <string name="TestResults_Details_ViewLog">Vezi jurnalul</string>
   <string name="TestResults_Details_RawData">Date</string>
-  <string name="TestResults_Details_CopyExplorerURL">Copy result</string>
-  <string name="TestResults_Details_ShareExplorerURL">Share result</string>
+  <string name="TestResults_Details_CopyExplorerURL">Copiați URL-ul Explorer</string>
+  <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
   <string name="TestResults_Details_CopyToClipboard">Copiază în clipboard</string>
   <string name="TestResults_Details_ShowInExplorer">Afișează în OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">Acţiunea a eşuat</string>
@@ -164,7 +164,7 @@
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">Accesibil</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s este accesibil.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">Probabil blocat</string>
-  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.</string>
+  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s este probabil blocat prin intermediul %2$s.\n\nNotă: Pot apărea falsuri pozitive. Aflați mai multe [aici](https://ooni.org/support/faq/#what-are-false-positives).</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_LearnToCircumvent">Circumvenția de cenzură</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_DNS">**Modificări DNS**</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_TCPIP">**Blocarea bazată pe TCP / IP**</string>

@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Methodology";
 "TestResults.Details.ViewLog" = "লগ দেখুন";
 "TestResults.Details.RawData" = "ডাটা";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
+"TestResults.Details.ShareExplorerURL" = "Share Explorer URL";
 "TestResults.Details.CopyToClipboard" = "ক্লিপবোর্ডে অনুলিপি করুন";
 "TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "ব্যর্থ হয়েছে";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "প্রবেশযোগ্য";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ প্রবেশযোগ্য।";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "অবরূদ্ধ মনে হচ্ছে";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: False positives can occur. Learn more [here](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Censorship Circumvention";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**DNS tampering**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**TCP/IP based blocking**";

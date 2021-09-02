@@ -151,8 +151,8 @@
 "TestResults.Details.Methodology" = "Methodology";
 "TestResults.Details.ViewLog" = "View log";
 "TestResults.Details.RawData" = "Data";
-"TestResults.Details.CopyExplorerURL" = "Copy result";
-"TestResults.Details.ShareExplorerURL" = "Share result";
+"TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
+"TestResults.Details.ShareExplorerURL" = "Share Explorer URL";
 "TestResults.Details.CopyToClipboard" = "Копирај во Таблата со исечоци";
 "TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "Не успеа";
@@ -162,7 +162,7 @@
 "TestResults.Details.Websites.Reachable.Hero.Title" = "Accessible";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ is accessible.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Likely blocked";
-"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.";
+"TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: False positives can occur. Learn more [here](https://ooni.org/support/faq/#what-are-false-positives).";
 "TestResults.Details.Websites.LikelyBlocked.Content.LearnToCircumvent" = "Censorship Circumvention";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.DNS" = "**DNS tampering**";
 "TestResults.Details.Websites.LikelyBlocked.BlockingReason.TCPIP" = "**TCP/IP based blocking**";

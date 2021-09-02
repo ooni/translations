@@ -153,8 +153,8 @@
   <string name="TestResults_Details_Methodology">روش‌شناسی</string>
   <string name="TestResults_Details_ViewLog">نمایش لاگ</string>
   <string name="TestResults_Details_RawData">داده‌‌ها</string>
-  <string name="TestResults_Details_CopyExplorerURL">Copy result</string>
-  <string name="TestResults_Details_ShareExplorerURL">Share result</string>
+  <string name="TestResults_Details_CopyExplorerURL">کپی آدرس Explorer</string>
+  <string name="TestResults_Details_ShareExplorerURL">اشتراک گذاری آدرس جستجوگر</string>
   <string name="TestResults_Details_CopyToClipboard">به حافظه کوتاه مدت کپی کن</string>
   <string name="TestResults_Details_ShowInExplorer">در OONI Explorer نشان بده</string>
   <string name="TestResults_Details_Failed_Title">ناموفق</string>
@@ -164,7 +164,7 @@
   <string name="TestResults_Details_Websites_Reachable_Hero_Title">در دسترس</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s در دسترس است.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">احتمالا مسدود</string>
-  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: [False positives](https://ooni.org/support/faq/#what-are-false-positives) can occur.</string>
+  <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s احتمالا به خاطر %2$s مسدود شده.\n\nنکته: امکان رخ دادن مثبت کاذب وجود دارد. اطلاعات بیشتر در [اینجا](https://ooni.org/support/faq/#what-are-false-positives).</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_LearnToCircumvent">دور زدن سانسور</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_DNS">**دستکاری DNS**</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_BlockingReason_TCPIP">**مسدودیت بر اساس TCP/IP**</string>
