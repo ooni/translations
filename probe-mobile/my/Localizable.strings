@@ -34,7 +34,7 @@
 "Onboarding.DefaultSettings.Paragraph.1" = "By tapping \"OK\", you will share crash reports to help us improve OONI Probe.";
 "Onboarding.DefaultSettings.Button.Go" = "Let's go";
 "Onboarding.DefaultSettings.Button.Change" = "Change defaults";
-"Dashboard.Tab.Label" = "Dashboard";
+"Dashboard.Tab.Label" = "ဒက်ရှ်ဘုတ်";
 "Dashboard.Card.Run" = "Run";
 "Dashboard.Overview.LastRun.Never" = "N/A";
 "Dashboard.Overview.Run" = "Run";
@@ -153,7 +153,7 @@
 "TestResults.Details.RawData" = "Data";
 "TestResults.Details.CopyExplorerURL" = "Copy Explorer URL";
 "TestResults.Details.ShareExplorerURL" = "Share Explorer URL";
-"TestResults.Details.CopyToClipboard" = "Copy to clipboard";
+"TestResults.Details.CopyToClipboard" = "clipboard ထဲသို့ ကူးရန်";
 "TestResults.Details.ShowInExplorer" = "Show in OONI Explorer";
 "TestResults.Details.Failed.Title" = "မအောင်မြင်ပါ";
 "TestResults.Details.Failed.Paragraph" = "You can try to run this test again";

@@ -36,7 +36,7 @@
   <string name="Onboarding_DefaultSettings_Paragraph_1">By tapping \"OK\", you will share crash reports to help us improve OONI Probe.</string>
   <string name="Onboarding_DefaultSettings_Button_Go">Let\'s go</string>
   <string name="Onboarding_DefaultSettings_Button_Change">Change defaults</string>
-  <string name="Dashboard_Tab_Label">Dashboard</string>
+  <string name="Dashboard_Tab_Label">ဒက်ရှ်ဘုတ်</string>
   <string name="Dashboard_Card_Run">Run</string>
   <string name="Dashboard_Overview_LastRun_Never">N/A</string>
   <string name="Dashboard_Overview_Run">Run</string>
@@ -155,7 +155,7 @@
   <string name="TestResults_Details_RawData">Data</string>
   <string name="TestResults_Details_CopyExplorerURL">Copy Explorer URL</string>
   <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
-  <string name="TestResults_Details_CopyToClipboard">Copy to clipboard</string>
+  <string name="TestResults_Details_CopyToClipboard">clipboard ထဲသို့ ကူးရန်</string>
   <string name="TestResults_Details_ShowInExplorer">Show in OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">မအောင်မြင်ပါ</string>
   <string name="TestResults_Details_Failed_Paragraph">You can try to run this test again</string>

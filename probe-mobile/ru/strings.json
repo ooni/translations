@@ -383,7 +383,7 @@
   "Settings.Websites.MaxRuntimeEnabled": "Ограничить продолжительность теста",
   "Settings.Websites.MaxRuntime": "Продолжительность теста",
   "Settings.Websites.Categories.Label": "Категории сайтов для тестирования",
-  "Settings.Websites.Categories.Description": "Выбрано категорий: {count}",
+  "Settings.Websites.Categories.Description": "Выбрано категорий: {Count}",
   "Settings.Websites.Categories.Edit": "Ред.",
   "Settings.Websites.Categories.Selection.None": "Отменить выбор всего",
   "Settings.Websites.Categories.Selection.All": "Выбрать все",
