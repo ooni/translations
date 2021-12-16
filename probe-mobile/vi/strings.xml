@@ -13,9 +13,9 @@
   <string name="Onboarding_PopQuiz_Title">Pop Quiz</string>
   <string name="Onboarding_PopQuiz_True">Đúng</string>
   <string name="Onboarding_PopQuiz_False">Sai</string>
-  <string name="Onboarding_PopQuiz_Wrong_Button_Back">Go back</string>
+  <string name="Onboarding_PopQuiz_Wrong_Button_Back">Quay trở lại</string>
   <string name="Onboarding_PopQuiz_Wrong_Button_Continue">Tiếp tục</string>
-  <string name="Onboarding_PopQuiz_1_Title">Question 1/2</string>
+  <string name="Onboarding_PopQuiz_1_Title">Câu hỏi 1/2</string>
   <string name="Onboarding_PopQuiz_1_Question">If someone is monitoring my internet activity, they will see that I am running OONI Probe.</string>
   <string name="Onboarding_PopQuiz_1_Wrong_Title">Cảnh báo</string>
   <string name="Onboarding_PopQuiz_1_Wrong_Paragraph">OONI Probe is not a privacy tool. Anyone monitoring your internet activity will see which software you are running.</string>

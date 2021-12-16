@@ -86,7 +86,7 @@
   <string name="TestResults_Overview_FilterTests_AllTests">All Tests</string>
   <string name="TestResults_Overview_FilterTests_Websites">Webové stránky</string>
   <string name="TestResults_Overview_FilterTests_MiddleBoxes">Middleboxes</string>
-  <string name="TestResults_Overview_FilterTests_Performance">Performance</string>
+  <string name="TestResults_Overview_FilterTests_Performance">Výkon</string>
   <string name="TestResults_Overview_FilterTests_InstantMessaging">Instant Messaging</string>
   <string name="TestResults_Overview_FilterTests_Circumvention">Obcházení</string>
   <string name="TestResults_Overview_FilterTests_Experimental">Experimental</string>
@@ -325,7 +325,7 @@
   <string name="Test_Websites_Fullname">Webové stránky</string>
   <string name="Test_InstantMessaging_Fullname">Instant Messaging</string>
   <string name="Test_Middleboxes_Fullname">Middleboxes</string>
-  <string name="Test_Performance_Fullname">Performance</string>
+  <string name="Test_Performance_Fullname">Výkon</string>
   <string name="Test_Circumvention_Fullname">Obcházení</string>
   <string name="Test_Experimental_Fullname">Experimental</string>
   <string name="Test_HTTPInvalidRequestLine_Fullname">HTTP Invalid Request Line Test</string>

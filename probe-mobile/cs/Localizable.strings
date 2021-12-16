@@ -84,7 +84,7 @@
 "TestResults.Overview.FilterTests.AllTests" = "All Tests";
 "TestResults.Overview.FilterTests.Websites" = "Webové stránky";
 "TestResults.Overview.FilterTests.MiddleBoxes" = "Middleboxes";
-"TestResults.Overview.FilterTests.Performance" = "Performance";
+"TestResults.Overview.FilterTests.Performance" = "Výkon";
 "TestResults.Overview.FilterTests.InstantMessaging" = "Instant Messaging";
 "TestResults.Overview.FilterTests.Circumvention" = "Obcházení";
 "TestResults.Overview.FilterTests.Experimental" = "Experimental";
@@ -323,7 +323,7 @@
 "Test.Websites.Fullname" = "Webové stránky";
 "Test.InstantMessaging.Fullname" = "Instant Messaging";
 "Test.Middleboxes.Fullname" = "Middleboxes";
-"Test.Performance.Fullname" = "Performance";
+"Test.Performance.Fullname" = "Výkon";
 "Test.Circumvention.Fullname" = "Obcházení";
 "Test.Experimental.Fullname" = "Experimental";
 "Test.HTTPInvalidRequestLine.Fullname" = "HTTP Invalid Request Line Test";
