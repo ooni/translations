@@ -343,6 +343,8 @@
 "Settings.About.Label" = "Über OONI";
 "Settings.About.Content.Paragraph" = "Open Observatory of Network Interference (OONI)  ist ein freies Software Projekt im Rahmen des Tor Projektes und versucht Internetzensur auf der Welt sichtbar zu machen.\n\nSeit 2012 hat OONI's globale Gemineschaft Netzwerke in über 200 Ländern vermessen. Manche dieser Messungen zeigen Beweise für Internetzensur.";
 "Settings.About.Content.LearnMore" = "Erfahre mehr";
+"Settings.About.Content.Blog" = "Blog";
+"Settings.About.Content.Reports" = "Berichte";
 "Settings.About.Content.DataPolicy" = "OONI Datenschutzbestimmungen";
 "Settings.Notifications.Label" = "Benachrichtigungen";
 "Settings.Notifications.Enabled" = "Aktiviert";

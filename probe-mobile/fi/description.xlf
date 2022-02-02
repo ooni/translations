@@ -6,6 +6,7 @@
     <body>
       <trans-unit id="title-android" maxwidth="30" size-unit="char">
         <source>OONI Probe</source>
+        <target>OONI Probe</target>
         <note from="developer">This is limited by Google to 30 characters</note>
       </trans-unit>
       <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
@@ -46,21 +47,27 @@
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
+        <target>Käyttämällä OONI Probea autat internetin sensuurin läpinäkyvyyden parantamisessa</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
+        <target>Kerää todisteita internetin sensuurista</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
+        <target>Voit tarkistaa, jos ja miten verkkosivut ja pikaviestisovellukset on estetty. Keräämäsi verkkomittaukset sattavat toimia internetin sensuurin todisteina.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
+        <target>Havaitse sensuurista ja vakoilusta vastuussa olevat järjestelmät</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
+        <target>OONI Probe -testit on myös suunniteltu paljastamaan sensuurista ja vakoilusta vastuussa olevia laitteistoja (middleboxit).</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
+        <target>Mittaa verkkosi nopeus ja suorituskyky</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
@@ -87,9 +94,11 @@
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
+        <target>Havaitse internetin sensuuri ja testaa verkkosi nopeus ja suorituskyky</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
+        <target>Paljasta internetin sensuurin todisteet</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
@@ -99,6 +108,7 @@
       </trans-unit>
       <trans-unit id="screenshot5">
         <source>Testing your network is fun with a friendly octopus!</source>
+        <target>Verkkosi testaaminen on hauskaa ystävällisen mustekalan kanssa!</target>
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>

@@ -343,6 +343,8 @@
 "Settings.About.Label" = "O projekte OONI";
 "Settings.About.Content.Paragraph" = "The Open Observatory of Network Interference (OONI) je projekt slobodného softvéru spadajúci pod The Tor Project, ktorého cieľom je zvýšiť transparentnosť cenzúry internetu vo svete.\n\nGlobálna komunita OONI meria siete od roku 2012 vo viac ako 200 krajinách. Niektoré z týchto meraní slúžia ako dôkazy cenzúry internetu.";
 "Settings.About.Content.LearnMore" = "Zisti viac";
+"Settings.About.Content.Blog" = "Blog";
+"Settings.About.Content.Reports" = "Podania";
 "Settings.About.Content.DataPolicy" = "Dátová politika OONI";
 "Settings.Notifications.Label" = "Oznámenia";
 "Settings.Notifications.Enabled" = "Povolené";
