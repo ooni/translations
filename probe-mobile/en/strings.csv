@@ -407,6 +407,8 @@ Settings.About.Content.Paragraph,"The Open Observatory of Network Interference (
 
 Since 2012, OONI's global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.",,,
 Settings.About.Content.LearnMore,Learn more,20,,
+Settings.About.Content.Blog,Blog,,,
+Settings.About.Content.Reports,Reports,,,
 Settings.About.Content.DataPolicy,OONI Data Policy,30,,
 Settings.Notifications.Label,Notifications,,,
 Settings.Notifications.Enabled,Enabled,18,,

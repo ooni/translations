@@ -344,6 +344,8 @@
   "Settings.About.Label": "OONI について",
   "Settings.About.Content.Paragraph": "The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.\n\nSince 2012, OONI's global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.",
   "Settings.About.Content.LearnMore": "さらに知る",
+  "Settings.About.Content.Blog": "ブログ",
+  "Settings.About.Content.Reports": "報告書",
   "Settings.About.Content.DataPolicy": "OONI Data Policy",
   "Settings.Notifications.Label": "通知",
   "Settings.Notifications.Enabled": "常駐する",

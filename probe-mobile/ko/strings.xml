@@ -150,7 +150,7 @@
   <string name="TestResults_Summary_Circumvention_Hero_Reachable_Singular">Working</string>
   <string name="TestResults_Summary_Circumvention_Hero_Reachable_Plural">Working</string>
   <string name="TestResults_Summary_Circumvention_Hero_Tools_Singular">Tool</string>
-  <string name="TestResults_Summary_Circumvention_Hero_Tools_Plural">Tools</string>
+  <string name="TestResults_Summary_Circumvention_Hero_Tools_Plural">도구</string>
   <string name="TestResults_Details_Hero_Runtime">Runtime</string>
   <string name="TestResults_Details_Methodology">Methodology</string>
   <string name="TestResults_Details_ViewLog">로그 보기</string>
@@ -345,6 +345,8 @@
   <string name="Settings_About_Label">About OONI</string>
   <string name="Settings_About_Content_Paragraph">The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.\n\nSince 2012, OONI\'s global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.</string>
   <string name="Settings_About_Content_LearnMore">더 알아보기</string>
+  <string name="Settings_About_Content_Blog">블로그</string>
+  <string name="Settings_About_Content_Reports">보고서</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>
   <string name="Settings_Notifications_Label">알림</string>
   <string name="Settings_Notifications_Enabled">켜짐</string>
