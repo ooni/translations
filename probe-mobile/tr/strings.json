@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "Harika görünüyor",
   "Modal.NoThanks": "Hayır, teşekkürler",
   "Modal.NotNow": "Şimdi değil",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "Sınama yapılamadı. Lütfen İnternet bağlantınızı denetleyin.",
   "Modal.Error.CantDownloadURLs": "Adres listesi indirilemedi. Lütfen yeniden deneyin.",
   "Modal.Error.TestAlreadyRunning": "Lütfen yeni bir sınama başlatmadan önce yapılmakta olan sınamaların tamamlanmasını bekleyin.",

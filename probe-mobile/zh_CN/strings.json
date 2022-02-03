@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "似乎不错",
   "Modal.NoThanks": "不要，谢谢",
   "Modal.NotNow": "Not now",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "无法运行测试。请复查您的因特网连接。",
   "Modal.Error.CantDownloadURLs": "无法下载 URL 列表。请重试。",
   "Modal.Error.TestAlreadyRunning": "请等待当前运行的测试完成后再开始新的测试。",

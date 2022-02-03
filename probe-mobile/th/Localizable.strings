@@ -272,6 +272,8 @@
 "Modal.SoundsGreat" = "น่าจะดี";
 "Modal.NoThanks" = "ไม่เอา ขอบคุณ";
 "Modal.NotNow" = "Not now";
+"Modal.RunAnyway" = "Run anyways";
+"Modal.DisableVPN" = "Disable VPN";
 "Modal.Error.NoInternet" = "ไม่สามารถทำการทดสอบได้ กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ";
 "Modal.Error.CantDownloadURLs" = "ไม่สามารถดาวน์โหลดรายการที่อยู่เว็บได้ กรุณาลองอีกครั้ง";
 "Modal.Error.TestAlreadyRunning" = "Please wait for the current running tests to finish, before starting a new test.";

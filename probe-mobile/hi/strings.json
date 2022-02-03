@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "बढ़िया है",
   "Modal.NoThanks": "जी नहीं, धन्यवाद",
   "Modal.NotNow": "Not now",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "परीक्षण चलाने में असमर्थ। कृपया अपनी इंटरनेट कनेक्टिविटी की जांच करें।",
   "Modal.Error.CantDownloadURLs": "यूआरएल सूची डाउनलोड करने में असमर्थ। कृपया पुन: प्रयास करें।",
   "Modal.Error.TestAlreadyRunning": "नया परीक्षण शुरू करने से पहले, कृपया वर्तमान चल रहे परीक्षणों के समाप्त होने की प्रतीक्षा करें।",

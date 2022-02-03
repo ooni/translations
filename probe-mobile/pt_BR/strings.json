@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "Parece ótimo",
   "Modal.NoThanks": "Não, agradeço",
   "Modal.NotNow": "Not now",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "Não foi possível executar o teste. Por favor, verifique sua conexão com a Internet.",
   "Modal.Error.CantDownloadURLs": "Não foi possível baixar a lista de URL's. Por favor, tente novamente.",
   "Modal.Error.TestAlreadyRunning": "Aguarde a conclusão dos testes em execução antes de iniciar um novo teste.",

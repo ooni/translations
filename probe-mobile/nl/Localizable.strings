@@ -272,6 +272,8 @@
 "Modal.SoundsGreat" = "Klinkt goed";
 "Modal.NoThanks" = "Nee, bedankt";
 "Modal.NotNow" = "Not now";
+"Modal.RunAnyway" = "Run anyways";
+"Modal.DisableVPN" = "Disable VPN";
 "Modal.Error.NoInternet" = "De test kan niet wordt uitgevoerd. Controleer uw internetverbinding.";
 "Modal.Error.CantDownloadURLs" = "Kan de URL-lijst niet downloaden. Probeer het opnieuw.";
 "Modal.Error.TestAlreadyRunning" = "Wacht tot de huidige lopende tests zijn voltooid voordat u een nieuwe test start.";

@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "Hljómar vel",
   "Modal.NoThanks": "Nei takk",
   "Modal.NotNow": "Ekki núna",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "Ekki er hægt að keyra prófunina. Athugaðu nettenginguna þína.",
   "Modal.Error.CantDownloadURLs": "Get ekki sótt lista yfir slóðir. Reyndu aftur.",
   "Modal.Error.TestAlreadyRunning": "Bíddu eftir að fyrirliggjandi prófunum ljúki áður en þú framkvæmir nýja prófun.",
