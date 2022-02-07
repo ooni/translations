@@ -67,7 +67,7 @@
   "Dashboard.InstantMessaging.Card.Description": "त्वरित संदेश एप्लिकेशन को अवरुद्ध करने का परीक्षण करें",
   "Dashboard.InstantMessaging.Overview.Paragraph": "जांचें कि क्या [WhatsApp] (https://ooni.org/nettest/whatsapp/), [Facebook Messenger] (https://ooni.org/nettest/facebook-messenger/), [Telegram] (https://ooni.org/nettest/telegram/), और [Signal](https://ooni.org/nettest/signal) अवरुद्ध हैं।\n\nआपके परिणाम [OONI एक्सप्लोरर](https://explorer.ooni.org/world/) और [OONI API](https://api.ooni.io/) पर प्रकाशित किए जाएंगे।",
   "Dashboard.Circumvention.Card.Description": "सेंसरशिप परिधि उपकरणों के अवरोधन का परीक्षण करें",
-  "Dashboard.Circumvention.Overview.Paragraph": "जांचें कि क्या [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) या [RiseupVPN](https://ooni.org/nettest/riseupvpn/) अवरुद्ध हैं।\n\nआपके परिणाम [OONI एक्सप्लोरर](https://explorer.ooni.org/) और [OONI API](https://api.ooni.io/) पर प्रकाशित किए जाएंगे।",
+  "Dashboard.Circumvention.Overview.Paragraph": "Check whether [Psiphon](https://ooni.org/nettest/psiphon/) or [Tor](https://ooni.org/nettest/tor/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",
   "Dashboard.Experimental.Card.Description": "नए प्रयोगात्मक परीक्षण चलाएं",
   "Dashboard.Experimental.Overview.Paragraph": "OONI टीम द्वारा विकसित निम्नलिखित नए प्रयोगात्मक परीक्षण चलाएँ:\n{experimental_test_list}\n\nआपके परिणाम [OONI Explorer](https://explorer.ooni.org/) और [OONI API](https://api.ooni.io/) पर प्रकाशित किए जाएंगे। ",
   "TestResults.Gbps": "Gbit/s",

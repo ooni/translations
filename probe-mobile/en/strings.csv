@@ -117,7 +117,7 @@ Dashboard.InstantMessaging.Overview.Paragraph,"Check whether [WhatsApp](https://
 
 Your results will be published on [OONI Explorer](https://explorer.ooni.org/world/) and [OONI API](https://api.ooni.io/).",,,
 Dashboard.Circumvention.Card.Description,Test the blocking of censorship circumvention tools,,,
-Dashboard.Circumvention.Overview.Paragraph,"Check whether [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) or [RiseupVPN](https://ooni.org/nettest/riseupvpn/) are blocked.
+Dashboard.Circumvention.Overview.Paragraph,"Check whether [Psiphon](https://ooni.org/nettest/psiphon/) or [Tor](https://ooni.org/nettest/tor/) are blocked.
 
 Your results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",,,
 Dashboard.Experimental.Card.Description,Run new experimental tests,,,

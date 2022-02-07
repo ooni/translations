@@ -67,7 +67,7 @@
   "Dashboard.InstantMessaging.Card.Description": "测试即时消息应用的屏蔽情况",
   "Dashboard.InstantMessaging.Overview.Paragraph": "Check whether [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/world/) and [OONI API](https://api.ooni.io/).",
   "Dashboard.Circumvention.Card.Description": "测试翻墙工具屏蔽状况",
-  "Dashboard.Circumvention.Overview.Paragraph": "Check whether [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) or [RiseupVPN](https://ooni.org/nettest/riseupvpn/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",
+  "Dashboard.Circumvention.Overview.Paragraph": "Check whether [Psiphon](https://ooni.org/nettest/psiphon/) or [Tor](https://ooni.org/nettest/tor/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",
   "Dashboard.Experimental.Card.Description": "进行新的实验测试\n",
   "Dashboard.Experimental.Overview.Paragraph": "Run the following new experimental tests developed by the OONI team:\n{experimental_test_list}\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",
   "TestResults.Gbps": "Gbit/s",

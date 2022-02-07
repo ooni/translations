@@ -67,7 +67,7 @@
   "Dashboard.InstantMessaging.Card.Description": "Test het blokkeren van instant messaging-apps",
   "Dashboard.InstantMessaging.Overview.Paragraph": "Controleer of [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni .org/nettest/telegram/) en [Signal](https://ooni.org/nettest/signal) worden geblokkeerd.\n\nUw resultaten worden gepubliceerd op [OONI Explorer](https://explorer.ooni.org/world/) en [OONI API](https://api.ooni.io/).",
   "Dashboard.Circumvention.Card.Description": "Test de blokkering van tools voor het omzeilen van censuur",
-  "Dashboard.Circumvention.Overview.Paragraph": "Controleer of [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) of [RiseupVPN](https://ooni.org/nettest/riseupvpn/) zijn geblokkeerd.\n\nUw resultaten worden gepubliceerd op [OONI Explorer](https://explorer.ooni.org/) en [OONI API](https://api.ooni.io/).",
+  "Dashboard.Circumvention.Overview.Paragraph": "Check whether [Psiphon](https://ooni.org/nettest/psiphon/) or [Tor](https://ooni.org/nettest/tor/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",
   "Dashboard.Experimental.Card.Description": "Nieuwe experimentele tests uitvoeren",
   "Dashboard.Experimental.Overview.Paragraph": "Voer de volgende nieuwe experimentele tests uit die zijn ontwikkeld door het OONI-team:\n{experimental_test_list}\n\nUw resultaten worden gepubliceerd op [OONI Explorer](https://explorer.ooni.org/) en [OONI API](https://api.ooni.io/).",
   "TestResults.Gbps": "Gbit/s",

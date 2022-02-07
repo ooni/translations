@@ -67,7 +67,7 @@
   "Dashboard.InstantMessaging.Card.Description": "Anlık ileti uygulamalarının engellenip engellenmediğini anlayın",
   "Dashboard.InstantMessaging.Overview.Paragraph": "[WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/) ve [Signal](https://ooni.org/nettest/signal) uygulamalarının engellenip engellenmediğini kontrol edebilirsiniz.\n\nSonuçlarınız [OONI Explorer](https://explorer.ooni.org/world/) ve [OONI API](https://api.ooni.io/) üzerinde yayınlanır.",
   "Dashboard.Circumvention.Card.Description": "Sansürü aşma araçları engellemesini sınayın",
-  "Dashboard.Circumvention.Overview.Paragraph": "[Psiphon](https://ooni.org/nettest/psiphon/) ve [Tor](https://ooni.org/nettest/tor/) ya da [RiseupVPN](https://ooni.org/nettest/riseupvpn/) engelleniyor mu öğrenin.\n\nSonuçlarınız [OONI Explorer](https://explorer.ooni.org/) ve [OONI API](https://api.ooni.io/) sayfasında yayınlanır.",
+  "Dashboard.Circumvention.Overview.Paragraph": "Check whether [Psiphon](https://ooni.org/nettest/psiphon/) or [Tor](https://ooni.org/nettest/tor/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",
   "Dashboard.Experimental.Card.Description": "Yeni deneysel sınamaları yürüt",
   "Dashboard.Experimental.Overview.Paragraph": "OONI ekibi tarafından geliştirilmiş yeni deneysel sınamaları yürütün:\n{experimental_test_list}\n\nSonuçlarınız [OONI Explorer](https://explorer.ooni.org/) ve [OONI API](https://api.ooni.io/) üzerinde yayınlanacak.",
   "TestResults.Gbps": "Gbit/s",

@@ -66,7 +66,7 @@
 "Dashboard.InstantMessaging.Card.Description" = "Έλεγξε το μπλοκάρισμα εφαρμογών συνομιλιών";
 "Dashboard.InstantMessaging.Overview.Paragraph" = "Δες αν το [WhatsApp](https://ooni.org/nettest/whatsapp/), το [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), το [Telegram](https://ooni.org/nettest/telegram/) και το [Signal](https://ooni.org/nettest/signal) έχουν μπλοκαριστεί.\n\nΤα αποτελέσματα των δοκιμών σου θα δημοσιευτούν στο [OONI Explorer](https://explorer.ooni.org/world/) και στο [OONI API](https://api.ooni.io/).";
 "Dashboard.Circumvention.Card.Description" = "Έλεγξε το μπλοκάρισμα εργαλείων παράκαμψης λογοκρισίας";
-"Dashboard.Circumvention.Overview.Paragraph" = "Δες αν το [Psiphon](https://ooni.org/nettest/psiphon/), το [Tor](https://ooni.org/nettest/tor/) ή το [RiseupVPN](https://ooni.org/nettest/riseupvpn/) έχουν μπλοκαριστεί.\n\nΤα αποτελέσματα θα δημοσιευτούν στο [OONI Explorer] (https://explorer.ooni.org/) και στο [OONI API] (https://api.ooni.io/).";
+"Dashboard.Circumvention.Overview.Paragraph" = "Check whether [Psiphon](https://ooni.org/nettest/psiphon/) or [Tor](https://ooni.org/nettest/tor/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
 "Dashboard.Experimental.Card.Description" = "Εκτέλεση νέων πειραματικών δοκιμών";
 "Dashboard.Experimental.Overview.Paragraph" = "Εκτέλεσε τις παρακάτω νέες πειραματικές δοκιμές που αναπτύχθηκαν από την ομάδα του OONI:\n%@\n\nΤα αποτελέσματά σου θα δημοσιευθούν στο [OONI Explorer](https://explorer.ooni.org/) και στο [OONI API](https://api.ooni.io/).";
 "TestResults.Gbps" = "Gbit/s";
