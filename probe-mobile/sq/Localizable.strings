@@ -272,6 +272,8 @@
 "Modal.SoundsGreat" = "Sounds great";
 "Modal.NoThanks" = "Jo, faleminderit";
 "Modal.NotNow" = "Not now";
+"Modal.RunAnyway" = "Run anyways";
+"Modal.DisableVPN" = "Disable VPN";
 "Modal.Error.NoInternet" = "E pamundur për t'u bërë testi. Ju lutem kontrolli lidhjen tuaj të internetit.";
 "Modal.Error.CantDownloadURLs" = "E pamundur për të shkarkuar listën e URL. Ju lutem përvoni përsëri.";
 "Modal.Error.TestAlreadyRunning" = "Please wait for the current running tests to finish, before starting a new test.";

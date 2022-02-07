@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "Ναι, αμέ!",
   "Modal.NoThanks": "Όχι, ευχαριστώ",
   "Modal.NotNow": "Not now",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "Δεν είναι δυνατή η εκτέλεση της δοκιμής. Έλεγξε τη σύνδεσή σου στο Διαδίκτυο.",
   "Modal.Error.CantDownloadURLs": "Δεν είναι δυνατή η λήψη της λίστας ιστοσελιδών. Παρακαλώ προσπάθησε ξανά.",
   "Modal.Error.TestAlreadyRunning": "Παρακαλώ περίμενε μέχρι να τελειώσουν οι δοκιμές που εκτελούνται τώρα, πριν ξεκινήσεις μια νέα δοκιμή.",

@@ -272,6 +272,8 @@
 "Modal.SoundsGreat" = "Kedengarannya bagus";
 "Modal.NoThanks" = "Tidak, terima kasih";
 "Modal.NotNow" = "Tidak sekarang";
+"Modal.RunAnyway" = "Run anyways";
+"Modal.DisableVPN" = "Disable VPN";
 "Modal.Error.NoInternet" = "Tidak bisa menjalankan tes. Mohon cek konektivitas internet Anda.";
 "Modal.Error.CantDownloadURLs" = "Gagal mengunduh daftar URL. Coba lagi.";
 "Modal.Error.TestAlreadyRunning" = "Mohon tunggu tes yang sedang berlangsung untuk selesai sebelum memulai tes yang baru.";

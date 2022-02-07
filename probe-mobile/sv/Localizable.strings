@@ -272,6 +272,8 @@
 "Modal.SoundsGreat" = "Sounds great";
 "Modal.NoThanks" = "Nej tack";
 "Modal.NotNow" = "Not now";
+"Modal.RunAnyway" = "Run anyways";
+"Modal.DisableVPN" = "Disable VPN";
 "Modal.Error.NoInternet" = "Kunde inte köra testet. Kontrollera din internetanslutning.";
 "Modal.Error.CantDownloadURLs" = "Kunde inte ladda URL-listan. Försök igen.";
 "Modal.Error.TestAlreadyRunning" = "Please wait for the current running tests to finish, before starting a new test.";

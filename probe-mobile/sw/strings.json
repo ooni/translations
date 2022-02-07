@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "Inasikika sana",
   "Modal.NoThanks": "Hapana, asante",
   "Modal.NotNow": "Not now",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "Imeshindwa kutekeleza jaribio. Tafadhali angalia muunganisho wako wa mtandao.",
   "Modal.Error.CantDownloadURLs": "Imeshindwa kupakua orodha ya URL. Tafadhali jaribu tena.",
   "Modal.Error.TestAlreadyRunning": "Tafadhali subiri majaribio ya sasa ya kukimbia kumaliza, kabla ya kuanza jaribio jipya.",

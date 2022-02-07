@@ -273,6 +273,8 @@
   "Modal.SoundsGreat": "Kuulostaa hyvältä",
   "Modal.NoThanks": "Ei kiitos",
   "Modal.NotNow": "Ei nyt",
+  "Modal.RunAnyway": "Run anyways",
+  "Modal.DisableVPN": "Disable VPN",
   "Modal.Error.NoInternet": "Testiä ei voitu suorittaa. Tarkista internet-yhteytesi.",
   "Modal.Error.CantDownloadURLs": "URL-listaa ei voitu ladata. Yritä uudelleen.",
   "Modal.Error.TestAlreadyRunning": "Odota nykyisen testin loppumista ennenkuin aloitat uuden.",
