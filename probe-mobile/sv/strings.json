@@ -5,7 +5,7 @@
   "Onboarding.WhatIsOONIProbe.GotIt": "Förstått",
   "Onboarding.ThingsToKnow.Title": "Se upp!",
   "Onboarding.ThingsToKnow.Bullet.1": "OONI data publiceras öppet och kommer att innehålla din nätverksinformation.",
-  "Onboarding.ThingsToKnow.Bullet.2": "Någon som övervakar din internetanvändning (t.ex myndighet eller Internetleverantör) kommer se att du kör OONI Probe.",
+  "Onboarding.ThingsToKnow.Bullet.2": "Någon som övervakar din internetanvändning (t.ex en myndighet eller Internetleverantör) kommer att se dig köra OONI Probe.",
   "Onboarding.ThingsToKnow.Bullet.3": "Du kommer eventuellt att testa förbjudna webbsidor (men du kan välja vilka sidor du vill testa).",
   "Onboarding.ThingsToKnow.Button": "Jag förstår",
   "Onboarding.ThingsToKnow.LearnMore": "Läs mer",

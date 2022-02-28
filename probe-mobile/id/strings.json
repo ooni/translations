@@ -330,7 +330,7 @@
   "Test.Circumvention.Fullname": "Pengelakan",
   "Test.Experimental.Fullname": "Experimental ",
   "Test.HTTPInvalidRequestLine.Fullname": "Tes Permintaan HTTP yang Tidak Sahih",
-  "Test.HTTPHeaderFieldManipulation.Fullname": "HTTP Header Field Manipulation Test",
+  "Test.HTTPHeaderFieldManipulation.Fullname": "Tes Manipulasi Bidang Header HTTP",
   "Test.WebConnectivity.Fullname": "Tes Konektivitas Web",
   "Test.NDT.Fullname": "Tes Kecepatan NDT",
   "Test.Dash.Fullname": "Tes Arus DASH",

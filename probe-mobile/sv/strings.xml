@@ -6,7 +6,7 @@
   <string name="Onboarding_WhatIsOONIProbe_GotIt">Förstått</string>
   <string name="Onboarding_ThingsToKnow_Title">Se upp!</string>
   <string name="Onboarding_ThingsToKnow_Bullet_1">OONI data publiceras öppet och kommer att innehålla din nätverksinformation.</string>
-  <string name="Onboarding_ThingsToKnow_Bullet_2">Någon som övervakar din internetanvändning (t.ex myndighet eller Internetleverantör) kommer se att du kör OONI Probe.</string>
+  <string name="Onboarding_ThingsToKnow_Bullet_2">Någon som övervakar din internetanvändning (t.ex en myndighet eller Internetleverantör) kommer att se dig köra OONI Probe.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_3">Du kommer eventuellt att testa förbjudna webbsidor (men du kan välja vilka sidor du vill testa).</string>
   <string name="Onboarding_ThingsToKnow_Button">Jag förstår</string>
   <string name="Onboarding_ThingsToKnow_LearnMore">Läs mer</string>
