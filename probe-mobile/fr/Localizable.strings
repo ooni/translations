@@ -288,6 +288,8 @@
 "Modal.Autorun.BatteryOptimization" = "OONI Probe ne peut pas fonctionner automatiquement sans optimisation de la pile. Voulez-vous réessayer ?";
 "Modal.DisableVPN.Title" = "Veuillez désactiver votre connexion RPV.";
 "Modal.DisableVPN.Message" = "Si vous exécutez OONI Probe alors qu’un RPV (réseau privé virtuel) est activé, les résultats des tests pourraient sembler provenir du mauvais pays. Veuillez désactiver votre connexion RPV.";
+"Modal.UploadVPNResults.Title" = "Some measurements were taken over VPN.";
+"Modal.UploadVPNResults.Message" = "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.";
 "Toast.ResultsUploaded" = "Téléversement réussi";
 "Modal.DisplayFailureLog" = "Afficher le journal des échecs";
 "Modal.EnableNotifications.Title" = "Obtenez des mises à jour sur la censure d’Internet";

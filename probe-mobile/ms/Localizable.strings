@@ -6,7 +6,7 @@
 "Onboarding.ThingsToKnow.Bullet.1" = "OONI data is openly published and will include your network information.";
 "Onboarding.ThingsToKnow.Bullet.2" = "Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.";
 "Onboarding.ThingsToKnow.Bullet.3" = "You might test banned websites (but you can choose which sites to test).";
-"Onboarding.ThingsToKnow.Button" = "I understand";
+"Onboarding.ThingsToKnow.Button" = "Saya faham";
 "Onboarding.ThingsToKnow.LearnMore" = "Learn more";
 "Onboarding.PopQuiz.Title" = "Pop Quiz";
 "Onboarding.PopQuiz.True" = "Benar";
@@ -288,6 +288,8 @@
 "Modal.Autorun.BatteryOptimization" = "OONI Probe cannot run automatically without battery optimization. Do you want to try again?";
 "Modal.DisableVPN.Title" = "Please disable your VPN connection.";
 "Modal.DisableVPN.Message" = "If you run OONI Probe with a VPN enabled, the test results may appear to come from the wrong country. Please disable your VPN connection.";
+"Modal.UploadVPNResults.Title" = "Some measurements were taken over VPN.";
+"Modal.UploadVPNResults.Message" = "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.";
 "Toast.ResultsUploaded" = "Upload successful";
 "Modal.DisplayFailureLog" = "Display failure log";
 "Modal.EnableNotifications.Title" = "Get updates on internet censorship";

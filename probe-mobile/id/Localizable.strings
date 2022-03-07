@@ -288,6 +288,8 @@
 "Modal.Autorun.BatteryOptimization" = "OONI Probe tidak dapat berjalan dengan otomatis tanpa pengoptimalan baterai. Apakah Anda ingin mencoba lagi?";
 "Modal.DisableVPN.Title" = "Mohon nonaktifkan koneksi VPN Anda.";
 "Modal.DisableVPN.Message" = "Jika Anda menjalankan tes OONI Probe dengan VPN yang diaktifkan, hasil tes akan terlihat berasal dari negara yang salah. Mohon nonaktifkan koneksi VPN.";
+"Modal.UploadVPNResults.Title" = "Some measurements were taken over VPN.";
+"Modal.UploadVPNResults.Message" = "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.";
 "Toast.ResultsUploaded" = "Unggahan berhasil";
 "Modal.DisplayFailureLog" = "Tampilkan log kesalahan";
 "Modal.EnableNotifications.Title" = "Dapatkan informasi terbaru mengenai penyensoran Internet";

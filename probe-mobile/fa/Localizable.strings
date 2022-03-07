@@ -288,6 +288,8 @@
 "Modal.Autorun.BatteryOptimization" = "OONI Probe بدون بهینه‌سازی باتری قادر به اجرای خودکار نیست. آیا می‌خواهید دوباره تلاش کنید؟";
 "Modal.DisableVPN.Title" = "لطفا اتصال VPN خود را غیرفعال کنید.";
 "Modal.DisableVPN.Message" = "اگر OONI Probe را در حالی که متصل به VPN هستید اجرا کنید، نتایج ممکن است برای کشور اشتباهی نمایش داده شوند. لطفا اتصال VPN خود را غیرفعال کنید.";
+"Modal.UploadVPNResults.Title" = "Some measurements were taken over VPN.";
+"Modal.UploadVPNResults.Message" = "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.";
 "Toast.ResultsUploaded" = "بارگذاری با موفقیت انجام شد.";
 "Modal.DisplayFailureLog" = "نمایش گزارش خرابی";
 "Modal.EnableNotifications.Title" = "دریافت به‌روزرسانی سانسور اینترنت";

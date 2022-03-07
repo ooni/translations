@@ -84,7 +84,7 @@
   <string name="TestResults_Overview_Hero_DataUsage">Data Usage</string>
   <string name="TestResults_Overview_FilterTests">Filter Tests</string>
   <string name="TestResults_Overview_FilterTests_AllTests">All Tests</string>
-  <string name="TestResults_Overview_FilterTests_Websites">Websites</string>
+  <string name="TestResults_Overview_FilterTests_Websites">Вебсайти</string>
   <string name="TestResults_Overview_FilterTests_MiddleBoxes">Middleboxes</string>
   <string name="TestResults_Overview_FilterTests_Performance">Performance</string>
   <string name="TestResults_Overview_FilterTests_InstantMessaging">Instant Messaging</string>
@@ -124,7 +124,7 @@
   <string name="TestResults_Summary_Websites_Hero_Blocked_Singular">Заблоковано</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Plural">Заблоковано</string>
   <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Вебсайт</string>
-  <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Websites</string>
+  <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Вебсайти</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Singular">Accessible</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Accessible</string>
   <string name="TestResults_Summary_Performance_Hero_Video">Відео</string>
@@ -273,7 +273,7 @@
   <string name="Modal_Retry">Повторити</string>
   <string name="Modal_SoundsGreat">Sounds great</string>
   <string name="Modal_NoThanks">Ні, дякую</string>
-  <string name="Modal_NotNow">Not now</string>
+  <string name="Modal_NotNow">Не зараз</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
   <string name="Modal_Error_NoInternet">Unable to run the test. Please check your internet connectivity.</string>
@@ -290,6 +290,8 @@
   <string name="Modal_Autorun_BatteryOptimization">OONI Probe cannot run automatically without battery optimization. Do you want to try again?</string>
   <string name="Modal_DisableVPN_Title">Please disable your VPN connection.</string>
   <string name="Modal_DisableVPN_Message">If you run OONI Probe with a VPN enabled, the test results may appear to come from the wrong country. Please disable your VPN connection.</string>
+  <string name="Modal_UploadVPNResults_Title">Some measurements were taken over VPN.</string>
+  <string name="Modal_UploadVPNResults_Message">If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.</string>
   <string name="Toast_ResultsUploaded">Upload successful</string>
   <string name="Modal_DisplayFailureLog">Display failure log</string>
   <string name="Modal_EnableNotifications_Title">Get updates on internet censorship</string>
@@ -324,7 +326,7 @@
   <string name="Snackbar_ResultsNotUploaded_Upload">Вивантажити</string>
   <string name="Snackbar_ResultsSomeNotUploaded_Text">Some not uploaded</string>
   <string name="Snackbar_ResultsSomeNotUploaded_UploadAll">Upload All</string>
-  <string name="Test_Websites_Fullname">Websites</string>
+  <string name="Test_Websites_Fullname">Вебсайти</string>
   <string name="Test_InstantMessaging_Fullname">Instant Messaging</string>
   <string name="Test_Middleboxes_Fullname">Middleboxes</string>
   <string name="Test_Performance_Fullname">Performance</string>
@@ -374,7 +376,7 @@
   <string name="Settings_Privacy_Label">Приватність</string>
   <string name="Settings_Privacy_SendCrashReports">Send crash reports</string>
   <string name="Settings_Advanced_Label">Розширений</string>
-  <string name="Settings_DarkMode_Label">Dark Mode</string>
+  <string name="Settings_DarkMode_Label">Темний режим</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
   <string name="Settings_Advanced_UseDomainFronting">Always use domain fronting</string>
   <string name="Settings_Proxy_Label">OONI backend proxy</string>

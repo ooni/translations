@@ -290,6 +290,8 @@
   <string name="Modal_Autorun_BatteryOptimization">OONI Probe ei voi toimia automaattisesti ilman akun optimointia. Haluatko yrittää uudelleen?</string>
   <string name="Modal_DisableVPN_Title">Kytke VPN pois päältä.</string>
   <string name="Modal_DisableVPN_Message">Jos suoritat OONI Probea VPN päällä, testitulokset saattavat näyttää tulevan väärästä maasta. Laita VPN pois päältä.</string>
+  <string name="Modal_UploadVPNResults_Title">Some measurements were taken over VPN.</string>
+  <string name="Modal_UploadVPNResults_Message">If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.</string>
   <string name="Toast_ResultsUploaded">Lähetys onnistui</string>
   <string name="Modal_DisplayFailureLog">Näytä virheloki</string>
   <string name="Modal_EnableNotifications_Title">Get updates on internet censorship</string>

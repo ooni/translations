@@ -288,6 +288,8 @@
 "Modal.Autorun.BatteryOptimization" = "如果没有优化电池，OONI无法自动运行。你想再试一次吗";
 "Modal.DisableVPN.Title" = "请关闭您的VPN连接。";
 "Modal.DisableVPN.Message" = "如果您在启用VPN的情况下运行OONI，测试结果可能看起来来自错误的国家。请关闭您的VPN连接。";
+"Modal.UploadVPNResults.Title" = "Some measurements were taken over VPN.";
+"Modal.UploadVPNResults.Message" = "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.";
 "Toast.ResultsUploaded" = "上传成功";
 "Modal.DisplayFailureLog" = "显示失败日志";
 "Modal.EnableNotifications.Title" = "获取网络审查的动态";

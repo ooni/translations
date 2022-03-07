@@ -288,6 +288,8 @@
 "Modal.Autorun.BatteryOptimization" = "OONI Probe getur ekki keyrt á þess að rafhlöðunotkun sé bestuð. Viltu prófa aftur?";
 "Modal.DisableVPN.Title" = "Gerðu VPN-tenginguna þína óvirka.";
 "Modal.DisableVPN.Message" = "Ef þú keyrir OONI Probe með virku VPN, geta niðurstöður prófana litið út fyrir að koma frá röngu landi. Gerðu VPN-tenginguna þína óvirka.";
+"Modal.UploadVPNResults.Title" = "Some measurements were taken over VPN.";
+"Modal.UploadVPNResults.Message" = "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.";
 "Toast.ResultsUploaded" = "Innsending tókst";
 "Modal.DisplayFailureLog" = "Birta mistakaskrá";
 "Modal.EnableNotifications.Title" = "Fáðu vísbendingar um ritskoðun internetsins";

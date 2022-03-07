@@ -289,6 +289,8 @@
   "Modal.Autorun.BatteryOptimization": "OONI Probe kann nicht automatisch ohne Batterieoptimierung laufen. Möchtest du es noch einmal versuchen?",
   "Modal.DisableVPN.Title": "Bitte deaktiviere deine VPN-Verbindung.",
   "Modal.DisableVPN.Message": "Wenn du OONI Probe mit aktiviertem VPN ausführst, kann es sein, dass die Testergebnisse aus dem falschen Land stammen. Bitte deaktiviere deine VPN-Verbindung.",
+  "Modal.UploadVPNResults.Title": "Some measurements were taken over VPN.",
+  "Modal.UploadVPNResults.Message": "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.",
   "Toast.ResultsUploaded": "Hochladen war erfolgreich",
   "Modal.DisplayFailureLog": "Fehlerlog anzeigen",
   "Modal.EnableNotifications.Title": "Aktuelle Informationen zur Internetzensur",

@@ -288,6 +288,8 @@
 "Modal.Autorun.BatteryOptimization" = "OONI Probe ei voi toimia automaattisesti ilman akun optimointia. Haluatko yrittää uudelleen?";
 "Modal.DisableVPN.Title" = "Kytke VPN pois päältä.";
 "Modal.DisableVPN.Message" = "Jos suoritat OONI Probea VPN päällä, testitulokset saattavat näyttää tulevan väärästä maasta. Laita VPN pois päältä.";
+"Modal.UploadVPNResults.Title" = "Some measurements were taken over VPN.";
+"Modal.UploadVPNResults.Message" = "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.";
 "Toast.ResultsUploaded" = "Lähetys onnistui";
 "Modal.DisplayFailureLog" = "Näytä virheloki";
 "Modal.EnableNotifications.Title" = "Get updates on internet censorship";

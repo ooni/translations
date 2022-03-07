@@ -289,6 +289,8 @@
   "Modal.Autorun.BatteryOptimization": "OONI Probe cannot run automatically without battery optimization. Do you want to try again?",
   "Modal.DisableVPN.Title": "Please disable your VPN connection.",
   "Modal.DisableVPN.Message": "If you run OONI Probe with a VPN enabled, the test results may appear to come from the wrong country. Please disable your VPN connection.",
+  "Modal.UploadVPNResults.Title": "Some measurements were taken over VPN.",
+  "Modal.UploadVPNResults.Message": "If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.",
   "Toast.ResultsUploaded": "अपलोड सफल रहा।",
   "Modal.DisplayFailureLog": "विफलता लॉग प्रदर्शित करें",
   "Modal.EnableNotifications.Title": "इंटरनेट सेंसरशिप पर नई जानकारी प्राप्त करें",
