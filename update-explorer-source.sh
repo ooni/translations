@@ -6,6 +6,7 @@ if [ "X$EXPLORER_STRINGS_SHEET" = "X" ]; then
 fi
 
 CSV_FILE_PATH=explorer/en/strings.csv
+JSON_FILE_PATH=explorer/en/strings.json
 
 echo -n "Fetching latest source strings from spreadsheet..."
 
@@ -19,6 +20,16 @@ if [ $ret -ne 0 ]; then
 fi
 echo " done."
 
+echo "Converting from CSV format to KEYVALUEJSON"
+
+python csv-to-json.py --csv $CSV_FILE_PATH --json $JSON_FILE_PATH
+
+ret=$?
+if [ $ret -ne 0 ]; then
+  echo "Failed to convert CSV file to JSON format: $ret"
+  exit $ret
+fi
+
 echo "Uploading source strings to Transifex..."
 
 tx push -s -r ooni-explorer.website
@@ -30,3 +41,4 @@ if [ $ret -ne 0 ]; then
   exit $ret
 fi
 
+echo "✅ Uploaded source strings to Transifex."
