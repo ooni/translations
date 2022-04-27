@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">Imposibil de efectuat testul. Verificați conectivitatea la internet.</string>
   <string name="Modal_Error_CantDownloadURLs">Imposibil de descărcat lista URL. Vă rugăm să încercați din nou.</string>
   <string name="Modal_Error_TestAlreadyRunning">Please wait for the current running tests to finish, before starting a new test.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Avansat</string>
   <string name="Settings_DarkMode_Label">Dark Mode</string>
   <string name="Settings_Advanced_DebugLogs">Jurnale de depanare</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Selectați limba</string>
   <string name="Settings_Advanced_UseDomainFronting">Utilizați întotdeauna fronting de domeniu</string>
   <string name="Settings_Proxy_Label">OONI backend proxy</string>
   <string name="Settings_Proxy_Enabled">Proxy</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Testare Psiphon</string>
   <string name="Settings_Circumvention_TestTor">Testare Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">Test RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Trimitere e-mail pentru asistență</string>
   <string name="Settings_SendEmail_Message">Please describe the problem you are experiencing:</string>
   <string name="Settings_SendEmail_Error">Vă rugăm să trimiteți un e-mail la bugs@openobservatory.org cu informații despre aplicație și versiunea iOS. Atingeți „Copiere în clipboard” de mai jos pentru a copia adresa noastră de e-mail.</string>

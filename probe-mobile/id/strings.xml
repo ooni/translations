@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Tidak sekarang</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">Tidak bisa menjalankan tes. Mohon cek konektivitas internet Anda.</string>
   <string name="Modal_Error_CantDownloadURLs">Gagal mengunduh daftar URL. Coba lagi.</string>
   <string name="Modal_Error_TestAlreadyRunning">Mohon tunggu tes yang sedang berlangsung untuk selesai sebelum memulai tes yang baru.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Advanced </string>
   <string name="Settings_DarkMode_Label">Mode Gelap</string>
   <string name="Settings_Advanced_DebugLogs">Log Debug</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Pilih Bahasa</string>
   <string name="Settings_Advanced_UseDomainFronting">Always use domain fronting</string>
   <string name="Settings_Proxy_Label">OONI backend proxy</string>
   <string name="Settings_Proxy_Enabled">Proksi</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Tes Psiphon</string>
   <string name="Settings_Circumvention_TestTor">Tes Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">Tes RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Kirim surel ke pendukung</string>
   <string name="Settings_SendEmail_Message">Silakan deskripsikan masalah yang Anda alami:</string>
   <string name="Settings_SendEmail_Error">Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.</string>

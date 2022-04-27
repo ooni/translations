@@ -274,6 +274,7 @@
 "Modal.NotNow" = "Agora não";
 "Modal.RunAnyway" = "Execute mesmo assim";
 "Modal.DisableVPN" = "Desativar VPN";
+"Modal.AlwaysRun" = "Always Run";
 "Modal.Error.NoInternet" = "Não foi possível executar o teste. Por favor, verifique sua conexão com a Internet.";
 "Modal.Error.CantDownloadURLs" = "Não foi possível baixar a lista de URL's. Por favor, tente novamente.";
 "Modal.Error.TestAlreadyRunning" = "Aguarde a conclusão dos testes em execução antes de iniciar um novo teste.";
@@ -376,6 +377,8 @@
 "Settings.Advanced.Label" = "Avançado";
 "Settings.DarkMode.Label" = "Modo escuro";
 "Settings.Advanced.DebugLogs" = "Registros de depuração";
+"Settings.Advanced.LanguageSettings.Title" = "Language Setting";
+"Settings.Advanced.LanguageSettings.PopUp" = "Selecionar idioma";
 "Settings.Advanced.UseDomainFronting" = "Sempre usar \"domain fronting\"";
 "Settings.Proxy.Label" = "Proxy de back-end do OONI";
 "Settings.Proxy.Enabled" = "Proxy";
@@ -427,6 +430,7 @@
 "Settings.Circumvention.TestPsiphon" = "Teste Psiphon";
 "Settings.Circumvention.TestTor" = "Teste Tor";
 "Settings.Circumvention.TestRiseupVPN" = "Testar o RiseupVPN";
+"Settings.WarmVPNInUse.Label" = "Warn when VPN is in use";
 "Settings.SendEmail.Label" = "Enviar e-mail para suporte";
 "Settings.SendEmail.Message" = "Descreva o problema que você está enfrentando:";
 "Settings.SendEmail.Error" = "Por favor, envie um e-mail para bugs@openobservatory.org com informações sobre o aplicativo e a versão do iOS. Toque em \"Copiar para área de transferência,\" abaixo, para copiar nosso endereço de e-mail.";

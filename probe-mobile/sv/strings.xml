@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">Kunde inte köra testet. Kontrollera din internetanslutning.</string>
   <string name="Modal_Error_CantDownloadURLs">Kunde inte ladda URL-listan. Försök igen.</string>
   <string name="Modal_Error_TestAlreadyRunning">Please wait for the current running tests to finish, before starting a new test.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Avancerat</string>
   <string name="Settings_DarkMode_Label">Dark Mode</string>
   <string name="Settings_Advanced_DebugLogs">Felsöningsloggar</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Välj Språk</string>
   <string name="Settings_Advanced_UseDomainFronting">Använd alltid domänfront</string>
   <string name="Settings_Proxy_Label">OONI backend proxy</string>
   <string name="Settings_Proxy_Enabled">Proxy</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Test Psiphon</string>
   <string name="Settings_Circumvention_TestTor">Test Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">Test RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Skicka mail till support</string>
   <string name="Settings_SendEmail_Message">Please describe the problem you are experiencing:</string>
   <string name="Settings_SendEmail_Error">Vänligen skicka ett mail till bugs@openobservatory.org med information om app-version och IOS-version. Tryck på \"Kopiera till urklipp\" nedan, för att kopiera vår mailadress.</string>

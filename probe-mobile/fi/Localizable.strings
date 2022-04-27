@@ -274,6 +274,7 @@
 "Modal.NotNow" = "Ei nyt";
 "Modal.RunAnyway" = "Run anyways";
 "Modal.DisableVPN" = "Disable VPN";
+"Modal.AlwaysRun" = "Always Run";
 "Modal.Error.NoInternet" = "Testiä ei voitu suorittaa. Tarkista internet-yhteytesi.";
 "Modal.Error.CantDownloadURLs" = "URL-listaa ei voitu ladata. Yritä uudelleen.";
 "Modal.Error.TestAlreadyRunning" = "Odota nykyisen testin loppumista ennenkuin aloitat uuden.";
@@ -376,6 +377,8 @@
 "Settings.Advanced.Label" = "Lisätietoja";
 "Settings.DarkMode.Label" = "Tumma tila";
 "Settings.Advanced.DebugLogs" = "Vianjäljityslokit";
+"Settings.Advanced.LanguageSettings.Title" = "Language Setting";
+"Settings.Advanced.LanguageSettings.PopUp" = "Valitse kieli";
 "Settings.Advanced.UseDomainFronting" = "Käytä aina domainfronttausta";
 "Settings.Proxy.Label" = "OONI backend proxy";
 "Settings.Proxy.Enabled" = "Välityspalvelin";
@@ -427,6 +430,7 @@
 "Settings.Circumvention.TestPsiphon" = "Testaa Psiphon";
 "Settings.Circumvention.TestTor" = "Testaa Tor";
 "Settings.Circumvention.TestRiseupVPN" = "Testaa RiseupVPN";
+"Settings.WarmVPNInUse.Label" = "Warn when VPN is in use";
 "Settings.SendEmail.Label" = "Lähetä sähköposti tukeen";
 "Settings.SendEmail.Message" = "Kuvaile kohtaamaasi ongelmaa:";
 "Settings.SendEmail.Error" = "Lähetä sähköpostia bugs@openobservatory.org -osoitteeseen ja sisällytä viestiin tieto sovelluksen ja iOS:n versiosta. Napauta \"Kopioi leikepöydälle\" alla kopioidaksesi sähköpostiosoitteemme.";

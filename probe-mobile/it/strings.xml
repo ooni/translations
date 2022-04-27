@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">Non è stato possibile eseguire il test. Controlla la tua connessione internet.</string>
   <string name="Modal_Error_CantDownloadURLs">Non è stato possibile scaricare la lista di URL. Riprova.</string>
   <string name="Modal_Error_TestAlreadyRunning">Per favore, attendi la fine del test attuale prima di avviarne uno nuovo.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Avanzate</string>
   <string name="Settings_DarkMode_Label">Modo scuro</string>
   <string name="Settings_Advanced_DebugLogs">Log di debug</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Seleziona lingua</string>
   <string name="Settings_Advanced_UseDomainFronting">Usa sempre il domain fronting</string>
   <string name="Settings_Proxy_Label">Proxy backend OONI</string>
   <string name="Settings_Proxy_Enabled">Proxy</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Test Psiphon</string>
   <string name="Settings_Circumvention_TestTor">Test Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">Test di RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Invia email a supporto</string>
   <string name="Settings_SendEmail_Message">Per favore descrivi il problema:</string>
   <string name="Settings_SendEmail_Error">Per favore manda un email a bugs@openobservatory.org con i la versione dell\'app e iOS. Tappa su \"Copia nella clipboard\" per copiare il nostro indirizzo email.</string>

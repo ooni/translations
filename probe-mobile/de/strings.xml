@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Nicht jetzt</string>
   <string name="Modal_RunAnyway">Trotzdem ausführen</string>
   <string name="Modal_DisableVPN">VPN deaktivieren</string>
+  <string name="Modal_AlwaysRun">Immer gestartet</string>
   <string name="Modal_Error_NoInternet">Test konnte nicht ausgeführt werden. Bitte überprüfe deine Internetverbindung.</string>
   <string name="Modal_Error_CantDownloadURLs">URL-Liste kann nicht heruntergeladen werden. Bitte versuche es erneut.</string>
   <string name="Modal_Error_TestAlreadyRunning">Bitte warte, bis die laufenden Tests beendet sind, bevor du einen neuen Test startest.</string>
@@ -290,8 +291,8 @@
   <string name="Modal_Autorun_BatteryOptimization">OONI Probe kann nicht automatisch ohne Batterieoptimierung laufen. Möchtest du es noch einmal versuchen?</string>
   <string name="Modal_DisableVPN_Title">Bitte deaktiviere deine VPN-Verbindung.</string>
   <string name="Modal_DisableVPN_Message">Wenn du OONI Probe mit aktiviertem VPN ausführst, kann es sein, dass die Testergebnisse aus dem falschen Land stammen. Bitte deaktiviere deine VPN-Verbindung.</string>
-  <string name="Modal_UploadVPNResults_Title">Some measurements were taken over VPN.</string>
-  <string name="Modal_UploadVPNResults_Message">If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.</string>
+  <string name="Modal_UploadVPNResults_Title">Einige Messungen wurden über VPN durchgeführt.</string>
+  <string name="Modal_UploadVPNResults_Message">Wenn du Messungen hochlädst, die bei aktiviertem VPN gemacht wurden, kann es sein, dass die Testergebnisse aus dem falschen Land stammen.</string>
   <string name="Toast_ResultsUploaded">Hochladen war erfolgreich</string>
   <string name="Modal_DisplayFailureLog">Fehlerlog anzeigen</string>
   <string name="Modal_EnableNotifications_Title">Aktuelle Informationen zur Internetzensur</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Erweitert</string>
   <string name="Settings_DarkMode_Label">Dunkelmodus</string>
   <string name="Settings_Advanced_DebugLogs">Fehlerprotokolle</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Spracheinstellung</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Sprache auswählen</string>
   <string name="Settings_Advanced_UseDomainFronting">Immer Domain Fronting benutzen</string>
   <string name="Settings_Proxy_Label">OONI Backend Proxy</string>
   <string name="Settings_Proxy_Enabled">Proxy</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Psiphon testen</string>
   <string name="Settings_Circumvention_TestTor">Tor Testen</string>
   <string name="Settings_Circumvention_TestRiseupVPN">Teste RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warnen, wenn VPN in Gebrauch ist</string>
   <string name="Settings_SendEmail_Label">E-Mail an den Support senden</string>
   <string name="Settings_SendEmail_Message">Beschreibe bitte das Problem, das bei dir auftritt:</string>
   <string name="Settings_SendEmail_Error">Bitte senden Sie eine E-Mail an bugs@openobservatory.org mit Informationen zur App und iOS-Version. Tippen Sie unten auf \"In Zwischenablage kopieren\", um unsere E-Mail Adresse zu kopieren.</string>

@@ -154,7 +154,7 @@
   <string name="TestResults_Details_Hero_Runtime">Runtime</string>
   <string name="TestResults_Details_Methodology">Methodology</string>
   <string name="TestResults_Details_ViewLog">Xem nhật ký</string>
-  <string name="TestResults_Details_RawData">Data</string>
+  <string name="TestResults_Details_RawData">Dữ liệu</string>
   <string name="TestResults_Details_CopyExplorerURL">Copy Explorer URL</string>
   <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
   <string name="TestResults_Details_CopyToClipboard">Sao chép vào Clipboard</string>
@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">Unable to run the test. Please check your internet connectivity.</string>
   <string name="Modal_Error_CantDownloadURLs">Unable to download URL list. Please try again.</string>
   <string name="Modal_Error_TestAlreadyRunning">Please wait for the current running tests to finish, before starting a new test.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Nâng cao</string>
   <string name="Settings_DarkMode_Label">Dark Mode</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Chọn Ngôn Ngữ</string>
   <string name="Settings_Advanced_UseDomainFronting">Always use domain fronting</string>
   <string name="Settings_Proxy_Label">OONI backend proxy</string>
   <string name="Settings_Proxy_Enabled">Proxy</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Test Psiphon</string>
   <string name="Settings_Circumvention_TestTor">Test Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">Test RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Send email to support</string>
   <string name="Settings_SendEmail_Message">Please describe the problem you are experiencing:</string>
   <string name="Settings_SendEmail_Error">Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.</string>
@@ -483,7 +487,7 @@
   <string name="CategoryCode_GAME_Name">Gaming</string>
   <string name="CategoryCode_CULTR_Name">Culture</string>
   <string name="CategoryCode_ECON_Name">Economics</string>
-  <string name="CategoryCode_GOVT_Name">Government</string>
+  <string name="CategoryCode_GOVT_Name">Chính phủ</string>
   <string name="CategoryCode_COMM_Name">E-commerce</string>
   <string name="CategoryCode_CTRL_Name">Control content</string>
   <string name="CategoryCode_IGO_Name">Intergovernmental Orgs.</string>

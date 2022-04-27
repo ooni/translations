@@ -274,6 +274,7 @@
 "Modal.NotNow" = "Tidak sekarang";
 "Modal.RunAnyway" = "Run anyways";
 "Modal.DisableVPN" = "Disable VPN";
+"Modal.AlwaysRun" = "Always Run";
 "Modal.Error.NoInternet" = "Tidak bisa menjalankan tes. Mohon cek konektivitas internet Anda.";
 "Modal.Error.CantDownloadURLs" = "Gagal mengunduh daftar URL. Coba lagi.";
 "Modal.Error.TestAlreadyRunning" = "Mohon tunggu tes yang sedang berlangsung untuk selesai sebelum memulai tes yang baru.";
@@ -376,6 +377,8 @@
 "Settings.Advanced.Label" = "Advanced ";
 "Settings.DarkMode.Label" = "Mode Gelap";
 "Settings.Advanced.DebugLogs" = "Log Debug";
+"Settings.Advanced.LanguageSettings.Title" = "Language Setting";
+"Settings.Advanced.LanguageSettings.PopUp" = "Pilih Bahasa";
 "Settings.Advanced.UseDomainFronting" = "Always use domain fronting";
 "Settings.Proxy.Label" = "OONI backend proxy";
 "Settings.Proxy.Enabled" = "Proksi";
@@ -427,6 +430,7 @@
 "Settings.Circumvention.TestPsiphon" = "Tes Psiphon";
 "Settings.Circumvention.TestTor" = "Tes Tor";
 "Settings.Circumvention.TestRiseupVPN" = "Tes RiseupVPN";
+"Settings.WarmVPNInUse.Label" = "Warn when VPN is in use";
 "Settings.SendEmail.Label" = "Kirim surel ke pendukung";
 "Settings.SendEmail.Message" = "Silakan deskripsikan masalah yang Anda alami:";
 "Settings.SendEmail.Error" = "Please send an email to bugs@openobservatory.org with information on the app and iOS version. Tap \"Copy to clipboard\" below to copy our email address.";

@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">Imeshindwa kutekeleza jaribio. Tafadhali angalia muunganisho wako wa mtandao.</string>
   <string name="Modal_Error_CantDownloadURLs">Imeshindwa kupakua orodha ya URL. Tafadhali jaribu tena.</string>
   <string name="Modal_Error_TestAlreadyRunning">Tafadhali subiri majaribio ya sasa ya kukimbia kumaliza, kabla ya kuanza jaribio jipya.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Iliyoboreshwa</string>
   <string name="Settings_DarkMode_Label">Njia Nyeusi</string>
   <string name="Settings_Advanced_DebugLogs">Magogo ya utatuzi</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Chagua Lugha</string>
   <string name="Settings_Advanced_UseDomainFronting">Daima tumia utangulizi wa kikoa</string>
   <string name="Settings_Proxy_Label">Wakala wa nyuma wa OONI</string>
   <string name="Settings_Proxy_Enabled">Wakala</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Jaribu Psiphon</string>
   <string name="Settings_Circumvention_TestTor">Jaribu Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">Jaribu RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Tuma barua pepe kwa msaada</string>
   <string name="Settings_SendEmail_Message">Tafadhali eleza shida unayopata:</string>
   <string name="Settings_SendEmail_Error">Tafadhali tuma barua pepe kwa bugs@openobservatory.org na habari juu ya programu na toleo la iOS. Gonga \"Nakili kwenye clipboard\" hapa chini ili kunakili anwani yetu ya barua pepe.</string>

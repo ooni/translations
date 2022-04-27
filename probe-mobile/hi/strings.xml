@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">परीक्षण चलाने में असमर्थ। कृपया अपनी इंटरनेट कनेक्टिविटी की जांच करें।</string>
   <string name="Modal_Error_CantDownloadURLs">यूआरएल सूची डाउनलोड करने में असमर्थ। कृपया पुन: प्रयास करें।</string>
   <string name="Modal_Error_TestAlreadyRunning">नया परीक्षण शुरू करने से पहले, कृपया वर्तमान चल रहे परीक्षणों के समाप्त होने की प्रतीक्षा करें।</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">उन्नत</string>
   <string name="Settings_DarkMode_Label">डार्क मोड</string>
   <string name="Settings_Advanced_DebugLogs">दोषमार्जन लॉग</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Select Language</string>
   <string name="Settings_Advanced_UseDomainFronting">हमेशा डोमेन फ्रंटिंग का उपयोग करें</string>
   <string name="Settings_Proxy_Label">OONI बैकएंड प्रॉक्सी</string>
   <string name="Settings_Proxy_Enabled">Proxy</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Psiphon का परीक्षण करें</string>
   <string name="Settings_Circumvention_TestTor">टेस्ट Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">RiseupVPN जांचे</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Send email to support</string>
   <string name="Settings_SendEmail_Message">कृपया उस समस्या का वर्णन करें जिसका आप अनुभव कर रहे हैं:</string>
   <string name="Settings_SendEmail_Error">कृपया iOS संस्करण और एप्लिकेशन की जानकारी के साथ bugs@openobservatory.org को एक ईमेल भेजें। हमारा  ईमेल पता कॉपी करने के लिए \"क्लिपबोर्ड पर कॉपी करें\" पर टैप करें।</string>

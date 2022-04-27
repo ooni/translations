@@ -273,9 +273,10 @@
   <string name="Modal_Retry">حاول مجددا</string>
   <string name="Modal_SoundsGreat">رائع ! </string>
   <string name="Modal_NoThanks">لا، شكراً</string>
-  <string name="Modal_NotNow">Not now</string>
+  <string name="Modal_NotNow">في وقت آخر</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">التطبيق غير قادر على إجراء الاختبار. من فضلك تحقق من اتصال الإنترنت.</string>
   <string name="Modal_Error_CantDownloadURLs">التطبيق غير قادر على تحميل قائمة المواقع. من فضلك حاول مرة أخرى.</string>
   <string name="Modal_Error_TestAlreadyRunning">Please wait for the current running tests to finish, before starting a new test.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">متقدم</string>
   <string name="Settings_DarkMode_Label">الثيمة المعتمة </string>
   <string name="Settings_Advanced_DebugLogs">أظهر سجلات التصحيح</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">اختر اللغة</string>
   <string name="Settings_Advanced_UseDomainFronting">دائمًا استخدم وسيط في اتصال النطاق Domain Fronting</string>
   <string name="Settings_Proxy_Label">بروكسي في خلفيّة OONI </string>
   <string name="Settings_Proxy_Enabled">بروكسي</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">إختبار Psiphon</string>
   <string name="Settings_Circumvention_TestTor">إختبار Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">اختبار RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">إرسال إيميل لفريق الدعم </string>
   <string name="Settings_SendEmail_Message">يرجى وصف المشكلة التي تواجهونها: </string>
   <string name="Settings_SendEmail_Error">من فضلك أرسل رسالة إلكترونية إلى bugs@openobservatory.org تحتوى على معلومات عن اصدار البرنامج وإصدار iOS. اضغط على \"نسخ إلى الحافظة\" فى الأسفل لنسخ عنوان بريدنا الإلكتروني.</string>

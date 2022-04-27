@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">无法运行测试。请复查您的因特网连接。</string>
   <string name="Modal_Error_CantDownloadURLs">无法下载 URL 列表。请重试。</string>
   <string name="Modal_Error_TestAlreadyRunning">请等待当前运行的测试完成后再开始新的测试。</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">高级</string>
   <string name="Settings_DarkMode_Label">黑暗模式</string>
   <string name="Settings_Advanced_DebugLogs">调试日志</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">选择语言</string>
   <string name="Settings_Advanced_UseDomainFronting">始终使用 domain fronting</string>
   <string name="Settings_Proxy_Label">OONI backend proxy</string>
   <string name="Settings_Proxy_Enabled">代理</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">测试赛风</string>
   <string name="Settings_Circumvention_TestTor">测试 Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">测试 RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">发送邮件给支持团队</string>
   <string name="Settings_SendEmail_Message">Please describe the problem you are experiencing:</string>
   <string name="Settings_SendEmail_Error">请将应用和 iOS 版本号通过邮件发送至 bugs@openobservatory.org。点击下方“复制到剪贴板”来复制我们邮箱地址。</string>

@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">De test kan niet wordt uitgevoerd. Controleer uw internetverbinding.</string>
   <string name="Modal_Error_CantDownloadURLs">Kan de URL-lijst niet downloaden. Probeer het opnieuw.</string>
   <string name="Modal_Error_TestAlreadyRunning">Wacht tot de huidige lopende tests zijn voltooid voordat u een nieuwe test start.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Geavanceerd</string>
   <string name="Settings_DarkMode_Label">Donkere Modus</string>
   <string name="Settings_Advanced_DebugLogs">Debug-logs</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Selecteer taal</string>
   <string name="Settings_Advanced_UseDomainFronting">Gebruik altijd domeinfronting</string>
   <string name="Settings_Proxy_Label">OONI-backend-proxy</string>
   <string name="Settings_Proxy_Enabled">Proxy</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Psiphon Testen</string>
   <string name="Settings_Circumvention_TestTor">Tor Testen</string>
   <string name="Settings_Circumvention_TestRiseupVPN">RiseupVPN Testen</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">Stuur een e-mail naar ondersteuning</string>
   <string name="Settings_SendEmail_Message">Beschrijf het probleem dat u ondervindt:</string>
   <string name="Settings_SendEmail_Error">Stuur een e-mail naar bugs@openobservatory.org met informatie over de app en iOS-versie. Tik hieronder op \'Kopiëren naar klembord\' om ons e-mailadres te kopiëren.</string>

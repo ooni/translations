@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Not now</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
+  <string name="Modal_AlwaysRun">Always Run</string>
   <string name="Modal_Error_NoInternet">ไม่สามารถทำการทดสอบได้ กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ</string>
   <string name="Modal_Error_CantDownloadURLs">ไม่สามารถดาวน์โหลดรายการที่อยู่เว็บได้ กรุณาลองอีกครั้ง</string>
   <string name="Modal_Error_TestAlreadyRunning">Please wait for the current running tests to finish, before starting a new test.</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">ขั้นสูง</string>
   <string name="Settings_DarkMode_Label">โหมดมืด</string>
   <string name="Settings_Advanced_DebugLogs">ปูมดีบัก</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Select Language</string>
   <string name="Settings_Advanced_UseDomainFronting">ใช้การบังหน้าโดเมน (domain fronting) เสมอ</string>
   <string name="Settings_Proxy_Label">พร็อกซีหลังบ้าน OONI</string>
   <string name="Settings_Proxy_Enabled">พร็อกซี</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">ทดสอบ Psiphon</string>
   <string name="Settings_Circumvention_TestTor">ทดสอบ Tor</string>
   <string name="Settings_Circumvention_TestRiseupVPN">ทดสอบ RiseupVPN</string>
+  <string name="Settings_WarmVPNInUse_Label">Warn when VPN is in use</string>
   <string name="Settings_SendEmail_Label">ส่งอีเมลขอความช่วยเหลือ</string>
   <string name="Settings_SendEmail_Message">โปรดอธิบายปัญหาที่คุณประสบอยู่:</string>
   <string name="Settings_SendEmail_Error">กรุณาส่งอีเมลไปที่ bugs@openobservatory.org พร้อมกับข้อมูลจากแอปและรุ่นของ iOS แตะ \"คัดลอกไปยังคลิปบอร์ด\" ด้านล่างเพื่อคัดลอกที่อยู่อีเมลของเรา</string>

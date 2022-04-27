@@ -276,6 +276,7 @@
   <string name="Modal_NotNow">Şimdi değil</string>
   <string name="Modal_RunAnyway">Yine de çalıştır</string>
   <string name="Modal_DisableVPN">VPN kullanılmasın</string>
+  <string name="Modal_AlwaysRun">Her zaman çalışsın</string>
   <string name="Modal_Error_NoInternet">Sınama yapılamadı. Lütfen İnternet bağlantınızı denetleyin.</string>
   <string name="Modal_Error_CantDownloadURLs">Adres listesi indirilemedi. Lütfen yeniden deneyin.</string>
   <string name="Modal_Error_TestAlreadyRunning">Lütfen yeni bir sınama başlatmadan önce sürmekte olan sınamaların tamamlanmasını bekleyin.</string>
@@ -290,8 +291,8 @@
   <string name="Modal_Autorun_BatteryOptimization">OONI Probe, pil iyileştirmesi olmadan otomatik olarak çalışamaz. Yeniden denemek ister misiniz?</string>
   <string name="Modal_DisableVPN_Title">Lütfen VPN bağlantınızı kapatın.</string>
   <string name="Modal_DisableVPN_Message">OONI Probe uygulamasını VPN açıkken çalıştırırsanız, sınama sonuçları yanlış ülkeden geliyormuş gibi görünebilir. Lütfen VPN bağlantınızı kapatın.</string>
-  <string name="Modal_UploadVPNResults_Title">Some measurements were taken over VPN.</string>
-  <string name="Modal_UploadVPNResults_Message">If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.</string>
+  <string name="Modal_UploadVPNResults_Title">Bazı ölçümler VPN üzerinden alınmıştır.</string>
+  <string name="Modal_UploadVPNResults_Message">VPN etkinken alınan ölçümleri yüklerseniz, sınama sonuçları yanlış ülkeden geliyormuş gibi görünebilir.</string>
   <string name="Toast_ResultsUploaded">Yüklendi</string>
   <string name="Modal_DisplayFailureLog">Hata günlüğünü görüntüle</string>
   <string name="Modal_EnableNotifications_Title">İnternet sansürleri hakkında güncel bilgileri alın</string>
@@ -378,6 +379,8 @@
   <string name="Settings_Advanced_Label">Gelişmiş</string>
   <string name="Settings_DarkMode_Label">Koyu kip</string>
   <string name="Settings_Advanced_DebugLogs">Hata ayıklama günlükleri</string>
+  <string name="Settings_Advanced_LanguageSettings_Title">Dil ayarı</string>
+  <string name="Settings_Advanced_LanguageSettings_PopUp">Dil seçin</string>
   <string name="Settings_Advanced_UseDomainFronting">Araya her zaman etki alanı eklensin (domain fronting)</string>
   <string name="Settings_Proxy_Label">OONI yönetim bölümü vekil sunucusu</string>
   <string name="Settings_Proxy_Enabled">Vekil sunucu</string>
@@ -429,6 +432,7 @@
   <string name="Settings_Circumvention_TestPsiphon">Psiphon sınaması</string>
   <string name="Settings_Circumvention_TestTor">Tor sınaması</string>
   <string name="Settings_Circumvention_TestRiseupVPN">RiseupVPN sınaması</string>
+  <string name="Settings_WarmVPNInUse_Label">VPN kullanılırken uyarılsın</string>
   <string name="Settings_SendEmail_Label">Destek ekibine e-posta gönderin</string>
   <string name="Settings_SendEmail_Message">Lütfen yaşadığınız sorunu anlatın:</string>
   <string name="Settings_SendEmail_Error">Lütfen uygulama hakkındaki bilgiler ve iOS sürümünü yazarak bugs@openobservatory.org adresine bir e-posta gönderin. E-posta adresimizi kopyalamak için aşağıdaki \"Panoya kopyala\" seçeneğine dokunun.</string>
