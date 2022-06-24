@@ -7,4 +7,4 @@ python csv-to-json.py \
     --csv probe-mobile/en/strings.csv \
     --json probe-mobile/en/strings.json
 
-# tx push -s
+tx push -s
