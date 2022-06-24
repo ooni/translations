@@ -51,8 +51,8 @@ in here via:
 
 ## Uploading new strings
 
-Strings are generated from a csv master file. To upload new strings you should
-copy the strings csv file to `probe-mobile/en/strings.csv` and then run:
+Strings are generated from a [Google Sheet master file](https://docs.google.com/spreadsheets/d/1GPkr_OyNhXJRTXnseyNbo2P4Du-i_W9kJdqjZG4HVkM/edit). To upload new strings you should
+add the strings to the [Master Sheet](https://docs.google.com/spreadsheets/d/1GPkr_OyNhXJRTXnseyNbo2P4Du-i_W9kJdqjZG4HVkM/edit)  and then run:
 
 ```
 ./sync-csv-source.sh
