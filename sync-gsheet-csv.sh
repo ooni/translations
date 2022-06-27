@@ -6,7 +6,7 @@ CSV_FILE_PATH=probe-mobile/en/strings.csv
 
 echo -n "Fetching latest source strings from spreadsheet..."
 
-curl -sL $PROBE_MOBILE_STRINGS_SHEET -o $CSV_FILE_PATH
+curl -fsL $PROBE_MOBILE_STRINGS_SHEET -o $CSV_FILE_PATH
 
 ret=$?
 
