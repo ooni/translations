@@ -71,6 +71,7 @@
   <string name="Dashboard_Circumvention_Overview_Paragraph">Check whether [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) or [RiseupVPN](https://ooni.org/nettest/riseupvpn/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Card_Description">Suorita uudet koekäytössä olevat testit</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
+  <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
   <string name="TestResults_Gbps">Gb/s</string>
   <string name="TestResults_Mbps">Mb/s</string>
   <string name="TestResults_Kbps">kb/s</string>
@@ -414,6 +415,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">URL-osoitetta ei syötetty</string>
   <string name="Settings_Websites_CustomURL_Run">Suorita</string>
   <string name="Settings_Websites_CustomURL_Add">Lisää verkkosivu</string>
+  <string name="Settings_Websites_CustomURL_LoadFromTemplate">Load from template</string>
   <string name="Settings_Websites_TestCount">Testattujen verkkosivujen määrä (0 tarkoittaa kaikkia)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">Testaa WhatsApp</string>
   <string name="Settings_InstantMessaging_TestTelegram">Testaa Telegram</string>

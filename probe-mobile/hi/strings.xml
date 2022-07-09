@@ -71,6 +71,7 @@
   <string name="Dashboard_Circumvention_Overview_Paragraph">जांचें कि क्या [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) या [RiseupVPN](https://ooni.org/nettest/riseupvpn/) अवरुद्ध हैं।\n\nआपके परिणाम [OONI एक्सप्लोरर](https://explorer.ooni.org/) और [OONI API](https://api.ooni.io/) पर प्रकाशित किए जाएंगे।</string>
   <string name="Dashboard_Experimental_Card_Description">नए प्रयोगात्मक परीक्षण चलाएं</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">OONI टीम द्वारा विकसित निम्नलिखित नए प्रयोगात्मक परीक्षण चलाएँ:\n%1$s\n\nआपके परिणाम [OONI Explorer](https://explorer.ooni.org/) और [OONI API](https://api.ooni.io/) पर प्रकाशित किए जाएंगे। </string>
+  <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -414,6 +415,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">कोई यूआरएल दर्ज नहीं हुआ</string>
   <string name="Settings_Websites_CustomURL_Run">चलाना</string>
   <string name="Settings_Websites_CustomURL_Add">वेबसाइट जोड़ें</string>
+  <string name="Settings_Websites_CustomURL_LoadFromTemplate">Load from template</string>
   <string name="Settings_Websites_TestCount">परीक्षण की गई वेबसाइटों की संख्या (0 का मतलब सभी)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">टेस्ट व्हाट्सएप</string>
   <string name="Settings_InstantMessaging_TestTelegram">टेलीग्राम का परीक्षण करें</string>

@@ -125,6 +125,7 @@ Dashboard.Experimental.Overview.Paragraph,"Run the following new experimental te
 {{experimental_test_list}}
 
 Your results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",,,
+Dashboard.Experimental.Overview.Paragraph.AutomatedTesting,The following tests will only be run as part of automated testing:,,,
 TestResults.Gbps,Gbit/s,,,
 TestResults.Mbps,Mbit/s,,,
 TestResults.Kbps,kbit/s,,,
@@ -351,7 +352,7 @@ Modal.ResultsNotUploaded.Uploading,Uploading {{testNumber}} ...,,,
 Modal.Autorun.BatteryOptimization,OONI Probe cannot run automatically without battery optimization. Do you want to try again?,,,
 Modal.DisableVPN.Title,Please disable your VPN connection.,,,
 Modal.DisableVPN.Message,"If you run OONI Probe with a VPN enabled, the test results may appear to come from the wrong country. Please disable your VPN connection.",,,
-Modal.UploadVPNResults.Title,"Some measurements were taken over VPN.",,,
+Modal.UploadVPNResults.Title,Some measurements were taken over VPN.,,,
 Modal.UploadVPNResults.Message,"If you upload measurements taken when VPN enabled, the test results may appear to come from the wrong country.",,,
 Toast.ResultsUploaded,Upload successful,,,
 Modal.DisplayFailureLog,Display failure log,,,

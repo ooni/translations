@@ -69,6 +69,7 @@
 "Dashboard.Circumvention.Overview.Paragraph" = "Check whether [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) or [RiseupVPN](https://ooni.org/nettest/riseupvpn/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
 "Dashboard.Experimental.Card.Description" = "Run new experimental tests";
 "Dashboard.Experimental.Overview.Paragraph" = "Run the following new experimental tests developed by the OONI team:\n%@\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
+"Dashboard.Experimental.Overview.Paragraph.AutomatedTesting" = "The following tests will only be run as part of automated testing:";
 "TestResults.Gbps" = "Gbit/s";
 "TestResults.Mbps" = "Mbit/s";
 "TestResults.Kbps" = "kbit/s";
@@ -412,6 +413,7 @@
 "Settings.Websites.CustomURL.NoURLEntered" = "No URLs entered";
 "Settings.Websites.CustomURL.Run" = "Poženi";
 "Settings.Websites.CustomURL.Add" = "Add website";
+"Settings.Websites.CustomURL.LoadFromTemplate" = "Load from template";
 "Settings.Websites.TestCount" = "Number of tested websites (0 means all)";
 "Settings.InstantMessaging.TestWhatsApp" = "Test WhatsApp";
 "Settings.InstantMessaging.TestTelegram" = "Test Telegram";
@@ -453,7 +455,7 @@
 "OONIRun.Run" = "Poženi";
 "OONIRun.OONIProbeOutOfDate" = "Out of date";
 "OONIRun.OONIProbeNewerVersion" = "You need a newer version of OONI Probe to run this test.";
-"OONIRun.Update" = "Update";
+"OONIRun.Update" = "Posodobi";
 "OONIRun.Close" = "Close";
 "OONIRun.InvalidParameter" = "Invalid parameter";
 "OONIRun.InvalidParameter.Msg" = "The OONI Run link is either malformed or your app is out of date.";

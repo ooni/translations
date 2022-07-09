@@ -71,6 +71,7 @@
   <string name="Dashboard_Circumvention_Overview_Paragraph">بررسی کنید که آیا [Psiphon](https://ooni.org/nettest/psiphon/)،  [Tor](https://ooni.org/nettest/tor/) و یا [RiseupVPN](https://ooni.org/nettest/riseupvpn/) مسدود هستند یا خیر.\n\nنتایج تست های شما در [OONI Explorer](https://explorer.ooni.org/) و [OONI API](https://api.ooni.io/) منتشر خواهند شد.</string>
   <string name="Dashboard_Experimental_Card_Description">اجرای تست‌های آزمایشی جدید</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">این تست‌های آزمایشی جدید توسعه یافته توسط تیم OONI را اجرا کنید:\n%1$s\n\nنتایج شما بر روی [OONI Explorer](https://explorer.ooni.org/) و [OONI API](https://api.ooni.io/) منتشر خواهند شد.</string>
+  <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">تست‌های زیر فقط به عنوان بخشی از تست خودکار اجرا می‌شوند:</string>
   <string name="TestResults_Gbps">گیگابیت بر ثانیه</string>
   <string name="TestResults_Mbps">مگابیت بر ثانیه</string>
   <string name="TestResults_Kbps">کیلوبیت بر ثانیه</string>
@@ -414,6 +415,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">هیچ آدرسی وارد نشده است</string>
   <string name="Settings_Websites_CustomURL_Run">اجرا</string>
   <string name="Settings_Websites_CustomURL_Add">افزودن وبسایت</string>
+  <string name="Settings_Websites_CustomURL_LoadFromTemplate">بارگزاری از قالب</string>
   <string name="Settings_Websites_TestCount">تعداد وبسایت‌های آزمایش شده (۰ یعنی همه)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">تست واتس‌اپ</string>
   <string name="Settings_InstantMessaging_TestTelegram">تست تلگرام</string>

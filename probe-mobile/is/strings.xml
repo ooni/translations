@@ -71,6 +71,7 @@
   <string name="Dashboard_Circumvention_Overview_Paragraph">Athugaðu hvort [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) eða [RiseupVPN](https://ooni.org/nettest/riseupvpn/) verði fyrir hindrunum.\n\nNiðurstöðurnar þínar verða birtar í [OONI Explorer](https://explorer.ooni.org/) og [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Card_Description">Keyra nýjar prófanir á tilraunastigi</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Keyrðu eftirfarandi tilraunaprófanir sem þróaðar hafa verið af OONI-teyminu:\n%1$s\n\nNiðurstöðurnar þínar verða birtar í [OONI Explorer](https://explorer.ooni.org/) og [OONI API](https://api.ooni.io/).</string>
+  <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -414,6 +415,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">Engar slóðir settar inn</string>
   <string name="Settings_Websites_CustomURL_Run">Keyra</string>
   <string name="Settings_Websites_CustomURL_Add">Bæta við vefsvæði</string>
+  <string name="Settings_Websites_CustomURL_LoadFromTemplate">Load from template</string>
   <string name="Settings_Websites_TestCount">Fjöldi prófaðra vefsvæða (0 þýðir allt)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">Prófa WhatsApp</string>
   <string name="Settings_InstantMessaging_TestTelegram">Prófa Telegram</string>

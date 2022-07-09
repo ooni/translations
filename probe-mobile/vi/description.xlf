@@ -6,56 +6,72 @@
     <body>
       <trans-unit id="title-android" maxwidth="30" size-unit="char">
         <source>OONI Probe</source>
+        <target>ONNI Probe</target>
         <note from="developer">This is limited by Google to 30 characters</note>
       </trans-unit>
       <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
         <source>Measure Internet Censorship, Speed &amp; Performance</source>
+        <target>Đo lường kiểm duyệt Internet, Tốc độ và Hiệu suất</target>
         <note from="developer">This is limited by Google to 80 characters</note>
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
+          <target>OONI Probe - Đo tốc độ và kiểm duyệt Internet</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
         <source>Measure Internet Censorship</source>
+        <target>Đo lường kiểm duyệt Internet</target>
         <note from="developer">This is limited by Apple to 30 characters</note>
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <target>Thu thập bằng chứng về kiểm duyệt internet. Đo tốc độ và hiệu suất mạng của bạn.</target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
         <source>Are websites and social media apps blocked? Is your network unusually slow? Run OONI Probe to find out!</source>
+        <target>Các trang web và ứng dụng mạng xã hội có bị chặn không? Mạng của bạn có bị chậm bất thường không? Chạy OONI Probe để tìm hiểu!</target>
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
+        <target>Với ứng dụng này, bạn sẽ kiểm tra việc chặn các trang web và ứng dụng nhắn tin tức thời, đo tốc độ và hiệu suất mạng và kiểm tra xem hệ thống mạng của bạn có đang bị kiểm duyệt và giám sát hay không.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
+        <target>OONI Probe được phát triển bởi Quan sát mở về can thiệp mạng (OONI), một dự án phần mềm miễn phí (thuộc Dự án Tor) nhằm mục đích tìm hiểu sự kiểm duyệt internet trên khắp thế giới.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
+        <target>Kể từ năm 2012, cộng đồng OONI trên toàn cầu đã thu thập hàng triệu kết quả đo lường về mạng từ hơn 200 quốc gia, làm sáng tỏ nhiều trường hợp về can thiệp mạng.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
+        <target>Khi chạy OONI Probe, bạn có thể giúp làm tăng sự minh bạch về kiểm duyệt internet.</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
+        <target>Thu thập bằng chứng về kiểm duyệt internet</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
+        <target>Bạn có thể kiểm tra xem các trang web và ứng dụng nhắn tin tức thời có bị chặn hay không và bị chặn như thế nào. Dữ liệu đo lường mạng mà bạn sẽ thu thập có thể dùng làm bằng chứng của sự kiểm duyệt internet.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
+        <target>Phát hiện các hệ thống dùng để kiểm duyệt và giám sát</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
+        <target>Các bài kiểm tra OONI Probe cũng được thiết kế để phát hiện ra các hệ thống (hộp trung gian) dùng để kiểm duyệt và giám sát.</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
+        <target>Đo tốc độ và hiệu suất mạng của bạn</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
+        <target>Bạn có thể đo tốc độ và hiệu suất mạng của mình bằng cách chạy triển khai Kiểm tra chẩn đoán mạng (NDT) của OONI. Bạn cũng có thể đo hiệu suất phát trực tuyến video bằng bài kiểm tra Truyền trực tiếp thích ứng động qua HTTP (DASH).</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
@@ -63,6 +79,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
+        <target>OONI công bố dữ liệu đo lường mạng vì dữ liệu mở cho phép các bên thứ ba xác minh các phát hiện của OONI, thực hiện các nghiên cứu độc lập và trả lời các câu hỏi nghiên cứu khác. Việc công khai dữ liệu OONI cũng giúp tăng tính minh bạch của việc kiểm duyệt internet trên toàn thế giới. Bạn có thể tìm hiểu thêm và tải dữ liệu OONI tại đây: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
@@ -70,33 +87,43 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
+        <target>Tất cả các bài kiểm tra OONI Probe (bao gồm kiểm tra NDT và DASH ), đều dựa trên phần mềm mã nguồn mở và miễn phí. Bạn có thể tìm thấy các dự án phần mềm OONI trên GitHub: https://github.com/ooni. Nếu bạn muốn tìm hiểu về cách thức hoạt động của các bài kiểm tra OONI Probe, vui lòng xem thêm tại: https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
+        <target>Để nhận được những thông tin cập nhật từ ONNI, hãy theo dõi chúng tôi trên Twitter:
+https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
+        <target>Phát hiện kiểm duyệt internet và kiểm tra tốc độ và hiệu suất mạng của bạn</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
+        <target>Khám phá bằng chứng về kiểm duyệt internet</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
+        <target>Chạy kiểm tra chẩn đoán và tốc độ mạng phức tạp</target>
       </trans-unit>
       <trans-unit id="screenshot4">
         <source>Easily discover which websites are blocked on your network</source>
+        <target>Dễ dàng tìm hiểu những trang web nào bị chặn trên mạng của bạn</target>
       </trans-unit>
       <trans-unit id="screenshot5">
         <source>Testing your network is fun with a friendly octopus!</source>
+        <target>Kiểm tra mạng của bạn một cách vui vẻ với ứng dụng hình chú bạch tuộc thân thiện!</target>
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
+        <target>Quan sát mở về can thiệp mạng (OONI) là một mạng lưới quan sát toàn cầu để phát hiện kiểm duyệt internet và các hình thức can thiệp mạng khác trên khắp thế giới.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
+        <target>mạng, kiểm tra tốc độ, đo lường, mạng lưới, Wi-Fi, mạng, quét, băng thông, bench, DNS, Di động, Ooni, nghiên cứu, công cụ</target>
       </trans-unit>
     </body>
   </file>
