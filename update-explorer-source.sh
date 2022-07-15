@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
-if [ "X$EXPLORER_STRINGS_SHEET" = "X" ]; then
-  echo "Set environment variable EXPLORER_STRINGS_SHEET to the URL of the published CSV"
-  exit 1
-fi
-
+EXPLORER_STRINGS_SHEET='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGjf3Fya-aHK_l-x-RdAtgFpmdokKnPbyVxNIkQtRchDWWdld-OpbYRcDMmSMkG2XC0CH7BX3vSjt9/pub?gid=0&single=true&output=csv'
 CSV_FILE_PATH=explorer/en/strings.csv
 JSON_FILE_PATH=explorer/en/strings.json
 
