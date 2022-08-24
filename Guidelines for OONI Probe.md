@@ -15,11 +15,11 @@ thank you enough.
 We hope the following brief guidelines are helpful. If they're not, please reach
 out to us at contact@openobservatory.org.
 
-* [Install the OONI Probe public beta](#install-the-ooni-probe-public-beta)
+* [Install the OONI Probe application](#install-the-ooni-probe-application)
 
 * [Strings for translation](#strings-for-translation)
 
-* [General Recommendations](#general-recommendations)
+* [General recommendations](#general-recommendations)
 
 * [Style of translation](#style-of-translation)
 
@@ -28,9 +28,9 @@ out to us at contact@openobservatory.org.
 * [Things to watch out for](#things-to-watch-out-for)
 
 
-## Install the OONI Probe public beta
+## Install the OONI Probe application
 
-Before you get started with the translation, we kindly ask that you first install OONI Probe mobile or Desktop app to see where your translation would appear in the app.
+Before you get started with the translation, we kindly ask that you first install OONI Probe Mobile or Desktop app to see where your translation would appear in the app.
 
 For Mobile: 
 
@@ -53,10 +53,9 @@ Check our [Wiki](https://wiki.localizationlab.org/index.php/Translation_and_Revi
 ## Strings for translation
 
 Thanks to support from the [Localization Lab](https://www.localizationlab.org/),
-the translation of the OONI Probe mobile apps is coordinated on Transifex.
+the translation of the OONI Probe Mobile and Desktop apps is coordinated on Transifex.
 
-To translate the OONI Probe mobile apps, please sign-up with Transifex and
-request to get added to the OONI project:
+To translate the OONI Probe Mobile and Desktop apps, please sign-up with Transifex to the OONI project:
 https://www.transifex.com/otf/ooniprobe/
 
 Once you've been added, you can translate the strings included in the following
@@ -68,12 +67,12 @@ Once you've been added, you can translate the strings included in the following
 
 ## Style of translation
 
-The copy in the apps is meant to be **informal and direct (but still polite)**.
+The content in the apps is meant to be **informal and direct (but still polite)**.
 
 We therefore share the following recommendations:
 
-* Use the informal form when referring to the user (for example, it is possible to use the singular
-form of "you", instead of the plural form for formality)
+* Use the informal form when referring to the user (for example, you can use the singular
+form of "you", instead of the plural form for formality, if you think it is acceptable for your language)
 
 * Use gender-neutral terminology when referring to the user
 
