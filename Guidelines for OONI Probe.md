@@ -19,30 +19,36 @@ out to us at contact@openobservatory.org.
 
 * [Strings for translation](#strings-for-translation)
 
+* [General Recommendations](#general-recommendations)
+
 * [Style of translation](#style-of-translation)
 
 * [Translation of technical terms](#translation-of-technical-terms)
 
 * [Things to watch out for](#things-to-watch-out-for)
 
+
 ## Install the OONI Probe public beta
 
-Before you get started with the translation, we kindly ask that you first
-install the public beta to try out the new OONI Probe mobile app. We also ask
-that you use the public beta to see where your translation would appear in the
-app.
+Before you get started with the translation, we kindly ask that you first install OONI Probe mobile or Desktop app to see where your translation would appear in the app.
 
-**Android**
+For Mobile: 
 
-* Sign up to the beta:
-https://play.google.com/apps/testing/org.openobservatory.ooniprobe
+* **[Android](https://play.google.com/apps/testing/org.openobservatory.ooniprobe)**
+* **[iOS](https://apps.apple.com/us/app/id1199566366)**
+* **[F-Droid](https://f-droid.org/packages/org.openobservatory.ooniprobe/)**
 
-* Update your OONI Probe mobile app (to get the public beta) from Google Play
+For Desktop:
 
-**iOS**
+* **[Windows](https://github.com/ooni/probe-desktop/releases/download/v3.7.0/OONI-Probe-Setup-3.7.0.exe)**
+* **[MacOS](https://github.com/ooni/probe-desktop/releases/download/v3.7.0/OONI-Probe-3.7.0.dmg)**
+* **[Linux](https://ooni.org/install/cli)**
 
-* Tap on this link from your device and follow the instructions:
-https://testflight.apple.com/join/rh3Ig7fE
+## General recommendations
+
+Please do not use machine translation as a foundation of your translation. If you are not sure about the terms, ask for advice from someone with technological expertise or from our [Slack community](https://slack.openobservatory.org/). Do not fear to communicate with other translators through Transifex — leave comments, questions and suggestions in the comments to the string. 
+
+Check our [Wiki](https://wiki.localizationlab.org/index.php/Translation_and_Review_Guidelines) for more detailed recommendations.
 
 ## Strings for translation
 
@@ -56,9 +62,9 @@ https://www.transifex.com/otf/ooniprobe/
 Once you've been added, you can translate the strings included in the following
 2 files:
 
-* App store copy: https://www.transifex.com/otf/ooniprobe/description/
+* App store description: https://www.transifex.com/otf/ooniprobe/description/
 
-* In-app copy: https://www.transifex.com/otf/ooniprobe/strings-json/
+* In-app strings: https://www.transifex.com/otf/ooniprobe/strings-json/
 
 ## Style of translation
 
@@ -66,7 +72,7 @@ The copy in the apps is meant to be **informal and direct (but still polite)**.
 
 We therefore share the following recommendations:
 
-* Use the informal form when referring to the user (for example, the singular
+* Use the informal form when referring to the user (for example, it is possible to use the singular
 form of "you", instead of the plural form for formality)
 
 * Use gender-neutral terminology when referring to the user
@@ -91,19 +97,12 @@ Here are some tips:
 English versions):
 
 * Web Connectivity
-
 * WhatsApp
-
 * Facebook Messenger
-
 * Telegram
-
 * HTTP Header Field Manipulation
-
 * HTTP Invalid Request Line
-
 * NDT
-
 * DASH
 
 2. You can consider **avoiding the translation of "middleboxes"**, since this
@@ -117,7 +116,7 @@ in your language by technologists, you can try Googling in your language for
 those terms (for example, by checking relevant publications), or reach out to a
 technologist (if you know one).
 
-We also advise against the translation of "OONI" and "OONI Probe".
+We also advise against the translation of "OONI", "OONI Probe" and "Open Observatory Network Interference".
 
 ## Things to watch out for
 
