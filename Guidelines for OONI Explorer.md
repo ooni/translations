@@ -1,8 +1,8 @@
-# Guidelines: Translating the OONI Explorer
+# Guidelines: Translating OONI Explorer
 
-[OONI Explorer](https://explorer.ooni.org/) is an open data resource on Internet censorship around the world consisting of millions of measurements on network inteference. Since 2012, more than 800 million of network measurements have been collected from more than 240 countries. OONI Explorer sheds light on internet censorship and other forms of network interference worldwide.
+[OONI Explorer](https://explorer.ooni.org/) is an open data resource on internet censorship around the world. Since 2012, millions of network measurements have been collected from more than 200 countries. OONI Explorer sheds light on internet censorship and other forms of network interference worldwide.
 
-**By translating the OONI Explorer interface, you are enabling researchers, journalists, activists and users to track Internet censorship in their countries!**
+**By translating the OONI Explorer interface, you are enabling researchers, journalists, and human rights defenders to track internet censorship in their countries!**
 
 Translating OONI Explore is therefore important, and the OONI team can't
 thank you enough.
@@ -10,7 +10,7 @@ thank you enough.
 We hope the following brief guidelines are helpful. If they're not, please reach
 out to us at contact@openobservatory.org.
 
-* [Open the OONI Explorer](#open-the-ooni-explorer)
+* [View OONI Explorer](#view-ooni-explorer)
 
 * [Strings for translation](#strings-for-translation)
 
@@ -22,33 +22,34 @@ out to us at contact@openobservatory.org.
 
 * [Things to watch out for](#things-to-watch-out-for)
 
+## View OONI Explorer
 
-## Open the OONI Explorer
+Before getting started with the translation, we kindly ask that you first view [OONI Explorer](https://explorer.ooni.org/) to see where your translation would appear and to familiarize yourself with the platform. 
 
-Before you get started with the translation, we kindly ask that you first open the [OONI Explorer](https://explorer.ooni.org/) to see where your translation would appear in the service.
+You can learn all about OONI Explorer [here](https://ooni.org/post/next-generation-ooni-explorer/). We also explain the [Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat) -- hosted on OONI Explorer -- [here](https://ooni.org/post/2022-ooni-mat/).
 
 ## General recommendations
 
-Please do not use machine translation as a foundation of your translation. If you are not sure about the terms, ask for advice from someone with technological expertise or from our [Slack community](https://slack.openobservatory.org/). Do not fear to communicate with other translators through Transifex — leave comments, questions and suggestions in the comments to the string. 
+Please do *not* use machine translation as a foundation for your translation. If you are not sure about the terms, ask for advice from someone with technological expertise or from our [Slack community](https://slack.ooni.org/). Do not fear to communicate with other translators through Transifex — you can leave comments, questions and suggestions in the comments of strings. 
 
-Check our [Wiki](https://wiki.localizationlab.org/index.php/Translation_and_Review_Guidelines) for more detailed recommendations.
+Check [Localization Lab's Wiki](https://wiki.localizationlab.org/index.php/Translation_and_Review_Guidelines) for more detailed recommendations.
 
 ## Strings for translation
 
 Thanks to support from the [Localization Lab](https://www.localizationlab.org/),
-the translation of the OONI Probe Mobile and Desktop apps is coordinated on Transifex.
+the translation of OONI Explorer is coordinated on **Transifex**.
 
-To translate the OONI Explorer, please sign-up with Transifex to the OONI project:
+To translate OONI Explorer, please sign-up with Transifex to the OONI project:
 https://www.transifex.com/otf/ooni-explorer/
 
 ## Style of translation
 
-The content in the OONI Explorer is meant to be **informal and direct (but still polite)**.
+The content on OONI Explorer is meant to be **informal and direct (but still polite)**.
 
 We therefore share the following recommendations:
 
-* Use the formal form when referring to the user (for example, use the plural
-form of "you", instead of the singular form)
+* Use the informal form when referring to the user (for example, you can use the singular
+form of "you", instead of the plural form for formality -- if you think it is acceptable in your language)
 
 * Use gender-neutral terminology when referring to the user
 
@@ -64,17 +65,26 @@ OONI Explorer has a fair amount of technical terminology.
 
 Here are some tips:
 
-1. Please **avoid translating** the OONI Explorer test names (you can keep the
-English versions):
+1. Please **avoid translating** the OONI Probe test names listed on OONI Explorer (you can keep the
+English versions), such as:
 
 * Web Connectivity
 * WhatsApp
 * Facebook Messenger
 * Telegram
+* Signal
 * HTTP Header Field Manipulation
 * HTTP Invalid Request Line
 * NDT
 * DASH
+* Psiphon
+* Tor
+* Tor Snowflake
+* Vanilla Tor
+* RiseupVPN
+* DNS Check
+* STUN Reachability
+* URL Getter
 
 2. You can consider **avoiding the translation of "middleboxes"**, since this
 term is often used *as is* by the international tech community.
@@ -87,15 +97,9 @@ in your language by technologists, you can try Googling in your language for
 those terms (for example, by checking relevant publications), or reach out to a
 technologist (if you know one).
 
-4. We also advise against the translation of "OONI", "OONI Probe" and "Open Observatory Network Interference" and names of instruments, e.g. "OONI MAT" (OONI Measurement Aggregation Toolkit)
+4. We also advise against the translation of "OONI", "OONI Probe", "OONI Explorer", and "OONI MAT". 
 
 ## Things to watch out for
-
-*  **Character limits:** Some strings have character limits because they are
-either required by the app stores, or by the UX of OONI Probe (only a
-certain amount of characters, for example, can fit in a button). We
-therefore kindly ask that you try to be concise, while still clearly and
-accurately conveying the meaning in the translation.
 
 * **Use of singular & plural forms:** Once you get started with the translation,
 you'll probably notice that several strings appear to have duplicate copy
@@ -107,9 +111,8 @@ term should be translated to singular or plural form.
 
 * **Composite strings:** You'll come across certain strings that include
 variables, such as: `OONI Probe users in **{countryName}** have collected [**{measurementCount}** measurements]⏎`. This means that a number (or
-another variable) will appear in the app in the place of `{[measurementCount}}` (for
-example, `801045`) and a name of the country will appear instead of `{countryName}`(for example. `Canada`). Please do *not* translate these variables, but
-position them in the location where they would make sense in the translated sentence.
+another variable) will appear on the platform in the place of `{[measurementCount}}` (for
+example, `801045`) and a name of the country will appear instead of `{countryName}`(for example, `Canada`). Please do *not* translate these variables, but position them in the location where they would make sense in the translated sentence.
 
 * **New lines:** You'll notice that some blue arrows are included in some
 strings. These arrows indicate that the next sentence will be in a new line.
@@ -123,7 +126,7 @@ in the original copy.
 
 
 Questions? You can reach the OONI team for real-time discussion on
-[Slack](https://slack.openobservatory.org/), or you can drop us an email at
+[Slack](https://slack.ooni.org/), or you can drop us an email at
 contact@openobservatory.org.
 
 **Thank you for your support! We are extremely grateful!**
