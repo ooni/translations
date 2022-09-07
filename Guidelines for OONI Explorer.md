@@ -53,7 +53,7 @@ form of "you", instead of the plural form for formality -- if you think it is ac
 
 * Use gender-neutral terminology when referring to the user
 
-* Be concise (but clear) to fit the translation within the character limits
+* Be concise (but clear) to fit the translation within potential character limits
 
 * When/if possible, think about localization beyond translation (for example, you can include "GR"
 as the country code for "Greece" in the Greek translation) - without changing
