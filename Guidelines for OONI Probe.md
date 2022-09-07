@@ -1,10 +1,8 @@
-# Guidelines: Translating the OONI Probe mobile apps
+# Guidelines: Translating the OONI Probe apps
 
-[OONI Probe](https://ooni.torproject.org/install/) is free and open source
+[OONI Probe](https://ooni.org/install/) is free and open source
 software designed to measure internet censorship and other forms of network
-interference. Thanks to great feedback provided by the community, the OONI team
-has revamped the OONI Probe mobile apps to improve their design and UI, include
-new features, and much more!
+interference. Since 2012, hundreds of thousands of users have run OONI Probe in 240 countries and territories, contributing millions of network measurements that shed light on internet censorship worldwide.
 
 **By translating the app, you are enabling your communities to measure their
 networks and to increase transparency of internet censorship!**
@@ -15,7 +13,9 @@ thank you enough.
 We hope the following brief guidelines are helpful. If they're not, please reach
 out to us at contact@openobservatory.org.
 
-* [Install the OONI Probe application](#install-the-ooni-probe-application)
+* [Install the OONI Probe apps](#install-the-ooni-probe-apps)
+
+  * [Install the OONI Probe public beta](#install-the-ooni-probe-public-beta)
 
 * [Strings for translation](#strings-for-translation)
 
@@ -27,33 +27,47 @@ out to us at contact@openobservatory.org.
 
 * [Things to watch out for](#things-to-watch-out-for)
 
+## Install the OONI Probe apps
 
-## Install the OONI Probe application
+Before getting started with the translation, we kindly ask that you first **[install both the OONI Probe mobile and desktop apps](https://ooni.org/install)** (as each app has a slightly different interface, and different features) to see where your translation would appear in the apps.
 
-Before you get started with the translation, we kindly ask that you first install OONI Probe Mobile or Desktop app to see where your translation would appear in the app.
+**OONI Probe Mobile** is available on: 
 
-For Mobile: 
+* [Android](https://play.google.com/apps/testing/org.openobservatory.ooniprobe)
+* [iOS](https://apps.apple.com/us/app/id1199566366)
+* [F-Droid](https://f-droid.org/packages/org.openobservatory.ooniprobe/)
 
-* **[Android](https://play.google.com/apps/testing/org.openobservatory.ooniprobe)**
-* **[iOS](https://apps.apple.com/us/app/id1199566366)**
-* **[F-Droid](https://f-droid.org/packages/org.openobservatory.ooniprobe/)**
+**OONI Probe Desktop** is available on:
 
-For Desktop:
+* [Windows](https://ooni.org/install/desktop)
+* [MacOS](https://ooni.org/install/desktop)
 
-* **[Windows](https://github.com/ooni/probe-desktop/releases/download/v3.7.0/OONI-Probe-Setup-3.7.0.exe)**
-* **[MacOS](https://github.com/ooni/probe-desktop/releases/download/v3.7.0/OONI-Probe-3.7.0.dmg)**
-* **[Linux](https://ooni.org/install/cli)**
+### Install the OONI Probe public beta
+
+We also recommend installing the OONI Probe public beta, particularly if you're translating new strings that haven't been shipped as part of an OONI Probe Mobile release yet. This will enable you to see where your translation would appear in the app.
+
+**Android**
+
+* Sign up to the beta:
+https://play.google.com/apps/testing/org.openobservatory.ooniprobe
+
+* Update your OONI Probe mobile app (to get the public beta) from Google Play
+
+**iOS**
+
+* Tap on this link from your device and follow the instructions:
+https://testflight.apple.com/join/rh3Ig7fE
 
 ## General recommendations
 
-Please do not use machine translation as a foundation of your translation. If you are not sure about the terms, ask for advice from someone with technological expertise or from our [Slack community](https://slack.openobservatory.org/). Do not fear to communicate with other translators through Transifex — leave comments, questions and suggestions in the comments to the string. 
+Please do not use machine translation as a foundation of your translation. If you are not sure about the terms, ask for advice from someone with technological expertise or from our [Slack community](https://slack.ooni.org/). Do not fear to communicate with other translators through Transifex — you can leave comments, questions and suggestions in the comments of strings. 
 
-Check our [Wiki](https://wiki.localizationlab.org/index.php/Translation_and_Review_Guidelines) for more detailed recommendations.
+Check [Localization Lab's Wiki](https://wiki.localizationlab.org/index.php/Translation_and_Review_Guidelines) for more detailed recommendations.
 
 ## Strings for translation
 
 Thanks to support from the [Localization Lab](https://www.localizationlab.org/),
-the translation of the OONI Probe Mobile and Desktop apps is coordinated on Transifex.
+the translation of the OONI Probe Mobile and Desktop apps is coordinated on **Transifex**.
 
 To translate the OONI Probe Mobile and Desktop apps, please sign-up with Transifex to the OONI project:
 https://www.transifex.com/otf/ooniprobe/
@@ -72,7 +86,7 @@ The content in the apps is meant to be **informal and direct (but still polite)*
 We therefore share the following recommendations:
 
 * Use the informal form when referring to the user (for example, you can use the singular
-form of "you", instead of the plural form for formality, if you think it is acceptable for your language)
+form of "you", instead of the plural form for formality -- if you think it is acceptable in your language)
 
 * Use gender-neutral terminology when referring to the user
 
@@ -93,16 +107,25 @@ OONI Probe has a fair amount of technical terminology.
 Here are some tips:
 
 1. Please **avoid translating** the OONI Probe test names (you can keep the
-English versions):
+English versions), such as:
 
 * Web Connectivity
 * WhatsApp
 * Facebook Messenger
 * Telegram
+* Signal
 * HTTP Header Field Manipulation
 * HTTP Invalid Request Line
 * NDT
 * DASH
+* Psiphon
+* Tor
+* Tor Snowflake
+* Vanilla Tor
+* RiseupVPN
+* DNS Check
+* STUN Reachability
+* URL Getter
 
 2. You can consider **avoiding the translation of "middleboxes"**, since this
 term is often used *as is* by the international tech community.
@@ -115,7 +138,7 @@ in your language by technologists, you can try Googling in your language for
 those terms (for example, by checking relevant publications), or reach out to a
 technologist (if you know one).
 
-We also advise against the translation of "OONI", "OONI Probe" and "Open Observatory Network Interference".
+4. We also advise against the translation of "OONI", "OONI Probe", and "OONI Explorer".
 
 ## Things to watch out for
 
@@ -151,7 +174,7 @@ in the original copy.
 
 
 Questions? You can reach the OONI team for real-time discussion on
-[Slack](https://slack.openobservatory.org/), or you can drop us an email at
+[Slack](https://slack.ooni.org/), or you can drop us an email at
 contact@openobservatory.org.
 
 **Thank you for your support! We are extremely grateful!**
