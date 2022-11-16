@@ -4,7 +4,7 @@ General.Error,Error,
 General.Anomaly,Anomaly,
 General.Accessible,Accessible,
 General.Failed,Failed,
-General.Loading,Loading...,
+General.Loading,Loading…,
 General.NoData,No data,
 Tests.WebConnectivity.Name,Web Connectivity Test,
 Tests.Telegram.Name,Telegram Test,
@@ -53,9 +53,9 @@ Measurement.Status.Hint.Websites.NoCensorship,No blocking detected,
 Measurement.Status.Hint.Websites.TCPBlock,TCP/IP blocking,
 Measurement.Status.Hint.Websites.Unavailable,Website down,
 Measurement.SummaryText.Websites.Accessible,"On {date}, {{WebsiteURL}} was accessible when tested on {network} in {country}.",
-Measurement.SummaryText.Websites.Anomaly,"On {date}, {{WebsiteURL}} presented signs of {{BlockingReason}} on {network} in {country}.
+Measurement.SummaryText.Websites.Anomaly,"On {date}, {WebsiteURL} presented signs of {reason} on {network} in {country}.
 
-This might mean that {{WebsiteURL}} was blocked, but [false positives](https://ooni.org/support/faq/#why-do-false-positives-occur) can occur. 
+This might mean that {WebsiteURL} was blocked, but <link-to-docs>false positives</link-to-docs> can occur.
 
 Please explore the network measurement data below.",
 Measurement.SummaryText.Websites.Anomaly.BlockingReason.DNS,DNS tampering,
@@ -695,7 +695,7 @@ ReachabilityDash.Form.Label.CountrySelect.AllSelected,All countries selected,
 ReachabilityDash.Form.Label.CountrySelect.SearchPlaceholder,Search,
 ReachabilityDash.Form.Label.CountrySelect.SelectAll,Select All,
 ReachabilityDash.Form.Label.CountrySelect.SelectAllFiltered,Select All (Filtered),
-ReachabilityDash.Form.Label.CountrySelect.InputPlaceholder,Select Countries...,
+ReachabilityDash.Form.Label.CountrySelect.InputPlaceholder,Select Countries…,
 ReachabilityDash.Meta.Description,View the accessibility of censorship circumvention tools around the world through OONI data.,
 DateRange.Apply,Apply,
 DateRange.Cancel,Cancel,
