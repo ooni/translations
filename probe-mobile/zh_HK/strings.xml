@@ -71,6 +71,7 @@
   <string name="Dashboard_Circumvention_Overview_Paragraph">Check whether [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) or [RiseupVPN](https://ooni.org/nettest/riseupvpn/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Card_Description">Run new experimental tests</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
+  <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -84,7 +85,7 @@
   <string name="TestResults_Overview_Hero_DataUsage">Data Usage</string>
   <string name="TestResults_Overview_FilterTests">Filter Tests</string>
   <string name="TestResults_Overview_FilterTests_AllTests">All Tests</string>
-  <string name="TestResults_Overview_FilterTests_Websites">Websites</string>
+  <string name="TestResults_Overview_FilterTests_Websites">網站</string>
   <string name="TestResults_Overview_FilterTests_MiddleBoxes">Middleboxes</string>
   <string name="TestResults_Overview_FilterTests_Performance">Performance</string>
   <string name="TestResults_Overview_FilterTests_InstantMessaging">Instant Messaging</string>
@@ -124,7 +125,7 @@
   <string name="TestResults_Summary_Websites_Hero_Blocked_Singular">Blocked</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Plural">Blocked</string>
   <string name="TestResults_Summary_Websites_Hero_Sites_Singular">網站</string>
-  <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Websites</string>
+  <string name="TestResults_Summary_Websites_Hero_Sites_Plural">網站</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Singular">Accessible</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Accessible</string>
   <string name="TestResults_Summary_Performance_Hero_Video">影片</string>
@@ -157,7 +158,7 @@
   <string name="TestResults_Details_RawData">Data</string>
   <string name="TestResults_Details_CopyExplorerURL">Copy Explorer URL</string>
   <string name="TestResults_Details_ShareExplorerURL">Share Explorer URL</string>
-  <string name="TestResults_Details_CopyToClipboard">Copy to clipboard</string>
+  <string name="TestResults_Details_CopyToClipboard">複製到剪貼簿</string>
   <string name="TestResults_Details_ShowInExplorer">Show in OONI Explorer</string>
   <string name="TestResults_Details_Failed_Title">失敗</string>
   <string name="TestResults_Details_Failed_Paragraph">You can try to run this test again</string>
@@ -273,7 +274,7 @@
   <string name="Modal_Retry">Retry</string>
   <string name="Modal_SoundsGreat">Sounds great</string>
   <string name="Modal_NoThanks">No, thanks</string>
-  <string name="Modal_NotNow">Not now</string>
+  <string name="Modal_NotNow">暂不</string>
   <string name="Modal_RunAnyway">Run anyways</string>
   <string name="Modal_DisableVPN">Disable VPN</string>
   <string name="Modal_AlwaysRun">Always Run</string>
@@ -327,7 +328,7 @@
   <string name="Snackbar_ResultsNotUploaded_Upload">上傳</string>
   <string name="Snackbar_ResultsSomeNotUploaded_Text">Some not uploaded</string>
   <string name="Snackbar_ResultsSomeNotUploaded_UploadAll">Upload All</string>
-  <string name="Test_Websites_Fullname">Websites</string>
+  <string name="Test_Websites_Fullname">網站</string>
   <string name="Test_InstantMessaging_Fullname">Instant Messaging</string>
   <string name="Test_Middleboxes_Fullname">Middleboxes</string>
   <string name="Test_Performance_Fullname">Performance</string>
@@ -353,7 +354,7 @@
   <string name="Settings_About_Content_Blog">博客</string>
   <string name="Settings_About_Content_Reports">報告</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>
-  <string name="Settings_Notifications_Label">Notifications</string>
+  <string name="Settings_Notifications_Label">通知</string>
   <string name="Settings_Notifications_Enabled">已啟用</string>
   <string name="Settings_Notifications_OnTestCompletion">Notify upon test completion</string>
   <string name="Settings_Notifications_OnNews">News Feed</string>
@@ -374,11 +375,15 @@
   <string name="Settings_Sharing_IncludeCountryCode_PopUp">This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?</string>
   <string name="Settings_Sharing_Footer">By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.</string>
   <string name="Settings_TestOptions_Label">Test options</string>
+  <string name="Settings_TestOptions_Footer">What you configure through the above test settings (e.g. disabling the WhatsApp test) will apply to tests run manually, as well as to tests run automatically (when automated testing is enabled).</string>
+  <string name="Settings_TestOptions_LongRunningTest">Long running test</string>
+  <string name="Settings_TestOptions_RunLongRunningTests">Run long running tests in foreground?</string>
   <string name="Settings_Privacy_Label">隱私政策</string>
   <string name="Settings_Privacy_SendCrashReports">Send crash reports</string>
   <string name="Settings_Advanced_Label">Advanced</string>
-  <string name="Settings_DarkMode_Label">Dark Mode</string>
+  <string name="Settings_DarkMode_Label">黑暗模式</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
+  <string name="Settings_Advanced_RecentLogs">See recent logs</string>
   <string name="Settings_Advanced_LanguageSettings_Title">Language Setting</string>
   <string name="Settings_Advanced_LanguageSettings_PopUp">選擇語言</string>
   <string name="Settings_Advanced_UseDomainFronting">Always use domain fronting</string>
@@ -414,6 +419,7 @@
   <string name="Settings_Websites_CustomURL_NoURLEntered">No URLs entered</string>
   <string name="Settings_Websites_CustomURL_Run">Run</string>
   <string name="Settings_Websites_CustomURL_Add">Add website</string>
+  <string name="Settings_Websites_CustomURL_LoadFromTemplate">Load from template</string>
   <string name="Settings_Websites_TestCount">Number of tested websites (0 means all)</string>
   <string name="Settings_InstantMessaging_TestWhatsApp">Test WhatsApp</string>
   <string name="Settings_InstantMessaging_TestTelegram">Test Telegram</string>
@@ -446,7 +452,7 @@
   <string name="Notification_FinishedRunning">Finished running</string>
   <string name="Notification_StopTest">Stop test</string>
   <string name="OONIBrowser_TryMirror">Try mirror</string>
-  <string name="OONIBrowser_Loading">Loading...</string>
+  <string name="OONIBrowser_Loading">載入中...</string>
   <string name="OONIBrowser_Error">An unexpected error occurred. Please reload this page.</string>
   <string name="OONIRun_YouAreAboutToRun">You are about to run an OONI Probe test.</string>
   <string name="OONIRun_URLs">%1$s URLs</string>
