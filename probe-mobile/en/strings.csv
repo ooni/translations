@@ -126,6 +126,7 @@ Dashboard.Experimental.Overview.Paragraph,"Run the following new experimental te
 
 Your results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",,,
 Dashboard.Experimental.Overview.Paragraph.AutomatedTesting,The following tests will only be run as part of automated testing:,,,
+Dashboard.DisabledTests.Label,Disabled Tests,,,
 TestResults.Gbps,Gbit/s,,,
 TestResults.Mbps,Mbit/s,,,
 TestResults.Kbps,kbit/s,,,
