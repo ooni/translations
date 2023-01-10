@@ -11,17 +11,17 @@
       </trans-unit>
       <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
         <source>Measure Internet Censorship, Speed &amp; Performance</source>
-        <target>Измерить цензуру в Интернете, скорость и качество соединения.</target>
+        <target>Измеряйте цензуру в Интернете, скорость и качество соединения.</target>
         <note from="developer">This is limited by Google to 80 characters</note>
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
-          <target>OONI Probe - измеряйте интернет-цензуру и скорость</target>
+          <target>OONI Probe — измеряйте интернет-цензуру и скорость</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
         <source>Measure Internet Censorship</source>
-        <target>Измеряйте Интернет-цензуру</target>
+        <target>Измеряйте интернет-цензуру</target>
         <note from="developer">This is limited by Apple to 30 characters</note>
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
@@ -39,11 +39,11 @@
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
-        <target>OONI Probe разрабатывается Открытой Обсерваторией Сетевых Помех (Open Observatory of Network Interference, OONI). OONI Probe является свободным программным обеспечением (в рамках The Tor Project), направленное на раскрытие фактов интернет-цензуры во всем мире.</target>
+        <target>OONI Probe разрабатывается Open Observatory of Network Interference, OONI. OONI Probe является свободным программным обеспечением (в рамках The Tor Project), направленным на раскрытие случаев интернет-цензуры во всем мире.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
-        <target>С 2012 года мировое сообщество OONI собрало миллионы сетевых измерений из более чем 200 стран, проливая свет на многочисленные случаи сетевых помех.</target>
+        <target>С 2012 года мировое сообщество OONI собрало миллионы измерений из более чем 200 стран, обнаружив многочисленные случаи сетевых вмешательств.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
@@ -55,7 +55,7 @@
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
-        <target>Вы можете проверить, заблокированы ли веб-сайты и мессенджеры и каким образом. Данные измерения сети, которые вы собираете, могут служить доказательством цензуры в интернете.</target>
+        <target>Вы можете проверить, заблокированы ли веб-сайты и мессенджеры и каким образом. Данные, которые вы собираете, могут послужить доказательством цензуры в интернете.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
@@ -67,7 +67,7 @@
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
-        <target>Измеряйте скорость и работоспособность вашей сети</target>
+        <target>Измеряйте скорость и качество работы вашей сети</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
@@ -79,7 +79,7 @@
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
-        <target>OONI публикует данные по измерению сети, поскольку открытые данные позволяют проверять полученные OONI измерения, проводить независимые исследования и отвечать на многие исследовательские вопросы. Такие данные также позволяют повысить прозрачность сведений об интернет-цензуре в мире. Вы можете изучить и скачать данные OONI здесь: https://ooni.io/data/</target>
+        <target>OONI публикует собранные данные, так как открытость информации позволяет проверять собранные OONI измерения, проводить независимые исследования и отвечать на многие исследовательские вопросы. Такие данные также позволяют повысить прозрачность сведений об интернет-цензуре в мире. Вы можете изучить и скачать данные OONI здесь: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
@@ -87,7 +87,7 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
-        <target>Все тесты OONI (включая наши имплементации NDT и DASH) базируются на свободном программном обеспечении. Исходный код доступен по следующей ссылке: https://github.com/ooni. Хотите узнать больше о том, как работают тесты OONI? Перейдите по ссылке https://ooni.io/nettest/</target>
+        <target>Все тесты OONI (включая NDT и DASH) базируются на свободном программном обеспечении. Исходный код доступен по следующей ссылке: https://github.com/ooni. Хотите узнать больше о том, как работают тесты OONI? Перейдите по ссылке: https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
@@ -118,11 +118,11 @@
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
-        <target>Open Observatory of Network Interference (OONI) – это глобальная сеть наблюдателей, занимающихся выявлением цензуры и других форм сетевых помех во всем мире.</target>
+        <target>Open Observatory of Network Interference (OONI) – это глобальная сеть наблюдателей, занимающихся выявлением цензуры и других форм сетевых вмешательств во всем мире.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
-        <target>сеть, проверка скорости, speedtest, измерения, интернет, вайфай, сетевое соединение, сканирование, полоса пропускания, ДНС, DNS, мобильные устройства, ooni, исследования, приложение, инструмент</target>
+        <target>сеть, проверка скорости, измерения, интернет, wifi, сетевое соединение, сканирование, полоса пропускания, dns, мобильные устройства, ooni, исследования, приложение, инструмент</target>
       </trans-unit>
     </body>
   </file>

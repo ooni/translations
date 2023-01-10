@@ -69,6 +69,7 @@
 "Dashboard.Circumvention.Overview.Paragraph" = "Check whether [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) or [RiseupVPN](https://ooni.org/nettest/riseupvpn/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
 "Dashboard.Experimental.Card.Description" = "Run new experimental tests";
 "Dashboard.Experimental.Overview.Paragraph" = "Run the following new experimental tests developed by the OONI team:\n%@\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
+"Dashboard.Experimental.Overview.Paragraph.AutomatedTesting" = "The following tests will only be run as part of automated testing:";
 "TestResults.Gbps" = "Gbit/s";
 "TestResults.Mbps" = "Mbit/s";
 "TestResults.Kbps" = "kbit/s";
@@ -79,12 +80,12 @@
 "TestResults.Overview.Tab.Label" = "Test Results";
 "TestResults.Overview.Hero.Tests" = "Tests";
 "TestResults.Overview.Hero.Networks" = "Мережі";
-"TestResults.Overview.Hero.DataUsage" = "Data Usage";
+"TestResults.Overview.Hero.DataUsage" = "Використання даних";
 "TestResults.Overview.FilterTests" = "Filter Tests";
 "TestResults.Overview.FilterTests.AllTests" = "All Tests";
 "TestResults.Overview.FilterTests.Websites" = "Вебсайти";
 "TestResults.Overview.FilterTests.MiddleBoxes" = "Middleboxes";
-"TestResults.Overview.FilterTests.Performance" = "Performance";
+"TestResults.Overview.FilterTests.Performance" = "Продуктивність";
 "TestResults.Overview.FilterTests.InstantMessaging" = "Instant Messaging";
 "TestResults.Overview.FilterTests.Circumvention" = "Обман";
 "TestResults.Overview.FilterTests.Experimental" = "Experimental";
@@ -111,7 +112,7 @@
 "TestResults.Summary.Hero.DateAndTime" = "Date & Time";
 "TestResults.Summary.Hero.Network" = "Мережа";
 "TestResults.Summary.Hero.Country" = "Країна";
-"TestResults.Summary.Hero.DataUsage" = "Data Usage";
+"TestResults.Summary.Hero.DataUsage" = "Використання даних";
 "TestResults.Summary.Hero.Runtime" = "Total Runtime";
 "TestResults.Summary.Hero.WiFi" = "WiFi";
 "TestResults.Summary.Hero.Mobile" = "Mobile Data";
@@ -328,7 +329,7 @@
 "Test.Websites.Fullname" = "Вебсайти";
 "Test.InstantMessaging.Fullname" = "Instant Messaging";
 "Test.Middleboxes.Fullname" = "Middleboxes";
-"Test.Performance.Fullname" = "Performance";
+"Test.Performance.Fullname" = "Продуктивність";
 "Test.Circumvention.Fullname" = "Обман";
 "Test.Experimental.Fullname" = "Experimental";
 "Test.HTTPInvalidRequestLine.Fullname" = "HTTP Invalid Request Line Test";
@@ -372,11 +373,15 @@
 "Settings.Sharing.IncludeCountryCode.PopUp" = "This information (e.g. IT for Italy) is required to identify which country the measurements are collected from. Are you sure you want to disable this option?";
 "Settings.Sharing.Footer" = "By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.";
 "Settings.TestOptions.Label" = "Test options";
+"Settings.TestOptions.Footer" = "What you configure through the above test settings (e.g. disabling the WhatsApp test) will apply to tests run manually, as well as to tests run automatically (when automated testing is enabled).";
+"Settings.TestOptions.LongRunningTest" = "Long running test";
+"Settings.TestOptions.RunLongRunningTests" = "Run long running tests in foreground?";
 "Settings.Privacy.Label" = "Приватність";
 "Settings.Privacy.SendCrashReports" = "Send crash reports";
 "Settings.Advanced.Label" = "Розширений";
 "Settings.DarkMode.Label" = "Темний режим";
 "Settings.Advanced.DebugLogs" = "Debug logs";
+"Settings.Advanced.RecentLogs" = "See recent logs";
 "Settings.Advanced.LanguageSettings.Title" = "Language Setting";
 "Settings.Advanced.LanguageSettings.PopUp" = "Оберіть мову";
 "Settings.Advanced.UseDomainFronting" = "Always use domain fronting";
@@ -412,6 +417,7 @@
 "Settings.Websites.CustomURL.NoURLEntered" = "No URLs entered";
 "Settings.Websites.CustomURL.Run" = "Run";
 "Settings.Websites.CustomURL.Add" = "Додати сайт";
+"Settings.Websites.CustomURL.LoadFromTemplate" = "Load from template";
 "Settings.Websites.TestCount" = "Number of tested websites (0 means all)";
 "Settings.InstantMessaging.TestWhatsApp" = "Test WhatsApp";
 "Settings.InstantMessaging.TestTelegram" = "Test Telegram";

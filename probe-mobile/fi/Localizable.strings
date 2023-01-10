@@ -69,6 +69,7 @@
 "Dashboard.Circumvention.Overview.Paragraph" = "Check whether [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/) or [RiseupVPN](https://ooni.org/nettest/riseupvpn/) are blocked.\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
 "Dashboard.Experimental.Card.Description" = "Suorita uudet koekäytössä olevat testit";
 "Dashboard.Experimental.Overview.Paragraph" = "Run the following new experimental tests developed by the OONI team:\n%@\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
+"Dashboard.Experimental.Overview.Paragraph.AutomatedTesting" = "The following tests will only be run as part of automated testing:";
 "TestResults.Gbps" = "Gb/s";
 "TestResults.Mbps" = "Mb/s";
 "TestResults.Kbps" = "kb/s";
@@ -372,11 +373,15 @@
 "Settings.Sharing.IncludeCountryCode.PopUp" = "Tämä tieto (esim. IT tarkoittaa Italiaa) on pakollinen mittausten alkuperämaan tunnistamiseksi. Oletko varma, että haluat laittaa tämän valinnan pois päältä?";
 "Settings.Sharing.Footer" = "By publishing results, you are increasing transparency of network interference and supporting the OONI community. \n\nNetwork information (i.e. Autonomous System Number) is required for identifying Internet Service Providers.";
 "Settings.TestOptions.Label" = "Testausvalinnat";
+"Settings.TestOptions.Footer" = "What you configure through the above test settings (e.g. disabling the WhatsApp test) will apply to tests run manually, as well as to tests run automatically (when automated testing is enabled).";
+"Settings.TestOptions.LongRunningTest" = "Long running test";
+"Settings.TestOptions.RunLongRunningTests" = "Run long running tests in foreground?";
 "Settings.Privacy.Label" = "Yksityisyys";
 "Settings.Privacy.SendCrashReports" = "Lähetä kaatumisraportit";
 "Settings.Advanced.Label" = "Lisätietoja";
 "Settings.DarkMode.Label" = "Tumma tila";
 "Settings.Advanced.DebugLogs" = "Vianjäljityslokit";
+"Settings.Advanced.RecentLogs" = "See recent logs";
 "Settings.Advanced.LanguageSettings.Title" = "Language Setting";
 "Settings.Advanced.LanguageSettings.PopUp" = "Valitse kieli";
 "Settings.Advanced.UseDomainFronting" = "Käytä aina domainfronttausta";
@@ -412,6 +417,7 @@
 "Settings.Websites.CustomURL.NoURLEntered" = "URL-osoitetta ei syötetty";
 "Settings.Websites.CustomURL.Run" = "Suorita";
 "Settings.Websites.CustomURL.Add" = "Lisää verkkosivu";
+"Settings.Websites.CustomURL.LoadFromTemplate" = "Load from template";
 "Settings.Websites.TestCount" = "Testattujen verkkosivujen määrä (0 tarkoittaa kaikkia)";
 "Settings.InstantMessaging.TestWhatsApp" = "Testaa WhatsApp";
 "Settings.InstantMessaging.TestTelegram" = "Testaa Telegram";
