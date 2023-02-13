@@ -13,6 +13,7 @@ General.Submit,Submit,
 General.Close,Close,
 General.Cancel,Cancel,
 General.Login,Login,
+General.Logout,Logout,
 General.Edit,Edit,
 Login.EnterEmail,Add your email address and click the link sent to your email to log in. \n\n We do not store email addresses.,
 Login.Submitted,Your login request has been submitted. Please check your email for a link to activate and log in to your account.,
@@ -526,8 +527,8 @@ Search.Sidebar.Domain,Domain,
 Search.Sidebar.Domain.Placeholder,e.g. twitter.com or 1.1.1.1,
 Search.Sidebar.Domain.Error,"Please enter a valid domain name or IP address, such as twitter.com or 1.1.1.1",
 Search.Sidebar.Input,Input,
-Search.Sidebar.Input.Placeholder,"e.g., https://fbcdn.net/robots.txt",
-Search.Sidebar.Input.Error,"Please enter full URL or IP address, such as https://fbcdn.net/robots.txt",
+Search.Sidebar.Input.Placeholder,"e.g., https://twitter.com/",
+Search.Sidebar.Input.Error,Please enter a full URL (e.g. https://twitter.com/) with a trailing slash (`/`) or an IP address,
 Search.Sidebar.Categories,Website Categories,
 Search.Sidebar.Categories.All,Any,
 Search.Sidebar.Status,Status,
@@ -622,8 +623,8 @@ MAT.Title,OONI Measurement Aggregation Toolkit (MAT),
 MAT.SubTitle,Create charts based on aggregate views of real-time OONI data from around the world,
 MAT.JSONData,JSON Data,
 MAT.CSVData,CSV Data,
-MAT.Form.Label.XAxis,X Axis,
-MAT.Form.Label.YAxis,Y Axis,
+MAT.Form.Label.XAxis,Columns,
+MAT.Form.Label.YAxis,Rows,
 MAT.Form.Label.AxisOption.domain,Domain,
 MAT.Form.Label.AxisOption.input,Input,
 MAT.Form.Label.AxisOption.measurement_start_day,Measurement Day,
@@ -695,15 +696,15 @@ The MAT includes the following filters:
 * **Website categories:** Select the [website category](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) for which you would like to get measurements (e.g. `News Media` for news media websites)
 * **ASN:** Type the [ASN](https://ooni.org/support/glossary/#asn) of the network for which you would like to get measurements (e.g. `AS30722` for Vodafone Italia)
 * **Date range:** Select the date range of the measurements by adjusting the `Since` and `Until` filters
-* **X axis:** Select the values that you would like to appear on the horizontal axis of your chart
-* **Y axis:** Select the values that you would like to appear on the vertical axis of your chart
+* **Columns:** Select the values that you would like to appear on the horizontal axis of your chart
+* **Rows:** Select the values that you would like to appear on the vertical axis of your chart
 
 Depending on what you would like to explore, adjust the MAT filters accordingly and click `Show Chart`. 
 
 For example, if you would like to check the testing of BBC in all countries around the world:
 
 * Type `www.bbc.com` under `Domain`
-* Select `Countries` under the `Y axis`
+* Select `Countries` under the `Rows`
 * Click `Show Chart`
 
 This will plot numerous charts based on the OONI Probe testing of `www.bbc.com` worldwide.
