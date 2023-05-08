@@ -532,26 +532,6 @@ The following graph shares data from Georgia Tech's <ioda-link>Internet Outage D
 If you notice a drop in all signals, that might serve as an indicator of an Internet outage.
 
 Learn more about Internet outages and their impact through the [#KeepItOn campaign](https://www.accessnow.org/keepiton/).",
-Country.NetworkProperties.Description,"Check the speed and performance of networks.
-
-The following results were collected through the use of [OONI Probe's performance and middlebox tests](https://ooni.org/nettest/). You can check the speed and performance of tested networks, as well as video streaming performance. 
-
-You can also learn whether middleboxes were detected in tested networks. Middleboxes are network appliances that can be used for a variety of networking purposes (such as caching), but sometimes they're used to implement internet censorship and/or surveillance.",
-Country.NetworkProperties.Heading.Summary,Summary,
-Country.NetworkProperties.Heading.Networks,Networks,
-Country.NetworkProperties.InfoBox.Label.AverageDownload,Average Download,
-Country.NetworkProperties.InfoBox.Label.AverageUpload,Average Upload,
-Country.NetworkProperties.InfoBox.Label.Covered,Covered,
-Country.NetworkProperties.InfoBox.Label.Middleboxes,Middleboxes detected,
-Country.NetworkProperties.InfoBox.Units.Mbits,Mbit/s,
-Country.NetworkProperties.InfoBox.Units.Networks.Singular,Network,
-Country.NetworkProperties.InfoBox.Units.Networks.Plural,Networks,
-Country.NetworkProperties.InfoBox.Label.AverageStreaming,Average Streaming,
-Country.NetworkProperties.InfoBox.Label.AveragePing,Average Ping,
-Country.NetworkProperties.InfoBox.Units.Milliseconds,ms,
-Country.NetworkProperties.InfoBox.Label.Middleboxes.Found,Middleboxes detected,
-Country.NetworkProperties.InfoBox.Label.Middleboxes.NotFound,No middleboxes detected,
-Country.NetworkProperties.Button.ShowMore,Show more networks,
 Country.Label.NoData,No Data Available,
 Search.PageTitle,Search through millions of Internet censorship measurements,
 Search.Sidebar.Domain,Domain,
