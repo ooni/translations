@@ -1,19 +1,19 @@
 [main]
 host = https://www.transifex.com
 
-[ooniprobe.strings-json]
+[o:otf:p:ooniprobe:r:strings-json]
 file_filter = probe-mobile/<lang>/strings.json
 source_file = probe-mobile/en/strings.json
 source_lang = en
 type = KEYVALUEJSON
 
-[ooniprobe.description]
+[o:otf:p:ooniprobe:r:description]
 file_filter = probe-mobile/<lang>/description.xlf
 source_file = probe-mobile/en/description.xlf
 source_lang = en
 type = XLIFF
 
-[ooni-explorer.website]
+[o:otf:p:ooni-explorer:r:website]
 file_filter = explorer/<lang>/strings.json
 source_file = explorer/en/strings.json
 source_lang = en
