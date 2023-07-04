@@ -18,3 +18,9 @@ file_filter = explorer/<lang>/strings.json
 source_file = explorer/en/strings.json
 source_lang = en
 type = KEYVALUEJSON
+
+[o:otf:p:ooni-run:r:website]
+file_filter = run/<lang>/strings.json
+source_file = run/en/strings.json
+source_lang = en
+type = KEYVALUEJSON
