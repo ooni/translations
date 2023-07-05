@@ -37,7 +37,7 @@ Please read the [guidelines for OONI Explorer localization](https://github.com/o
 
 If you want to translate **[OONI Run](https://run.ooni.io/)** tool, please join this project: [https://app.transifex.com/otf/ooni-run/](https://app.transifex.com/otf/ooni-run/)
 
-If you want to translate **[OONI Probe user guides](https://ooni.org/install/mobile)**, please join [this project](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/)) to translate OONI Probe Mobile application user guide, and [this project](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/) to translate OONI Probe Desktop application user guide.
+If you want to translate **[OONI Probe user guides](https://ooni.org/install/mobile)**, please join [this project](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/) to translate OONI Probe Mobile application user guide, and [this project](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/) to translate OONI Probe Desktop application user guide.
 
 **All translations in the projects listed above are automatically synched from Transifex.**
 
