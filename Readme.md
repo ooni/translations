@@ -23,19 +23,34 @@ Moreover, the following languages are also important to us:
 
 ## Translations
 
-If you would like to improve translations for OONI software check out our [Guidelines](./Guidelines.md) and sign up for a transifex account here: https://transifex.com/otf/ooniprobe/dashboard/ (translations are automatically synched from transifex).
+If you would like to improve translations for OONI software, please sign up for a Transifex account here: https://www.transifex.com/signup/
+
+There are multiple projects on Transifex that you can join.
+
+If you want to translate [OONI Probe applications](https://ooni.org/install/), please join this project: [https://app.transifex.com/otf/ooniprobe/](https://app.transifex.com/otf/ooniprobe/)
+Please read the guidelines for OONI Probe application localization before working on the translation here: https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md 
+
+If you want to translate [OONI Explorer](https://explorer.ooni.org/) and [MAT tools](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-06-06&until=2023-07-06&time_grain=day), please join this project: [https://app.transifex.com/otf/ooniprobe/](https://app.transifex.com/otf/ooni-explorer/)
+Please read the guidelines for OONI Explorer localization before working on the translation here: [https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md)
+
+If you want to translate OONI Run tool, please join this project: [https://app.transifex.com/otf/ooni-run/](https://app.transifex.com/otf/ooni-run/)
+
+If you want to translate OONI Probe user guides, please join this project to translate OONI Probe Mobile application user guide: [https://app.transifex.com/otf/ooni-probe-mobile-user-guide/](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/), and this project to translate OONI Probe Desktop application user guide: [https://app.transifex.com/otf/ooni-probe-desktop-user-guide/](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/).
+
+All translations in the projects listed above are automatically synched from Transifex.
 
 This repository contains all the translations for OONI software.
 
-It requires python 3 and has been tested on `Python 3.6.1`.
+It requires Python 3 and has been tested on Python 3.6.1.
 
-You are expected to have installed the [transifex
+You are expected to have installed the [Transifex
 CLI](https://docs.transifex.com/client/installing-the-client) (please don't run
 `pip` or `easy_install` as root to install it!).
 
-You should also have setup transifex with you credentials via a
+You should also have setup Transifex with you credentials via a
 `~/.transifexrc` file (see: [client-configuration
 docs](https://docs.transifex.com/client/client-configuration#~/-transifexrc)).
+
 
 ## Updating translations
 
