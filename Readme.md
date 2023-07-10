@@ -23,25 +23,23 @@ Moreover, the following languages are also important to us:
 
 ## Translations
 
-If you would like to improve translations for OONI software, please sign up for a Transifex account here: https://www.transifex.com/signup/
+If you would like to improve the translations for OONI tools, please sign up for a Transifex account here: https://www.transifex.com/signup/
 
-There are multiple projects on Transifex that you can join.
+There are multiple OONI projects on Transifex that you can join:
 
-If you want to translate **[OONI Probe applications](https://ooni.org/install/)**, please join this project: [https://app.transifex.com/otf/ooniprobe/](https://app.transifex.com/otf/ooniprobe/)
+* **[OONI Probe app](https://ooni.org/install/)**: Please [join the OONI Probe project on Transifex](https://app.transifex.com/otf/ooniprobe/) and read the [OONI Probe localization guidelines](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md ) before working on the translation.
 
-Please read the [guidelines for OONI Probe application localization](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md ) before working on the translation.
+* **[OONI Explorer](https://explorer.ooni.org/)**: Please [join the OONI Explorer project on Transifex](https://app.transifex.com/otf/ooni-explorer/) and read the [OONI Explorer localization guidelines](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md) before working on the translation.
 
-If you want to translate **[OONI Explorer](https://explorer.ooni.org/)** and **[MAT](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-06-06&until=2023-07-06&time_grain=day)** tools, please join this project: [https://app.transifex.com/otf/ooniprobe/](https://app.transifex.com/otf/ooni-explorer/)
+* **[OONI Run](https://run.ooni.io/)**: Please [join the OONI Run project on Transifex](https://app.transifex.com/otf/ooni-run/).
 
-Please read the [guidelines for OONI Explorer localization](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md) before working on the translation.
+* **[OONI Probe Mobile User Guide](https://ooni.org/support/ooni-probe-mobile)**: Please [join the OONI Probe Mobile User Guide project on Transifex](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/).
 
-If you want to translate **[OONI Run](https://run.ooni.io/)** tool, please join this project: [https://app.transifex.com/otf/ooni-run/](https://app.transifex.com/otf/ooni-run/)
-
-If you want to translate **[OONI Probe user guides](https://ooni.org/install/mobile)**, please join [this project](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/) to translate OONI Probe Mobile application user guide, and [this project](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/) to translate OONI Probe Desktop application user guide.
+* * **[OONI Probe Desktop User Guide](https://ooni.org/support/ooni-probe-desktop)**: Please [join the OONI Probe Desktop User Guide project on Transifex](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/).
 
 **All translations in the projects listed above are automatically synched from Transifex.**
 
-This repository contains all the translations for OONI software.
+This repository contains all the translations for OONI tools.
 
 It requires Python 3 and has been tested on Python 3.6.1.
 
@@ -49,7 +47,7 @@ You are expected to have installed the [Transifex
 CLI](https://docs.transifex.com/client/installing-the-client) (please don't run
 `pip` or `easy_install` as root to install it!).
 
-You should also have setup Transifex with you credentials via a
+You should also have setup Transifex with your credentials via a
 `~/.transifexrc` file (see: [client-configuration
 docs](https://docs.transifex.com/client/client-configuration#~/-transifexrc)).
 
@@ -85,7 +83,7 @@ you.
 3) Run the script
 
 
-## Adding new language to OONI Probe iOS or Android
+## Adding a new language to OONI Probe iOS or Android
 
 1) Add the new language code to the file supported_languages
 2) iOS only: Add the new language in the XCode project tab
