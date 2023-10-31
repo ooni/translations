@@ -21,5 +21,7 @@
   "Nettest.Text.InstallApp": "目前 OONI Run 链接仅限在 OONI Probe 移动应用中使用。",
   "Nettest.Button.Install": "安装",
   "Notice.Paste": "请注意：若要添加较长的网址列表，您可以将这些网址复制并粘贴到下方的一个输入框中。",
-  "WhatCanYouDoText.WebCensorship": "在下方添加要测试审查的网站。点击\\“生成\\”创建基于所选网站的链接。分享此链接给 OONI Probe 移动应用用户，以便他们对所选网站进行测试！"
+  "WhatCanYouDoText.WebCensorship": "在下方添加要测试审查的网站。点击“生成”创建基于所选网站的链接。分享此链接给 OONI Probe 移动应用用户，以便他们对所选网站进行测试！",
+  "Error.Empty": "不能为空",
+  "Error.UrlFormat": "应为有效的网址格式，例如 https://ooni.org/post/"
 }

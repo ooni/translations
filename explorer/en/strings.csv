@@ -591,7 +591,7 @@ Since 2012, millions of network measurements have been collected from more than 
 
 To contribute to this open dataset, [install OONI Probe](https://ooni.org/install/) and run tests!",
 Home.Websites&Apps.Title,Blocking of Websites & Apps,
-Home.Websites&Apps.SummaryText,"Discover blocked websites around the world. Check whether WhatsApp, Facebook Messenger, and Telegram are blocked.",
+Home.Websites&Apps.SummaryText,"Discover blocked websites around the world. Check whether WhatsApp, Facebook Messenger, Telegram and Signal are blocked.",
 Home.Search&Filter.Title,Search,
 Home.Search&Filter.SummaryText,Explore OONI measurements with a powerful search tool. View the most recently blocked websites. Compare internet censorship across networks. ,
 Home.NetworkProperties.Title,Network Performance,
@@ -715,7 +715,7 @@ The MAT includes the following filters:
 * **Domain:** Type the domain for the website you would like to get measurements (e.g. `twitter.com`)
 * **Website categories:** Select the [website category](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) for which you would like to get measurements (e.g. `News Media` for news media websites)
 * **ASN:** Type the [ASN](https://ooni.org/support/glossary/#asn) of the network for which you would like to get measurements (e.g. `AS30722` for Vodafone Italia)
-* **Date range:** Select the date range of the measurements by adjusting the `Since` and `Until` filters
+* **Date range:** Select the date range of the measurements by adjusting the `From` and `Until` filters
 * **Columns:** Select the values that you would like to appear on the horizontal axis of your chart
 * **Rows:** Select the values that you would like to appear on the vertical axis of your chart
 
