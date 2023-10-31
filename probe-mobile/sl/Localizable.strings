@@ -70,6 +70,7 @@
 "Dashboard.Experimental.Card.Description" = "Run new experimental tests";
 "Dashboard.Experimental.Overview.Paragraph" = "Run the following new experimental tests developed by the OONI team:\n%@\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
 "Dashboard.Experimental.Overview.Paragraph.AutomatedTesting" = "The following tests will only be run as part of automated testing:";
+"Dashboard.DisabledTests.Label" = "Disabled Tests";
 "TestResults.Gbps" = "Gbit/s";
 "TestResults.Mbps" = "Mbit/s";
 "TestResults.Kbps" = "kbit/s";
@@ -83,7 +84,7 @@
 "TestResults.Overview.Hero.DataUsage" = "Prenešeno";
 "TestResults.Overview.FilterTests" = "Izberite teste";
 "TestResults.Overview.FilterTests.AllTests" = "Vsi testi";
-"TestResults.Overview.FilterTests.Websites" = "Websites";
+"TestResults.Overview.FilterTests.Websites" = "Spletne strani";
 "TestResults.Overview.FilterTests.MiddleBoxes" = "Middleboxes";
 "TestResults.Overview.FilterTests.Performance" = "Performance";
 "TestResults.Overview.FilterTests.InstantMessaging" = "Instant Messaging";
@@ -123,9 +124,9 @@
 "TestResults.Summary.Websites.Hero.Blocked.Singular" = "Blokirani";
 "TestResults.Summary.Websites.Hero.Blocked.Plural" = "Blokirani";
 "TestResults.Summary.Websites.Hero.Sites.Singular" = "Omrežna mesta";
-"TestResults.Summary.Websites.Hero.Sites.Plural" = "Websites";
-"TestResults.Summary.Websites.Hero.Reachable.Singular" = "Accessible";
-"TestResults.Summary.Websites.Hero.Reachable.Plural" = "Accessible";
+"TestResults.Summary.Websites.Hero.Sites.Plural" = "Spletne strani";
+"TestResults.Summary.Websites.Hero.Reachable.Singular" = "Dostopno";
+"TestResults.Summary.Websites.Hero.Reachable.Plural" = "Dostopno";
 "TestResults.Summary.Performance.Hero.Video" = "Video";
 "TestResults.Summary.Performance.Hero.Video.Quality" = "Quality";
 "TestResults.Summary.Performance.Hero.Upload" = "Naloži";
@@ -138,8 +139,8 @@
 "TestResults.Summary.InstantMessaging.Hero.Tested.Plural" = "Tested";
 "TestResults.Summary.InstantMessaging.Hero.Blocked.Singular" = "Blokirani";
 "TestResults.Summary.InstantMessaging.Hero.Blocked.Plural" = "Blokirani";
-"TestResults.Summary.InstantMessaging.Hero.Reachable.Singular" = "Accessible";
-"TestResults.Summary.InstantMessaging.Hero.Reachable.Plural" = "Accessible";
+"TestResults.Summary.InstantMessaging.Hero.Reachable.Singular" = "Dostopno";
+"TestResults.Summary.InstantMessaging.Hero.Reachable.Plural" = "Dostopno";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Singular" = "App";
 "TestResults.Summary.InstantMessaging.Hero.Apps.Plural" = "Aplikacije";
 "TestResults.Summary.Circumvention.Hero.Tested.Singular" = "Tested";
@@ -162,7 +163,7 @@
 "TestResults.Details.Failed.Paragraph" = "You can try to run this test again";
 "TestResults.Details.Failed.TryAgain" = "Try Again";
 "TestResults.Details.Methodology.Paragraph" = "Learn how this test works [here](%@).";
-"TestResults.Details.Websites.Reachable.Hero.Title" = "Accessible";
+"TestResults.Details.Websites.Reachable.Hero.Title" = "Dostopno";
 "TestResults.Details.Websites.Reachable.Content.Paragraph" = "%@ is accessible.";
 "TestResults.Details.Websites.LikelyBlocked.Hero.Title" = "Likely blocked";
 "TestResults.Details.Websites.LikelyBlocked.Content.Paragraph" = "%@ is likely blocked by means of %@.\n\nNote: False positives can occur. Learn more [here](https://ooni.org/support/faq/#what-are-false-positives).";
@@ -326,7 +327,7 @@
 "Snackbar.ResultsNotUploaded.Upload" = "Naloži";
 "Snackbar.ResultsSomeNotUploaded.Text" = "Some not uploaded";
 "Snackbar.ResultsSomeNotUploaded.UploadAll" = "Upload All";
-"Test.Websites.Fullname" = "Websites";
+"Test.Websites.Fullname" = "Spletne strani";
 "Test.InstantMessaging.Fullname" = "Instant Messaging";
 "Test.Middleboxes.Fullname" = "Middleboxes";
 "Test.Performance.Fullname" = "Performance";

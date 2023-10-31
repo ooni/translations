@@ -71,6 +71,7 @@
   "Dashboard.Experimental.Card.Description": "Suorita uudet koekäytössä olevat testit",
   "Dashboard.Experimental.Overview.Paragraph": "Run the following new experimental tests developed by the OONI team:\n{experimental_test_list}\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).",
   "Dashboard.Experimental.Overview.Paragraph.AutomatedTesting": "The following tests will only be run as part of automated testing:",
+  "Dashboard.DisabledTests.Label": "Disabled Tests",
   "TestResults.Gbps": "Gb/s",
   "TestResults.Mbps": "Mb/s",
   "TestResults.Kbps": "kb/s",

@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Effectuer les nouveaux tests expérimentaux</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Effectuer les nouveaux tests expérimentaux suivants conçus par l’équipe d’OONI :\n%1$s\n\nVos résultats seront publiés dans l’[Explorateur OONI](https://explorer.ooni.org/) et l’[API d’OONI](https://api.ooni.io/) (site en anglais).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">Les tests suivants ne seront exécutés que dans le cadre des tests automatisés :</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -159,7 +160,7 @@
   <string name="TestResults_Details_CopyExplorerURL">Copier l’URL de l’explorateur</string>
   <string name="TestResults_Details_ShareExplorerURL">Partager l’URL de l’explorateur</string>
   <string name="TestResults_Details_CopyToClipboard">Copier dans le presse-papiers</string>
-  <string name="TestResults_Details_ShowInExplorer">Afficher dans l’Explorateur OONI</string>
+  <string name="TestResults_Details_ShowInExplorer"> Dans l’Explorateur OONI</string>
   <string name="TestResults_Details_Failed_Title">Échec</string>
   <string name="TestResults_Details_Failed_Paragraph">Vous pouvez essayer de relancer ce test</string>
   <string name="TestResults_Details_Failed_TryAgain">Réessayer</string>

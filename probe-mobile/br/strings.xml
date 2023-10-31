@@ -29,7 +29,7 @@
   <string name="Onboarding_Crash_Paragraph">To improve OONI Probe we would like to collect anonymous crash reports when the app does not work properly.\n\nWould you like to opt-in to submitting crash reports to the OONI development team?</string>
   <string name="Onboarding_Crash_Button_Yes">Ya</string>
   <string name="Onboarding_Crash_Button_No">Ket</string>
-  <string name="Onboarding_DefaultSettings_Title">Default Settings</string>
+  <string name="Onboarding_DefaultSettings_Title">Arventennoù dre ziouer</string>
   <string name="Onboarding_DefaultSettings_Header">We collect and publish:</string>
   <string name="Onboarding_DefaultSettings_Bullet_1">Country code (e.g. IT for Italy)</string>
   <string name="Onboarding_DefaultSettings_Bullet_2">Network information (including Autonomous System Number)</string>
@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Run new experimental tests</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -124,7 +125,7 @@
   <string name="TestResults_Summary_Websites_Hero_Tested_Plural">Tested</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Singular">Blocked</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Plural">Blocked</string>
-  <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Website</string>
+  <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Lec\'hienn web</string>
   <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Websites</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Singular">Accessible</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Accessible</string>
@@ -248,7 +249,7 @@
   <string name="TestResults_Details_Circumvention_Tor_DirectoryAuthorities_Label_Title">Directory Authorities</string>
   <string name="TestResults_Details_Circumvention_Tor_DirectoryAuthorities_Label_OK">%1$s/%2$s OK</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Name">Anv</string>
-  <string name="TestResults_Details_Circumvention_Tor_Table_Header_Address">Address</string>
+  <string name="TestResults_Details_Circumvention_Tor_Table_Header_Address">Chomlec\'h</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Type">Doare</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Connect">Kevreiñ</string>
   <string name="TestResults_Details_Circumvention_Tor_Table_Header_Handshake">Handshake</string>
@@ -396,7 +397,7 @@
   <string name="Settings_Proxy_Custom_Protocol">Custom proxy protocol</string>
   <string name="Settings_Proxy_Custom_Connection">Connection</string>
   <string name="Settings_Proxy_Custom_Hostname">Hostname</string>
-  <string name="Settings_Proxy_Custom_Port">Port</string>
+  <string name="Settings_Proxy_Custom_Port">Porzh</string>
   <string name="Settings_Proxy_Custom_Credentials">Credentials (optional)</string>
   <string name="Settings_Proxy_Custom_Username">Anv-implijer</string>
   <string name="Settings_Proxy_Custom_Password">Ger-tremen</string>

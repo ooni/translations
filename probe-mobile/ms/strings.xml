@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Jalankan ujian eksperimen baru</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -380,7 +381,7 @@
   <string name="Settings_TestOptions_RunLongRunningTests">Run long running tests in foreground?</string>
   <string name="Settings_Privacy_Label">Privasi</string>
   <string name="Settings_Privacy_SendCrashReports">Hantar laporan ranap sistem</string>
-  <string name="Settings_Advanced_Label">Advanced</string>
+  <string name="Settings_Advanced_Label">Lanjutan</string>
   <string name="Settings_DarkMode_Label">Dark Mode</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
   <string name="Settings_Advanced_RecentLogs">See recent logs</string>

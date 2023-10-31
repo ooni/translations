@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Run new experimental tests</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -96,7 +97,7 @@
   <string name="TestResults_Overview_Websites_Blocked_Plural">%1$s blocked</string>
   <string name="TestResults_Overview_Websites_Tested_Singular">%1$s tested</string>
   <string name="TestResults_Overview_Websites_Tested_Plural">%1$s tested</string>
-  <string name="TestResults_Overview_MiddleBoxes_Found">Detected</string>
+  <string name="TestResults_Overview_MiddleBoxes_Found">検出</string>
   <string name="TestResults_Overview_MiddleBoxes_NotFound">Not detected</string>
   <string name="TestResults_Overview_MiddleBoxes_Failed">失敗しました</string>
   <string name="TestResults_Overview_InstantMessaging_Blocked_Singular">%1$s blocked</string>
@@ -133,7 +134,7 @@
   <string name="TestResults_Summary_Performance_Hero_Upload">アップロード</string>
   <string name="TestResults_Summary_Performance_Hero_Download">ダウンロード</string>
   <string name="TestResults_Summary_Performance_Hero_Ping">Ping</string>
-  <string name="TestResults_Summary_Middleboxes_Hero_Found">Detected</string>
+  <string name="TestResults_Summary_Middleboxes_Hero_Found">検出</string>
   <string name="TestResults_Summary_Middleboxes_Hero_NotFound">Not detected</string>
   <string name="TestResults_Summary_Middleboxes_Hero_Failed">失敗しました</string>
   <string name="TestResults_Summary_InstantMessaging_Hero_Tested_Singular">Tested</string>
