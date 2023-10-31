@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Run new experimental tests</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -112,7 +113,7 @@
   <string name="TestResults_Summary_ErrorInMeasurement">Error in Measurement</string>
   <string name="TestResults_Summary_NoUploaded">Results not uploaded</string>
   <string name="TestResults_Summary_Hero_DateAndTime">Date &amp; Time</string>
-  <string name="TestResults_Summary_Hero_Network">Network</string>
+  <string name="TestResults_Summary_Hero_Network">网络</string>
   <string name="TestResults_Summary_Hero_Country">國家／地區</string>
   <string name="TestResults_Summary_Hero_DataUsage">Data Usage</string>
   <string name="TestResults_Summary_Hero_Runtime">Total Runtime</string>
@@ -380,7 +381,7 @@
   <string name="Settings_TestOptions_RunLongRunningTests">Run long running tests in foreground?</string>
   <string name="Settings_Privacy_Label">隱私政策</string>
   <string name="Settings_Privacy_SendCrashReports">Send crash reports</string>
-  <string name="Settings_Advanced_Label">Advanced</string>
+  <string name="Settings_Advanced_Label">高级</string>
   <string name="Settings_DarkMode_Label">黑暗模式</string>
   <string name="Settings_Advanced_DebugLogs">Debug logs</string>
   <string name="Settings_Advanced_RecentLogs">See recent logs</string>

@@ -9,7 +9,7 @@
   <string name="Onboarding_ThingsToKnow_Bullet_2">Anyone monitoring your internet activity (e.g. government or ISP) will see that you are running OONI Probe.</string>
   <string name="Onboarding_ThingsToKnow_Bullet_3">You might test banned websites (but you can choose which sites to test).</string>
   <string name="Onboarding_ThingsToKnow_Button">I understand</string>
-  <string name="Onboarding_ThingsToKnow_LearnMore">Learn more</string>
+  <string name="Onboarding_ThingsToKnow_LearnMore">Saznajte više</string>
   <string name="Onboarding_PopQuiz_Title">Pop Quiz</string>
   <string name="Onboarding_PopQuiz_True">Istinito</string>
   <string name="Onboarding_PopQuiz_False">Lažno</string>
@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Run new experimental tests</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -124,7 +125,7 @@
   <string name="TestResults_Summary_Websites_Hero_Tested_Plural">Tested</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Singular">Blocked</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Plural">Blocked</string>
-  <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Website</string>
+  <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Web stranica</string>
   <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Websites</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Singular">Accessible</string>
   <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Accessible</string>
@@ -350,7 +351,7 @@
   <string name="Settings_Error_TestDurationTooLow">The amount of time you have set for the test duration is too low.</string>
   <string name="Settings_About_Label">About OONI</string>
   <string name="Settings_About_Content_Paragraph">The Open Observatory of Network Interference (OONI) is a free software project under The Tor Project that aims to increase transparency of internet censorship around the world.\n\nSince 2012, OONI\'s global community has been measuring networks in more than 200 countries. Some of these measurements serve as evidence of internet censorship.</string>
-  <string name="Settings_About_Content_LearnMore">Learn more</string>
+  <string name="Settings_About_Content_LearnMore">Saznajte više</string>
   <string name="Settings_About_Content_Blog">Blog</string>
   <string name="Settings_About_Content_Reports">Izvještaji</string>
   <string name="Settings_About_Content_DataPolicy">OONI Data Policy</string>

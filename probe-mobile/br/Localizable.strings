@@ -27,7 +27,7 @@
 "Onboarding.Crash.Paragraph" = "To improve OONI Probe we would like to collect anonymous crash reports when the app does not work properly.\n\nWould you like to opt-in to submitting crash reports to the OONI development team?";
 "Onboarding.Crash.Button.Yes" = "Ya";
 "Onboarding.Crash.Button.No" = "Ket";
-"Onboarding.DefaultSettings.Title" = "Default Settings";
+"Onboarding.DefaultSettings.Title" = "Arventennoù dre ziouer";
 "Onboarding.DefaultSettings.Header" = "We collect and publish:";
 "Onboarding.DefaultSettings.Bullet.1" = "Country code (e.g. IT for Italy)";
 "Onboarding.DefaultSettings.Bullet.2" = "Network information (including Autonomous System Number)";
@@ -70,6 +70,7 @@
 "Dashboard.Experimental.Card.Description" = "Run new experimental tests";
 "Dashboard.Experimental.Overview.Paragraph" = "Run the following new experimental tests developed by the OONI team:\n%@\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).";
 "Dashboard.Experimental.Overview.Paragraph.AutomatedTesting" = "The following tests will only be run as part of automated testing:";
+"Dashboard.DisabledTests.Label" = "Disabled Tests";
 "TestResults.Gbps" = "Gbit/s";
 "TestResults.Mbps" = "Mbit/s";
 "TestResults.Kbps" = "kbit/s";
@@ -122,7 +123,7 @@
 "TestResults.Summary.Websites.Hero.Tested.Plural" = "Tested";
 "TestResults.Summary.Websites.Hero.Blocked.Singular" = "Blocked";
 "TestResults.Summary.Websites.Hero.Blocked.Plural" = "Blocked";
-"TestResults.Summary.Websites.Hero.Sites.Singular" = "Website";
+"TestResults.Summary.Websites.Hero.Sites.Singular" = "Lec'hienn web";
 "TestResults.Summary.Websites.Hero.Sites.Plural" = "Websites";
 "TestResults.Summary.Websites.Hero.Reachable.Singular" = "Accessible";
 "TestResults.Summary.Websites.Hero.Reachable.Plural" = "Accessible";
@@ -246,7 +247,7 @@
 "TestResults.Details.Circumvention.Tor.DirectoryAuthorities.Label.Title" = "Directory Authorities";
 "TestResults.Details.Circumvention.Tor.DirectoryAuthorities.Label.OK" = "%@/%@ OK";
 "TestResults.Details.Circumvention.Tor.Table.Header.Name" = "Anv";
-"TestResults.Details.Circumvention.Tor.Table.Header.Address" = "Address";
+"TestResults.Details.Circumvention.Tor.Table.Header.Address" = "Chomlec'h";
 "TestResults.Details.Circumvention.Tor.Table.Header.Type" = "Doare";
 "TestResults.Details.Circumvention.Tor.Table.Header.Connect" = "Kevreiñ";
 "TestResults.Details.Circumvention.Tor.Table.Header.Handshake" = "Handshake";
@@ -394,7 +395,7 @@
 "Settings.Proxy.Custom.Protocol" = "Custom proxy protocol";
 "Settings.Proxy.Custom.Connection" = "Connection";
 "Settings.Proxy.Custom.Hostname" = "Hostname";
-"Settings.Proxy.Custom.Port" = "Port";
+"Settings.Proxy.Custom.Port" = "Porzh";
 "Settings.Proxy.Custom.Credentials" = "Credentials (optional)";
 "Settings.Proxy.Custom.Username" = "Anv-implijer";
 "Settings.Proxy.Custom.Password" = "Ger-tremen";

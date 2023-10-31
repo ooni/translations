@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Run new experimental tests</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -85,7 +86,7 @@
   <string name="TestResults_Overview_Hero_DataUsage">Prenešeno</string>
   <string name="TestResults_Overview_FilterTests">Izberite teste</string>
   <string name="TestResults_Overview_FilterTests_AllTests">Vsi testi</string>
-  <string name="TestResults_Overview_FilterTests_Websites">Websites</string>
+  <string name="TestResults_Overview_FilterTests_Websites">Spletne strani</string>
   <string name="TestResults_Overview_FilterTests_MiddleBoxes">Middleboxes</string>
   <string name="TestResults_Overview_FilterTests_Performance">Performance</string>
   <string name="TestResults_Overview_FilterTests_InstantMessaging">Instant Messaging</string>
@@ -125,9 +126,9 @@
   <string name="TestResults_Summary_Websites_Hero_Blocked_Singular">Blokirani</string>
   <string name="TestResults_Summary_Websites_Hero_Blocked_Plural">Blokirani</string>
   <string name="TestResults_Summary_Websites_Hero_Sites_Singular">Omrežna mesta</string>
-  <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Websites</string>
-  <string name="TestResults_Summary_Websites_Hero_Reachable_Singular">Accessible</string>
-  <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Accessible</string>
+  <string name="TestResults_Summary_Websites_Hero_Sites_Plural">Spletne strani</string>
+  <string name="TestResults_Summary_Websites_Hero_Reachable_Singular">Dostopno</string>
+  <string name="TestResults_Summary_Websites_Hero_Reachable_Plural">Dostopno</string>
   <string name="TestResults_Summary_Performance_Hero_Video">Video</string>
   <string name="TestResults_Summary_Performance_Hero_Video_Quality">Quality</string>
   <string name="TestResults_Summary_Performance_Hero_Upload">Naloži</string>
@@ -140,8 +141,8 @@
   <string name="TestResults_Summary_InstantMessaging_Hero_Tested_Plural">Tested</string>
   <string name="TestResults_Summary_InstantMessaging_Hero_Blocked_Singular">Blokirani</string>
   <string name="TestResults_Summary_InstantMessaging_Hero_Blocked_Plural">Blokirani</string>
-  <string name="TestResults_Summary_InstantMessaging_Hero_Reachable_Singular">Accessible</string>
-  <string name="TestResults_Summary_InstantMessaging_Hero_Reachable_Plural">Accessible</string>
+  <string name="TestResults_Summary_InstantMessaging_Hero_Reachable_Singular">Dostopno</string>
+  <string name="TestResults_Summary_InstantMessaging_Hero_Reachable_Plural">Dostopno</string>
   <string name="TestResults_Summary_InstantMessaging_Hero_Apps_Singular">App</string>
   <string name="TestResults_Summary_InstantMessaging_Hero_Apps_Plural">Aplikacije</string>
   <string name="TestResults_Summary_Circumvention_Hero_Tested_Singular">Tested</string>
@@ -164,7 +165,7 @@
   <string name="TestResults_Details_Failed_Paragraph">You can try to run this test again</string>
   <string name="TestResults_Details_Failed_TryAgain">Try Again</string>
   <string name="TestResults_Details_Methodology_Paragraph">Learn how this test works [here](%1$s).</string>
-  <string name="TestResults_Details_Websites_Reachable_Hero_Title">Accessible</string>
+  <string name="TestResults_Details_Websites_Reachable_Hero_Title">Dostopno</string>
   <string name="TestResults_Details_Websites_Reachable_Content_Paragraph">%1$s is accessible.</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Hero_Title">Likely blocked</string>
   <string name="TestResults_Details_Websites_LikelyBlocked_Content_Paragraph">%1$s is likely blocked by means of %2$s.\n\nNote: False positives can occur. Learn more [here](https://ooni.org/support/faq/#what-are-false-positives).</string>
@@ -328,7 +329,7 @@
   <string name="Snackbar_ResultsNotUploaded_Upload">Naloži</string>
   <string name="Snackbar_ResultsSomeNotUploaded_Text">Some not uploaded</string>
   <string name="Snackbar_ResultsSomeNotUploaded_UploadAll">Upload All</string>
-  <string name="Test_Websites_Fullname">Websites</string>
+  <string name="Test_Websites_Fullname">Spletne strani</string>
   <string name="Test_InstantMessaging_Fullname">Instant Messaging</string>
   <string name="Test_Middleboxes_Fullname">Middleboxes</string>
   <string name="Test_Performance_Fullname">Performance</string>

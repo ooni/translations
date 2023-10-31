@@ -72,6 +72,7 @@
   <string name="Dashboard_Experimental_Card_Description">Run new experimental tests</string>
   <string name="Dashboard_Experimental_Overview_Paragraph">Run the following new experimental tests developed by the OONI team:\n%1$s\n\nYour results will be published on [OONI Explorer](https://explorer.ooni.org/) and [OONI API](https://api.ooni.io/).</string>
   <string name="Dashboard_Experimental_Overview_Paragraph_AutomatedTesting">The following tests will only be run as part of automated testing:</string>
+  <string name="Dashboard_DisabledTests_Label">Disabled Tests</string>
   <string name="TestResults_Gbps">Gbit/s</string>
   <string name="TestResults_Mbps">Mbit/s</string>
   <string name="TestResults_Kbps">kbit/s</string>
@@ -132,7 +133,7 @@
   <string name="TestResults_Summary_Performance_Hero_Video_Quality">Quality</string>
   <string name="TestResults_Summary_Performance_Hero_Upload">Вивантажити</string>
   <string name="TestResults_Summary_Performance_Hero_Download">Завантажити</string>
-  <string name="TestResults_Summary_Performance_Hero_Ping">Ping</string>
+  <string name="TestResults_Summary_Performance_Hero_Ping">Пінг</string>
   <string name="TestResults_Summary_Middleboxes_Hero_Found">Detected</string>
   <string name="TestResults_Summary_Middleboxes_Hero_NotFound">Not detected</string>
   <string name="TestResults_Summary_Middleboxes_Hero_Failed">Невдало</string>
@@ -222,7 +223,7 @@
   <string name="TestResults_Details_Middleboxes_HTTPInvalidRequestLine_YouReceived">You Received</string>
   <string name="TestResults_Details_Performance_NDT_Upload">Вивантажити</string>
   <string name="TestResults_Details_Performance_NDT_Download">Завантажити</string>
-  <string name="TestResults_Details_Performance_NDT_Ping">Ping</string>
+  <string name="TestResults_Details_Performance_NDT_Ping">Пінг</string>
   <string name="TestResults_Details_Performance_NDT_Server">Сервер</string>
   <string name="TestResults_Details_Performance_NDT_PacketLoss">Retransmission Rate</string>
   <string name="TestResults_Details_Performance_NDT_OutOfOrder">Out of Order</string>
