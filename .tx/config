@@ -19,6 +19,12 @@ source_file = probe-mobile/en/description.xlf
 source_lang = en
 type = XLIFF
 
+[o:otf:p:dw-news-media-scan:r:description]
+file_filter = news-media-scan/<lang>/description.xlf
+source_file = news-media-scan/en/description.xlf
+source_lang = en
+type = XLIFF
+
 [o:otf:p:ooni-explorer:r:website]
 file_filter = explorer/<lang>/strings.json
 source_file = explorer/en/strings.json
