@@ -24,3 +24,9 @@ file_filter = run/<lang>/strings.json
 source_file = run/en/strings.json
 source_lang = en
 type = KEYVALUEJSON
+
+[o:otf:p:ooni-test-lists-editor:r:website]
+file_filter = test-lists-editor/<lang>/strings.json
+source_file = test-lists-editor/en/strings.json
+source_lang = en
+type = KEYVALUEJSON
