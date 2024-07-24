@@ -48,9 +48,9 @@ screenshots_tmpl = u"""
 """
 keywords_tmpl = u"{keywords}"
 
-def get_ids(lang_code='en'):
+def get_ids(lang_code='en', app_variant='probe-mobile'):
     ids = {}
-    dom = md.parse('probe-mobile/{lang_code}/description.xlf'.format(lang_code=lang_code))
+    dom = md.parse('{app_variant}/{lang_code}/description.xlf'.format(lang_code=lang_code, app_variant=app_variant))
     units = dom.getElementsByTagName('trans-unit')
     for unit in units:
         unit_id = unit.getAttribute('id')
@@ -73,8 +73,8 @@ def print_frmt(name, value):
     print(value)
     print("\n\n")
 
-def print_tmpls(lang_code='en'):
-    ids = get_ids(lang_code)
+def print_tmpls(lang_code='en', app_variant='probe-mobile'):
+    ids = get_ids(lang_code, app_variant)
 
     title = title_tmpl.format(**ids)
     print_frmt("Title", title)
@@ -82,23 +82,30 @@ def print_tmpls(lang_code='en'):
     short_description = short_description_tmpl.format(**ids)
     print_frmt("Short description", short_description)
 
-    full_description = full_description_tmpl.format(**ids)
-    print_frmt("Full description", full_description)
+    if app_variant == 'probe-mobile':
+        full_description = full_description_tmpl.format(**ids)
+        print_frmt("Full description", full_description)
 
-    screenshots = screenshots_tmpl.format(**ids)
-    print_frmt("Screenshots", screenshots)
+        screenshots = screenshots_tmpl.format(**ids)
+        print_frmt("Screenshots", screenshots)
+
+    elif app_variant == 'news-media-scan':
+        full_description = u"{fulldescription}".format(**ids)
+        print_frmt("Full description", full_description)
 
     keywords = keywords_tmpl.format(**ids)
     print_frmt("Keywords", keywords)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: %s [lang_code]" % sys.argv[0])
+    if len(sys.argv) != 3:
+        print("Usage: %s [lang_code]  [app_variant]" % sys.argv[0])
         sys.exit(1)
-    if not os.path.exists(os.path.join("probe-mobile/en/description.xlf")):
+    if not os.path.exists(os.path.join("{appVariant}/en/description.xlf".format(appVariant=sys.argv[2]))):
         print("ERROR")
         print("This script must be run from the root of the repository")
         sys.exit(1)
 
     target = sys.argv[1]
-    print_tmpls(target)
+    app_variant = sys.argv[2]
+
+    print_tmpls(target, app_variant)
