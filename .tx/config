@@ -7,9 +7,21 @@ source_file = probe-mobile/en/strings.json
 source_lang = en
 type = KEYVALUEJSON
 
+[o:otf:p:dw-news-media-scan:r:strings-json]
+file_filter = news-media-scan/<lang>/strings.json
+source_file = news-media-scan/en/strings.json
+source_lang = en
+type = KEYVALUEJSON
+
 [o:otf:p:ooniprobe:r:description]
 file_filter = probe-mobile/<lang>/description.xlf
 source_file = probe-mobile/en/description.xlf
+source_lang = en
+type = XLIFF
+
+[o:otf:p:dw-news-media-scan:r:description]
+file_filter = news-media-scan/<lang>/description.xlf
+source_file = news-media-scan/en/description.xlf
 source_lang = en
 type = XLIFF
 
