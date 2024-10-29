@@ -87,33 +87,42 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
+        <target>Zonse zimene OONI Probe imakgwilitsa ntchito pakupima  (kuphatikizapo NDT komanso DASH), zigwilitsa ntchito sofitiweya yaulele komanso nditopezekela aliyense. mungathe kupeza sofitiweya ya OONI pa GitHub: https://github.com/ooni. Mukufuna kudziwa zambili zammene OONI Probe amagwilila ntchito? Pezani zambili pa: https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
+        <target>Kuti mulandile nkhani ndi zina zofunikila zatsopano kuchokela ku OONI-verse, tsatilani tsamba lathu la Twitter: https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
+        <target>Zindikilani makhetha pa intaneti ndikupima/kuyesa liwilio ndi kagwilidwe ntchito ka netiweki yanu </target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
+        <target>Bweletsani poyela umboni wa makhetha a intantaneti</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
+        <target>Pimani/yesani liwilo ndi zina zokhudza netiweki mwaukadaulo.</target>
       </trans-unit>
       <trans-unit id="screenshot4">
         <source>Easily discover which websites are blocked on your network</source>
+        <target>Dziwani mosavuta ma webusaiti amene aletsedwa pa netiweki yanu</target>
       </trans-unit>
       <trans-unit id="screenshot5">
         <source>Testing your network is fun with a friendly octopus!</source>
+        <target>Kupima netiweki yanu mkosangalatsa ndi bwenzi okutopasi!</target>
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
+        <target>Open Observatory of Network Interference (OONI) ndi gulu ladziko lonse lotsatila mwachidwi makhetha a intaneti ndi njila zina zolowelela pakagwilidwe ntchito ka netiweki maiko onse.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
+        <target>netiweki,kuyesa liwilo,muyeso,konde,waifayi,kulumikizana,kuunika,mtolo,thandala,dns,zoyendanazo,kafukufuku,chipangizo</target>
       </trans-unit>
     </body>
   </file>

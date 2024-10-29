@@ -11,75 +11,75 @@
       </trans-unit>
       <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
         <source>Measure Internet Censorship, Speed &amp; Performance</source>
-        <target>Mengukur Sensor, Kecepatan &amp; Performa Internet</target>
+        <target>Ukur Sensor, Kecepatan &amp; Performa Internet</target>
         <note from="developer">This is limited by Google to 80 characters</note>
       </trans-unit>
       <trans-unit id="title-ios" maxwidth="50" size-unit="char">
           <source>OONI Probe - Measure Internet Censorship &amp; Speed</source>
-          <target>OONI Probe - Mengukur Sensor dan Laju Internet</target>
+          <target>OONI Probe - Ukur Sensor dan Kecepatan Internet</target>
           <note from="developer">This is limited by Apple to 50 characters</note>
       </trans-unit>
       <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
         <source>Measure Internet Censorship</source>
-        <target>Mengukur Penyensoran Internet</target>
+        <target>Ukur Sensor Internet</target>
         <note from="developer">This is limited by Apple to 30 characters</note>
       </trans-unit>
       <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
         <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
-        <target>Mengumpulkan bukti penyensoran Internet. Mengukur kecepatan dan kinerja koneksi Anda.</target>
+        <target>Kumpulkan bukti sensor Internet. Ukur kecepatan dan kinerja jaringan Anda.</target>
         <note from="developer">This is limited by Apple to 170 characters</note>
       </trans-unit>
       <trans-unit id="intro">
         <source>Are websites and social media apps blocked? Is your network unusually slow? Run OONI Probe to find out!</source>
-        <target>Apakah websites dan aplikasi media sosial diblok? Apakah jaringanmu tidak biasanya lambat? Jalankan OONI Probe untuk mencari tahu!</target>
+        <target>Apakah situs web dan aplikasi media sosial diblokir? Apakah jaringanmu menjadi lambat tidak seperti biasanya? Jalankan OONI Probe untuk mencari tahu!</target>
       </trans-unit>
       <trans-unit id="intro2">
         <source>With this app, you will examine the blocking of websites and instant messaging apps, measure your network's speed and performance, and check whether systems that could be responsible for censorship and surveillance are in your network.</source>
-        <target>Dengan aplikasi ini, Anda akan menguji blokir situs dan aplikasi pesan ringkas, mengukur kecepatan dan kinerja jaringan Anda, serta memeriksa apakah sistem yang mungkin bertanggungjawab dalam penyensoran dan pengawasan ada dalam jaringan Anda.</target>
+        <target>Dengan aplikasi ini, Anda akan memeriksa pemblokiran situs web dan aplikasi perpesanan instan, mengukur kecepatan dan kinerja jaringan Anda, serta memeriksa apakah sistem yang mungkin bertanggung jawab dalam sensor dan pengawasan ada dalam jaringan Anda.</target>
       </trans-unit>
       <trans-unit id="intro3">
         <source>OONI Probe is developed by the Open Observatory of Network Interference (OONI), a free software project (under The Tor Project) that aims to uncover internet censorship around the world.</source>
-        <target>OONI Probe dikembangkan oleh Open Observatory of Network Interference (OONI), sebuah proyek perangkat lunak gratis (di bawah The Tor Project) dengan tujuan untuk membuka penyensoran internet di seluruh dunia.</target>
+        <target>OONI Probe dikembangkan oleh Open Observatory of Network Interference (OONI), sebuah proyek perangkat lunak gratis (di bawah Tor Project) yang bertujuan untuk mengungkap sensor internet di seluruh dunia.</target>
       </trans-unit>
       <trans-unit id="intro4">
         <source>Since 2012, OONI’s global community has collected millions of network measurements from more than 200 countries, shedding light on multiple cases of network interference.</source>
-        <target>Sejak 2012, komunitas global OONI telah mengumpulkan jutaan pengukuran jaringan dari lebih dari 200 negara, menjelaskan berbagai kasus gangguan jaringan.</target>
+        <target>Sejak 2012, komunitas global OONI telah mengumpulkan jutaan pengukuran jaringan dari lebih dari 200 negara, yang mengungkap berbagai kasus gangguan jaringan.</target>
       </trans-unit>
       <trans-unit id="intro5">
         <source>By running OONI Probe, you can help increase transparency of internet censorship.</source>
-        <target>Dengan menjalankan OONI Probe, Anda bisa membantu meningkatkan transparansi dalam penyensoran internet.</target>
+        <target>Dengan menjalankan OONI Probe, Anda bisa membantu meningkatkan transparansi dalam sensor internet.</target>
       </trans-unit>
       <trans-unit id="evidence-title">
         <source>Collect evidence of internet censorship</source>
-        <target>Mengumpulkan bukti terhadap penyensoran internet</target>
+        <target>Kumpulkan bukti terhadap sensor internet</target>
       </trans-unit>
       <trans-unit id="evidence-description">
         <source>You can check whether and how websites and instant messaging apps are blocked. The network measurement data you will collect may serve as evidence of internet censorship.</source>
-        <target>Anda bisa memeriksa apakah dan bagaimana situs dan aplikasi pesan ringkas diblokir. Data pengukuran jaringan yang Anda kumpulkan mungkin susah sebagai bukti penyensoran Internet.</target>
+        <target>Anda dapat memeriksa apakah dan bagaimana situs web serta aplikasi perpesanan instan diblokir. Data pengukuran jaringan yang Anda kumpulkan dapat berfungsi sebagai bukti sensor Internet.</target>
       </trans-unit>
       <trans-unit id="systems-title">
         <source>Detect systems responsible for censorship and surveillance</source>
-        <target>Mendeteksi sistem yang bertanggungjawab terhadap penyensoran dan pengawasan</target>
+        <target>Deteksi sistem yang bertanggung jawab terhadap sensor dan pengawasan</target>
       </trans-unit>
       <trans-unit id="systems-description">
         <source>OONI Probe tests are also designed to uncover the presence of systems (middleboxes) that could be responsible for censorship and surveillance.</source>
-        <target>Pengujian OONI Probe juga didesain untuk membuka adanya sistem (kotaktengah) yang mungkin bertanggungjawab terhadap penyensoran dan pengawasan.</target>
+        <target>Pengetesan OONI Probe juga dirancang untuk mengungkap keberadaan sistem (middlebox) yang bisa jadi bertanggung jawab terhadap sensor dan pengawasan.</target>
       </trans-unit>
       <trans-unit id="speed-title">
         <source>Measure the speed and performance of your network</source>
-        <target>Mengukur kecepatan dan kinerja jaringan Anda</target>
+        <target>Ukur kecepatan dan kinerja jaringan Anda</target>
       </trans-unit>
       <trans-unit id="speed-description">
         <source>You can measure the speed and performance of your network by running OONI's implementation of the Network Diagnostic Test (NDT). You can also measure video streaming performance with the Dynamic Adaptive Streaming over HTTP (DASH) test.</source>
-        <target>Anda bisa mengukur kecepatan dan kinerja jaringan Anda dengan menjalankan penerapan Uji Diagnosis Jaringan (NDT) OONI. Anda juga bisa mengukur kinerja aliran video dengan uji Dynamic Adaptive Streaming over HTTP (DASH).</target>
+        <target>Anda dapat mengukur kecepatan dan kinerja jaringan Anda dengan menjalankan penerapan Network Diagnostic Test (NDT) OONI. Anda juga dapat mengukur kinerja aliran video dengan uji Dynamic Adaptive Streaming over HTTP (DASH).</target>
       </trans-unit>
       <trans-unit id="opendata-title">
         <source>Open data</source>
-        <target>Buka Data</target>
+        <target>Data Terbuka</target>
       </trans-unit>
       <trans-unit id="opendata-description">
         <source>OONI publishes network measurement data because open data allows third parties to verify OONI findings, conduct independent studies, and answer other research questions. Openly publishing OONI data also helps increase transparency of internet censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</source>
-        <target>OONI mempublikasikan data pengukuran karena pembukaan data mengizinkan pihak ketiga untuk memverifikasi temuan OONI, membuat studi independen, dan menjawab pertanyaan penelitian lain. Data OONI yang dipublikasikan secara terbuka juga membantu untuk meningkatkan transparansi penyensoran internet di seluruh dunia. Anda bisa melihat-lihat dan mengunduh data OONI di sini: https://ooni.io/data/</target>
+        <target>OONI memublikasikan data pengukuran jaringan karena data yang terbuka mengizinkan pihak ketiga untuk memverifikasi temuan OONI, melakukan studi independen, serta menjawab pertanyaan penelitian lain. Data OONI yang dipublikasikan secara terbuka juga membantu untuk meningkatkan transparansi sensor internet di seluruh dunia. Anda dapat menjelajahi dan mengunduh data OONI di sini: https://ooni.io/data/</target>
       </trans-unit>
       <trans-unit id="freesoftware-title">
         <source>Free software</source>
@@ -87,26 +87,26 @@
       </trans-unit>
       <trans-unit id="freesoftware-description">
         <source>All OONI Probe tests (including our NDT and DASH implementations), are based on free and open source software. You can find OONI software projects on GitHub: https://github.com/ooni. Curious to learn how OONI Probe tests work? Learn more: https://ooni.io/nettest/</source>
-        <target>Semua pengujian OONI Probe (termasuk NDT dan DASH) menggunakan perangkat lunak gratis dan sumber terbuka. Anda bisa menemukan proyek perangkat lunak OONI di GitHub: https://github.com/ooni. Tertarik belajar bagaimana pengujian OONI Probe bekerja? Pelajari lebih lanjut di https://ooni.io/nettest/</target>
+        <target>Semua tes OONI Probe (termasuk implementasi NDT dan DASH) menggunakan perangkat lunak gratis dan sumber terbuka. Anda dapat menemukan proyek perangkat lunak OONI di GitHub: https://github.com/ooni. Tertarik untuk mempelajari cara kerja pengetesan OONI Probe? Pelajari lebih lanjut di: https://ooni.io/nettest/</target>
       </trans-unit>
 
       <trans-unit id="social-links">
         <source>To receive updates from the OONI-verse, follow us on Twitter: https://twitter.com/OpenObservatory</source>
-        <target>Untuk menerima kabar terbaru dari OONI, ikuti kami di Twitter: https://twitter.com/OpenObservatory</target>
+        <target>Untuk menerima kabar terbaru seputar OONI, ikuti kami di Twitter: https://twitter.com/OpenObservatory</target>
       </trans-unit>
 
 
       <trans-unit id="screenshot1">
         <source>Detect internet censorship and test your network's speed and performance</source>
-        <target>Mendeteksi penyensoran internet serta menguji kecepatan dan kinerja jaringan Anda</target>
+        <target>Deteksi sensor internet serta tes kecepatan dan kinerja jaringan Anda</target>
       </trans-unit>
       <trans-unit id="screenshot2">
         <source>Uncover evidence of internet censorship</source>
-        <target>Membuka bukti penyensoran internet</target>
+        <target>Ungkap bukti sensor internet</target>
       </trans-unit>
       <trans-unit id="screenshot3">
         <source>Run a sophisticated network speed and diagnostics test</source>
-        <target>Jalankan tes kecepatan dan diagnosa jaringan secara canggih</target>
+        <target>Jalankan tes kecepatan dan diagnostik jaringan yang canggih</target>
       </trans-unit>
       <trans-unit id="screenshot4">
         <source>Easily discover which websites are blocked on your network</source>
@@ -114,15 +114,15 @@
       </trans-unit>
       <trans-unit id="screenshot5">
         <source>Testing your network is fun with a friendly octopus!</source>
-        <target>Melakukan tes jaringan Anda itu menyenangkan degan gurita yang bersahabat!</target>
+        <target>Mengetes jaringan Anda bersama gurita yang ramah sungguh menyenangkan!</target>
       </trans-unit>
       <trans-unit id="feature-graphic">
         <source>The Open Observatory of Network Interference (OONI) is a global observation network for detecting internet censorship and other forms of network interference around the world.</source>
-        <target>Open Observatory of Network Interference (OONI) merupakan jaringan pemantauan global untuk mendeteksi penyensoran internet dan semua bentuk gangguan jaringan di seluruh dunia.</target>
+        <target>Open Observatory of Network Interference (OONI) merupakan jaringan pemantauan global untuk mendeteksi sensor internet dan segala bentuk gangguan jaringan lainnya di seluruh dunia.</target>
       </trans-unit>
       <trans-unit id="keywords" maxwidth="100">
         <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
-        <target>jaringan,tes kecepatan, pengukuran,net,wifi,jaringan,pemindai,bandwidth,bench,dns,mobile,ooni,riset,alat</target>
+        <target>jaringan,tes kecepatan,pengukuran,net,wifi,jaringan,pemindaian,bandwidth,bench,dns,seluler,ooni,riset,alat</target>
       </trans-unit>
     </body>
   </file>
