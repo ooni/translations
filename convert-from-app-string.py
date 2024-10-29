@@ -55,11 +55,11 @@ def dict_to_android_xml(d, out_path):
             text = text.replace("{experimental_test_list}", "%1$s", 1)
 
         if key == "Settings_Websites_Categories_Description":
-            # replace first `{experimental_test_list}` with `%1$s`
+            # replace first `{Count}` with `%1$s`
             text = text.replace("{Count}", "%1$s", 1)
 
         if key == "Modal_ResultsNotUploaded_Uploading":
-            # replace first `{experimental_test_list}` with `%1$s`
+            # replace first `{testNumber}` with `%1$s`
             text = text.replace("{testNumber}", "%1$s", 1)
 
         if key == "Modal_ReRun_Websites_Title":
@@ -67,13 +67,17 @@ def dict_to_android_xml(d, out_path):
             text = text.replace("{websitesNumber}", "%1$s", 1)
 
         if key == "Modal_UploadFailed_Paragraph":
-            # replace first `{experimental_test_list}` with `%1$s`
+            # replace first `{numberFailed}` with `%1$s` and second `{totalUploads}` with `%2$s`
             text = text.replace("{numberFailed}", "%1$s", 1)
             text = text.replace("{totalUploads}", "%2$s", 1)
 
         if key == "Settings_AutomatedTesting_RunAutomatically_Number":
-            # replace first `{experimental_test_list}` with `%1$s`
+            # replace first `{testsNumber}` with `%1$s`
             text = text.replace("{testsNumber}", "%1$s", 1)
+
+        if key == "Settings_AutomatedTesting_RunAutomatically_DateLast":
+            # replace first `{testDate}` with `%1$s`
+            text = text.replace("{testDate}", "%1$s", 1)
 
         string_element = ET.SubElement(resources, 'string', name=key)
         string_element.text = text
