@@ -44,6 +44,37 @@ def dict_to_android_xml(d, out_path):
         text = text.replace("\n", "\\n")
         text = re.sub(r'([^\\])\'|^\'', '\g<1>\\\'', text)
         text = re.sub(r'([^\\])\"|^\"', '\g<1>\\\"', text)
+        if key == "Dashboard_Runv2_Overview_Description":
+            text = text.replace("\\n\\n%s", "")
+            # replace first `%s` with `%1$s` and second `%s` with `%2$s`
+            text = text.replace("%s", "%1$s", 1)
+            text = text.replace("%s", "%2$s", 1)
+
+        if key == "Dashboard_Experimental_Overview_Paragraph":
+            # replace first `{experimental_test_list}` with `%1$s`
+            text = text.replace("{experimental_test_list}", "%1$s", 1)
+
+        if key == "Settings_Websites_Categories_Description":
+            # replace first `{experimental_test_list}` with `%1$s`
+            text = text.replace("{Count}", "%1$s", 1)
+
+        if key == "Modal_ResultsNotUploaded_Uploading":
+            # replace first `{experimental_test_list}` with `%1$s`
+            text = text.replace("{testNumber}", "%1$s", 1)
+
+        if key == "Modal_ReRun_Websites_Title":
+            # replace first `{experimental_test_list}` with `%1$s`
+            text = text.replace("{websitesNumber}", "%1$s", 1)
+
+        if key == "Modal_UploadFailed_Paragraph":
+            # replace first `{experimental_test_list}` with `%1$s`
+            text = text.replace("{numberFailed}", "%1$s", 1)
+            text = text.replace("{totalUploads}", "%2$s", 1)
+
+        if key == "Settings_AutomatedTesting_RunAutomatically_Number":
+            # replace first `{experimental_test_list}` with `%1$s`
+            text = text.replace("{testsNumber}", "%1$s", 1)
+
         string_element = ET.SubElement(resources, 'string', name=key)
         string_element.text = text
 
