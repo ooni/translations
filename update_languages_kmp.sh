@@ -26,7 +26,7 @@ fi
 
 source supported_languages_mobile.sh $app
 
-# ./update-translations.sh $app
+./update-translations.sh $app
 
 ## We want to avoid copying unrequired strings.
 ## Read `${PROJDIR}/composeApp/src/commonMain/composeResources/values/strings-common.xml` and extract all the keys.

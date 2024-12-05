@@ -38,12 +38,6 @@ def dict_to_android_xml(d, out_path):
 
     for key, text in d.items():
         key = key.replace('.', '_')
-        text = text.replace("&", "&amp;")
-        text = text.replace('"', '\"')
-        text = text.replace("'", "\'")
-        text = text.replace("\n", "\\n")
-        text = re.sub(r'([^\\])\'|^\'', '\g<1>\\\'', text)
-        text = re.sub(r'([^\\])\"|^\"', '\g<1>\\\"', text)
         if key == "Dashboard_Runv2_Overview_Description":
             text = text.replace("\\n\\n%s", "")
             # replace first `%s` with `%1$s` and second `%s` with `%2$s`
@@ -79,10 +73,15 @@ def dict_to_android_xml(d, out_path):
             # replace first `{testDate}` with `%1$s`
             text = text.replace("{testDate}", "%1$s", 1)
 
+        if key == "Modal_EnableNotifications_Paragraph":
+            # replace `OONI Probe` with `News Media Scan`
+            text = text.replace("OONI Probe", "News Media Scan", 1)
+
         string_element = ET.SubElement(resources, 'string', name=key)
         string_element.text = text
 
     tree = ET.ElementTree(resources)
+    ET.indent(tree)
     tree.write(out_path, encoding='utf-8', xml_declaration=True)
 
 def main():
