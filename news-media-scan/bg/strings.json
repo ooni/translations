@@ -1,0 +1,19 @@
+{
+  "General.AppName": "News Media Scan",
+  "Onboarding.WhatIsOONIProbe.Title": "Блокирани ли са новинарските сайтове?",
+  "Onboarding.WhatIsOONIProbe.Paragraph": "Използвайте News Media Scan, за да проверите дали определен сайт е блокиран. Това е най-доброто приложение, което ви осигурява прозрачност на медийния пейзаж, в която и държава да се намирате. Освен това, използвайки приложението, допринасяте за оценяването на цензурата по света. \n\nСписъкът, който виждате в приложението, е публичен, събран от общността в GitHub и не е изготвен от “Дойче Веле”. Той представлява обективен списък с международни и местни новинарски медии.",
+  "Onboarding.ThingsToKnow.Bullet.1": "OONI will openly publish the measurement data you send, along with your network information.",
+  "Onboarding.ThingsToKnow.Bullet.2": "Anyone monitoring your Internet connection will be able to see you are running News Media Scan.",
+  "Onboarding.ThingsToKnow.Bullet.3": "You will be testing news websites that might be banned in the country where you currently find yourself.",
+  "Onboarding.PopQuiz.1.Question": "If someone is monitoring my internet activity, they will see that I am running News Media Scan.",
+  "Onboarding.PopQuiz.1.Wrong.Paragraph": "News Media Scan is not a privacy tool. Anyone monitoring your internet activity will see which software you are running.",
+  "Onboarding.PopQuiz.2.Question": "Every time I run News Media Scan, the network data I collect will automatically get published.",
+  "Onboarding.PopQuiz.2.Wrong.Paragraph": "To increase transparency of internet censorship, the network data of all News Media Scan users is automatically published (unless they opt-out in the settings).",
+  "Onboarding.AutomatedTesting.Paragraph": "To measure internet censorship every day, please enable automated testing so that News Media Scan can run tests periodically.\n\nDon\u2019t worry, we\u2019ll be mindful of battery usage.\n\nYou can disable automated testing from the settings at any time.",
+  "Onboarding.Crash.Paragraph": "To improve News Media Scan we would like to collect anonymous crash reports when the app does not work properly.\n\nWould you like to opt-in to submitting crash reports to the OONI development team?",
+  "Dashboard.Websites.Card.Description": "Checks for blocking of news media websites",
+  "Test.Websites.Fullname": "News Media Websites",
+  "Settings.About.Label": "About News Media Scan",
+  "Settings.About.Content.Paragraph": "Това приложение е създадено съвместно от “Дойче Веле” и OONI. \n\nЗа “Дойче Веле”: Безпристрастна информация за свободни умове - това е обещанието, което “Дойче Веле” дава в своето мото. Независимата медия е международният новинарски канал на Германия, който информира хората по целия свят. “Дойче Веле” има свои програми на 32 различни езика и по този начин свързва хората по света - с телевизионни канали, радио, уебсайтове и социални медии. \n\nЗа OONI: Open Observatory for Network Interference (Отворена обсерватория за мрежови смущения) или OONI е основана през 2012 година като неправителствен безплатен софтуерен проект. Целта ѝ е да  подпомогне децентрализираните усилия за документиране на цензурата в световен мащаб. Благодарение на международната общност на OONI повече от милиард изчисления на мрежовите връзки са били публикувани в над 200 държави, осветлявайки редица случаи на цензура в интернет по света. \n\nСтанете част от движението за свободен интернет като предоставите данните от вашето сърфиране сред новинарските медии. ",
+  "Settings.Proxy.Label": "Backend proxy"
+}

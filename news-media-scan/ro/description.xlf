@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><xliff version="1.2">
+  <file datatype="plaintext" original="source.xlf" source-language="en" target-language="ro">
+    <header>
+      <note from="developer">Google places strick character limits on the various text fields in Google Play. The title is 30 characters, the short description is 80 characters, and the rest of the strings, which all go together in the description, are limited to 4000 characters.</note>
+    </header>
+    <body>
+      <trans-unit id="title-android" maxwidth="30" size-unit="char">
+        <source>News Media Scan</source>
+        <target>News Media Scan</target>
+        <note from="developer">This is limited by Google to 30 characters</note>
+      </trans-unit>
+      <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
+        <source>Uncover the blocking of news media sites in your area.</source>
+        <target>Descoperă siteurile de informații blocate în regiunea ta.</target>
+        <note from="developer">This is limited by Google to 80 characters</note>
+      </trans-unit>
+      <trans-unit id="title-ios" maxwidth="50" size-unit="char">
+          <source>News Media Scan</source>
+          <target>News Media Scan</target>
+          <note from="developer">This is limited by Apple to 50 characters</note>
+      </trans-unit>
+      <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
+        <source>Uncover the blocking of news media sites in your area.</source>
+        <target>Descoperă siteurile de informații blocate în regiunea ta.</target>
+        <note from="developer">This is limited by Apple to 30 characters</note>
+      </trans-unit>
+      <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
+        <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <target>Colectați dovezi de cenzură pe internet. Măsurați viteza și performanța rețelei dvs.</target>
+        <note from="developer">This is limited by Apple to 170 characters</note>
+      </trans-unit>
+      <trans-unit id="fulldescription">
+        <source>Find out if you can reach the news sites you need or if they are blocked \n - News Media Scan by DW provides you with the transparency you need. You will also be making a valuable contribution to the global “Internet Freedom” community by helping uncover censorship around the world. \n This app is the product of close cooperation between Deutsche Welle (DW) and OONI.</source>
+        <target>Descoperă dacă poți accesa siteurile de știri de care ai nevoie sau dacă sunt blocate – News Media Scan de la DW îți oferă transparența de care ai nevoie. Vei contribui astfel semnificativ și la comunitatea globală “Internet Freedom”, ajutând la identificarea cenzurii în lume.
+
+Acest app este produsul unei cooperări strânse între Deutsche Welle (DW) și OONI.
+
+Despre DW: Informații imparțiale pentru minți libere – aceasta este promisiunea DW. Ca o companie media independentă, postul public international al Germaniei informează oamenii din lumea întreagă. Cu programe în 32 de limbi, DW conectează oamenii din toată lumea prin TV, radio, Internet și social media.
+
+Despre OONI: Înființat în 2012, Open Observatory of Network Interference (OONI) este un proiect free software non-profit project care are obiectivul de a ajuta eforturile locale de documentare a cenzurii în lume.</target>
+      </trans-unit>
+      <trans-unit id="keywords" maxwidth="100">
+        <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
+        <target>rețea,test de viteză,măsurare,net,WiFi,de rețea,scanare,lățime de bandă,banc,dns,mobil,ooni,cercetare,instrument</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

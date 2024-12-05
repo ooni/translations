@@ -1,6 +1,5 @@
 import argparse
 import json
-import cgi
 import csv
 import sys
 import re
