@@ -53,6 +53,7 @@ for language in ${SUPPORTED_LANGUAGES[@]};do
             --source ${PROJDIR}/composeApp/src/commonMain/composeResources/values/strings-common.xml \
             --json probe-mobile/${language}/strings.json \
             --destination ${output_file} \
+            --app probe-mobile \
             --lang ${language}
 
         # Common Resources
@@ -62,6 +63,7 @@ for language in ${SUPPORTED_LANGUAGES[@]};do
             --source ${PROJDIR}/composeApp/src/ooniMain/composeResources/values/strings-organization.xml \
             --json probe-mobile/${language}/strings.json \
             --destination ${output_file} \
+            --app probe-mobile \
             --lang ${language}
 
     fi
@@ -81,16 +83,19 @@ for language in ${SUPPORTED_LANGUAGES[@]};do
             --source ${PROJDIR}/composeApp/src/commonMain/composeResources/values/strings-common.xml \
             --json probe-mobile/${language}/strings.json \
             --destination ${output_file} \
+            --app news-media-scan \
             --lang ${language}
 
-        # Common Resources
+        # Organization Resources
         output_file=${output_dir}/strings-organization.xml
 
         python convert-from-app-string.py \
             --source ${PROJDIR}/composeApp/src/dwMain/composeResources/values/strings-organization.xml \
-            --json probe-mobile/${language}/strings.json \
+            --json news-media-scan/${language}/strings.json \
             --destination ${output_file} \
-            --lang ${language}
+            --app news-media-scan \
+            --lang ${language} \
+            --base probe-mobile/${language}/strings.json
     fi
 
 done

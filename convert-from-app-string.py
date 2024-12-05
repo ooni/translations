@@ -12,6 +12,8 @@ def parse_args():
     p.add_argument('--source', metavar='PATH', help='path to multiplatform source', required=True)
     p.add_argument('--destination', metavar='PATH', help='path to multiplatform source', required=True)
     p.add_argument('--json', metavar='PATH', help='path to multiplatform source', required=True)
+    p.add_argument('--app', metavar='STRING', help='app', required=True)
+    p.add_argument('--base', metavar='PATH', help='ooni base json input path', required=False)
     p.add_argument('--lang', metavar='STRING', help='language', required=True)
     opt = p.parse_args()
     return opt
@@ -30,7 +32,8 @@ def load_xml_keys(in_path):
         result[key] = value
     return result
 
-def dict_to_android_xml(d, out_path):
+def dict_to_android_xml(d, out_path, app):
+
     resources = ET.Element('resources')
 
     comment = ET.Comment('This file is generated from https://github.com/ooni/translations. Please do not modify unless you know what youre doing')
@@ -73,7 +76,7 @@ def dict_to_android_xml(d, out_path):
             # replace first `{testDate}` with `%1$s`
             text = text.replace("{testDate}", "%1$s", 1)
 
-        if key == "Modal_EnableNotifications_Paragraph":
+        if app == 'news-media-scan' and key == "Modal_EnableNotifications_Paragraph":
             # replace `OONI Probe` with `News Media Scan`
             text = text.replace("OONI Probe", "News Media Scan", 1)
 
@@ -95,7 +98,15 @@ def main():
         if key in source_keys:
             filtered_data[key] = text
 
-    dict_to_android_xml(filtered_data, opt.destination)
+    if opt.base is not None:
+        base_data = load_json(opt.base)
+
+        for key, text in base_data.items():
+            key = key.replace('.', '_')
+            if key == "Modal_EnableNotifications_Paragraph":
+                filtered_data[key] = text
+
+    dict_to_android_xml(filtered_data, opt.destination, opt.app)
 
 if __name__ == "__main__":
     main()
