@@ -543,7 +543,7 @@
   <string name="Dashboard_Runv2_Overview_UninstallLink">លុបតំណរភ្ជាប់</string>
   <string name="Dashboard_Runv2_Overview_ReviewUpdates">ពិនិត្យមើលបច្ចុប្បន្នភាព</string>
   <string name="Dashboard_Runv2_Overview_PreviousRevisions">ការត្រួតពិនិត្យលើកមុន</string>
-  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">អ្នកអាចដំឡើងតំណរភ្ជាប់បន្ថែមទាល់តែបានតំណរភ្ជាប់ផ្ញើពីម្ចាស់ដើម</string>
+  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">You will be able to install this link again only from the original link sent by the creator. Measurements from this link will be deleted, but will be accessible from explorer.</string>
   <string name="Dashboard_Runv2_Overview_SeeMore">មើលបន្ថែម</string>
   <string name="Dashboard_Runv2_Overview_TestWebsites">តេស្តវែបសាយស្វ័យប្រវត្តិ</string>
   <string name="Dashboard_RunV2_ManualUpdate_Error">កំហុស</string>
@@ -590,9 +590,9 @@
   <string name="Common_Minutes_Other">%1$d minutes</string>
   <string name="Common_Hour_One">%1$d hour</string>
   <string name="Common_Hour_Other">%1$d hours</string>
-  <string name="Common_Hours_Abbreviated">%1$dh</string>
-  <string name="Common_Minutes_Abbreviated">%1$dm</string>
-  <string name="Common_Seconds_Abbreviated">%1$ds</string>
+  <string name="Common_Hours_Abbreviated">%1$d h</string>
+  <string name="Common_Minutes_Abbreviated">%1$d m</string>
+  <string name="Common_Seconds_Abbreviated">%1$d s</string>
   <string name="Common_Months_January">January</string>
   <string name="Common_Months_February">February</string>
   <string name="Common_Months_March">March</string>

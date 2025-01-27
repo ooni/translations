@@ -590,9 +590,9 @@
   <string name="Common_Minutes_Other">%1$d minutes</string>
   <string name="Common_Hour_One">%1$d hour</string>
   <string name="Common_Hour_Other">%1$d hours</string>
-  <string name="Common_Hours_Abbreviated">%1$dh</string>
-  <string name="Common_Minutes_Abbreviated">%1$dm</string>
-  <string name="Common_Seconds_Abbreviated">%1$ds</string>
+  <string name="Common_Hours_Abbreviated">%1$d h</string>
+  <string name="Common_Minutes_Abbreviated">%1$d m</string>
+  <string name="Common_Seconds_Abbreviated">%1$d s</string>
   <string name="Common_Months_January">styczeń</string>
   <string name="Common_Months_February">luty</string>
   <string name="Common_Months_March">marzec</string>

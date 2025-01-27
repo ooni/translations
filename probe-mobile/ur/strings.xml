@@ -454,7 +454,7 @@
   <string name="Notification_FinishedRunning">Finished running</string>
   <string name="Notification_StopTest">Stop test</string>
   <string name="OONIBrowser_TryMirror">Try mirror</string>
-  <string name="OONIBrowser_Loading">Loading...</string>
+  <string name="OONIBrowser_Loading">لوڈ ہو رہا ہے</string>
   <string name="OONIBrowser_Error">An unexpected error occurred. Please reload this page.</string>
   <string name="OONIRun_YouAreAboutToRun">You are about to run an OONI Probe test.</string>
   <string name="OONIRun_URLs">%1$s URLs</string>
@@ -543,7 +543,7 @@
   <string name="Dashboard_Runv2_Overview_UninstallLink">Uninstall Link</string>
   <string name="Dashboard_Runv2_Overview_ReviewUpdates">Review Updates</string>
   <string name="Dashboard_Runv2_Overview_PreviousRevisions">Previous revisions</string>
-  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">You will be able to install this link again only from the original link sent by the creator.</string>
+  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">You will be able to install this link again only from the original link sent by the creator. Measurements from this link will be deleted, but will be accessible from explorer.</string>
   <string name="Dashboard_Runv2_Overview_SeeMore">See More</string>
   <string name="Dashboard_Runv2_Overview_TestWebsites">Test websites automatically</string>
   <string name="Dashboard_RunV2_ManualUpdate_Error">خرابی</string>
@@ -590,9 +590,9 @@
   <string name="Common_Minutes_Other">%1$d minutes</string>
   <string name="Common_Hour_One">%1$d hour</string>
   <string name="Common_Hour_Other">%1$d hours</string>
-  <string name="Common_Hours_Abbreviated">%1$dh</string>
-  <string name="Common_Minutes_Abbreviated">%1$dm</string>
-  <string name="Common_Seconds_Abbreviated">%1$ds</string>
+  <string name="Common_Hours_Abbreviated">%1$d h</string>
+  <string name="Common_Minutes_Abbreviated">%1$d m</string>
+  <string name="Common_Seconds_Abbreviated">%1$d s</string>
   <string name="Common_Months_January">January</string>
   <string name="Common_Months_February">February</string>
   <string name="Common_Months_March">March</string>

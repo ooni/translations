@@ -541,7 +541,7 @@
 "Dashboard.Runv2.Overview.UninstallLink" = "Sanidua Kiungo";
 "Dashboard.Runv2.Overview.ReviewUpdates" = "Kagua Sasisho";
 "Dashboard.Runv2.Overview.PreviousRevisions" = "Marekebisho ya awali";
-"Dashboard.Runv2.Overview.Uninstall.Prompt" = "Utaweza kusakinisha kiungo hiki tena kutoka kwa kiungo asili kilichotumwa na mtayarishi pekee.";
+"Dashboard.Runv2.Overview.Uninstall.Prompt" = "You will be able to install this link again only from the original link sent by the creator. Measurements from this link will be deleted, but will be accessible from explorer.";
 "Dashboard.Runv2.Overview.SeeMore" = "Tazama Zaidi";
 "Dashboard.Runv2.Overview.TestWebsites" = "Jaribu tovuti kiotomatiki";
 "Dashboard.RunV2.ManualUpdate.Error" = "Hitilafu";
@@ -588,9 +588,9 @@
 "Common_Minutes_Other" = "%1$d minutes";
 "Common_Hour_One" = "%1$d hour";
 "Common_Hour_Other" = "%1$d hours";
-"Common_Hours_Abbreviated" = "%1$dh";
-"Common_Minutes_Abbreviated" = "%1$dm";
-"Common_Seconds_Abbreviated" = "%1$ds";
+"Common_Hours_Abbreviated" = "%1$d h";
+"Common_Minutes_Abbreviated" = "%1$d m";
+"Common_Seconds_Abbreviated" = "%1$d s";
 "Common_Months_January" = "January";
 "Common_Months_February" = "February";
 "Common_Months_March" = "March";
