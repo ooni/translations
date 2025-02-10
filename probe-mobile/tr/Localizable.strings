@@ -541,7 +541,7 @@
 "Dashboard.Runv2.Overview.UninstallLink" = "Kaldırma bağlantısı";
 "Dashboard.Runv2.Overview.ReviewUpdates" = "Güncellemeleri değerlendirin";
 "Dashboard.Runv2.Overview.PreviousRevisions" = "Önceki değişiklikler";
-"Dashboard.Runv2.Overview.Uninstall.Prompt" = "You will be able to install this link again only from the original link sent by the creator. Measurements from this link will be deleted, but will be accessible from explorer.";
+"Dashboard.Runv2.Overview.Uninstall.Prompt" = "Bu bağlantıyı yalnızca geliştiricisinin gönderdiği özgün bağlantıdan yeniden kurabilirsiniz. Bu bağlantıdaki ölçümler silinecek, ancak Explorer üzerinden erişilebilecek.";
 "Dashboard.Runv2.Overview.SeeMore" = "Ayrıntıları görüntüle";
 "Dashboard.Runv2.Overview.TestWebsites" = "Siteler otomatik olarak sınansın";
 "Dashboard.RunV2.ManualUpdate.Error" = "Hata";

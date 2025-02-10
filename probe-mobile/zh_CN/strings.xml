@@ -543,7 +543,7 @@
   <string name="Dashboard_Runv2_Overview_UninstallLink">卸载链接</string>
   <string name="Dashboard_Runv2_Overview_ReviewUpdates">查看更新</string>
   <string name="Dashboard_Runv2_Overview_PreviousRevisions">先前更改</string>
-  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">You will be able to install this link again only from the original link sent by the creator. Measurements from this link will be deleted, but will be accessible from explorer.</string>
+  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">你将只能从由创建者发送的原始链接那里再次安装此链接。来自此链接的测量数据将被删除，但仍可从 explorer 处访问。</string>
   <string name="Dashboard_Runv2_Overview_SeeMore">查看更多</string>
   <string name="Dashboard_Runv2_Overview_TestWebsites">自动测试网站</string>
   <string name="Dashboard_RunV2_ManualUpdate_Error">错误</string>

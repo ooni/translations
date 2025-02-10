@@ -541,7 +541,7 @@
 "Dashboard.Runv2.Overview.UninstallLink" = "Désinstaller le lien";
 "Dashboard.Runv2.Overview.ReviewUpdates" = "Mise à jour des révisions";
 "Dashboard.Runv2.Overview.PreviousRevisions" = "Révisions précédentes";
-"Dashboard.Runv2.Overview.Uninstall.Prompt" = "You will be able to install this link again only from the original link sent by the creator. Measurements from this link will be deleted, but will be accessible from explorer.";
+"Dashboard.Runv2.Overview.Uninstall.Prompt" = "Vous ne pourrez réinstaller ce lien qu’à partir du lien original envoyé par la personne qui l’a créé. Les mesures de ce lien seront supprimées, mais seront accessibles dans l'explorateur.";
 "Dashboard.Runv2.Overview.SeeMore" = "Afficher plus";
 "Dashboard.Runv2.Overview.TestWebsites" = "Tester les sites Web automatiquement";
 "Dashboard.RunV2.ManualUpdate.Error" = "Erreur";

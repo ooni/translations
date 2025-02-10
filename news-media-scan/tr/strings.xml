@@ -543,7 +543,7 @@
   <string name="Dashboard_Runv2_Overview_UninstallLink">Kaldırma bağlantısı</string>
   <string name="Dashboard_Runv2_Overview_ReviewUpdates">Güncellemeleri değerlendirin</string>
   <string name="Dashboard_Runv2_Overview_PreviousRevisions">Önceki değişiklikler</string>
-  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">Bu bağlantıyı yalnızca geliştiricisinin gönderdiği özgün bağlantıdan yeniden kurabilirsiniz.</string>
+  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">Bu bağlantıyı yalnızca geliştiricisinin gönderdiği özgün bağlantıdan yeniden kurabilirsiniz. Bu bağlantıdaki ölçümler silinecek, ancak Explorer üzerinden erişilebilecek.</string>
   <string name="Dashboard_Runv2_Overview_SeeMore">Ayrıntıları görüntüle</string>
   <string name="Dashboard_Runv2_Overview_TestWebsites">Siteler otomatik olarak sınansın</string>
   <string name="Dashboard_RunV2_ManualUpdate_Error">Hata</string>

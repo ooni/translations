@@ -543,7 +543,7 @@
   <string name="Dashboard_Runv2_Overview_UninstallLink">Enlace de Desinstalación</string>
   <string name="Dashboard_Runv2_Overview_ReviewUpdates">Revisar Actualizaciones</string>
   <string name="Dashboard_Runv2_Overview_PreviousRevisions">Previous revisions</string>
-  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">You will be able to install this link again only from the original link sent by the creator.</string>
+  <string name="Dashboard_Runv2_Overview_Uninstall_Prompt">You will be able to install this link again only from the original link sent by the creator. Measurements from this link will be deleted, but will be accessible from explorer.</string>
   <string name="Dashboard_Runv2_Overview_SeeMore">Ver más</string>
   <string name="Dashboard_Runv2_Overview_TestWebsites">Probar sitios web automáticamente</string>
   <string name="Dashboard_RunV2_ManualUpdate_Error">Error</string>
