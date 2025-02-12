@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><xliff version="1.2">
+  <file datatype="plaintext" original="source.xlf" source-language="en" target-language="ha">
+    <header>
+      <note from="developer">Google places strick character limits on the various text fields in Google Play. The title is 30 characters, the short description is 80 characters, and the rest of the strings, which all go together in the description, are limited to 4000 characters.</note>
+    </header>
+    <body>
+      <trans-unit id="title-android" maxwidth="30" size-unit="char">
+        <source>News Media Scan</source>
+        <target>Madubin kafar yada Labarai</target>
+        <note from="developer">This is limited by Google to 30 characters</note>
+      </trans-unit>
+      <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
+        <source>Uncover the blocking of news media sites in your area.</source>
+        <target>Gano yadda ake toshe kafofin yada labarai a yankunanku</target>
+        <note from="developer">This is limited by Google to 80 characters</note>
+      </trans-unit>
+      <trans-unit id="title-ios" maxwidth="50" size-unit="char">
+          <source>News Media Scan</source>
+          <target>Madubin kafar yada Labarai</target>
+          <note from="developer">This is limited by Apple to 50 characters</note>
+      </trans-unit>
+      <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
+        <source>Uncover the blocking of news media sites in your area.</source>
+        <target>Gano yadda ake toshe kafofin yada labarai a yankunanku</target>
+        <note from="developer">This is limited by Apple to 30 characters</note>
+      </trans-unit>
+      <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
+        <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <note from="developer">This is limited by Apple to 170 characters</note>
+      </trans-unit>
+      <trans-unit id="fulldescription">
+        <source>Find out if you can reach the news sites you need or if they are blocked \n - News Media Scan by DW provides you with the transparency you need. You will also be making a valuable contribution to the global “Internet Freedom” community by helping uncover censorship around the world. \n This app is the product of close cooperation between Deutsche Welle (DW) and OONI.</source>
+        <target>Bincika ko za ka iya shiga shafukan labarai da ka ke bukata ko kuma an toshe su – Madubin kafar yada labarai na DW zai ba ka zahirin abin da kake bukata. Haka kuma za ka ba da gudunmawa mai ma’ana ga duniyar “Yancin Internet“ ga al’umma ta hanyar taimakawa wajen bankado tauye labarai a sassan duniya.
+
+Wannan manhajar sakamako ne na aikin hadin gwiwa tsakanin Deutsche Welle (DW) da OONI
+
+A game da DW; Sahihan bayanai har zuci ba tare da nuna bambanci ba – shi ne tambarin DW.  A matsayin kafar yada labarai mai zaman kanta, kafar yada labarun duniya ta Jamus na fadakar da jama’a.
+
+A sassan duniya. Da shirye-shirye a cikin harsuna 32. DW na hada kan al’umma a fadin duniya ta kafar TV da Radio da Internet da kuma kafofin sada zumunta.
+
+A game da OONI: An samar da ita a 2012, kafar sa ido da nazari na gamaiyar kungiyoyin shiga tsakani kan lamuran da suka shafi al’umma. (OONI) manjaha ce kyauta da ke da nufin karfafa matakai dabam-dabam na yunkurin tattara bayanai kan tauye labarai ta Internet a sassan  duniya   </target>
+      </trans-unit>
+      <trans-unit id="keywords" maxwidth="100">
+        <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

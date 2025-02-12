@@ -1,0 +1,19 @@
+{
+  "General.AppName": "न्यूज मीडिया स्कैन",
+  "Onboarding.WhatIsOONIProbe.Title": "Are news media sites blocked?",
+  "Onboarding.WhatIsOONIProbe.Paragraph": "Run News Media Scan to find out! News Media Scan is the #1 app to give you transparency about the news landscape in whatever country you currently find yourself. Additionally, by using the app, you are making an important contribution to the measurement of censorship around the world.\n\nThe list you see in the app is a public, community-curated list on GitHub and not curated by DW. It represents an objective range of international and national news media providers.",
+  "Onboarding.ThingsToKnow.Bullet.1": "OONI will openly publish the measurement data you send, along with your network information.",
+  "Onboarding.ThingsToKnow.Bullet.2": "Anyone monitoring your Internet connection will be able to see you are running News Media Scan.",
+  "Onboarding.ThingsToKnow.Bullet.3": "You will be testing news websites that might be banned in the country where you currently find yourself.",
+  "Onboarding.PopQuiz.1.Question": "If someone is monitoring my internet activity, they will see that I am running News Media Scan.",
+  "Onboarding.PopQuiz.1.Wrong.Paragraph": "News Media Scan is not a privacy tool. Anyone monitoring your internet activity will see which software you are running.",
+  "Onboarding.PopQuiz.2.Question": "Every time I run News Media Scan, the network data I collect will automatically get published.",
+  "Onboarding.PopQuiz.2.Wrong.Paragraph": "To increase transparency of internet censorship, the network data of all News Media Scan users is automatically published (unless they opt-out in the settings).",
+  "Onboarding.AutomatedTesting.Paragraph": "To measure internet censorship every day, please enable automated testing so that News Media Scan can run tests periodically.\n\nDon\u2019t worry, we\u2019ll be mindful of battery usage.\n\nYou can disable automated testing from the settings at any time.",
+  "Onboarding.Crash.Paragraph": "To improve News Media Scan we would like to collect anonymous crash reports when the app does not work properly.\n\nWould you like to opt-in to submitting crash reports to the OONI development team?",
+  "Dashboard.Websites.Card.Description": "Checks for blocking of news media websites",
+  "Test.Websites.Fullname": "News Media Websites",
+  "Settings.About.Label": "About News Media Scan",
+  "Settings.About.Content.Paragraph": "This app is the product of close cooperation between Deutsche Welle (DW) and OONI.\n\n_About DW:_ Unbiased information for free minds \u2013 that is the DW brand promise. As an independent media company, Germany\u2019s international news broadcaster informs people around the world. With programming in 32 languages, DW connects people across the globe via TV, radio, Internet and on social media. \n\nFurther information:[ About DW](https://corporate.dw.com/en/about-dw/s-30688) \n\n_About OONI:_ Founded in 2012, the Open Observatory of Network Interference (OONI) is a non-profit free software project that aims to empower decentralized efforts in documenting internet censorship around the world. Thanks to their global community, [more than a billion network measurements](https://explorer.ooni.org/) have been published from more than 200 countries, shedding light on cases of internet censorship worldwide. \n\nBe part of the internet freedom movement by providing data from the networks you\u2019re using.",
+  "Settings.Proxy.Label": "Backend proxy"
+}
