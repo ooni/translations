@@ -1,4 +1,4 @@
-hidefai,Text,Max length
+Key,Text,Max length
 General.OoniExplorer,OONI Explorer,
 General.OK,OK,
 General.Error,Error,
@@ -849,7 +849,6 @@ Findings.Themes.Options.IM,Instant Messaging,
 Findings.Themes.Options.NewsMedia,News Media,
 Findings.Themes.Options.HumanRights,Human Rights,
 Findings.Themes.Options.Circumvention,Circumvention,
-Findings.LoginRequiredModal.Title,Email address is missing. Please log in again to be able to create a censorship finding.,
 Findings.Display.NotFound,Censorship Finding not found,
 Findings.Display.CreatedByOn,published by {reportedBy} on {formattedDate},
 Findings.Display.Network,Network(s): {listOfNetworks},

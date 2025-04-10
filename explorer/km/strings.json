@@ -511,7 +511,7 @@
   "Error.404.PageNotFound": "រកមិនឃើញទំព័រ",
   "Error.404.GoBack": "ត្រឡប់​ក្រោយ",
   "Error.404.Heading": "មិនមានទំព័រដែលស្នើសុំទេ",
-  "Error.404.Message": "We could not find the content you were looking for. Maybe try {measurementLink} or look at {homePageLink}.",
+  "Error.404.Message": "យើងមិនអាចស្វែងរកខ្លឹមសារដែលអ្នកកំពុងស្វែងរកបានទេ។ ប្រហែលអាចសាកល្បងនៅ {measurementLink} ឬមើល{homePageLink}.",
   "Error.404.MeasurementLinkText": "រុករកការវាស់វែងមួយចំនួន",
   "Error.404.HomepageLinkText": "ទំព័រដើម",
   "MAT.Title": "ឧបករណ៍វាស់វែងសរុបរបស់ OONI (MAT)",

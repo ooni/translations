@@ -511,7 +511,7 @@
   "Error.404.PageNotFound": "Síðan finnst ekki",
   "Error.404.GoBack": "Fara til baka",
   "Error.404.Heading": "Umbeðin síða er ekki til",
-  "Error.404.Message": "We could not find the content you were looking for. Maybe try {measurementLink} or look at {homePageLink}.",
+  "Error.404.Message": "Við gátum ekki fundið efnið sem þú varst að leita að. Kannski ættirðu að prófa að {measurementLink} eða kíkja á {homePageLink}.",
   "Error.404.MeasurementLinkText": "skoða ýmsar mælingar",
   "Error.404.HomepageLinkText": "heimasíðuna",
   "MAT.Title": "OONI Measurement Aggregation Toolkit (MAT)",
