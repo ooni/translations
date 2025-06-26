@@ -26,7 +26,7 @@ out to us at contact@openobservatory.org.
 
 Before getting started with the translation, we kindly ask that you first view [OONI Explorer](https://explorer.ooni.org/) to see where your translation would appear and to familiarize yourself with the platform. 
 
-You can learn all about OONI Explorer [here](https://ooni.org/post/next-generation-ooni-explorer/). We also explain the [Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat) -- hosted on OONI Explorer -- [here](https://ooni.org/post/2022-ooni-mat/).
+You can learn all about OONI Explorer [here](https://ooni.org/support/ooni-explorer/). We also explain the [Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat) -- hosted on OONI Explorer -- [here](https://ooni.org/support/ooni-explorer/#measurement-aggregation-toolkit-mat).
 
 ## General recommendations
 
@@ -40,7 +40,7 @@ Thanks to support from the [Localization Lab](https://www.localizationlab.org/),
 the translation of OONI Explorer is coordinated on **Transifex**.
 
 To translate OONI Explorer, please sign-up with Transifex to the OONI project:
-https://www.transifex.com/otf/ooni-explorer/
+https://explore.transifex.com/otf/ooni-explorer/
 
 ## Style of translation
 
@@ -122,8 +122,6 @@ provided in the original copy.
 * **Punctuation marks:** Please try (to the degree possible) to preserve the
 same punctuation marks (commas, exclamation marks, etc.) as those included
 in the original copy.
-
-
 
 Questions? You can reach the OONI team for real-time discussion on
 [Slack](https://slack.ooni.org/), or you can drop us an email at
