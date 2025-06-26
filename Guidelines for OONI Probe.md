@@ -72,12 +72,7 @@ the translation of the OONI Probe Mobile and Desktop apps is coordinated on **Tr
 To translate the OONI Probe Mobile and Desktop apps, please sign-up with Transifex to the OONI project:
 https://www.transifex.com/otf/ooniprobe/
 
-Once you've been added, you can translate the strings included in the following
-2 files:
-
-* App store description: https://www.transifex.com/otf/ooniprobe/description/
-
-* In-app strings: https://www.transifex.com/otf/ooniprobe/strings-json/
+Once you've been added, you can translate the strings included in the multiple files included in this project.
 
 ## Style of translation
 
@@ -170,8 +165,6 @@ provided in the original copy.
 * **Punctuation marks:** Please try (to the degree possible) to preserve the
 same punctuation marks (commas, exclamation marks, etc.) as those included
 in the original copy.
-
-
 
 Questions? You can reach the OONI team for real-time discussion on
 [Slack](https://slack.ooni.org/), or you can drop us an email at

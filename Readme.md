@@ -27,17 +27,17 @@ If you would like to improve the translations for OONI tools, please sign up for
 
 There are multiple OONI projects on Transifex that you can join:
 
-* **[OONI Probe app](https://ooni.org/install/)**: Please [join the OONI Probe project on Transifex](https://app.transifex.com/otf/ooniprobe/) and read the [OONI Probe localization guidelines](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md ) before working on the translation.
+* **[OONI Probe app](https://ooni.org/install/)**: Please [join the OONI Probe project on Transifex](https://explore.transifex.com/otf/ooniprobe/) and read the [OONI Probe localization guidelines](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md ) before working on the translation.
 
-* **[OONI Explorer](https://explorer.ooni.org/)**: Please [join the OONI Explorer project on Transifex](https://app.transifex.com/otf/ooni-explorer/) and read the [OONI Explorer localization guidelines](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md) before working on the translation.
+* **[OONI Explorer](https://explorer.ooni.org/)**: Please [join the OONI Explorer project on Transifex](https://explore.transifex.com/otf/ooni-explorer/) and read the [OONI Explorer localization guidelines](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md) before working on the translation.
 
-* **[OONI Run](https://run.ooni.io/)**: Please [join the OONI Run project on Transifex](https://app.transifex.com/otf/ooni-run/).
+* **[OONI Run](https://run.ooni.io/)**: Please [join the OONI Run project on Transifex](https://explore.transifex.com/otf/ooni-run/).
 
-* **[OONI Probe Mobile User Guide](https://ooni.org/support/ooni-probe-mobile)**: Please [join the OONI Probe Mobile User Guide project on Transifex](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/).
+* **[OONI Probe Mobile User Guide](https://ooni.org/support/ooni-probe-mobile)**: Please [join the OONI Probe Mobile User Guide project on Transifex](https://explore.transifex.com/otf/ooni-probe-mobile-user-guide/).
 
-* * **[OONI Probe Desktop User Guide](https://ooni.org/support/ooni-probe-desktop)**: Please [join the OONI Probe Desktop User Guide project on Transifex](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/).
+* * **[OONI Probe Desktop User Guide](https://ooni.org/support/ooni-probe-desktop)**: Please [join the OONI Probe Desktop User Guide project on Transifex](https://explore.transifex.com/otf/ooni-probe-desktop-user-guide/).
 
-**All translations in the projects listed above are automatically synched from Transifex.**
+**All translations in the projects listed above are automatically synced from Transifex.**
 
 This repository contains all the translations for OONI tools.
 
