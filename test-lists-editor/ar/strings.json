@@ -46,7 +46,7 @@
   "UrlList.CountryNotSupported": "ليس لدينا حاليا قائمة اختبارات لهذا البلد كما أننا لا ندعم إنشاء قوائم جديدة هنا حتى الآن. إذا كنت ترغب في المساهمة في قائمة اختبارات البلد هذه، أرسل بريدا إلكترونيا إلى {email_address}",
   "Footer.AboutOONI": "عن OONI",
   "Footer.AboutTestLists": "حول قائمة الاختبارات",
-  "Footer.TestListsGithub": "قائمة الاختبارات على Github",
+  "Footer.TestListsGithub": "قائمة الاختبارات على GitHub",
   "Footer.SourceCode": "كود البرنامج",
   "SubmitButton.Submit": "إرسال",
   "SubmitButton.CleanState": "أضف أو حرر أو احذف عناوين المواقع من القائمة. ثم أرسل تعديلاتك لمراجعتها.",
