@@ -1,0 +1,19 @@
+{
+  "General.AppName": "Verificação mídia de notícias",
+  "Onboarding.WhatIsOONIProbe.Title": "Os sites de mídia de notícias estão bloqueados?",
+  "Onboarding.WhatIsOONIProbe.Paragraph": "Execute o News Media Scan para descobrir! News Media Scan é o aplicativo #1 para lhe dar transparência sobre o cenário de notícias em qualquer país que você se encontra atualmente. Além disso, ao usar o aplicativo, você está fazendo uma contribuição importante para a medição da censura em todo o mundo. A lista que você vê no aplicativo é uma lista pública, com curadoria da comunidade no GitHub e não com curadoria da DW. Representa uma gama objetiva de provedores de mídia de notícias internacionais e nacionais.",
+  "Onboarding.ThingsToKnow.Bullet.1": "A OONI publicará abertamente os dados de medição que você enviar, juntamente com as informações da sua rede.",
+  "Onboarding.ThingsToKnow.Bullet.2": "Qualquer pessoa que monitore sua conexão com a Internet poderá ver que você está executando o News Media Scan.",
+  "Onboarding.ThingsToKnow.Bullet.3": "Você estará testando sites de notícias que podem ser banidos no país onde você se encontra atualmente.",
+  "Onboarding.PopQuiz.1.Question": "Se alguém estiver monitorando minha atividade na Internet, verá que estou executando o News Media Scan.",
+  "Onboarding.PopQuiz.1.Wrong.Paragraph": "News Media Scan não é uma ferramenta de privacidade. Qualquer pessoa que monitore sua atividade na internet verá qual software você está executando.",
+  "Onboarding.PopQuiz.2.Question": "Sempre que executar o News Media Scan, os dados de rede que coleto serão publicados automaticamente.",
+  "Onboarding.PopQuiz.2.Wrong.Paragraph": "Para aumentar a transparência da censura na Internet, os dados de rede de todos os usuários do News Media Scan são publicados automaticamente (a menos que eles optem por não participar nas configurações).",
+  "Onboarding.AutomatedTesting.Paragraph": "Para medir a censura na internet todos os dias, ative os testes automatizados para que o News Media Scan possa executar testes periodicamente. Não se preocupe, estaremos atentos ao uso da bateria. Você pode desativar o teste automatizado nas configurações a qualquer momento.",
+  "Onboarding.Crash.Paragraph": "Para melhorar o News Media Scan, gostaríamos de coletar relatórios de falhas anônimos quando o aplicativo não funciona corretamente. Gostaria de aceitar o envio de relatórios de falhas para a equipe de desenvolvimento da OONI?",
+  "Dashboard.Websites.Card.Description": "Verifica o bloqueio de sites de mídia de notícias",
+  "Test.Websites.Fullname": "Sites de Mídia de Notícias",
+  "Settings.About.Label": "Sobre o News Media Scan",
+  "Settings.About.Content.Paragraph": "Este aplicativo é o produto da estreita cooperação entre a Deutsche Welle (DW) e a OONI. _About DW:_ Informação imparcial para mentes livres – essa é a promessa da marca DW. Como uma empresa de mídia independente, a emissora de notícias internacional da Alemanha informa as pessoas em todo o mundo. Com programação em 32 idiomas, a DW conecta pessoas em todo o mundo via TV, rádio, internet e nas redes sociais. Mais informações:[ Sobre a DW](https://corporate.dw.com/en/about-dw/s-30688) _About OONI:_ Fundado em 2012, o Open Observatory of Network Interference (OONI) é um projeto de software livre sem fins lucrativos que visa capacitar esforços descentralizados na documentação da censura na internet em todo o mundo. Graças à sua comunidade global, [mais de um bilhão de medições de rede](https://explorer.ooni.org/) foram publicadas de mais de 200 países, lançando luz sobre casos de censura na internet em todo o mundo. Faça parte do movimento de liberdade da internet fornecendo dados das redes que você está usando.",
+  "Settings.Proxy.Label": "Proxy de back-end"
+}

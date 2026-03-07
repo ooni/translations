@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><xliff version="1.2">
+  <file datatype="plaintext" original="source.xlf" source-language="en" target-language="am">
+    <header>
+      <note from="developer">Google places strick character limits on the various text fields in Google Play. The title is 30 characters, the short description is 80 characters, and the rest of the strings, which all go together in the description, are limited to 4000 characters.</note>
+    </header>
+    <body>
+      <trans-unit id="title-android" maxwidth="30" size-unit="char">
+        <source>News Media Scan</source>
+        <target>ኒዊስ ሚዲያ ስካን</target>
+        <note from="developer">This is limited by Google to 30 characters</note>
+      </trans-unit>
+      <trans-unit id="shortdescription-android" maxwidth="80" size-unit="char">
+        <source>Uncover the blocking of news media sites in your area.</source>
+        <target>ባካባቢህ የዜና መገናኛ ዘዴ መታገዱን አጋልጥ</target>
+        <note from="developer">This is limited by Google to 80 characters</note>
+      </trans-unit>
+      <trans-unit id="title-ios" maxwidth="50" size-unit="char">
+          <source>News Media Scan</source>
+          <target>ኒዊስ ሚዲያ ስካን</target>
+          <note from="developer">This is limited by Apple to 50 characters</note>
+      </trans-unit>
+      <trans-unit id="subtitle-ios" maxwidth="30" size-unit="char">
+        <source>Uncover the blocking of news media sites in your area.</source>
+        <target>ባካባቢህ የዜና መገናኛ ዘዴ መታገዱን አጋልጥ</target>
+        <note from="developer">This is limited by Apple to 30 characters</note>
+      </trans-unit>
+      <trans-unit id="promotionaltext-ios" maxwidth="170" size-unit="char">
+        <source>Collect evidence of internet censorship. Measure the speed and performance of your network.</source>
+        <note from="developer">This is limited by Apple to 170 characters</note>
+      </trans-unit>
+      <trans-unit id="fulldescription">
+        <source>Find out if you can reach the news sites you need or if they are blocked \n - News Media Scan by DW provides you with the transparency you need. You will also be making a valuable contribution to the global “Internet Freedom” community by helping uncover censorship around the world. \n This app is the product of close cooperation between Deutsche Welle (DW) and OONI.</source>
+        <target>የምትፈልጋቸዉን የዜና ገፆች ማግኘትሕን ወይም መታገዳቸዉን ዕወቅ።የዶቸ ቬለ ኒዊስ ሚዲያ ስካን የሚያስፈልግሕን ግልፅነት ያቀርብልሐል።ቅድመ-ምርመራን በማጋለጥ ለዓለም አቀፍ «የኢንተርኔት ነፃነት» ማሕበረሰብ ጠቃሚ አስተዋፅኦ ታበረክታለሕ።
+
+ይሕ መተግበሪያ (APP) የዶቸ ቬለ (DW)ና የOONl የቅርብ ትብብር ዉጤት (ምርት) ነዉ።
+
+ሥለ ዶቸ ቬለ (DW):-ገለልተኛ መረጃ ለነፃ አዕምሮ-ይሕ የDW መለያ ቃል-ኪዳን ነዉ።የጀርመን ዓለም አቀፍ ዜና ማሰራጪያ ገለልተኛ የመገናኛ ዘዴ ኩባንያ እንደመሆኑ፣ በመላዉ ዓለም ለሚገኙ ሰዎች መረጃ ያቀርባል።DW በ32 ቋንቋዎች በሚጠናቀሩ ዝግጅቶቹ በቴሌቪዥን፣ በራዲዮ፣በኢንተርኔትና በማሕበራዊ መገናኛ ዘዴዎች በመላዉ ዓለም የሚገኙ ሰዎችን ያገናኛል።
+
+ሥለ OONI:-በ2012 (እጎአ) የተመሠረተዉ የኔትወርክ ጣልቃ ገብነት ግልፅ ታዛቢ (Open Observatory of Network Interference-OONI) በመላዉ ዓለም በኢንተርኔት ላይ የሚደረጉ ቅድመ-ምርመራዎችን ለመሰነድ ያልተማከሉ ጥረቶችን ለማበረታት ያለመ፣ ለትርፍ የማይሰራ የሶፍትዌር ፕሮጀክት ነዉ። </target>
+      </trans-unit>
+      <trans-unit id="keywords" maxwidth="100">
+        <source>network,speedtest,measurement,net,wifi,networking,scan,bandwidth,bench,dns,mobile,ooni,research,tool</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

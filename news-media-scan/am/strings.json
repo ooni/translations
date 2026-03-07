@@ -1,0 +1,19 @@
+{
+  "General.AppName": "ኒዊስ ሚዲያ ስካን",
+  "Onboarding.WhatIsOONIProbe.Title": "የዜና ገፆች ታግደዋል?",
+  "Onboarding.WhatIsOONIProbe.Paragraph": "ሁኔታዉን ለማወቅ ኒዉስ ሚዲያ ስካንን ክፈት።ኒዊስ ሚዲያ ስካን፣ የትም ሐገር ብትሆን ያለሕበትን ሥፍራ የዜና ሁኔታ (መታገድ አለመታገዱን) በግልፅ የሚያሳይ #1 መተግበሪያ ነዉ።ከዚህም በተጨማሪ፣ መተግበሪያዉን በመጠቀም ቅድመ-ምርመራ በዓለም አቀፍ ደረጃ ያለበትን ሁኔታ ለማወቅ ለሚደረገዉ ጥረት ጠቃሚ አስተዋፅኦ ታደርጋለሕ።\n\nበመተግበሪያዉ የምታየዉ ዝርዝር በGitHub በተጠቃሚዉ ማሕበረሰብ የተሰበሰበና የተደረጀ ዝርዝር እንጂ በDW የተጠናቀረ አይደለም።የበርካታ ዓለም አቀፍና ብሔራዊ የዜና መገናኛ ዘዴዎችን ተጨባጭ ደረጃ ይወክላል።",
+  "Onboarding.ThingsToKnow.Bullet.1": "OONI will openly publish the measurement data you send, along with your network information.",
+  "Onboarding.ThingsToKnow.Bullet.2": "Anyone monitoring your Internet connection will be able to see you are running News Media Scan.",
+  "Onboarding.ThingsToKnow.Bullet.3": "You will be testing news websites that might be banned in the country where you currently find yourself.",
+  "Onboarding.PopQuiz.1.Question": "If someone is monitoring my internet activity, they will see that I am running News Media Scan.",
+  "Onboarding.PopQuiz.1.Wrong.Paragraph": "News Media Scan is not a privacy tool. Anyone monitoring your internet activity will see which software you are running.",
+  "Onboarding.PopQuiz.2.Question": "Every time I run News Media Scan, the network data I collect will automatically get published.",
+  "Onboarding.PopQuiz.2.Wrong.Paragraph": "To increase transparency of internet censorship, the network data of all News Media Scan users is automatically published (unless they opt-out in the settings).",
+  "Onboarding.AutomatedTesting.Paragraph": "To measure internet censorship every day, please enable automated testing so that News Media Scan can run tests periodically.\n\nDon\u2019t worry, we\u2019ll be mindful of battery usage.\n\nYou can disable automated testing from the settings at any time.",
+  "Onboarding.Crash.Paragraph": "To improve News Media Scan we would like to collect anonymous crash reports when the app does not work properly.\n\nWould you like to opt-in to submitting crash reports to the OONI development team?",
+  "Dashboard.Websites.Card.Description": "Checks for blocking of news media websites",
+  "Test.Websites.Fullname": "News Media Websites",
+  "Settings.About.Label": "ስለ ኒዊስ ሚዲያ ስካን",
+  "Settings.About.Content.Paragraph": "ይሕ መተግበሪያ (APP) የዶቸ ቬለ (DW)ና የOONl የቅርብ ትብብር ዉጤት (ምርት) ነዉ።\n\nሥለ ዶቸ ቬለ (DW):-ገለልተኛ መረጃ ለነፃ አዕምሮ-ይሕ የDW መለያ ቃል-ኪዳን ነዉ።የጀርመን ዓለም አቀፍ ዜና ማሰራጪያ ገለልተኛ የመገናኛ ዘዴ ኩባንያ እንደመሆኑ፣ በመላዉ ዓለም ለሚገኙ ሰዎች መረጃ ያቀርባል።DW በ32 ቋንቋዎች በሚጠናቀሩ ዝግጅቶቹ በቴሌቪዥን፣ በራዲዮ፣በኢንተርኔትና በማሕበራዊ መገናኛ ዘዴዎች በመላዉ ዓለም የሚገኙ ሰዎችን ያገናኛል።\n\n[ሥለ DW፣ ተጨማሪ መረጃ](https://corporate.dw.com/en/about-dw/s-30688) \n\nሥለ OONI:-በ2012 (እጎአ) የተመሠረተዉ የኔትወርክ ጣልቃ ገብነት ግልፅ ታዛቢ (Open Observatory of Network Interference-OONI) በመላዉ ዓለም በኢንተርኔት ላይ የሚደረጉ ቅድመ-ምርመራዎችን ለመሰነድ ያልተማከሉ ጥረቶችን ለማበረታታት ያለመ፣ ለትርፍ የማይሰራ የሶፍትዌር ፕሮጀክት ነዉ።በመላዉ ዓለም ለሚገኙ [(የOONI)](https://explorer.ooni.org/)  ማሕበረሰብ አባላት ምስጋና ይግባቸዉና ከ200 ከሚበልጡ ሐገራት ከአንድ ቢሊዮን የሚበልጥ የኔትወርክ ደረጃ (መለኪያ) ታትሟል።ይሕ የኢንተርኔት ቅድመ-ምርመራ በዓለም አቀፍ ደረጃ ያለበትን ሁኔታ ለማሳየት ብርሐን ፈንጣቂ ነዉ።\n\nከምትጠቀምበት ኔትወርክ መረጃ በመስጠት የኢንተርኔት ነፃነት (ተሟጋቾች) ንቅናቄ አካል ሁን።",
+  "Settings.Proxy.Label": "Backend proxy"
+}
